@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==================================
+# PubCheF Specific Ignores
+# ==================================
+
+# Ignore massive generated inference outputs (embeddings, predictions)
+inference_results/
+*/inference_results/
+PubCheF-1/models/*/embeddings/
+PubCheF-1/models/*/predictions/
+PubCheF-1/models/test/
+
+
+
+# Note: We do NOT ignore 'data/' (datasets) nor '*.pt' files (model weights)
+# as they are meant to be synchronized.
