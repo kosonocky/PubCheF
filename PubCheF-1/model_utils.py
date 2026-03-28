@@ -66,11 +66,15 @@ class SMILESTokenizer:
     Requires the vocab.json file from the DeepChem/ChemBERTa-77M-MLM model.
     """
 
-    def __init__(self, vocab_path="tokenizer/vocab.json", download_vocab=True):
+    _default_tokenizer_dir = Path(__file__).parent / "tokenizer"
+
+    def __init__(self, vocab_path=None, download_vocab=False):
+        if vocab_path is None:
+            vocab_path = self._default_tokenizer_dir / "vocab.json"
         if download_vocab:
             tokenizer = AutoTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
-            Path("tokenizer").mkdir(parents=True, exist_ok=True)
-            tokenizer.save_pretrained("tokenizer")
+            self._default_tokenizer_dir.mkdir(parents=True, exist_ok=True)
+            tokenizer.save_pretrained(str(self._default_tokenizer_dir))
 
         self.tokenizer = Tokenizer(
             WordLevel.from_file(

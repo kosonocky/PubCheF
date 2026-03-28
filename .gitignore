@@ -216,8 +216,16 @@ inference_results/
 PubCheF-1/models/*/embeddings/
 PubCheF-1/models/*/predictions/
 PubCheF-1/models/test/
+PubCheF-1/figs/
+data/dataset_creation/
+data/pubchem/
 
 
+
+
+# Ignore auto-generated tokenizer dirs (canonical copy is PubCheF-1/tokenizer/, already tracked)
+**/tokenizer/
+!PubCheF-1/tokenizer/
 
 # Note: We do NOT ignore 'data/' (datasets) nor '*.pt' files (model weights)
 # as they are meant to be synchronized.
