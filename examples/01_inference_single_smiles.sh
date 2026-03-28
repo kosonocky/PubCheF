@@ -11,5 +11,5 @@ echo "Running Inference on a single SMILES string..."
 python inference.py \
     --smiles "CCO" \
     --compound_id "Ethanol" \
-    --model_dir "models/ensemble_single_canon_chiral_20epoch" \
+    --model_name "ensemble_single_canon_chiral_20epoch" \
     --mlb_dir "../data/final_datasets/preprocessed_propagated_1_hard"

@@ -22,5 +22,5 @@ python inference.py \
     --smiles_column "smiles" \
     --p_threshold 0.05 \
     --batch_size 100 \
-    --model_dir "models/ensemble_single_canon_chiral_20epoch" \
+    --model_name "ensemble_single_canon_chiral_20epoch" \
     --mlb_dir "../data/final_datasets/preprocessed_propagated_1_hard"
