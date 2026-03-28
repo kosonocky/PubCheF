@@ -1,3 +1,4 @@
+import sys
 import time
 from ast import literal_eval
 import pandas as pd
@@ -11,12 +12,8 @@ from tdc.utils.split import create_scaffold_split
 from collections import Counter
 import pickle as pkl
 
-from transformers import AutoTokenizer
-from tokenizers.models import WordLevel
-from tokenizers import Regex
-from tokenizers import Tokenizer, Regex
-from tokenizers.pre_tokenizers import Split
-from tokenizers.processors import TemplateProcessing
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "PubCheF-1"))
+from model_utils import SMILESTokenizer
 
 # suppress chem warnings/errors
 from rdkit import RDLogger
@@ -118,55 +115,6 @@ def create_mlb(df, label_type="hard", save_dir="."):
     # save mlb
     with open(Path(save_dir, "mlb.pkl"), "wb") as f:
         pkl.dump(mlb, f)
-
-class SMILESTokenizer:
-    """
-    Tokenizer for SMILES strings. AutoTokenizer using DeepChem/ChemBERTa-77M-MLM was broken and this fixes it.
-    Requires the vocab.json file from the DeepChem/ChemBERTa-77M-MLM model.
-    """
-
-    def __init__(self, vocab_path="tokenizer/vocab.json", download_vocab=True):
-        if download_vocab:
-            tokenizer = AutoTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
-            Path("tokenizer").mkdir(parents=True, exist_ok=True)
-            tokenizer.save_pretrained("tokenizer")
-
-        self.tokenizer = Tokenizer(
-            WordLevel.from_file(
-                vocab_path, 
-                unk_token='[UNK]'
-            )
-        )
-        self.pre_tokenizer = Split(
-            pattern=Regex("Cl|Br|%[0-9]{2}|>>|\[(.*?)\]|."),
-            behavior='isolated'
-        )
-        self.tokenizer.pre_tokenizer = self.pre_tokenizer
-        self.tokenizer.add_special_tokens(["[CLS]", "[SEP]", "[PAD]", "[MASK]"])
-        self.tokenizer.post_processor = TemplateProcessing(
-            single="[CLS] $A [SEP]",
-            special_tokens=[
-                ("[CLS]", self.tokenizer.token_to_id("[CLS]")),
-                ("[SEP]", self.tokenizer.token_to_id("[SEP]")),
-            ],
-        )
-    
-    # make this the default method for the class
-    def __call__(self, text):
-        """
-        Encode a list of SMILES strings
-        """
-        encoded_corpus = [self.tokenizer.encode(t) for t in text]
-
-        max_len = max((len(encoded.ids) for encoded in encoded_corpus))
-        padded_corpus = np.zeros((len(encoded_corpus), max_len), dtype=np.int64)
-        attention_masks = np.zeros_like(padded_corpus)
-
-        for i, encoded in enumerate(encoded_corpus):
-            padded_corpus[i, : len(encoded.ids)] = encoded.ids
-            attention_masks[i, : len(encoded.ids)] = 1
-
-        return {"input_ids": padded_corpus, "attention_mask": attention_masks}
 
 
 def main():

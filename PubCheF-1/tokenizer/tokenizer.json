@@ -101,7 +101,6 @@
     "end_of_word_suffix": "",
     "fuse_unk": false,
     "byte_fallback": false,
-    "ignore_merges": false,
     "vocab": {
       "[PAD]": 0,
       "[unused1]": 1,
