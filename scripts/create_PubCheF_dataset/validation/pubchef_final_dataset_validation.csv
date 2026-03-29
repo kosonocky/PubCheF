@@ -1,0 +1,192 @@
+cid,pmids,label,mol studied for label,mol confirmed active for label,mol's derivative confirmed active for label
+122180678,[26101565],NO Synthase Inhibitor,1,1,1
+24824187,"[19081278, 18324761]",KDR Inhibitor,1,1,1
+24824187,"[19081278, 18324761]",VEGFR2 Inhibitor,1,1,1
+24824187,"[19081278, 18324761]",Anticancer,1,1,1
+24824187,"[19081278, 18324761]",VEGF-R Inhibitor,1,1,1
+24824187,"[19081278, 18324761]",Tyrosine Protein Kinase Inhibitor,1,1,1
+24824187,"[19081278, 18324761]",Antitumor,1,1,1
+12761846,[7097728],Diuretic,1,1,1
+12761846,[7097728],Saluretic,1,1,1
+127050087,[27155466],Multi-targeted RTK Inhibitor,1,1,1
+127050087,[27155466],cMET Inhibitor,1,1,1
+127050087,[27155466],Antiproliferative,1,1,1
+44350919,[12930150],D2 Dopamine Receptor Ligand,1,1,1
+71768688,[24685539],CCR2 Antagonist,1,1,1
+44381374,[2299648],Anticonvulsive,1,0,1
+141754205,[34080862],PI3KDelta-Gamma Inhibitor,1,1,1
+141754205,[34080862],Asthma,1,1,1
+145953422,[29778892],Pim-1 Kinase Inhibitor,1,0,1
+145953422,[29778892],Anticancer,1,0,1
+44427485,[17655212],Amyloid-beta Aggregation,1,0,1
+44427485,[17655212],BChE Inhibitor,1,0,1
+44427485,[17655212],AChE Inhibitor,1,0,1
+51036472,[21570843],Tyrosine Protein Kinase Inhibitor,1,1,1
+51036472,[21570843],EGFR Kinase Inhibitor,1,1,1
+72947301,[24287381],Antibiotic,1,1,1
+72947301,[24287381],FtsZ Inhibitor,1,1,1
+9983212,[16290141],Dopamine D(3) Receptor Antagonist,1,1,1
+71585566,"[24900594, 27524310]",Antitumor,1,1,1
+71585566,"[24900594, 27524310]",EGFR Kinase Inhibitor,1,1,1
+71585566,"[24900594, 27524310]",Kinase Inhibitor,1,1,1
+71585566,"[24900594, 27524310]",HER1/HER2 Inhibitor,1,1,1
+45274309,[22277280],Calcium Channel Blocker,1,1,1
+45274309,[22277280],N-Type Calcium Channel Blocker,1,1,1
+14762971,[18052116],DNA Intercalating,1,1,1
+14762971,[18052116],Antiproliferative,1,1,1
+14762971,[18052116],Antitumor,1,1,1
+70685874,[22424973],HIV Fusion Inhibitor,1,1,1
+155566067,[30938524],Prodrug,1,1,1
+155566067,[30938524],HIV Protease Inhibitor,1,1,1
+44571886,[18951786],Insecticidal,1,1,1
+44589085,[18835180],HCV NS5b Polymerase Inhibitor,1,1,1
+121363868,[32805407],ROCK II Inhibitor,1,1,1
+44580777,[18789685],Kinase Inhibitor,1,1,1
+10971890,"[22960695, 12190310]",F16Bpase Inhibitor,1,1,1
+71074083,[31235264],PDE10a Inhibitor,1,1,1
+44319591,"[9873604, 11549467]",p38 MAP Kinase Inhibitor,1,1,1
+44319591,"[9873604, 11549467]",Glucagon Antagonist,1,1,1
+49798134,[20304537],Anti-Angiogenic,1,1,1
+49798134,[20304537],Anticancer,1,1,1
+44418524,[16890436],c-RAF Inhibitor,1,1,1
+155532579,[31718941],DNA/RNA Binding,1,1,1
+155532579,[31718941],Antitumor,1,1,1
+53493879,[31951127],Autism Spectrum Disorder,1,1,1
+53493879,[31951127],Vasopressin 1a Receptor Antagonist,1,1,1
+454527,[8423591],Anti-HIV-1,1,1,1
+136007882,[21591758],Antimalarial,1,0,1
+102137221,[30261467],Antimalarial,1,1,1
+71712726,[23673223],AMPK Activator,1,1,1
+44394924,"[17236767, 15380198]",Farnesyl-Protein Transferase Inhibitor,1,1,1
+44394924,"[17236767, 15380198]",Anti-Cancer,1,1,1
+44583679,[19467868],Acid Pump Antagonist,1,1,1
+162675180,[29133048],Anticancer,1,1,1
+162675180,[29133048],RET Inhibitor,1,1,1
+162675180,[29133048],Kinase Inhibitor,1,1,1
+162647750,[32961320],Anti-Viral,1,0,1
+135928489,[19097791],PKC-zeta Inhibitor,1,1,1
+137657816,[28654257],Antibiotic,1,1,1
+11743047,[8027989],ACAT1 Inhibitor,1,1,1
+11743047,[8027989],Cholesterol Lowering,1,1,1
+46233361,[20117937],MAO A Inhibitor,1,1,1
+71461861,[22391032],Anti-Tuberculosis,1,1,1
+57400331,[22225639],CCR2 Antagonist,1,1,1
+72944567,[31324563],Apoptosis Inducer,1,1,1
+72944567,[31324563],Cytotoxic,1,1,1
+72944567,[31324563],MDM2 Degradation Inducer,1,1,1
+72944567,[31324563],p53 Upregulator,1,1,1
+23557218,[16650762],Motilin Antagonist,1,1,1
+12564793,[2308140],Leukotriene Inhibitor,1,1,1
+12564793,[2308140],Anti-Inflammatory,1,1,1
+162651619,[32105980],Anxiolytic,1,1,1
+162651619,[32105980],Antipsychotic,1,1,1
+162651619,[32105980],Antidepressant,1,1,1
+155515678,[30771605],Apoptosis Inducer,1,1,1
+155515678,[30771605],NF-kappa B Inhibitor,1,1,1
+155515678,[30771605],Anti-Inflammatory,1,1,1
+155515678,[30771605],Anti-Hepatoma,1,1,1
+71459518,[24900417],Antimetastasis,1,1,1
+71459518,[24900417],Anti-Angiogenic,1,1,1
+71459518,[24900417],APN Inhibitor,1,1,1
+44582901,[19329323],Melatonin Receptor Ligand,1,1,1
+44274770,[11965373],Src SH2 Binder,1,1,1
+53326596,[21257314],Anti-Inflammatory,1,1,1
+70695479,[22924094],Anxiolytic,1,1,1
+70695479,[22924094],mGlu5 NAM,1,1,1
+127039255,[26615887],HIV Inhibitor,1,1,1
+122188087,[26142491],Antiplasmodial,1,1,1
+145992254,[29885574],DNA Intercalating,1,1,1
+145992254,[29885574],DNA Topoisomerase II Inhibitor,1,1,1
+145992254,[29885574],Cytostatic,1,1,1
+90679277,[21292],Narcotic Analgesic,1,1,1
+74319,"[20850304, 29763564, 22832313, 21722674, 20346660]",Antioxidant,1,1,1
+74319,"[20850304, 29763564, 22832313, 21722674, 20346660]",Tyrosinase Inhibitor,1,1,1
+74319,"[20850304, 29763564, 22832313, 21722674, 20346660]",Melanogenesis Inhibitor,1,1,1
+74319,"[20850304, 29763564, 22832313, 21722674, 20346660]",Antiproliferative,1,1,1
+45485567,[19702274],GLP-1 Receptor Agonist,1,1,1
+45485567,[19702274],Anti-Diabetic,1,1,1
+136203791,[20934346],KSP Inhibitor,1,1,1
+136203791,[20934346],Cytotoxic,1,1,1
+136203791,[20934346],Aurora A/B Kinase Inhibitor,1,1,1
+136203791,[20934346],Anti-Cancer,1,1,1
+12519552,[490545],Antitumor,1,1,1
+118364945,[26087257],Protozoan Growth Inhibitor,1,1,1
+118364945,[26087257],Leishmaniasis,1,1,1
+118364945,[26087257],HAT,1,1,1
+118364945,[26087257],Chagas,1,1,1
+118364945,[26087257],Malaria,1,1,1
+21592441,[11421732],Cytotoxic,1,1,1
+137661797,[28410493],Hyperproliferation,1,0,1
+137661797,[28410493],Keratinocyte Inhibitor,1,0,1
+46232389,[20093026],Amylin Cytotoxicity Inhibitor,1,1,1
+72204124,[23827177],Carbonic Anhydrase IX Inhibitor,1,1,1
+72204124,[23827177],Anticancer,1,1,1
+57201591,[35598411],TRPM8 Antagonist,1,1,1
+57201591,[35598411],Anticancer,1,1,1
+25179528,[19053767],DNA Topo II Inhibitor,1,1,1
+25179528,[19053767],Antiproliferative,1,1,1
+23644727,[16480874],CYP3A4 Inhibitor,1,1,1
+23644727,[16480874],Renin Inhibitor,1,1,1
+14558466,"[30996858, 20688522]",Cytoprotective,1,1,1
+14558466,"[30996858, 20688522]",Mitochondrial Dysfunction Treatment,1,1,1
+14558466,"[30996858, 20688522]",Angiogenesis Inhibitor,1,1,1
+14558466,"[30996858, 20688522]",Antiplasmodial,0,0,1
+9875568,"[8035418, 29853330, 1849997]",Delta Opioid Receptor Agonist,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Delta Opioid Receptor Ligand,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Analgesic,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Mu Opioid Receptor Ligand,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Delta-Receptor Ligand,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Opioid Receptor Ligand,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Mu Opioid Receptor Agonist,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Opioid,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Opioid Analgesic,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Delta-Opioid Receptor Antagonist,1,1,1
+9875568,"[8035418, 29853330, 1849997]",Inverse Agonist,1,1,1
+9875568,"[8035418, 29853330, 1849997]",CB1-R Antagonist,0,0,0
+57394713,[22197389],Anti-Tuberculosis,1,1,1
+91937683,[25706320],Antioxidant,1,1,1
+91937683,[25706320],Anticholinesterase,1,1,1
+1477535,"[34500187, 16604538, 20938917, 35787375, 20035615, 20427476]",15-Lipoxygenase Inhibitor,1,1,1
+24745770,[20399652],BACE-1 Inhibitor,1,1,1
+44372864,[11844691],Urokinase Inhibitor,1,1,1
+136043800,[16621546],N/OFQ Receptor Antagonist,1,1,1
+53317446,[21330140],Tyrosyl tRNA Synthetase Inhibitor,1,1,1
+53317446,[21330140],Antibiotic,1,1,1
+44565898,[19402665],P-glycoprotein Inhibitor,1,1,1
+11709714,[16997559],IKK-epsilon Inhibitor,1,1,1
+118737850,[25798859],RNA Polymerase Inhibitor,1,0,1
+44426923,[17097877],CXCR3 Antagonist,1,0,1
+44290385,[2840504],Calcium Channel Blocker,1,0,1
+122180338,[26087021],Orexin-1 Receptor Antagonist,1,1,1
+122180338,[26087021],Insomnia Treatment,1,1,1
+21936922,[11549451],MMP Inhibitor,1,1,1
+145974020,[29097170],Cytotoxic,1,0,1
+25192475,[19831396],17beta-HSD Inhibitor,1,1,1
+137643994,[28358513],eIF4A3 Inhibitor,1,1,1
+137643994,[28358513],NMD Inhibitor,1,1,1
+2821614,"[23177256, 35514163, 24687154, 26962873]",c-myc Inhibitor,1,1,1
+44438672,[17070044],11betaHSD1 Inhibitor,1,1,1
+16735096,[17500511],GPR40/FFA1 Agonist,1,1,1
+491344,[11844682],Antifungal,1,1,1
+491344,[11844682],N-myristoyltransferase Inhibitor,1,1,1
+118734206,[25768701],EGFR Kinase Inhibitor,1,1,1
+5157357,[17197180],Anti-Platelet Aggregatory,1,0,1
+5157357,[17197180],Anti-Inflammatory,1,0,1
+49781928,[20860381],5-HT(1A) Superagonist,1,1,1
+45482770,"[21802950, 19773164]",H3 Receptor Antagonist,1,1,1
+127046362,[27080185],p53/MDM2 Inhibitor,1,1,1
+46877887,[12801235],Opioid,1,1,1
+46877887,[12801235],Nicotinic Acetylcholine Receptor,1,1,1
+46877887,[12801235],Antiaddiction,1,1,1
+44294192,[11356110],S-adenosylhomocysteine Hydrolase Inhibitor,1,1,1
+44294192,[11356110],Cytostatic,1,1,1
+60165418,"[22520153, 24800940]",Antidepressant,1,1,1
+60165418,"[22520153, 24800940]",SERT Inhibitor,1,0,1
+60165418,"[22520153, 24800940]",5-HT1A Receptor Inhibitor,1,1,1
+60165418,"[22520153, 24800940]",D4 Receptor Ligand,1,1,1
+60165418,"[22520153, 24800940]",Dopamine Ligand,1,1,1
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,0.9892473118,0.8978494624,0.9946236559
