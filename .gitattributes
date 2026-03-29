@@ -1,6 +1,6 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-data/final_datasets/*.csv filter=lfs diff=lfs merge=lfs -text
-data/final_datasets/preprocessed_propagated_1_hard/scaffold_split/*.csv filter=lfs diff=lfs merge=lfs -text
+data/final_datasets/cid_smiles_pmid_func_pre_prop.csv filter=lfs diff=lfs merge=lfs -text
+data/final_datasets/cid_smiles_pmid_func_propagated_cutoff_1_hard.csv filter=lfs diff=lfs merge=lfs -text
+data/final_datasets/preprocessed_propagated_1_hard/scaffold_split/train.csv filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 data/final_datasets/preprocessed_propagated_1_hard/scaffold_split/test.csv filter=lfs diff=lfs merge=lfs -text
 data/final_datasets/preprocessed_propagated_1_hard/scaffold_split/val.csv filter=lfs diff=lfs merge=lfs -text
