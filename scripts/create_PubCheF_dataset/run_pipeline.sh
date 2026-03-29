@@ -9,6 +9,8 @@
 # Then: bash run_pipeline.sh
 set -euo pipefail
 
+# **WARNING**: Running this script will override the contents of data/final_datasets/preprocessed_propagated_1_hard/ with the output of this pipeline. If you want to keep the existing dataset, back it up before running this script.
+
 # USER VARS
 # PUBCHEM_DIR="../../data/pubchem/$(date +%Y%m%d)" # fresh download to today's date
 PUBCHEM_DIR="../../data/pubchem/20260328"       # reuse existing data (step 01 skips download if files already exist)
