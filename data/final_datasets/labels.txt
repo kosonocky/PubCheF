@@ -1,0 +1,5215 @@
+Anticancer: 85021
+Cytotoxic: 65178
+Antibiotic: 53890
+Antitumor: 44870
+Anti-Inflammatory: 43912
+Antiproliferative: 31382
+Antiviral: 26844
+Antimalarial: 25323
+Anti-Tuberculosis: 20630
+Antifungal: 19540
+Apoptosis Inducer: 18986
+Analgesic: 18659
+Antimicrobial: 18417
+Antioxidant: 15283
+Neuroprotective: 13438
+Acetylcholinesterase Inhibitor: 11722
+Anti-HIV-1: 10018
+Anticonvulsive: 9367
+Cytostatic: 9056
+Anti-mycobacterial: 8853
+Antidepressant: 8350
+Anti-Diabetic: 8305
+Carbonic Anhydrase Inhibitor: 8045
+EGFR Kinase Inhibitor: 8006
+COX2 Inhibitor: 7856
+Anti-Cancer: 7629
+HDACs Inhibitor: 7238
+HIV-1 PR/RT Inhibitor: 6873
+Antihypertensive: 6659
+HCV NS5b Polymerase Inhibitor: 6638
+Anti-Leishmanial: 6619
+HIV Protease Inhibitor: 6541
+Tubulin Polymerization Inhibitor: 6342
+A2A Adenosine Receptor Antagonist: 6003
+Antiplasmodial: 5807
+Alzheimer's Disease: 5675
+BACE-1 Inhibitor: 5594
+VEGFR2 Inhibitor: 5547
+Tubulin Inhibitor: 5499
+Anti-Trypanosomal: 5388
+Anxiolytic: 5357
+HIV Integrase Inhibitor: 5252
+NF-kappa B Inhibitor: 5013
+Alzheimer's: 4919
+Kinase Inhibitor: 4855
+Histone Deacetylase Inhibitor: 4839
+Hsp-90 Inhibitor: 4824
+HIV Inhibitor: 4802
+Antipsychotic: 4641
+Antiparasitic: 4613
+Factor Xa Inhibitor: 4500
+PI3 Kinase Inhibitor: 4476
+Anti-Angiogenic: 4461
+DPPIV Inhibitor: 4419
+Tyrosine Protein Kinase Inhibitor: 4412
+Alpha-glucosidase Inhibitor: 4407
+Amyloid-Beta Aggregation Inhibitor: 4226
+Thrombin-Inhibitor: 4209
+Apoptosis: 4207
+Cancer: 4139
+PTP1b Inhibitor: 4078
+PDE4 Inhibitor: 4052
+AChE Inhibitor: 3999
+GSK-3beta Inhibitor: 3997
+Cognition-Enhancer: 3992
+HCV Inhibitor: 3964
+p38 MAP Kinase Inhibitor: 3810
+Antimitotic: 3803
+JAK1/JAK2 Inhibitor: 3697
+Antiplatelet Aggregation Inhibitor: 3671
+DNA GyraseB Inhibitor: 3604
+NMDA Antagonist: 3470
+Anticoagulant: 3465
+Trypanocidal: 3463
+Antiprotozoan: 3449
+P-glycoprotein Inhibitor: 3420
+PARP1/2 Inhibitor: 3350
+cMET Inhibitor: 3331
+MAO-B Inhibitor: 3322
+5-Lipoxygenase Inhibitor: 3322
+TNF-Alpha Inhibitor: 3282
+MAO A Inhibitor: 3279
+Topoisomerase Inhibitor: 3195
+Topoisomerase I Inhibitor: 3192
+Prodrug: 3189
+FAAH Inhibitor: 3188
+Proteasome Inhibitor: 3167
+Antiallergy: 3164
+Antithrombotic: 3131
+TRPV1 Antagonist: 3127
+Insecticidal: 3118
+Immunomodulator: 2927
+11betaHSD1 Inhibitor: 2920
+Antineoplastic: 2912
+Renin Inhibitor: 2904
+Aurora A/B Kinase Inhibitor: 2886
+Anti-Platelet: 2877
+Prostate Cancer: 2865
+Parkinson Disease: 2850
+Alpha1-Adrenoceptor Antagonist: 2833
+MDR-Reversal: 2832
+CDK1/CDK2 Inhibitor: 2827
+Farnesyl-Protein Transferase Inhibitor: 2813
+5-HT 1A Receptor Agonist: 2796
+CB2 Agonist: 2769
+DNA Topoisomerase II Inhibitor: 2761
+Aldose Reductase Inhibitor: 2751
+Hypoglycemic: 2746
+Beta(3)-Adrenergic Agonist: 2727
+AKT Inhibitor: 2723
+Antinociceptive: 2699
+Tyrosinase Inhibitor: 2634
+Type 2 Diabetes: 2628
+5-HT2A Receptor Antagonist: 2621
+Aromatase Inhibitor: 2595
+Angiogenesis Inhibitor: 2564
+mGlu2 Antagonist: 2558
+Butylcholinesterase Inhibitor: 2556
+STAT3 Inhibitor: 2541
+B-Raf(V600E) Inhibitor: 2539
+NO Production Inhibitor: 2530
+Protein Kinase Inhibitor: 2448
+CDK Inhibitor: 2424
+PI3KDelta-Gamma Inhibitor: 2399
+HCV NS3 Protease Inhibitor: 2398
+mGlu2 PAM: 2364
+5-HT(1A) Receptor Ligand: 2362
+Adenosine Receptor Antagonist: 2353
+PPAR gamma Agonist: 2318
+Gamma Secretase Inhibitor: 2294
+HIV NNRTI: 2249
+NK1/NK3 Antagonist: 2248
+Dihydrofolate Inhibitor: 2235
+Antialzheimer: 2232
+DHFR Inhibitor: 2215
+Neuraminidase Inhibitor: 2213
+S1P1 Agonist: 2173
+IDO1 Inhibitor: 2171
+mTORC1 Inhibitor: 2165
+FLT3 Inhibitor: 2160
+DNA Intercalating: 2154
+Nrf2-ARE Activator: 2147
+Breast Cancer: 2144
+Cell-Cycle Arrest: 2141
+Cancer Therapy: 2137
+sEH Inhibitor: 2132
+Histamine H3 Receptor Antagonist: 2125
+CCR5 Receptor Antagonist: 2117
+Kappa Opioid Agonist: 2102
+Anti-influenza: 2098
+Anti-HCV: 2096
+Opioid Receptor Ligand: 2091
+Vasodilator: 2059
+Biofilm Inhibitor: 2057
+Xanthine Oxidase Inhibitor: 2006
+PDE 5 Inhibitor: 1998
+MMP Inhibitor: 1996
+CRF1 Antagonist: 1977
+Anti-HBV: 1960
+DNA Binding: 1951
+Neuropathic Pain: 1936
+Antihyperglycaemic: 1928
+LSD1 Inhibitor: 1924
+BTK Inhibitor: 1919
+Immunosuppressive: 1918
+ALK Inhibitor: 1907
+Anti-Bacterial: 1903
+JNK Inhibitor: 1890
+GnRHR Antagonist: 1882
+P2Y Receptor Antagonist: 1881
+Obesity Treatment: 1880
+Estrogen Receptor Ligand: 1878
+Hypolipidemic: 1877
+CCR2 Antagonist: 1869
+5-HT(6) Receptor Antagonist: 1849
+Antitubulin: 1849
+Growth Inhibitor: 1840
+17beta-HSD Inhibitor: 1805
+Antileukaemic: 1800
+Autophagy Inducer: 1800
+NPY Y5 Receptor Antagonist: 1799
+ACAT1 Inhibitor: 1797
+D2 Dopamine Receptor Ligand: 1794
+MCL-1/BCL-2 Inhibitor: 1786
+Androgen Receptor Antagonist: 1784
+Antiarrhythmic: 1776
+Chk1 Inhibitor: 1764
+Fungicidal: 1758
+Cysteine Protease Inhibitor: 1750
+5-HT(1A) Receptor Antagonist: 1745
+Thymidylate Synthetase Inhibitor: 1744
+5-HT2A/2C Agonist: 1742
+Pro-Apoptotic: 1732
+TACE Inhibitor: 1683
+Matrix Metalloproteinase Inhibitor: 1681
+PPAR Alpha/Gamma Agonist: 1671
+HIF-1Alpha Inhibitor: 1659
+NNRTI: 1649
+Anti-Obesity: 1644
+Antifolate: 1640
+Muscarinic Receptor Antagonist: 1626
+mPGES-1 Inhibitor: 1624
+Gamma-Secretase Modulator: 1613
+BRD4-HDAC Inhibitor: 1610
+PDE10a Inhibitor: 1594
+Sigma-Receptor Ligand: 1589
+Opioid Receptor Agonist: 1569
+Glycogen Phosphorylase Inhibitor: 1565
+Hypotensive: 1558
+Dopamine Transporter Inhibitor: 1555
+CRTH2 Antagonist: 1547
+Telomerase Inhibitor: 1542
+Cytoprotective: 1532
+CYP3A4 Inhibitor: 1522
+P2X7 Receptor Antagonist: 1515
+HDAC6/8 Inhibitor: 1512
+PDGFRAlpha Inhibitor: 1509
+Endothelin A Receptor Antagonist: 1500
+Bronchodilator: 1497
+Vasorelaxant: 1486
+Cathepsin K Inhibitor: 1483
+DYRK1A Inhibitor: 1467
+GPR119 Agonist: 1457
+NO-Inhibitor: 1447
+GABA A Modulator: 1435
+H3 Receptor Antagonist: 1429
+Cardioprotective: 1413
+PROTAC: 1407
+COX1⧹2 Inhibitor: 1405
+Asthma: 1375
+Anti-Fibrotic: 1363
+Diuretic: 1352
+SGLT1/SGLT2 Inhibitor: 1352
+CB1-R Antagonist: 1331
+VEGF-R Inhibitor: 1330
+NS3-4A Protease Inhibitor: 1329
+GPR40/FFA1 Agonist: 1327
+Thromboxane Synthase Inhibitor: 1320
+Serotonin Transporter Inhibitor: 1319
+Immunosuppressant: 1315
+P-gp Modulator: 1311
+p53/MDM2 Inhibitor: 1304
+Cathepsin Inhibitor: 1302
+Protease Inhibitor: 1293
+VLA-4 Antagonist: 1288
+BET Inhibitor: 1284
+hERG Inhibitor: 1283
+iNOS Inhibitor: 1281
+HER1/HER2 Inhibitor: 1274
+ROCK II Inhibitor: 1272
+Hypocholesterolemic: 1270
+Hepatoprotective: 1268
+MetAP1 Inhibitor: 1266
+GABA-A Receptor Ligand: 1262
+BuChE Inhibitor: 1258
+HMG-CoA Reductase Inhibitor: 1254
+MMP13 Inhibitor: 1251
+Angiotensin Receptor Antagonist: 1251
+Dopamine D2 Receptor Antagonist: 1244
+Bromodomain Inhibitor: 1244
+NO Donor: 1238
+Influenza Inhibitor: 1234
+Mu Opioid Receptor Agonist: 1232
+Glucokinase Activator: 1230
+Alpha7-nAChR Agonist: 1229
+IMPDH Inhibitor: 1226
+Plk2 Inhibitor: 1223
+AMPA Receptor Antagonist: 1221
+mGlu5 NAM: 1219
+5-LOX/COX Inhibitor: 1218
+FGFR1 Inhibitor: 1215
+PAF-Receptor Antagonist: 1214
+Microtubule Inhibitor: 1211
+5-HT2A Receptor Ligand: 1209
+Efflux Pump Inhibitor: 1206
+AMPK Activator: 1203
+Anthelmintic: 1203
+Calcium Channel Blocker: 1201
+Schizophrenia: 1189
+PD-L1/PD-1 Inhibitor: 1182
+Tuberculosis: 1170
+CK2 Inhibitor: 1169
+NS5B RdRp Inhibitor: 1168
+Cancer Treatment: 1167
+Anti-Prostate Cancer: 1165
+Cyclooxygenase Inhibitor: 1164
+Herbicide: 1160
+CXCR-4 Antagonist: 1159
+Leukemia: 1154
+MAPK/ERK Pathway Inhibitor: 1144
+FXR Partial Agonist: 1142
+Orexin-1 Receptor Antagonist: 1137
+Antineuroinflammatory: 1134
+FtsZ Inhibitor: 1132
+ACE Inhibitor: 1124
+Quorum Sensing Inhibitor: 1119
+Cannabinoid Receptor Ligand: 1117
+CETP Inhibitor: 1117
+Cathepsin S Inhibitor: 1116
+Urease Inhibitor: 1115
+Antimetastasis: 1112
+Diabetes: 1109
+Dopamine Transporter Ligand: 1105
+MCH-R1 Antagonist: 1105
+Chemosensitizer: 1100
+5-HT3 Receptor Antagonist: 1099
+Rheumatoid Arthritis: 1098
+Alpha 2-Adrenoceptor Antagonist: 1082
+Serotonin Re-uptake Inhibitor: 1081
+Glucagon Antagonist: 1080
+HIV-1 Entry Inhibitor: 1076
+MRSA: 1074
+BCL-2 Inhibitor: 1069
+Alpha 1-Adrenoceptor Ligand: 1067
+Antibreast Cancer: 1065
+Topoisomerase IV Inhibitor: 1056
+DNA-Binding: 1054
+DGAT1 Inhibitor: 1053
+Trypanothione Reductase Inhibitor: 1050
+FAK Signaling Inhibitor: 1042
+Cancer Therapeutic: 1041
+Histone Demethylase Inhibitor: 1040
+IGF-1R Inhibitor: 1037
+P2X3/P2X2/3 Receptor Antagonist: 1037
+Neuronal Nicotinic Receptor Ligand: 1035
+A2 Adenosine Receptor Agonist: 1033
+CA IX Inhibitor: 1026
+MEK1 Inhibitor: 1026
+Thromboxane A2 Receptor Antagonist: 1020
+CNS Penetrant: 1017
+CB2 Ligand: 1017
+GlyT1 Inhibitor: 1015
+CXCR2/CXCR1 Antagonist: 1013
+SIRT2 Inhibitor: 1012
+G2/M Phase Arrest: 1012
+Anti-Malaria: 1012
+Dopamine Receptor Agonist: 1011
+CXCR3 Antagonist: 1006
+Reverse Transcriptase Inhibitor: 1004
+RORGammat Inverse Agonist: 1001
+MMP-2/MMP-8 Inhibitor: 999
+Norepinephrin Reuptake Inhibitor: 995
+Multidrug Resistance Reversal: 995
+CDK8 Inhibitor: 992
+Muscarinic Agonist: 990
+Anti-MRSA: 990
+Metal Chelator: 988
+Osteoarthritis: 987
+CDK9 Inhibitor: 984
+Herbicidal: 984
+Calpain I Inhibitor: 982
+Histone Methyltransferase Inhibitor: 974
+Neuroleptic: 973
+5-HT6 Receptor Ligand: 970
+Cancer Immunotherapy: 969
+Bactericidal: 967
+Obesity: 966
+Blood Glucose-Lowering: 966
+Bcr-Abl Inhibitor: 965
+Antibiotic Adjuvant: 961
+AML Treatment: 961
+Opioid Antagonist: 960
+DHODH Inhibitor: 952
+CGRP Receptor Antagonist: 950
+Tumor Growth Inhibitor: 948
+Pain Treatment: 943
+Osteoporosis: 943
+Sodium Channel Blocker: 939
+Antiobesity: 928
+PI3K-Alpha Inhibitor: 927
+PPAR Agonist: 926
+CB1 Agonist: 925
+Beta-Lactamase Inhibitor: 923
+Cancer Cell Growth Inhibitor: 923
+nNOS Inhibitor: 922
+Delta Opioid Receptor Agonist: 922
+CYP51 Inhibitor: 919
+LRRK2 Kinase Inhibitor: 919
+CCK2 Antagonist: 919
+5-HT7 Receptor Ligand: 917
+Dengue Inhibitor: 916
+Leishmanicidal: 915
+Immunomodulatory: 915
+CDK4/D Inhibitor: 915
+TLR7/8 Agonist: 915
+ATX Inhibitor: 913
+ABCG2 Inhibitor: 911
+SERD: 910
+LpxA Inhibitor: 910
+Hedgehog Pathway Inhibitor: 907
+Chagas' Disease: 903
+CCR3 Antagonist: 902
+Antiretroviral: 901
+Pim Kinase Inhibitor: 900
+Anti-Biofilm: 897
+Atypical Antipsychotic: 897
+CB1 Receptor Ligand: 896
+Iron Chelating: 892
+HDAC1/2 Inhibitor: 891
+p38Alpha Inhibitor: 890
+Ca2+ Antagonist: 889
+Estrogen Antagonist: 882
+RORGamma Inverse Agonist: 882
+RNA Polymerase Inhibitor: 879
+DNA Topoisomerase I Inhibitor: 876
+3C Protease Inhibitor: 875
+NLRP3 Inhibitor: 871
+Protein Tyrosine Phosphatase Inhibitor: 870
+SARS-CoV 3CL Protease Inhibitor: 868
+Benzodiazepine-Receptor Ligand: 868
+MCH-1R Antagonist: 866
+AML: 864
+T-type Ca2+ Channel Blocker: 864
+Mycobacterium tuberculosis Inhibitor: 862
+Glucocorticoid Agonist: 860
+Lck Inhibitor: 859
+Beta-Adrenoceptor Blocker: 858
+Oxytocin Receptor Antagonist: 858
+CB1 Inverse Agonist: 857
+Human Leukocyte Elastase Inhibitor: 854
+Antivirulence: 853
+Sirtuin Inhibitor: 852
+mGluR5 Positive Allosteric Modulator: 852
+Histone Acetyltransferase Inhibitor: 851
+Human Neutrophil Elastase Inhibitor: 847
+5Alpha-Reductase Inhibitor: 847
+5-HT(7) Receptor Antagonist: 845
+P2Y2 Agonist: 845
+Hypertension: 843
+Melanogenesis Inhibitor: 842
+GPIIb/IIIa Antagonist: 841
+DNA Damage Repair Inhibitor: 840
+FVIIa/TF Inhibitor: 839
+MAGL Inhibitor: 837
+MDM2 Inhibitor: 834
+Cardiovascular: 832
+3CL Protease Inhibitor: 832
+Cyclic AMP PDE Inhibitor: 831
+TGR5 Agonist: 831
+p53 Activator: 829
+Aminopeptidase A Inhibitor: 825
+Estrogen Receptor Agonist: 825
+Microtubule Stabilizer: 825
+Sigma 1 Ligand: 823
+Immune Stimulant: 823
+PDK1 Inhibitor: 822
+ERK1/2 Inhibitor: 821
+Dihydroorotate Dehydrogenase Inhibitor: 821
+GABA Uptake Inhibitor: 821
+Anti-Metastatic: 819
+SERT Inhibitor: 819
+Cancer Chemopreventive: 818
+5-HT Ligand: 816
+Antiepileptic: 816
+Cardiotonic: 815
+Phosphodiesterase Inhibitor: 809
+CA I Inhibitor: 808
+Tankyrase 1/2 Inhibitor: 806
+Gastric Antisecretory: 803
+Trypanosoma cruzi Inhibitor: 799
+Angiotensin Antagonist: 798
+H+/K+-ATPase Inhibitor: 795
+Immunotherapy: 795
+IRAK-4 Inhibitor: 795
+GABA A Receptor Agonist: 791
+Alpha4Beta2-nAChR Agonist: 789
+BET Bromodomain Antagonist: 789
+KATP Channel Opener: 788
+Antibiofilm: 785
+Adenosine Receptor Ligand: 780
+Histamine H3 Receptor Ligand: 779
+Cholesterol Lowering: 777
+MDR-Modulator: 777
+Chemopreventive: 775
+Cdk5 Inhibitor: 775
+Bcl-2/Bcl-xL Inhibitor: 772
+Protein Synthesis Inhibitor: 772
+InhA Inhibitor: 769
+Serine Protease Inhibitor: 768
+Insulin Sensitiser: 762
+Antiulcer: 758
+Alzheimer's Treatment: 757
+Beta-Secretase Inhibitor: 754
+CYP450 Inhibitor: 753
+Antibiotic Potentiator: 750
+Steroid Sulphatase Inhibitor: 750
+BCRP Inhibitor: 749
+Caspase-3 Inhibitor: 748
+Botulinum Neurotoxin Inhibitor: 747
+hCA IX/XII Inhibitor: 745
+DNA Polymerase Inhibitor: 744
+Opioid: 742
+Sphingosine Kinase-1 Inhibitor: 742
+Epigenetic Modifier: 741
+Alpha(v)beta3 Integrin Antagonist: 741
+Positive Inotropic: 739
+Anti-Trypanosoma cruzi: 738
+Src Kinase Inhibitor: 734
+Receptor Tyrosine Kinase Inhibitor: 732
+Dual-Inhibitor: 731
+Necroptosis Inhibitor: 730
+SIRT1 Inhibitor: 730
+Cyp11B1 Inhibitor: 729
+Collagenase-1 Inhibitor: 726
+SCD-1 Inhibitor: 726
+APN Inhibitor: 726
+Microtubule Destabilizer: 724
+CCK2 Agonist: 721
+FBPase Inhibitor: 720
+DNA Damage: 718
+Photosensitizer: 717
+Triple Re-uptake Inhibitor: 715
+Na(+)/K(+)-ATPase Inhibitor: 711
+Dopamine-Uptake Inhibitor: 708
+Mu Opioid Receptor Ligand: 708
+Antagonist: 706
+5-HT Agonist: 706
+TRPM8 Antagonist: 706
+Peptide Deformylase Inhibitor: 706
+NO-Donor: 704
+KSP Inhibitor: 699
+Radiosensitizer: 698
+NAMPT Inhibitor: 697
+Squalene Synthetase Inhibitor: 695
+Protein Tyrosine Phosphatase 1B Inhibitor: 695
+Sigma1 Receptor Ligand: 693
+Monoamine Oxidase-B Inhibitor: 693
+Enzyme Inhibitor: 692
+MMP-9 Inhibitor: 687
+RSV Fusion Protein Inhibitor: 687
+Protein Kinase C Inhibitor: 686
+DNA Topoisomerase IIAlpha Inhibitor: 683
+TSPO Ligand: 683
+Protein-Protein Interaction Inhibitor: 682
+PDE7 Inhibitor: 681
+Anti-Androgen: 681
+Adenosine A2 Receptor Ligand: 681
+Radical Scavenger: 680
+EZH2 Inhibitor: 679
+NaV1.7 Inhibitor: 675
+HBV Inhibitor: 675
+Synergistic: 673
+Cruzain Inhibitor: 673
+KRAS G12D Inhibitor: 673
+SHP2 Inhibitor: 671
+Pin1 Inhibitor: 670
+TRK Kinase Inhibitor: 670
+Sortase A Inhibitor: 669
+PET Tracer: 666
+Serotonin Transporter Ligand: 665
+5-HT(1B/1D) Agonist: 663
+Phospholipase A2 Inhibitor: 660
+Anti-Apoptotic: 660
+CCR1 Antagonist: 659
+FabH Inhibitor: 658
+Cytokine Inhibitor: 658
+DprE1 Inhibitor: 657
+Antischistosomal: 657
+Estrogen Receptor Modulator: 657
+Melanocortin 4 Receptor Antagonist: 657
+SERM: 651
+Bradykinin B1 Receptor Antagonist: 651
+AMPA Receptor Positive Modulator: 651
+AKR1C1 Inhibitor: 650
+D2 Receptor Partial Agonist: 649
+Weight Loss: 649
+KEAP1-NRF2 Inhibitor: 647
+EP3 Antagonist: 647
+KDR Inhibitor: 646
+Angiotensin Converting Enzyme Inhibitor: 642
+MRP1 Inhibitor: 639
+Anticoccidial: 636
+Anti-Parkinson: 632
+Glucocorticoid Receptor Modulator: 632
+Adenosine Kinase Inhibitor: 631
+Aldosterone Synthase Inhibitor: 631
+Antimicrotubule: 630
+Anti-Oxidant: 629
+Melatoninergic Agonist: 629
+PPARdelta Antagonist: 629
+Cholesterol Synthesis Inhibitor: 628
+Estrogen Receptor Degrader: 627
+15-Lipoxygenase Inhibitor: 625
+AT1 Receptor Antagonist: 623
+EP1 Antagonist: 622
+Apoptosis Inhibitor: 618
+HAT Inhibitor: 618
+LTA4H Inhibitor: 617
+LXRalpha Agonist: 617
+Cannabinoid Agonist: 617
+Caspase Inhibitor: 617
+HIV RNase H Inhibitor: 616
+Hepatitis B Virus Inhibitor: 614
+Progesterone Antagonist: 612
+Lipoxygenase Inhibitor: 611
+BChE Inhibitor: 610
+Metallo-Beta-Lactamase Inhibitor: 610
+Dopamine D(3) Receptor Antagonist: 609
+Ribonucleotide Reductase Inhibitor: 609
+Dengue Protease Inhibitor: 608
+RNase H Inhibitor: 608
+Antifeedant: 604
+CCK-B Receptor Antagonist: 604
+Leukotriene Antagonist: 603
+Insulin Secretagogue: 601
+Alpha 1-Adrenoceptor Agonist: 601
+TNBC: 601
+Antiinfective: 600
+Free Radical Scavenger: 599
+Androgen Receptor Modulator: 599
+Multi-target Kinase Inhibitor: 599
+Pharmacologic Chaperone: 598
+Dopamine Antagonist: 597
+Anti-Microbial: 597
+CCR4 Receptor Antagonist: 597
+PKCtheta Inhibitor: 596
+Glutaminyl Cyclase Inhibitor: 595
+Dopamine D2 Agonist: 594
+MCHR1 Antagonist: 593
+Selective: 591
+Anti-Filarial: 591
+Antiglaucoma: 591
+Anticholinesterase: 590
+Pim-1 Kinase Inhibitor: 590
+Norepinephrine Transporter Inhibitor: 589
+c-Kit Inhibitor: 589
+cPLA(2) Inhibitor: 588
+Partial Agonist: 586
+Lipid Lowering: 586
+Cdc7 Inhibitor: 585
+MK2 Inhibitor: 585
+Inverse Agonist: 581
+ROS Inducer: 581
+Estrogenic: 581
+Interleukin-1beta Inhibitor: 581
+Elastase Inhibitor: 580
+NMDA Receptor Inhibitor: 579
+S1P1 Receptor Antagonist: 579
+cSrc Inhibitor: 579
+NAAA Inhibitor: 577
+Autophagy Inhibitor: 577
+NS2B-NS3 Protease Inhibitor: 577
+p38alpha Inhibitor: 576
+CNS-Active: 575
+FFA1 Agonist: 575
+Mitochondrial-Targeting: 573
+Cell Growth Inhibitor: 572
+N-Type Calcium Channel Blocker: 569
+FXa Inhibitor: 568
+CSF-1R Inhibitor: 568
+Antiprion: 567
+5-LO Inhibitor: 567
+DNA-PKcs Inhibitor: 564
+Osteoporosis Treatment: 564
+NSCLC: 562
+NEP Inhibitor: 561
+Glycosidase Inhibitor: 560
+Wnt/Beta-catenin Inhibitor: 560
+Asthma Treatment: 560
+Erectile Dysfunction: 559
+Thymidine Phosphorylase Inhibitor: 558
+Beta-Glucuronidase Inhibitor: 558
+Alpha2-Adrenoceptor Agonist: 556
+Carboxylesterase Inhibitor: 555
+H1 Receptor Antagonist: 555
+SARS-CoV Inhibitor: 555
+CML Treatment: 553
+Delta-Opioid Receptor Antagonist: 551
+nAChR Ligand: 550
+Apoptosis-Inducing: 550
+Anti-Osteoporotic: 546
+NMDA Receptor Ligand: 545
+Thrombin Receptor Antagonist: 544
+Translation Inhibitor: 544
+Pancreatic Cancer: 542
+Nicotinic Receptor Agonist: 541
+Eg5 Inhibitor: 540
+CNS: 539
+Rho-kinase Inhibitor: 538
+Lipoperoxidation Inhibitor: 536
+Dopamine Ligand: 534
+MNK1/2 Inhibitor: 534
+Covalent Inhibitor: 534
+MC4-R Antagonist: 534
+Melanocortin 4 Receptor Agonist: 534
+Fructose-1,6-bisphosphatase Inhibitor: 533
+Melanocortin-1 Agonist: 532
+Wnt Signaling Inhibitor: 531
+NorA Inhibitor: 530
+ATP Synthase Inhibitor: 530
+Vasopressin Receptor Antagonist: 530
+PAR1 Antagonist: 529
+Pain: 529
+Enoyl-ACP Reductase Inhibitor: 528
+Adenosine Receptor Agonist: 528
+Potassium Channel Opener: 528
+ETA-Receptor Antagonist: 527
+Microtubule-Targeting: 526
+Mu Opioid Receptor Antagonist: 525
+Oncology: 525
+Anti-Hyperlipidemic: 523
+Trypanosoma brucei Inhibitor: 522
+Src Inhibitor: 520
+Antiamoebic: 519
+Type 2 Diabetes Treatment: 516
+Nitric Oxide Inhibitor: 516
+Bradykinin B2 Receptor Antagonist: 515
+FLAP Inhibitor: 513
+CYP1B1 Inhibitor: 512
+M1 PAM: 512
+Antimicrobial Peptide: 511
+Mineralocorticoid Antagonist: 510
+Interleukin 6 Inhibitor: 508
+Anti-H. pylori: 507
+DNA Cleavage: 507
+EP4 Receptor Agonist: 507
+ALK5 Inhibitor: 507
+NO-Donating: 506
+TLR2/4 Agonist: 506
+Anti-Viral: 505
+Trypanosomiasis: 505
+IDO Inhibitor: 504
+GHSR1a Antagonist: 503
+Melatonin Receptor Ligand: 503
+Cell-Cycle Inhibitor: 502
+Influenza: 502
+Tryptase Inhibitor: 502
+DAT Inhibitor: 501
+Acetylcholinesterase Reactivator: 501
+TYK2 Inhibitor: 500
+LTB4 Antagonist: 500
+Aggrecanase Inhibitor: 500
+SSRI: 499
+NSAID: 499
+Transglutaminase Inhibitor: 498
+D3 Receptor Ligand: 497
+HIV Attachment Inhibitor: 497
+Antitussive: 496
+LPA1 Antagonist: 496
+Osteoclastogenesis Inhibitor: 496
+HIV Fusion Inhibitor: 496
+Allosteric Inhibitor: 495
+Melanocortin 4 Receptor Ligand: 494
+Wnt Inhibitor: 491
+Glioblastoma: 489
+PRMT5 Inhibitor: 489
+Fatty Acid Synthesis Inhibitor: 488
+PPARgamma Activator: 485
+Factor XIa Inhibitor: 485
+PDE2 Inhibitor: 484
+Serotonin/Norepinephrine Reuptake Inhibitor: 482
+Antiestrogen: 482
+ErbB-2 Inhibitor: 482
+RXRalpha Agonist: 482
+Preosteoclast Inhibitor: 480
+Huntington's Disease: 480
+FGFR4 Inhibitor: 479
+Neuropathic Pain Treatment: 479
+Immune Modulator: 479
+Urokinase Inhibitor: 479
+Delta Opioid Receptor Ligand: 478
+Migraine Treatment: 478
+HIV-1 Capsid Inhibitor: 477
+PKM2 Activator: 477
+Plasmepsin Inhibitor: 475
+NMT Inhibitor: 475
+hCA XII Inhibitor: 474
+Abl 1 Inhibitor: 474
+Glucocorticoid Receptor Antagonist: 473
+CA XII Inhibitor: 473
+5-HT4R Antagonist: 471
+Photodynamic Therapy: 470
+MBL Inhibitor: 470
+IDH1/R132H Inhibitor: 469
+5-HT(3) Receptor Ligand: 468
+FabI-Inhibitor: 467
+RSV Inhibitor: 467
+Positive Allosteric Modulator: 465
+Alpha-Amylase Inhibitor: 465
+Aspartic Protease Inhibitor: 463
+Dynamin I GTPase Inhibitor: 462
+Complement Inhibitor: 459
+Dipeptidyl Peptidase-4 Inhibitor: 459
+5-HT4 Receptor Agonist: 458
+Dopamine D(4) Receptor Antagonist: 457
+Growth Hormone Secretagogue: 456
+Fibrinogen Receptor Antagonist: 455
+Metabolic Syndrome: 455
+Multiple Sclerosis: 455
+Sigma-1 Agonist: 454
+ABCB1 Inhibitor: 454
+Matriptase Inhibitor: 453
+Potassium Channel Activator: 453
+LOX Inhibitor: 453
+ADAMTS-5 Inhibitor: 452
+NQO2 Inhibitor: 451
+Falcipain Inhibitor: 451
+PI3KBeta Inhibitor: 451
+COMT Inhibitor: 450
+Selective Serotonin Reuptake Inhibitor: 450
+BBB Penetrant: 450
+Tie-2 Kinase Inhibitor: 450
+Wnt Pathway Inhibitor: 450
+AP-1 Inhibitor: 448
+IKK2 Inhibitor: 447
+Agonist: 446
+SARS-CoV Mpro Inhibitor: 446
+CDK4/6 Inhibitor: 446
+TRPA1 Channel Antagonist: 445
+Fungicide: 445
+HCV Entry Inhibitor: 445
+Nicotinic Acetylcholine Receptor Antagonist: 444
+Dopamine Reuptake Inhibitor: 444
+CDC25 Inhibitor: 444
+Antitoxoplasma: 442
+Monoamine Transporter Inhibitor: 442
+Immunoproteasome Inhibitor: 442
+CD73 Inhibitor: 441
+Cyclin-Dependent Kinase Inhibitor: 441
+COPD: 441
+Adjuvant: 440
+Furin Inhibitor: 440
+A1 Adenosine Receptor Allosteric Enhancer: 439
+Autoimmune: 438
+Leukotriene Biosynthesis Inhibitor: 438
+Anti-Beta-amyloid Aggregation: 437
+MCHr1 Antagonist: 437
+IKKBeta Inhibitor: 436
+uPA-uPAR Inhibitor: 436
+Urotensin-II Receptor Antagonist: 435
+G-Quadruplex Ligand: 433
+Tubulin-binding: 433
+Antiasthma: 433
+DNA Binder: 432
+MC4R Agonist: 432
+Cytochrome P450 2D6 Inhibitor: 431
+MALT1 Inhibitor: 431
+Cdc25B Inhibitor: 431
+Bone Resorption Inhibitor: 431
+TDO-2 Inhibitor: 430
+G-Quadruplex Stabilizer: 430
+Anorectic: 429
+Antiasthmatic: 429
+M1 Muscarinic Receptor Ligand: 428
+Ras Inhibitor: 428
+DNA Synthesis Inhibitor: 427
+FXR Antagonist: 427
+Histamine H4 R Antagonist: 427
+AR Antagonist: 426
+Anti-T.cruzi: 426
+Histamine H3 Receptor Inverse Agonist: 425
+Microtubule Disruptor: 424
+Class III Antiarrhythmic: 424
+Sigma2 Ligand: 423
+EGF-Receptor Inhibitor: 423
+Ghrelin Receptor Inverse Agonist: 423
+c-myc Inhibitor: 422
+hMAO-B Inhibitor: 422
+Anti-AD: 422
+ChEs Inhibitor: 421
+Integrin Antagonist: 421
+Insulin Secretion: 421
+PNMT Inhibitor: 420
+Enterovirus Inhibitor: 418
+Neurokinin Receptor Antagonist: 418
+Multi-Functional: 417
+CYP17A1 Inhibitor: 417
+Neurotrophic: 417
+PKC Inhibitor: 417
+HDAC-8 Inhibitor: 417
+Allosteric Modulator: 415
+Gram-positive Antibiotic: 415
+NOS Inhibitor: 414
+TGF-BetaR1 Inhibitor: 414
+Nematicidal: 414
+Acetyl-CoA Carboxylase Inhibitor: 414
+Anti-Platelet Aggregatory: 413
+Cell-Wall Biosynthesis Inhibitor: 413
+GPCR Ligand: 411
+Neuroprotectant: 411
+PAI-1 Inhibitor: 411
+ROS1 Kinase Inhibitor: 411
+Procollagen C-Proteinase Inhibitor: 410
+Isocitrate Lyase Inhibitor: 410
+Mitochondrial Uncoupler: 410
+sPLA2 Inhibitor: 409
+Anti-Invasive: 408
+Top1/2 Inhibitor: 408
+Smoothened Receptor Antagonist: 408
+Antimuscarinic: 405
+Antitrypanosomatid: 405
+GLP-1 Receptor Agonist: 405
+NASH Treatment: 404
+Inotropic: 404
+CLK1 Inhibitor: 403
+NMDAR Modulator: 401
+Cell Migration Inhibitors: 399
+Antisecretory: 398
+Progesterone Receptor Agonist: 398
+Chymase Inhibitor: 398
+Memory Enhancer: 397
+CNS Depressant: 396
+Carbonic Anhydrase II Inhibitor: 395
+Antianxiety: 394
+Tubulin Binder: 394
+ITK Inhibitor: 393
+NNMT Inhibitor: 393
+Vasopressin 1a Receptor Antagonist: 393
+Anti-Parasitic: 391
+PPAR-alpha Activator: 391
+Narcotic-Antagonist: 390
+NHE1 Inhibitor: 390
+Neurodegenerative Disease: 390
+CB2 Inverse Agonist: 390
+NO Synthase Inhibitor: 389
+Glaucoma: 389
+Phosphodiesterase 4 Inhibitor: 389
+NK2 Receptor Antagonist: 389
+Perforin Inhibitor: 389
+Toxoplasma gondii Inhibitor: 386
+BBB Permeable: 386
+Dopamine D(4) Receptor Ligand: 385
+H1 Antihistaminic: 385
+Gelatinase Inhibitor: 385
+NOP Receptor Agonist: 385
+FPR2 Agonist: 385
+SH2 Domain Inhibitor: 384
+GABA(A) Antagonist: 383
+Cell Adhesion Inhibitor: 383
+Alpha7 nAChR PAM: 382
+Beta-Amyloid Plaque Imaging: 382
+Vaccine Adjuvant: 382
+Serotonin Receptor Ligand: 381
+Oxidative Stress: 381
+ATR Inhibitor: 381
+PET Radioligand: 380
+STING Receptor Agonist: 380
+PGP Inhibitor: 379
+RSK1 Inhibitor: 379
+M1 Positive Allosteric Modulator: 379
+DNA Interaction: 378
+RET Inhibitor: 378
+Beta-lactamase Inhibitor: 378
+Melanoma: 377
+ASK1 Inhibitor: 376
+Migraine: 375
+EGFR/HER2 Inhibitor: 375
+Antiherpetic: 375
+G9a Inhibitor: 375
+Mitochondrial Complex I Inhibitor: 374
+Hypoxia-Selective Cytotoxic: 373
+PDE3/4 Inhibitor: 373
+HBV Capsid Inhibitor: 373
+PGE-2 Inhibitor: 373
+DNA Alkylating: 372
+Influenza Endonuclease Inhibitor: 372
+SARM: 372
+LDH Inhibitor: 372
+HBV Capsid Assembly Modulator: 371
+Vitamin D Analogue: 370
+Anti-Thrombotic: 369
+Antipsoriatic: 369
+15-LOX-1 Inhibitor: 368
+Antiarthritic: 368
+Chemotherapeutic: 368
+Type II Diabetes: 367
+Protein Phosphatase Inhibitor: 367
+RET Kinase Inhibitor: 366
+RTK Inhibitor: 365
+PDGF-R Inhibitor: 365
+Syk Inhibitor: 365
+TAK1-Inhibitor: 365
+FAP Inhibitor: 365
+Gastric Acid Inhibitor: 364
+Dopaminergic: 364
+Beta-Blocker: 364
+Hh Pathway Antagonist: 363
+FAS Inhibitor: 363
+IBD Treatment: 363
+M3 Receptor Antagonist: 362
+LHRH Antagonist: 362
+Nociceptin Receptor Ligand: 361
+Hemozoin Formation Inhibitor: 361
+Wnt Signaling: 361
+Myeloperoxidase Inhibitor: 361
+TRPV1 Agonist: 361
+Hedgehog Signal Inhibitor: 360
+Raf Kinase Inhibitor: 360
+Niacin Receptor 1 Agonist: 359
+Hepatitis C Inhibitor: 359
+Itk Inhibitor: 359
+PrCP Inhibitor: 358
+Androgen Receptor Ligand: 357
+COPD Treatment: 357
+DNA Minor Groove Binder: 356
+IAP Antagonist: 356
+Adenosine A1R Agonist: 356
+Hypouricemic: 356
+Tau Aggregation Inhibitor: 356
+FPPSase Inhibitor: 356
+Sodium Channel Inhibitor: 355
+ERK Inhibitor: 355
+Thioredoxin Reductase Inhibitor: 355
+ABeta Lowering: 354
+Membrane-Targeting: 353
+5-HT1R Partial Agonist: 353
+Anti-Depressant: 353
+Transcriptional Inhibitor: 353
+Procognitive: 351
+SERT Ligand: 351
+Zika Inhibitor: 351
+KOR Agonist: 351
+Ferroptosis Inhibitor: 350
+ECE Inhibitor: 350
+Lp-PLA2 Inhibitor: 349
+CysLT1 Antagonist: 349
+Glaucoma Treatment: 349
+Carbonic Anhydrase IX Inhibitor: 349
+IFN Inducer: 349
+Ferroptosis Inducer: 348
+LTD4 Antagonist: 348
+Kv1.5 Channel Blocker: 348
+GRK-2 Inhibitor: 347
+TDP2 Inhibitor: 347
+Arginase I Inhibitor: 346
+Alpha7 nAChR Antagonist: 345
+Anti-Prion: 345
+Ocular Hypotensive: 345
+Anesthetic: 345
+IL-8 Inhibitor: 345
+Anti-ischemic: 344
+Grp94 Inhibitor: 344
+HIV-1: 344
+Antimycotic: 343
+P-glycoprotein Substrate: 343
+Broad-Spectrum Antiviral: 343
+HCMV Inhibitor: 343
+Gastric Cancer: 342
+Apoptotic: 342
+ORL1 Antagonist: 342
+hCMV Protease Inhibitor: 342
+D3-Receptor Antagonist: 342
+Neuroinflammation: 342
+Pancreatic Lipase Inhibitor: 341
+MDR-Reversal Agent: 341
+Glucocorticoid Receptor Ligand: 340
+hCA Inhibitor: 340
+Hsp70 Inhibitor: 339
+Colorectal Cancer: 339
+Selective Estrogen Receptor Modulator: 339
+Antiatherosclerotic: 339
+Histamine H4R Ligand: 338
+Hypnotic: 338
+Multi-target: 338
+Insecticide: 338
+Methionyl tRNA Synthetase Inhibitor: 337
+Hh Signaling Inhibitor: 337
+SYK Inhibitor: 337
+Histamine H3 Receptor Agonist: 336
+Fluorescent: 336
+CDPK1 Inhibitor: 336
+Cytoskeleton Disruptor: 336
+Adenosine Deaminase Inhibitor: 336
+Heparanase Inhibitor: 336
+LFA-1/ICAM Inhibitor: 335
+TLR7/8/9 Antagonist: 334
+HIV Maturation Inhibitor: 333
+XIAP Inhibitor: 332
+Muscle Relaxant: 331
+MIF Inhibitor: 331
+5-HT6 Agonist: 330
+Alpha4beta2 nAChR Ligand: 330
+VDR Agonist: 330
+Coronary Vasodilator: 330
+Anticancer Prodrug: 329
+Antikinetoplastid: 329
+Cytotoxicity: 329
+Kv1.5 Inhibitor: 329
+Thymidylate Kinase Inhibitor: 329
+G-Quadruplex DNA Binder: 328
+Menin-MLL1 Inhibitor: 328
+Galectin-3 Antagonist: 328
+NSCLC Treatment: 328
+S-adenosylhomocysteine Hydrolase Inhibitor: 327
+Beta-Glucosidase Inhibitor: 327
+Alpha 1-Adrenoceptor Blocker: 326
+H3R Antagonist: 326
+FTase Inhibitor: 326
+Thyromimetic: 325
+Immune Checkpoint Inhibitor: 325
+MLL1 Inhibitor: 325
+Platelet Activating Factor Antagonist: 325
+Substance P Antagonist: 325
+LFA-1 Antagonist: 325
+Sigma Ligand: 324
+TBK1/IKKi Inhibitor: 324
+A(2A) Receptor Antagonist: 324
+USP7 Inhibitor: 323
+GPR120 Partial Agonist: 323
+ATPase Inhibitor: 322
+Chagas' Disease Treatment: 322
+CYP1A Inhibitor: 321
+KDM4 Inhibitor: 321
+Endocannabinoid Modulator: 321
+TrkA Inhibitor: 321
+D2 Agonist: 320
+M1 Agonist: 320
+Anti-Chagas: 320
+Caspase 1 Inhibitor: 320
+Histamine H2-Receptor Antagonist: 319
+TDP1 Inhibitor: 319
+Glucose Uptake Stimulator: 319
+CYP 2C9 Inhibitor: 318
+Alkaline Phosphatase Inhibitor: 318
+Amyloid Fibril Formation Inhibitor: 318
+FXIIa Inhibitor: 318
+Vascular-Disrupting Agent: 317
+Non-nucleoside Reverse Transcriptase Inhibitor: 317
+DNA Cross-linking: 316
+Cathepsin D Inhibitor: 316
+NDM-1 Inhibitor: 316
+20S Proteasome Inhibitor: 315
+EphB4 Inhibitor: 315
+BRS-3 Agonist: 315
+Notum Inhibitor: 315
+D1 Receptor Antagonist: 314
+C5a Receptor Antagonist: 314
+Trypanosoma Inhibitor: 313
+Malaria: 312
+Vascular-Disrupting: 312
+Prostate Cancer Inhibitor: 311
+Integrin Inhibitor: 311
+Sigma1R Ligand: 310
+KDM5 Inhibitor: 310
+PTR1 Inhibitor: 310
+hCA II Inhibitor: 310
+GPR109a Agonist: 310
+Beta-Glucocerebrosidase Inhibitor: 309
+Protein Kinase C Ligand: 307
+MK-2 Inhibitor: 307
+RIP1 Inhibitor: 307
+Mitotic Inhibitor: 306
+Selective Androgen Receptor Modulator: 305
+Beta-Adrenergic Antagonist: 305
+5-HT2A Receptor Inverse Agonist: 305
+Adenylyl Cyclase Inhibitor: 303
+MOR Agonist: 302
+FXIa Inhibitor: 302
+Insulin Release Inhibitor: 301
+hERG Channel Inhibitor: 300
+hERG K+ Channel Blocker: 300
+CaMKII Inhibitor: 300
+Apelin Receptor Agonist: 299
+Tubulin Assembly Inhibitor: 299
+PI3K-Akt Inhibitor: 299
+MS Treatment: 299
+Prolyl Oligopeptidase Inhibitor: 299
+Grb2-SH2 Inhibitor: 298
+PET Ligand: 298
+IL-5 Inhibitor: 298
+Trypsin Inhibitor: 298
+Leukotriene Inhibitor: 298
+PDE IV Inhibitor: 298
+HNE Inhibitor: 298
+Topo-I Inhibitor: 297
+DNA Replication Inhibitor: 297
+PAR4 Inhibitor: 297
+EBV Inhibitor: 297
+Chikungunya Inhibitor: 297
+Chitin Synthetase Inhibitor: 297
+DOT1L Inhibitor: 296
+MRSA Inhibitor: 296
+Prostatic Cancer Treatment: 296
+Ebola Virus Inhibitor: 296
+AAK1 Inhibitor: 296
+MMP12 Inhibitor: 295
+Soluble Epoxide Hydrolase Inhibitor: 295
+ICAM-1 Inhibitor: 295
+Transthyretin Inhibitor: 295
+Antichagasic: 294
+PPARAlpha/Delta Agonist: 294
+Tdp1 Inhibitor: 293
+5-HT Reuptake Inhibitor: 292
+Heart Failure: 292
+Neuroinflammatory Inhibitor: 292
+CFTR Potentiator: 292
+Opioid Analgesic: 291
+DNA Methyltransferase Inhibitor: 291
+SENP Inhibitor: 291
+hNK1 Antagonist: 291
+Epigenetic Modulator: 290
+Radioprotective: 289
+FKBP Inhibitor: 289
+PRMT Inhibitor: 289
+CXCR4 Inhibitor: 288
+Immunotherapeutic: 288
+Beta-Adrenergic Receptor Ligand: 288
+AD Treatment: 288
+T-Cell Inhibitor: 288
+Sirt 1 Activator: 288
+5-HT(4)R Ligand: 287
+Alpha7 Nicotinic Acetylcholine Receptor Ligand: 287
+alpha-Chymotrypsin Inhibitor: 287
+Antiestrogenic: 287
+Anti-Amyloid: 286
+Antihistaminic: 285
+Wee1 Kinase Inhibitor: 285
+Somatostatin Agonist: 285
+Beta-Amyloid Imaging Agent: 285
+Autoimmune Disease: 285
+mGluR Agonist: 284
+TAFI Inhibitor: 284
+Ghrelin Receptor Ligand: 284
+RIPK1 Inhibitor: 283
+T-Type Calcium Channel Inhibitor: 283
+Histamine H1 Receptor Antagonist: 283
+DAAO Inhibitor: 283
+Autotaxin Inhibitor: 282
+ROMK Inhibitor: 282
+D1 Dopamine Receptor Agonist: 281
+Antifertility: 281
+NIK Inhibitor: 281
+Anticholinergic: 280
+AHAS Inhibitor: 280
+DENV 2 Inhibitor: 280
+Rhodesain Inhibitor: 280
+Synthetic Lethality: 280
+NR2B Selective: 280
+CYP2A6 Inhibitor: 279
+Thymidine Kinase Inhibitor: 279
+Flavivirus Inhibitor: 277
+eIF4E/eIF4G Inhibitor: 277
+Bruton's Tyrosine Kinase Inhibitor: 276
+Antidyslipidemic: 276
+Inflammation: 276
+CD38 Inhibitor: 276
+ERAlpha Antagonist: 276
+Anti-Convulsant: 275
+Larvicidal: 274
+Lactate Dehydrogenase Inhibitor: 273
+Adenosine A2A Agonist: 273
+Somatostatin Antagonist: 273
+Cancer Stem Cell Inhibitor: 272
+Leishmaniasis: 272
+Allosteric: 272
+TAAR1 Agonist: 272
+PDE Inhibitor: 272
+Chitinase Inhibitor: 272
+Kv1.3 Inhibitor: 272
+Cathepsin C Inhibitor: 271
+West Nile Protease Inhibitor: 271
+Anti-Virulence: 271
+Somatostatin Analog: 271
+Voltage-Gated Calcium Channel Ligand: 271
+DDR1/2 Inhibitor: 270
+CLK Inhibitor: 270
+Viral Entry Inhibitor: 270
+Potassium-Competitive Acid Blocker: 270
+B-Raf Kinase Inhibitor: 270
+Cholesterol Absorption Inhibitor: 270
+Monoamine Reuptake Inhibitor: 268
+Tuberculosis Drug: 267
+VCAM-1 Inhibitor: 267
+PDE1A Inhibitor: 267
+Colon Cancer: 266
+DNA Repair: 266
+Glycolysis Inhibitor: 266
+Osteogenic: 265
+Benzodiazepine Receptor Agonist: 265
+Breast Cancer Inhibitor: 264
+Leishmania Inhibitor: 264
+Anthrax: 264
+PPAR Gamma Modulator: 263
+5-HT3 Receptor Agonist: 262
+RORGammat Inhibitor: 262
+Orexin 2 Receptor Agonist: 262
+Sodium Channel Modulator: 262
+Th17 Cell Inhibitor: 262
+SERCA Inhibitor: 261
+RORGammat Agonist: 261
+NMDA Receptor Blocker: 260
+Carbonic Anhydrase Activator: 260
+RANKL Inhibitor: 260
+NQO1 Inducer: 260
+Anti-Hyperuricemic: 260
+MTP Inhibitor: 260
+Smo Antagonist: 260
+BRPF1 Inhibitor: 260
+5-HT(7) Receptor Agonist: 259
+fXa Inhibitor: 259
+Plasmin Inhibitor: 259
+Ghrelin Receptor Agonist: 259
+Glucosylceramide Synthase/ Glucosylceramidase Inhibitor: 259
+Serotonergic Uptake Inhibitor: 258
+Nootropic: 258
+Autoimmune Diseases: 258
+gGAPDH Inhibitor: 258
+CA II Inhibitor: 258
+Immuno-Oncology: 258
+Blood Pressure Lowering: 258
+Reactivator: 257
+Anti-HCMV: 257
+Melatoninergic Ligand: 257
+COVID-19: 257
+Gram-Negative Antibiotic: 257
+EP2 Antagonist: 257
+Dopamine D3/D4 Agonist: 256
+nACh Receptor Agonist: 256
+Irreversible: 256
+Migration Inhibitor: 256
+T-cell Proliferation Inhibitor: 256
+Anti-TNBC: 256
+TTK Inhibitor: 256
+Serotoninergic Agonist: 255
+Differentiation Inducer: 255
+Cyclophilin Inhibitor: 255
+CCR5 Inhibitor: 254
+Sigma1 Receptor Antagonist: 254
+Pesticidal: 254
+CCK2 Receptor Ligand: 254
+Sedative Hypnotic: 254
+Cocaine Analog: 254
+MC3R Agonist: 254
+Alzheimer's Disease Therapeutic: 253
+cGMP PDE Inhibitor: 253
+Antimultiple Myeloma: 253
+FPT Inhibitor: 253
+Anti-Leukemia: 252
+FMS Inhibitor: 252
+Bronchoconstriction Inhibitor: 252
+NS5A Inhibitor: 252
+Multidrug-Resistance Modulator: 252
+Fatty Acid Oxidation Inhibitor: 252
+MCD Inhibitor: 251
+ALK2 Inhibitor: 251
+Cytokine Inducer: 251
+Lipoprotein-Associated Phospholipase A(2) Inhibitor: 251
+Cytotoxin: 250
+Covalent: 250
+Cannabinoid Receptor Antagonist: 250
+Androgen Receptor Degrader: 250
+Kappa Opioid Receptor Ligand: 250
+Alpha4Beta1 Integrin Antagonist: 250
+Organic Anion Transporter: 250
+M3 Muscarinic Receptor Antagonist: 250
+Sigma Receptor Antagonist: 249
+Muscarinic M1 Agonist: 249
+Anti-Cancer Agent: 249
+MraY Inhibitor: 249
+MurA Inhibitor: 249
+RNA Binding: 249
+Glutamate Racemase Inhibitor: 248
+Leukotriene D4 Receptor Antagonist: 248
+CK1Alpha Inhibitor: 248
+PD Treatment: 247
+Progesterone Receptor Ligand: 247
+Adenosine A3 Receptor Antagonist: 247
+Chronic Pain Treatment: 247
+Diabetes Treatment: 247
+Insomnia Treatment: 247
+Antianaphylactic: 246
+Heme Oxygenase-1 Inhibitor: 246
+ZAP-70 Inhibitor: 246
+FABP4 Inhibitor: 246
+BET BD1 Inhibitor: 246
+Ovarian Cancer: 245
+PTK Inhibitor: 245
+KDM1 Inhibitor: 245
+dCTP Pyrophosphatase Inhibitor: 244
+Antirhinovirus: 244
+Mammary Tumor Inhibitor: 244
+Gastroprotective: 244
+SMYD2 Inhibitor: 244
+Bacterial Topoisomerase Inhibitor: 244
+IL-2 Inhibitor: 244
+Antileukemia: 243
+E-Selectin Inhibitor: 243
+Vanilloid Receptor Antagonist: 243
+Ribosome Inhibitor: 243
+NET Inhibitor: 242
+Cullin Neddylation Inhibitor: 242
+Anti-Gastric Cancer: 242
+Broad-spectrum Antibiotic: 242
+Antiadipogenic: 242
+Histone Deacetylase-6 Inhibitor: 242
+VMAT-2 Inhibitor: 242
+DNA Damage Response: 242
+Tumor-Targeting: 242
+IDO1/TDO Dual Inhibitor: 241
+Antimigratory: 241
+EP2 Agonist: 241
+Hypoxia-Selective: 241
+Epidermal Growth Factor Receptor Inhibitor: 240
+PAR-2 Agonist: 240
+PCSK9 Inhibitor: 240
+MPS1 Inhibitor: 240
+Cell Proliferation Inhibitor: 240
+Cyclin D1-CDK4 Inhibitor: 240
+MurD Inhibitor: 239
+D3 Agonist: 239
+Spasmolytic: 239
+nAChR Antagonist: 239
+Appetite Suppressant: 239
+Mitochondrial Inhibitor: 239
+Anti-HCC: 239
+Phytotoxic: 239
+Dyslipidemia: 239
+Glycine Transporter-1 Inhibitor: 239
+Chronic Pain: 238
+BoNT/A1 Inhibitor: 238
+Antipancreatic Cancer: 238
+CNS Stimulant: 237
+NOD1/NOD2 Antagonist: 237
+Beta-catenin/Tcf4 Inhibitor: 237
+Thrombosis: 237
+MCH R1 Antagonist: 237
+WDR5 Inhibitor: 237
+Btk Inhibitor: 236
+p300/CBP HAT Inhibitor: 236
+ROS Inhibitor: 236
+Smooth Muscle Relaxant: 235
+Protein Kinase CK2 Inhibitor: 235
+GPR35 Agonist: 235
+Myorelaxant: 234
+Lymphoma: 234
+PAK1 Inhibitor: 234
+MAO B Inhibitor: 233
+Lung Cancer: 233
+Gaucher's Disease: 233
+IL-17 Inhibitor: 233
+MR Antagonist: 233
+HCV RdRp Inhibitor: 233
+Superoxide Inhibitor: 232
+Tpl2 Kinase Inhibitor: 232
+PI4K Inhibitor: 232
+Helicase Inhibitor: 232
+Anti-Hepatoma: 232
+Cystic Fibrosis: 232
+Corticotropin-Releasing Factor-1 Receptor Antagonist: 232
+Estrogen Receptor Binder: 231
+Kynurenine 3-Monooxygenase Inhibitor: 231
+Beta-Adrenoceptor Antagonist: 230
+Pyruvate Kinase Inhibitor: 230
+HIV Reverse Transcriptase Inhibitor: 230
+dUTPase Inhibitor: 230
+Cholecystokinin 2 Receptor Antagonist: 230
+Androgen Receptor Inhibitor: 229
+Urotensin II Receptor Agonist: 229
+Neurite Outgrowth Promoter: 229
+Pro-Cognitive: 229
+HSA-Binding: 228
+Spore Germination Inhibitor: 228
+Legumain Inhibitor: 228
+Anti-Candida: 228
+TrxR Inhibitor: 228
+IN-LEDGF/p75 Inhibitor: 227
+Glioma: 227
+PHGDH Inhibitor: 227
+NMDAR PAM: 227
+Osteosarcoma: 226
+LDHA Inhibitor: 226
+Antipicornavirus: 226
+H. pylori: 225
+Mu Agonist: 225
+Voltage-Gated Sodium Channel Blocker: 225
+QR1 Inducer: 225
+EGFR-TKI: 225
+NQO1 Substrate: 225
+BCL6 Inhibitor: 225
+Protein Degradation: 224
+Gyrase Inhibitor: 224
+Stearoyl-CoA Desaturase-1 Inhibitor: 224
+Cytotoxicity Enhancer: 224
+Geranylgeranyl Pyrophosphate Synthase Inhibitor: 224
+Biofilm Eradicator: 224
+NPBWR1 Antagonist: 224
+DXR Inhibitor: 224
+PRC2 Inhibitor: 224
+Intraocular Pressure-Lowering: 224
+LXRBeta Agonist: 224
+Tubulin-Targeting: 224
+Acaricidal: 223
+Melanin-Concentrating Hormone Receptor 1 Antagonist: 223
+NPP1 Inhibitor: 223
+Motilin Agonist: 223
+CRH1-R Antagonist: 223
+RAGE Inhibitor: 223
+Nek1 Inhibitor: 222
+IKKbeta Inhibitor: 222
+KLK6 Inhibitor: 222
+PPARGamma Partial Agonist: 222
+PqsD Inhibitor: 222
+GIRK Activator: 222
+DNA Alkylating Agent: 221
+PPI Inhibitor: 221
+CFTR Corrector: 221
+Schistosomiasis: 221
+DNA Binding Ligand: 221
+p97 Inhibitor: 220
+Stroke Treatment: 220
+ALDH1A1 Inhibitor: 220
+Anti-Melanogenesis: 220
+Y5 Receptor Antagonist: 220
+DNA Ligase Inhibitor: 220
+Dopamine-Autoreceptor Agonist: 219
+Sedative: 219
+Tau Phosphorylation Inhibitor: 219
+5-HT Uptake Inhibitor: 219
+MTDL: 219
+Biometal Chelator: 219
+GAK Inhibitor: 219
+CNS Penetration: 218
+ASBT Inhibitor: 218
+ACC1/2 Inhibitor: 218
+K+ Channel Blocker: 217
+Microtubule Polymerization Inhibitor: 217
+GPR84 Agonist: 217
+Antianginal: 217
+G6PD Inhibitor: 217
+DNA Polymerase III Inhibitor: 217
+Cognition: 217
+Trypanosoma cruzi: 216
+CYP26A1 Inhibitor: 216
+PDHK Inhibitor: 216
+Axl Inhibitor: 216
+Calcimimetic: 216
+Toxoplasmosis: 216
+RT Inhibitor: 215
+DNMT1 Inhibitor: 215
+Melanin Biosynthesis Inhibitor: 215
+CB2 Antagonist: 215
+ATAD2 Inhibitor: 215
+RBP4 Antagonist: 215
+Fluorescent Probe: 214
+Muscarinic M3 Receptor Antagonist: 214
+Monoacylglycerol Lipase Inhibitor: 214
+Geranylgeranyltransferase Inhibitor: 214
+PDT: 214
+GPR88 Agonist: 214
+mPTP Blocker: 213
+Adenosine A2B Receptor Antagonist: 213
+MurB Inhibitor: 213
+EPI: 213
+H4R Antagonist: 213
+IKK-beta Inhibitor: 212
+Anabolic: 212
+FASII Inhibitor: 212
+HIF PHD Inhibitor: 212
+BPH Treatment: 212
+Pf-DHFR Inhibitor: 211
+AR Inhibitor: 211
+PPAR-gamma Ligand: 211
+VGLUT Inhibitor: 211
+NMDA Receptor Agonist: 211
+Plasma Kallikrein Inhibitor: 211
+Tyrosyl tRNA Synthetase Inhibitor: 211
+KOR Antagonist: 211
+HMGR Inhibitor: 211
+Mast Cell Stabiliser: 210
+Dopamine Modulator: 210
+NK(1) Antagonist: 210
+Anti-Influenza A: 210
+Membrane Disruptor: 210
+ER Stress Inhibitor: 210
+Quinone Reductase Inducer: 210
+Cell Cycle Blocker: 210
+hA(3) Adenosine Receptor Antagonist: 210
+Beta-1,3-Glucan Synthase Inhibitor: 210
+TRPM2 Antagonist: 210
+H2S Donor: 209
+Epigenetic Regulator: 209
+Noradrenaline Reuptake Inhibitor: 209
+AXL Kinase Inhibitor: 208
+BBB Penetration: 208
+Breast Cancer Treatment: 208
+FimH Antagonist: 208
+PNP Inhibitor: 208
+Histidine Kinase Inhibitor: 207
+Protoporphyrinogen Oxidase Inhibitor: 207
+Antibiotic Synergist: 207
+Antiemetic: 207
+Metabolism Modulator: 207
+H3R Agonist: 206
+GLS-1 Inhibitor: 206
+TRPA1 Agonist: 206
+GCPII Inhibitor: 206
+GR Antagonist: 206
+Prolyl-4-Hydroxylase Inhibitor: 206
+Anti-Vascular: 206
+Methionine Aminopeptidase Inhibitor: 206
+Anthrax LF Inhibitor: 206
+GLP-2 Agonist: 206
+TPH1 Inhibitor: 206
+IAP Inhibitor: 205
+Utrophin Modulator: 205
+Beta Cell Protection: 205
+Stromelysin-1 Inhibitor: 205
+TNNI3K Inhibitor: 205
+Neuronal NO Synthase Inhibitor: 204
+Beta-hematin Formation Inhibitor: 204
+HCC: 204
+Shiga Toxin Inhibitor: 204
+Peripheral-Type Benzodiazepine Receptor Ligand: 204
+DYRK Inhibitor: 204
+AMPA Agonist: 204
+Enkephalinase Inhibitor: 204
+TGF-Beta Receptor Inhibitor: 204
+T2DM Treatment: 204
+D2/D3 Agonist: 203
+17 alpha-hydroxylase/C17,20-lyase Inhibitor: 203
+GR Agonist: 203
+D3R Ligand: 203
+Lipophilicity: 202
+TTR Amyloidogenesis Inhibitor: 202
+Smoking Cessation: 202
+Anti-Arthritis: 202
+TLR4 Inhibitor: 202
+AKT/mTOR Inhibitor: 202
+TRPV4 Antagonist: 202
+RIPK2 Inhibitor: 202
+Colorectal Cancer Inhibitor: 202
+PLD1/2 Inhibitor: 202
+Visceral Leishmaniasis: 202
+RNase L Activator: 202
+PTP Inhibitor: 201
+EGFR Degrader: 201
+TbrPDE Inhibitor: 201
+Vitamin D3 Agonist: 201
+IPF Treatment: 201
+ALS Treatment: 200
+TRPA1 Modulator: 200
+Anticandidal: 200
+Bone Anabolic: 200
+Senescence Inducer: 200
+Inducible Nitric Oxide Synthase Inhibitor: 199
+Cervix Cancer: 199
+IRAP Inhibitor: 199
+NR2B-Selective NMDA Antagonist: 199
+Monoamine Transporter Ligand: 199
+Maxi-K Channel Opener: 199
+GPR142 Agonist: 199
+SMA Treatment: 199
+Factor IXa Inhibitor: 199
+Sigma2 Receptor Ligand: 198
+GGTase-I Inhibitor: 198
+Y1 Antagonist: 198
+GABA(A) alpha5 Inverse Agonist: 197
+Nampt Inhibitor: 197
+Mycobacterium tuberculosis: 197
+Antiatherogenic: 197
+Anti-HSV-1: 197
+Dual Agonist: 197
+Insomnia: 197
+LDL Receptor Up-regulator: 197
+Influenza Fusion Inhibitor: 196
+Blood-Brain Barrier: 196
+Antiherpes: 196
+HAT: 196
+Alpha3Beta4 nAChR Antagonist: 196
+Acrosin Inhibitor: 196
+Phosphopantetheine Adenylyltransferase Inhibitor: 196
+GSNOR Inhibitor: 196
+Cardioselective: 195
+DPP II Inhibitor: 195
+DPP8/9 Inhibitor: 195
+D2R/D3R Ligand: 195
+ACK1 Inhibitor: 194
+ICMT Inhibitor: 194
+D2R Agonist: 193
+Norovirus Inhibitor: 193
+Metabolic Disease Treatment: 193
+Icmt Inhibitor: 193
+Spermicidal: 192
+Mitochondrial: 192
+Antiseizure: 192
+Tumor Suppressor: 192
+Pancreatic Cancer Inhibitor: 192
+Choline Kinase Inhibitor: 192
+Caspase-3 Activator: 191
+Cholesterol Ester Transfer Protein Inhibitor: 191
+HPK1 Inhibitor: 191
+Topical Antiglaucoma: 191
+Angiogenesis: 190
+ABeta Reduction: 190
+S1P1-R Modulator: 190
+Alphavirus Inhibitor: 190
+Glioblastoma Inhibitor: 190
+Estrogen Biosynthesis Inhibitor: 190
+Superoxide Scavenger: 190
+GTPase Inhibitor: 189
+Therapeutic: 189
+Arthritis: 189
+BK Channel Opener: 189
+Topical Antiinflammatory: 189
+Anthrax Lethal Factor Inhibitor: 189
+Nucleoside Transporter Inhibitor: 189
+HPPD-Inhibitor: 189
+HDL Increase: 189
+MurF Inhibitor: 188
+D4 Receptor Agonist: 188
+BVDV Inhibitor: 188
+ERAP1 Inhibitor: 188
+Kv1.3 Blocker: 188
+CBP/EP300 Bromodomain Inhibitor: 188
+PAR2 Antagonist: 188
+URAT1 Inhibitor: 187
+BSEP Inhibitor: 187
+RAR Agonist: 187
+PKA Inhibitor: 187
+CB-1 Receptor Antagonist: 187
+Homologous Recombination Inhibitor: 187
+Ovarian Cancer Inhibitor: 187
+Atherosclerosis: 187
+CaSR Antagonist: 187
+Anti-RSV: 186
+AD Therapeutic: 186
+HIV: 186
+Wound-Healing: 186
+Fatty Acid Amide Hydrolase Inhibitor: 186
+Anti-TNF-alpha: 186
+PBR Ligand: 186
+Phosphodiesterase 5 Inhibitor: 186
+FPR Agonist: 186
+Nitric Oxide Synthase Inhibitor: 185
+KDR Kinase Inhibitor: 185
+LasR Antagonist: 185
+Neurotensin Agonist: 185
+Translation Initiation Inhibitor: 185
+ERK5 Inhibitor: 185
+Histamine H4R Agonist: 184
+M1 Antagonist: 184
+Drug Design: 184
+Biased Ligand: 184
+Monoamine Uptake Inhibitor: 184
+Histamine-Release Inhibitor: 184
+EAAT2 Inhibitor: 184
+Orexin 2 Receptor Ligand: 184
+LeuRS Inhibitor: 183
+Squalene Epoxidase Inhibitor: 183
+Coronary Vasoactivity: 183
+Cancer Cell Inhibitor: 183
+PDE9A Inhibitor: 183
+Beta-Galactofuranosidase Inhibitor: 183
+Antitrichomonal: 182
+Retinoid: 182
+Cellular Differentiation: 182
+ORL1 Agonist: 182
+CRF1 Receptor Ligand: 182
+NK1 Receptor Ligand: 182
+H5N1 Inhibitor: 181
+GPR84 Antagonist: 181
+HIF-2 Inhibitor: 181
+Local Anesthetic: 181
+Anti-AML: 181
+Chk2 Inhibitor: 181
+VCP Inhibitor: 181
+Histamine Receptor Antagonist: 181
+CCR8 Antagonist: 181
+Insulin Secretion Inhibitor: 181
+Porcupine Inhibitor: 181
+PTEN-Deficient Tumors: 181
+QR2 Inhibitor: 180
+BCAT Inhibitor: 180
+Anti-Allergic: 180
+Prolylendopeptidase Inhibitor: 180
+SRS-A Antagonist: 180
+mGluR2 Potentiator: 180
+Sweetener: 180
+TRPM8 Agonist: 180
+Alpha-L-Fucosidase Inhibitor: 180
+pp60v-src Inhibitor: 180
+Nitric Oxide Donor: 180
+GroEL/ES Inhibitor: 180
+NPFF1 Antagonist: 179
+TS Inhibitor: 179
+FASN Inhibitor: 179
+Atherosclerosis Treatment: 179
+CD4 Mimic: 179
+HIF Prolyl-Hydroxylase Inhibitor: 179
+PLpro Inhibitor: 179
+EED Inhibitor: 179
+GHSR-1a Agonist: 179
+Notch-Sparing: 179
+Estrogen Receptor Downregulator: 179
+CYP121 Inhibitor: 178
+MMP3 Inhibitor: 178
+Autophagy Modulator: 178
+PBP2 Inhibitor: 178
+CBP/P300 Bromodomain Inhibitor: 178
+ICE Inhibitor: 178
+EthR2 Inhibitor: 178
+KATP Opener: 178
+AT1 Receptor Ligand: 178
+Gastrin Antagonist: 178
+Integrase Inhibitor: 177
+Plant Growth Regulator: 177
+GABAergic: 177
+MTH1 Inhibitor: 177
+AhR Agonist: 176
+Thyroid Hormone Receptor Inhibitor: 176
+Serine Hydrolase Inhibitor: 176
+TNBC Therapy: 176
+PLK4 Inhibitor: 176
+HIV-1 Vif Inhibitor: 176
+Antiinvasion: 175
+Cell Division Inhibitor: 175
+Human Rhinovirus Inhibitor: 175
+TMPKmt Inhibitor: 175
+Inflammatory Pain: 175
+Ebola Virus Entry Inhibitor: 175
+Delta Antagonist: 174
+Cytotoxic Potentiator: 174
+XIAP BIR3 Inhibitor: 174
+GCase Inhibitor: 174
+Photosynthesis-Inhibitor: 174
+Dopamine Beta-Hydroxylase Inhibitor: 173
+hERG Channel Modulator: 173
+Calcium-Sensing Receptor Antagonist: 173
+Cytochrome bc(1) Inhibitor: 173
+Anti-Pneumocystis: 173
+PPARGamma Antagonist: 173
+Benzodiazepine Receptor Inverse Agonist: 173
+Respiratory Syncytial Virus Inhibitor: 173
+Gastrointestinal Prokinetic: 173
+Autoimmune Disease Treatment: 173
+Protein Degrader: 173
+PKB/Akt1 Inhibitor: 173
+Endothelial Lipase Inhibitor: 173
+sGC Stimulator: 173
+Fusion Inhibitor: 172
+VAP-1 Inhibitor: 172
+PXR Agonist: 172
+Estrone Sulfatase Inhibitor: 172
+Antistaphylococcal: 172
+Tubulin Interaction: 172
+Psoriasis Treatment: 172
+West Nile Virus Inhibitor: 172
+Cholinergic Agonist: 171
+Anti-Dengue: 171
+17beta-hydroxysteroid Dehydrogenase Inhibitor: 171
+B1 Receptor Antagonist: 171
+Fluorescent Ligand: 171
+PGI2 Mimetic: 171
+Anti-Migration: 171
+Neurotensin Analog: 171
+Psoriasis: 170
+GluN2B Antagonist: 170
+Anticryptococcal: 170
+PKG Inhibitor: 170
+Neuritogenic: 170
+MDR Reverser: 170
+LXR Modulator: 170
+Sialidase Inhibitor: 170
+KISS1 Receptor Agonist: 170
+Anti-Lung Cancer: 170
+OX1 Antagonist: 170
+mGlu NAM: 170
+Antichlamydial: 169
+HSP70 Inhibitor: 169
+Aminoacyl tRNA Synthetase Inhibitor: 169
+RAF Inhibitor: 169
+Calcium Channel Modulator: 169
+H-PGDS Inhibitor: 169
+Oral Bioavailability: 168
+Serotonin Modulator: 168
+Glutamine Synthetase Inhibitor: 168
+Influenza Entry Inhibitor: 168
+VAChT Ligand: 168
+p53 Reactivator: 168
+Pain Relief: 168
+Intravenous Anesthetic: 168
+Insulinotropic: 168
+Protein Methyltransferase Inhibitor: 168
+NOP Receptor Ligand: 168
+Sirt2 Inhibitor: 167
+Epoxide Hydrolase Inhibitor: 167
+Theranostic: 167
+Cannabinoid-1 Receptor Antagonist: 167
+HIV Latency Reversal Agent: 167
+Anti-Mitotic: 167
+PHD2 Inhibitor: 167
+Bradycardic Agent: 167
+MmpL3 Inhibitor: 167
+SHBG Ligand: 166
+Gluconeogenesis Inhibitor: 166
+ROS Generator: 166
+Ischemic Stroke: 166
+Mast Cell Inhibitor: 166
+Insulin Mimetic: 166
+DHPS Inhibitor: 166
+MOR Antagonist: 166
+CARM1 Inhibitor: 166
+Alpha4beta1/Alpha4beta7 Integrin Antagonist: 165
+Anemia Treatment: 165
+Steroid 5 alpha-reductase Inhibitor: 165
+Antitumor-Promoter: 165
+Anti-Hyperalgesic: 165
+HIV-1 Replication Inhibitor: 165
+Liver-Targeting: 165
+Oxytocin Receptor Agonist: 165
+Leukotriene A4 Hydrolase Inhibitor: 165
+KMO Inhibitor: 165
+A3AR Antagonist: 165
+Toxic: 164
+Pancreatic Cancer Cytotoxic: 164
+GK Activator: 164
+Cytosolic Phospholipase A2 Inhibitor: 164
+TyrRS Inhibitor: 164
+ERRGamma Inverse Agonist: 164
+Neuroregenerative: 164
+eEF-2K Inhibitor: 164
+Purine Nucleoside Phosphorylase Inhibitor: 164
+Pantothenate Synthetase Inhibitor: 163
+DAGLalpha Inhibitor: 163
+Lipase Inhibitor: 163
+DPPH Radical Scavenger: 163
+Anti-MM: 163
+sGC Activator: 163
+NOP Agonist: 163
+MGL Inhibitor: 163
+Pain Reliever: 163
+Smac Mimetic: 163
+Hallucinogen: 163
+DNA-Damaging: 162
+mIDH1/2 Inhibitor: 162
+Bladder Relaxant: 162
+Pks13 Inhibitor: 162
+MAPKAPK-2 Inhibitor: 162
+Anaplastic Lymphoma Kinase Inhibitor: 162
+Anti-Glioblastoma: 161
+TLR7/8 Inhibitor: 161
+QS Inhibitor: 161
+Antiausterity: 161
+Antiacne: 161
+Caspase Activator: 161
+Influenza Sialidase Inhibitor: 161
+Antilipolytic: 161
+GluK1 Antagonist: 161
+VDR Antagonist: 161
+eIF4A3 Inhibitor: 161
+RXFP3 Agonist: 161
+Dihydropteroate Synthase Inhibitor: 161
+Endometriosis: 161
+Quinolone Antibiotic: 161
+Protein Aggregation Inhibitor: 160
+PAK4 Signaling Inhibitor: 160
+Proliferation Inhibitor: 160
+CFTR Inhibitor: 160
+A3 Adenosine Receptor Ligand: 160
+MYC Inhibitor: 160
+Norepinephrine Transporter Ligand: 160
+Anti-Trichomonas: 159
+Topo II Inhibitor: 159
+HIV-1 Tat Inhibitor: 159
+Amyloid Imaging Agent: 159
+RXR Modulator: 159
+M(2) Receptor Antagonist: 159
+hMC4R Agonist: 159
+P-CAB: 158
+NOP Receptor Antagonist: 158
+HIV-1 CA Inhibitor: 158
+NFAT Inhibitor: 158
+Nox4/Nox1 Inhibitor: 158
+Cytomegalovirus Inhibitor: 158
+Raf-1 Inhibitor: 158
+Cognitive Impairment: 157
+NDH-2 Inhibitor: 157
+Drug Delivery: 157
+RSV RNA Polymerase Inhibitor: 157
+Antiallodynic: 157
+MKK4 Inhibitor: 157
+NPC1L1 Ligand: 157
+GABA(A) Receptor Potentiator: 157
+Antibiotic Enhancer: 157
+FKBP12 Ligand: 157
+Schizophrenia Treatment: 157
+Mutagenic: 157
+MC4 Agonist: 157
+sst5 Agonist: 157
+Amyloidogenesis Inhibitor: 157
+Mutant IDH1/2 Inhibitor: 157
+AKT Degrader: 157
+ATM Kinase Inhibitor: 157
+ALS: 156
+DCN1-UBC12 Inhibitor: 156
+APJ Agonist: 156
+Hepsin Inhibitor: 156
+AT2 Receptor Agonist: 156
+Phosphodiesterase-10 Inhibitor: 156
+Adenosine A3 Receptor Agonist: 156
+TXA2/PGH2 Receptor Antagonist: 156
+Antidiarrheal: 155
+Narcotic Analgesic: 155
+GHB Binding Ligand: 155
+Glycine Site Antagonist: 155
+Cell-Penetrating: 155
+GyrB/ParE Inhibitor: 155
+Membrane Active: 155
+Heme-Binding: 155
+Insect Antifeedant: 155
+Cell Wall Inhibitor: 155
+Peptidoglycan Biosynthesis Inhibitor: 155
+TgCDPK1 Inhibitor: 155
+DP-Receptor Antagonist: 155
+CB1 Allosteric Modulator: 155
+TNIK Inhibitor: 155
+CDK2/CyclinA Inhibitor: 155
+Bone Anabolic Agent: 155
+H4 Receptor Ligand: 154
+Adipogenesis/Lipogenesis Inhibitor: 154
+DNA-Cleavage: 154
+Liver-Selective: 154
+Atrial Fibrillation: 154
+Neuromuscular Block Reversal: 154
+MD2 Inhibitor: 154
+CME Inhibitor: 154
+Chaperone: 154
+hnps-PLA2 Inhibitor: 154
+CREB Inhibitor: 154
+Ecdysone Agonist: 154
+TRPV1 Modulator: 153
+CFTR Activator: 153
+Acute Pancreatitis: 153
+STAT5b Inhibitor: 153
+TGFBeta Inhibitor: 153
+Anti-SARS: 153
+M2 Proton Channel Inhibitor: 153
+TcTS Inhibitor: 153
+Mitotic Arrest: 153
+T3S Inhibitor: 153
+Dimerization Inhibitor: 153
+Stimulant: 152
+Ornithine Decarboxylase Inhibitor: 152
+Transcription Regulator: 152
+Virulence Factor Inhibitor: 152
+Sepsis: 152
+ORL1 Receptor Ligand: 152
+Hormone-Sensitive Lipase Inhibitor: 152
+Tau Inhibitor: 152
+Human Papillomavirus Inhibitor: 151
+Coxsackie B Virus Inhibitor: 151
+Necroptosis Inducer: 151
+Limk1 Inhibitor: 151
+Neuroblastoma: 151
+MPO Inhibitor: 151
+p53 Stabilizer: 151
+A3 Receptor Antagonist: 151
+STING Activator: 151
+Carbonic Anhydrase: 150
+CD13 Inhibitor: 150
+p56lck SH2 Inhibitor: 150
+VDR Ligand: 150
+miR-21 Inhibitor: 150
+Complex I Inhibitor: 150
+Fibrosis: 150
+Mer Kinase Inhibitor: 150
+FTO Inhibitor: 150
+11Beta-hydroxylase Inhibitor: 150
+Ethionamide Booster: 150
+Type II Inhibitor: 150
+ABeta Inhibitor: 149
+Anti-Melanoma: 149
+SREBPs Inhibitor: 149
+Raf/MEK/ERK Inhibitor: 149
+SARD: 149
+Antibiotic Resistance Inhibitor: 149
+Hsp90-Cdc37 PPI Inhibitor: 149
+Cardiac Myosin Activator: 149
+PACE4 Inhibitor: 149
+LH-RH Antagonist: 149
+Anti-TMV: 148
+Anti-Glioma: 148
+Anti-Androgenic: 148
+Siderophore Biosynthesis Inhibitor: 148
+Indoleamine 2,3-Dioxygenase Inhibitor: 148
+MGAT2 Inhibitor: 148
+OAB Treatment: 148
+Neuronal nAChR Ligand: 147
+HA Inhibitor: 147
+NF-KappaB Activator: 147
+GPR34 Agonist: 147
+Mitochondrial Dysfunction: 147
+Spike Protein Cleavage: 147
+SOCE Inhibitor: 147
+MDR1 Inhibitor: 147
+AMPA Receptor Ligand: 147
+Mitochondrial Function Modulator: 147
+Endocytosis Inhibitor: 147
+QS Modulator: 147
+FGF Receptor Inhibitor: 147
+C3a Receptor Agonist: 147
+KLK7 Inhibitor: 147
+Antiglycation: 147
+Dental Caries: 147
+Benzodiazepine Ligand: 146
+Galectin Inhibitor: 146
+TLR2 Inhibitor: 146
+ERBeta Agonist: 146
+Prostaglandin E2 Inhibitor: 146
+Transcriptional Repressor: 146
+GABAB Agonist: 146
+Microtubule Targeting Agent: 146
+Antidiuretic: 146
+AKR1B1 Inhibitor: 146
+Leukotriene B4 Receptor Antagonist: 146
+FIXa Inhibitor: 146
+Neutrophil Chemotaxis Inhibitor: 146
+H4 Receptor Antagonist: 145
+Androgen Receptor Agonist: 145
+Immunostimulatory: 145
+Antifouling: 145
+FabF Inhibitor: 145
+GABA(A) Receptor Inhibitor: 145
+C. difficile Inhibitor: 145
+GPIIb-IIIa Inhibitor: 145
+Epigenetic Inhibitor: 145
+VDR Modulator: 144
+Trypanosomacide: 144
+Cannabinoid: 144
+Ergosterol Biosynthesis Inhibitor: 144
+Glutaminase Inhibitor: 144
+CRPC Treatment: 144
+MT-Stabilizing: 144
+Proton-Pump Inhibitor: 143
+Neurite Outgrowth: 143
+GLUT1 Inhibitor: 143
+Cellular Differentiation Inducer: 143
+Pain Blocker: 143
+Dual Kinase Inhibitor: 143
+SET7 Inhibitor: 143
+Vitronectin Receptor Antagonist: 143
+NaV1.7 Blocker: 143
+Glycogen Synthase Inhibitor: 143
+p53-Inhibitor: 142
+DOR Antagonist: 142
+Beta-Amyloid Plaque Ligand: 142
+Progesterone Receptor Modulator: 142
+Metalloproteinase Inhibitor: 142
+PSMA Inhibitor: 142
+DDX3X Inhibitor: 142
+Antipyretic: 142
+Main Protease Inhibitor: 142
+Hypertension Treatment: 142
+Src Tyrosine Kinase Inhibitor: 142
+AMPA Potentiator: 142
+SGK1 Inhibitor: 142
+Urge Urinary Incontinence: 142
+Cognitive Dysfunction: 141
+PDI Inhibitor: 141
+ERbeta Agonist: 141
+Convulsant: 141
+Cruzipain Inhibitor: 141
+Anti-Herpes: 141
+Anti-Tumor-Promoting: 141
+cAMP Stimulator: 141
+ATM Inhibitor: 141
+CRPC: 141
+Membrane Permeabilizing: 140
+Colitis: 140
+Solubility Improver: 140
+CNS Disorder Treatment: 140
+ERbeta Ligand: 140
+Estrogen: 140
+HCA2 Agonist: 140
+HTLV-I Protease Inhibitor: 140
+Hallucinogenic: 140
+Alpha-Galactosidase Inhibitor: 140
+PAH Treatment: 140
+Amyloid Beta Reduction: 140
+EP(3) Receptor Antagonist: 140
+MT2 Antagonist: 140
+Catalytic Inhibitor: 140
+TNAP Inhibitor: 139
+Keratinocyte Growth Inhibitor: 139
+CB(1) Receptor Ligand: 139
+Pulmonary Arterial Hypertension: 139
+PGD2 Receptor Antagonist: 139
+Pyruvate Dehydrogenase Complex Inhibitor: 139
+Anti-Nociceptive: 138
+PLA2 Inhibitor: 138
+MC1R Agonist: 138
+Calcilytic: 138
+Melatonin Analogue: 138
+Cell-Cycle Modulator: 138
+Mast Cell Tryptase Inhibitor: 138
+Saluretic: 138
+Gram-Positive: 138
+Cholesterol Esterase Inhibitor: 138
+DRAK2 Inhibitor: 138
+Glucan Synthase Inhibitor: 138
+HIV-2 RT Inhibitor: 137
+Imaging Agent: 137
+Narcotic Agonist: 137
+Antirhinoviral: 137
+Cardiac Stimulant: 137
+Gastric ATPase Inhibitor: 137
+Alpha-Mannosidase Inhibitor: 137
+Phenylalanyl-tRNA Synthetase Inhibitor: 137
+Adenosine A3 Receptor Ligand: 137
+Acid Ceramidase Inhibitor: 137
+Vasopressin V(2) Receptor Agonist: 137
+CysK1 Inhibitor: 136
+Dopamine D1 Agonist: 136
+Renal Vasodilator: 136
+MAP4K2 Inhibitor: 136
+FFA2 Agonist: 136
+Nicotine Addiction: 136
+PDGF-RTK Inhibitor: 136
+Autoimmune Disorder: 136
+NTCP Inhibitor: 136
+EP Antagonist: 136
+Pan-Trk Inhibitor: 136
+Permeability: 136
+Central Nervous System Agent: 136
+RNA Ligand: 136
+K(ATP) Channel Activator: 136
+Anti-Amyloidogenic: 136
+Poxvirus Inhibitor: 135
+Polo-like Kinase Inhibitor: 135
+Inflammatory Diseases: 135
+SIRT5 Inhibitor: 135
+PREP Inhibitor: 135
+NAMPT Activator: 135
+Alpha(2)delta Ligand: 135
+IKr Channel Blocker: 135
+Neurodegenerative: 135
+Luciferase Inhibitor: 134
+MetRS Inhibitor: 134
+HCC Treatment: 134
+TRAIL Sensitizer: 134
+Bacteriostatic: 134
+CNS-Targeting: 134
+Signal Peptidase Inhibitor: 134
+HGF Inhibitor: 134
+Glycosyltransferase Inhibitor: 134
+HLE Inhibitor: 134
+Hepatitis B: 134
+AMP Deaminase Inhibitor: 134
+G Protein-Biased: 134
+Anti-Atherosclerotic: 133
+Sigma Receptor Agonist: 133
+Aldehyde Dehydrogenase Inhibitor: 133
+Mutant SOD1 Inhibitor: 133
+AdoHcy Hydrolase Inhibitor: 133
+Isoleucyl tRNA Synthetase Inhibitor: 133
+15-PGDH Inhibitor: 133
+Renoprotective: 133
+Osteoarthritis Treatment: 133
+DOR Agonist: 133
+NTR1 Agonist: 133
+Transforming Growth Factor-beta Type I Receptor Inhibitor: 133
+HD Treatment: 133
+hERG Liability: 133
+Lysosomal Storage Disorder: 133
+LTCC Inhibitor: 133
+CaV1.3 Antagonist: 133
+Tautomerase Inhibitor: 133
+GLUT9 Inhibitor: 133
+Atopic Dermatitis: 133
+Readthrough Inducer: 133
+V1a Receptor Antagonist: 132
+Alpha-Synuclein Inhibitor: 132
+PfDHODH Inhibitor: 132
+Multidrug Resistance: 132
+V-ATPase Inhibitor: 132
+ATP Citrate Lyase Inhibitor: 132
+ABCG2 Modulator: 132
+Deubiquitinase Inhibitor: 132
+FFA4 Agonist: 132
+IL-17A Modulator: 132
+UTI: 132
+LOXL2 Inhibitor: 132
+A1 Adenosine Receptor Modulator: 131
+Melanoma Treatment: 131
+L-Type Ca2+ Channel Blocker: 131
+CHIKV Inhibitor: 131
+Toxoplasma gondii: 131
+Anti-Proliferation: 131
+Glutathione-S-Transferase Inhibitor: 131
+Uricosuric: 131
+Anticomplement: 131
+tRNA-(N(1)G37) Methyltransferase Inhibitor: 131
+Motilin Antagonist: 131
+Protein-Protein Inhibitor: 131
+Cerebro-protective: 131
+Hepatic Steatosis: 131
+Neurotensin Receptor Ligand: 131
+Alzheimer's Disease Inhibitor: 130
+Lipogenesis Inhibitor: 130
+ALS Therapeutic: 130
+Photodynamic: 130
+Tuberculostatic: 130
+GPX4 Inhibitor: 130
+Anticarcinogenic: 130
+20-HETE Synthase Inhibitor: 130
+Relaxant: 130
+hERG Channel Ligand: 130
+MELK Inhibitor: 130
+HCV: 130
+lck Inhibitor: 130
+Acyl-CoA:cholesterol O-acyltransferase Inhibitor: 130
+HDM2 Inhibitor: 130
+NMUR1 Agonist: 130
+Melatonin Antagonist: 130
+mAChR Antagonist: 130
+NPFF Receptor Ligand: 130
+STS Inhibitor: 130
+Serotonin Receptor Antagonist: 129
+Opioid Kappa Agonist: 129
+Anti-IPF: 129
+ClpP Inhibitor: 129
+Dopamine Release Inhibitor: 129
+G4 Ligand: 129
+Integrin Ligand: 129
+Amnesia-Reversal: 129
+Biofilm Disruptor: 129
+SARS-CoV-2 PLpro Inhibitor: 129
+HSL Inhibitor: 129
+Organic Cation Transporter: 129
+Amyloid-Beta Aggregation Modulator: 129
+nSMase2 Inhibitor: 129
+SUMOylation Inhibitor: 129
+CXCR4 Modulator: 128
+hDHODH Inhibitor: 128
+ROS Scavenger: 128
+HDL-C Elevator: 128
+Analgesic Opioid Ligand: 128
+General Anesthetic: 128
+M5 PAM: 128
+Malarial Protease Inhibitor: 128
+GyrB Inhibitor: 128
+HldE Kinase Inhibitor: 128
+PXR Antagonist: 128
+PDHc-E1 Inhibitor: 128
+HRV-14 Inhibitor: 128
+Multi-targeted: 128
+NMDA Glycine-Site Antagonist: 127
+Dopamine D1 Antagonist: 127
+Histone Methylation: 127
+ASIC3 Inhibitor: 127
+FXR Modulator: 127
+ATGL Inhibitor: 127
+Carbonic Anhydrase XII Inhibitor: 127
+Lysosome-Targeting: 127
+Antiviral Prodrug: 127
+Cell Permeable: 127
+GPR55 Antagonist: 127
+Chemokine Receptor Inhibitor: 127
+CB1 Modulator: 127
+F508del Corrector: 127
+Phase II Enzyme Inducer: 127
+Methyltransferase Inhibitor: 127
+C3aR Antagonist: 127
+DP Antagonist: 127
+PRMT4 Inhibitor: 127
+Haemolytic Activity: 126
+Fibrinolysis Inhibitor: 126
+TRPC5 Inhibitor: 126
+EphA2 Agonist: 126
+LIMK2 Inhibitor: 126
+IKKAlpha Inhibitor: 126
+Cytotoxic Prodrug: 126
+ABHD6 Inhibitor: 126
+Insulin-Sensitizing: 126
+Tissue Repair: 126
+gp120-CD4 Inhibitor: 126
+RAD51 Inhibitor: 126
+ELOVL6 Inhibitor: 126
+Capsid Assembly Modulator: 126
+NK Cell Stimulator: 126
+aFABP Inhibitor: 126
+Insulin-Releasing: 126
+PIM Inhibitor: 126
+M4 PAM: 126
+D3 Ligand: 125
+DNMT Inhibitor: 125
+TRPA1 Activator: 125
+SAP2 Inhibitor: 125
+REV-ERB Agonist: 125
+Fabry Disease: 125
+Anti-Osteoclastogenic: 125
+PARP10 Inhibitor: 125
+IRE1Alpha Inhibitor: 125
+Mitochondrial Function: 125
+DNA Topoisomerase I Poison: 124
+Met Kinase Inhibitor: 124
+PKC Activator: 124
+IgE Inhibitor: 124
+DNA Polymerase IIIC Inhibitor: 124
+SRC Inhibitor: 124
+Bladder Contractions Inhibitor: 124
+Platelet Inhibitor: 124
+NADH:ubiquinone Oxidoreductase Inhibitor: 124
+PEPT1 Substrate: 124
+FimH Inhibitor: 124
+Allergic Rhinitis: 124
+Metabolic Stability: 124
+Spleen Tyrosine Kinase Inhibitor: 124
+Nonsense Mutation: 124
+Neddylation Inhibitor: 124
+HO-1 Inhibitor: 123
+LPAAT-beta Inhibitor: 123
+RNA Synthesis Inhibitor: 123
+MT(2) Agonist: 123
+CypA Inhibitor: 123
+LRH-1 Agonist: 123
+NTS2 Ligand: 123
+NASH: 123
+Prostacyclin Mimetic: 123
+Quorum Sensing Modulator: 123
+ACC Inhibitor: 123
+Insulin Secretion Stimulator: 123
+Pharmacoenhancer: 123
+Myostatin Inhibitor: 123
+HAT Treatment: 123
+AD: 123
+HDAC11 Inhibitor: 122
+5-Lipoxygenase-Activating Protein Inhibitor: 122
+HRV 3C-Protease Inhibitor: 122
+VEEV Inhibitor: 122
+STAT6 Inhibitor: 122
+Alcohol Dehydrogenase Inhibitor: 122
+CXCR1 Inhibitor: 122
+Vitamin D3 Antagonist: 122
+Cytokinin Antagonist: 122
+iNOS Dimerization Inhibitor: 122
+CBX7 Antagonist: 122
+Benzodiazepine Receptor Binder: 122
+Prion Disease Therapeutic: 122
+PARP14 Inhibitor: 122
+NMDAR Antagonist: 121
+Psychotropic: 121
+mGlu5a Ligand: 121
+MCT1 Inhibitor: 121
+IOP-Lowering: 121
+gammadelta T Cell Activator: 121
+TREK-1/2 Activator: 121
+RXRAlpha Antagonist: 121
+Bone Formation: 121
+Anti-Infectious: 121
+BAZ2B Bromodomain Ligand: 121
+Adenovirus Inhibitor: 121
+Type-2 Diabetes Therapeutic: 121
+Anticonflict: 120
+ER Alpha Ligand: 120
+PKM2 Inhibitor: 120
+Keap1-Nrf2 PPI Inhibitor: 120
+ERAlpha Agonist: 120
+GABA-Transporter Inhibitor: 120
+Neurodegenerative Disorders: 120
+FXR Ligand: 120
+Antiquorum-Sensing: 120
+Chagas Disease Inhibitor: 120
+HAdV Inhibitor: 120
+LAT1 Inhibitor: 120
+D2/D3 Ligand: 119
+Histamine H(1) Receptor Ligand: 119
+Mycobacterium Inhibitor: 119
+Chorismate Synthase Inhibitor: 119
+AcrB Inhibitor: 119
+Antiresorptive: 119
+Sterol Synthesis Inhibitor: 119
+TAF1(2) Inhibitor: 119
+Ser/Thr Kinase Inhibitor: 119
+Trichomonas vaginalis Inhibitor: 119
+DNA Crosslinking Agent: 119
+PrP(Sc) Reducer: 119
+Aminoglycoside Resistance: 119
+Gram-Negative: 119
+NOD2 Agonist: 119
+Prostacyclin Receptor Antagonist: 119
+Mps1 Inhibitor: 119
+Formyl Peptide Receptor Agonist: 119
+mTOR Kinase Inhibitor: 119
+HIV Latency Reactivation: 119
+Microtubule Depolymerization: 119
+Colchicine Site Inhibitor: 119
+CXCR4 Ligand: 118
+DNA-Targeted: 118
+V1b Receptor Antagonist: 118
+Multitarget Inhibitor: 118
+Src-family Kinase Inhibitor: 118
+Neurogenic: 118
+Pharmacokinetic Enhancer: 118
+TLR4 Ligand: 118
+Osteoblast Differentiation: 118
+Na(+) Channel Inhibitor: 118
+T3SS Inhibitor: 118
+RXR Ligand: 118
+Prostacyclin Receptor Agonist: 118
+Anti-Stroke: 118
+Anti-EV71: 118
+RAMBA: 118
+NHE3 Inhibitor: 118
+Polyamine Transport Ligand: 118
+Anti-Beta Amyloid: 117
+Inflammasome Inhibitor: 117
+SRS-A Release Inhibitor: 117
+Cytokinin Receptor Agonist: 117
+Inosine Monophosphate Dehydrogenase Inhibitor: 117
+Sepiapterin Reductase Inhibitor: 117
+DP-IV Inhibitor: 117
+Neuropeptide Y5 Receptor Ligand: 117
+AC Inhibitor: 117
+TGF-beta Receptor Inhibitor: 117
+Lead Compound: 117
+Sleep Disorder Treatment: 116
+Delta-Antagonist: 116
+h5-HT1D Receptor Ligand: 116
+PCP Receptor Ligand: 116
+Epigenetic Reader Inhibitor: 116
+Hemagglutinin Inhibitor: 116
+mPTPB Inhibitor: 116
+KIT Inhibitor: 116
+Siderophore: 116
+Staphyloxanthin Biosynthesis Inhibitor: 116
+TRPV2 Antagonist: 116
+HIF-1 Activator: 116
+ER Ligand: 116
+Thermolysin Inhibitor: 116
+Keratinocyte Inhibitor: 116
+Riboswitch Ligand: 116
+Hematologic Malignancies: 116
+Clk4 Inhibitor: 116
+Lipid Modulator: 116
+GLP-1 Analog: 116
+Acaricide: 115
+SKCa Channel Blocker: 115
+Hypoxia-Activated Prodrug: 115
+P2Y Receptor Ligand: 115
+Mitochondrial Dehydrogenase Inhibitor: 115
+Amino Acid Transporter: 115
+Eis Inhibitor: 115
+Serine Racemase Inhibitor: 115
+Survivin Inhibitor: 115
+LDL Reduction: 115
+P-glycoprotein Inducer: 114
+MEP Pathway Inhibitor: 114
+DILI: 114
+Coagulation Inhibitor: 114
+Antitumor Prodrug: 114
+NOD2 Pathway Inhibitor: 114
+MC4R Ligand: 114
+Angiotensin II Analog: 114
+MAT2A Inhibitor: 114
+Gastrin Receptor Antagonist: 114
+GPR52 Antagonist: 114
+Minor Groove Binder: 114
+ENR Inhibitor: 113
+Anti-VRE: 113
+MET Inhibitor: 113
+Drug Resistance Reversal: 113
+CYP24A1 Inhibitor: 113
+p53 Activation: 113
+OXPHOS Inhibitor: 113
+AChE: 113
+E3 Ligase Inhibitor: 113
+Epilepsy: 113
+Nociceptin Antagonist: 113
+Resveratrol Analogues: 113
+FtsZ-Targeting: 113
+sstr3 Antagonist: 113
+KCNQ2/3 Opener: 113
+Bcl-2/Bcl-xL Antagonist: 113
+Osteoblast Stimulator: 112
+Topical Antimicrobial: 112
+Cerebrovasodilator: 112
+Tumor Promoter Inhibitor: 112
+TNK2 Inhibitor: 112
+Melanoma-Targeting: 112
+Antidote: 112
+Cytochrome C Oxidase Inhibitor: 112
+Neurotoxic: 112
+Anorexigenic: 112
+RORc Modulator: 112
+Cancer Cell Proliferation Inhibitor: 112
+Androgen Biosynthesis Inhibitor: 112
+PA Endonuclease Inhibitor: 112
+HDAC4 Inhibitor: 112
+Tumor Imaging: 112
+Breast Cancer Resistance Protein Inhibitor: 112
+SIRT3 Inhibitor: 112
+Anti-Epileptic: 112
+MDM2/4 Inhibitor: 112
+MERS-CoV Inhibitor: 112
+Thyroid Hormone Receptor Agonist: 112
+Leukotriene Receptor Antagonist: 112
+ARTD3 Inhibitor: 112
+Urate Transporter Inhibitor: 112
+GVIA iPLA2 Inhibitor: 112
+ETB Receptor Antagonist: 112
+DNA Ligand: 112
+GIST Treatment: 112
+Weight Reduction: 112
+Histamine H2 Receptor Agonist: 111
+CYP3A4 Inducer: 111
+Neurotropic: 111
+RdRp Inhibitor: 111
+Resistance-Modifying Agent: 111
+HBV: 111
+CK1Delta Inhibitor: 111
+Wake-Promoting: 111
+Molluscicidal: 111
+Feeding-Deterrent: 111
+Hepatitis C Treatment: 111
+Deoxyhypusine Synthase Inhibitor: 111
+Uridine-Deoxyuridine Phosphorylase Inhibitor: 111
+Anti-VZV: 111
+HSV Inhibitor: 111
+Autophagy: 111
+PBP Inhibitor: 111
+Hsp90-Cdc37 Disruptor: 111
+Src SH2 Domain Ligand: 111
+AmpC Beta-lactamase Inhibitor: 111
+p70S6 Kinase Inhibitor: 111
+Keratinocyte Suppressor: 111
+Rac1 Inhibitor: 111
+Decaprenylphosphoryl-Beta-D-ribose 2'-Oxidase Inhibitor: 111
+Anti-CMV: 111
+DNA GyrB Inhibitor: 110
+Serotoninomimetic: 110
+Antihistamine: 110
+Fungistatic: 110
+Oxidosqualene Cyclase Inhibitor: 110
+Purine Biosynthesis Inhibitor: 110
+Neuroinflammation Imaging Ligand: 110
+Contragestational: 110
+3CL(pro) Inhibitor: 110
+FabB Inhibitor: 110
+CHK2 Inhibitor: 110
+HSF1 Activator: 110
+ERAlpha Inhibitor: 110
+Vanilloid Agonist: 110
+FLT-3 Inhibitor: 110
+NMDAR Potentiator: 110
+Cell Cycle Regulator: 110
+TRPM5 Agonist: 110
+C1 Inhibitor: 110
+Angiokinase Inhibitor: 110
+HGPRT Inhibitor: 110
+Pain Modulator: 110
+Insect Growth Regulator: 110
+ETA Antagonist: 110
+D2R Antagonist: 110
+A1AR Agonist: 110
+pUL89-C Inhibitor: 110
+Tranquilizer: 109
+Norepinephrine Uptake Inhibitor: 109
+Somatostatin Receptor Ligand: 109
+Trypanosoma brucei: 109
+Glutamate Carboxypeptidase Inhibitor: 109
+mGlu4R Agonist: 109
+Biofilm Dispersal: 109
+Glioma Growth Inhibitor: 109
+Glucose Tolerance Improver: 109
+Hydrogen Sulfide Donor: 109
+FPTase Inhibitor: 109
+HDLc Raising: 109
+Antisickling Agent: 109
+Ribosome Binding: 109
+LF Inhibitor: 109
+Hexokinase Inhibitor: 109
+Bone Formation Stimulator: 109
+Bone Resorption: 109
+TR Antagonist: 109
+Gastrointestinal Motility: 109
+RNase A Inhibitor: 109
+H3R Inverse Agonist: 108
+OCT1 Substrate: 108
+DUB Inhibitor: 108
+HDAC6 Selective: 108
+Transcription Factor Inhibitor: 108
+Anti-cancer: 108
+Neurogenesis Stimulator: 108
+HSF1 Inhibitor: 108
+NOD1 Inhibitor: 108
+ER Antagonist: 108
+SIRT6 Inhibitor: 108
+Calcium-Sensing Receptor Agonist: 108
+Sucrase Inhibitor: 108
+Mtb Inhibitor: 108
+Two-Component Regulatory System Inhibitor: 108
+Thyroid Hormone Receptor Ligand: 108
+AC1 Inhibitor: 108
+Cholinergic Receptor Antagonist: 107
+M5 Antagonist: 107
+O-GlcNAc Inhibitor: 107
+ICL1 Inhibitor: 107
+DAO Inhibitor: 107
+ABC Transporter Modulator: 107
+Adipocyte Differentiation-Inhibitor: 107
+QSAR: 107
+Neurological: 107
+Psychoactive: 107
+MMP-1 Inhibitor: 107
+Insect Behavior Control Agent: 107
+BzR Ligand: 107
+ACE2 Inhibitor: 107
+Nucleic Acid Demethylase Inhibitor: 107
+Neurokinin-1 Receptor Ligand: 107
+SSTR-5 Inhibitor: 107
+OGA Inhibitor: 107
+DORA: 107
+D2-like Receptor Ligand: 107
+Photosynthetic Electron Transport Inhibitor: 107
+Platelet Activation Inhibitor: 107
+SR-BI Inhibitor: 107
+GluN2B Ligand: 107
+ERAlpha Degrader: 107
+NTS1 Agonist: 107
+Alphav Integrin Inhibitor: 107
+ChemR23 Inhibitor: 107
+Serotonergic: 106
+Cocaine Abuse Therapeutic: 106
+Mood Disorder: 106
+Tranquilizing: 106
+Ca2+ Channel Blocker: 106
+Sialyltransferase Inhibitor: 106
+Topoisomerase IB Inhibitor: 106
+Thrombopoietin Receptor Agonist: 106
+ANO1 Inhibitor: 106
+Axl Kinase Inhibitor: 106
+CDK7 Inhibitor: 106
+Glutathione Reductase Inhibitor: 106
+Pgp Substrate: 106
+NAFLD: 106
+Raf Inhibitor: 106
+NPSR Antagonist: 106
+PLC-gamma Inhibitor: 106
+p38 Alpha Inhibitor: 106
+Elastin Synthesis Stimulator: 106
+Src/Abl Kinase Inhibitor: 106
+HTLV-1 PR Inhibitor: 105
+VMAT2 Ligand: 105
+IDO-1 Inhibitor: 105
+TXA2 Synthase Inhibitor: 105
+Ubiquitin-Proteasome System Inhibitor: 105
+Hemolytic: 105
+ERAlpha+ Breast Cancer: 105
+Ddl Inhibitor: 105
+Cancer Immunotherapeutic: 105
+PFKFB3 Inhibitor: 105
+BLM Inhibitor: 105
+Metalloenzyme Inhibitor: 105
+Anti-MDR: 105
+3BHSD Inhibitor: 105
+Brain Penetrant: 105
+IDO2 Inhibitor: 105
+Protease-Resistant: 105
+D(2) Antagonist: 104
+Cocaine Addiction: 104
+AMPK Inhibitor: 104
+Immune Response Modulator: 104
+nAChR Inhibitor: 104
+Macrofilaricide: 104
+Lipid Metabolism: 104
+Anti-Norovirus: 104
+Antiamnesic: 104
+Ecto-5'-Nucleotidase Inhibitor: 104
+Entry Inhibitor: 104
+H5N1 Entry Inhibitor: 104
+Kainate Antagonist: 104
+Nicotinic Acid Receptor Agonist: 104
+Estrogen Receptor-beta Agonist: 104
+SOAT Inhibitor: 104
+MLL Leukemia: 104
+PPAR Modulator: 104
+IBS Treatment: 104
+Antipruritic: 104
+Cathepsin G Inhibitor: 104
+RmlD Inhibitor: 104
+GOT1 Inhibitor: 104
+EPAC2 Inhibitor: 104
+Beta-Catenin Inhibitor: 104
+Bladder-Selective: 104
+Anti-ABeta: 104
+Na(v)1.7 Antagonist: 104
+FGFR3 Inhibitor: 104
+M1AChR Agonist: 103
+ER+ Breast Cancer: 103
+Heart Failure Treatment: 103
+Parasiticidal: 103
+A AdoR Antagonist: 103
+Uterotrophic: 103
+Biotin Biosynthesis Inhibitor: 103
+Ryanodine Receptor 1 Inhibitor: 103
+Fibrinolysis: 103
+Kinesin Inhibitor: 103
+hURAT1 Inhibitor: 103
+Utrophin Upregulator: 103
+Antiproteolytic: 103
+Vasoconstrictor: 103
+Notch Inhibitor: 103
+LasB Inhibitor: 103
+Protective: 103
+Lung Fibrosis: 103
+DENV Protease Inhibitor: 103
+VAChT Inhibitor: 103
+Sigma(1) Ligand: 103
+HCC Inhibitor: 103
+cGAS Ligand: 103
+Insulin Release Stimulator: 102
+2,3-Oxidosqualene-Lanosterol Cyclase Inhibitor: 102
+hERG Selective: 102
+Alpha-synuclein Aggregation Inhibitor: 102
+Tumor-Selective: 102
+EMT Inhibitor: 102
+CDK14 Inhibitor: 102
+L1 Inhibitor: 102
+Sigma-1 Receptor: 102
+OAT1 Inhibitor: 102
+PKD1 Inhibitor: 102
+LsrK Inhibitor: 102
+Rce1 Inhibitor: 102
+Antibiotic Prodrug: 102
+ER Stress Inducer: 102
+A2A Agonist: 102
+p53 Modulator: 102
+DNA/RNA Binding: 102
+AT(2) Receptor Agonist: 102
+Telomeric G-Quadruplex Ligand: 102
+ALK Degrader: 102
+CRBN-Recruiting: 102
+INMT Inhibitor: 101
+Dual-Stage: 101
+VR1 Antagonist: 101
+ENT1 Inhibitor: 101
+Carboxypeptidase Inhibitor: 101
+AII Antagonist: 101
+Metastasis Inhibitor: 101
+Sphingomyelin Synthase 1 Inhibitor: 101
+Multiple Myeloma: 101
+Peptide: 101
+SecA Inhibitor: 101
+Mannoside: 101
+GLS Inhibitor: 101
+EV71 Inhibitor: 101
+LXR Antagonist: 101
+NaPi2b Inhibitor: 101
+PfNDH2 Inhibitor: 101
+Glucose Uptake Activator: 101
+Photocytotoxic: 100
+Mutagen: 100
+Clk/Dyrk Kinase Inhibitor: 100
+RNA Replication Inhibitor: 100
+DCN1 Inhibitor: 100
+ABCB1 Modulator: 100
+Pain Therapeutic: 100
+ZIKV Inhibitor: 100
+Leukemia Inhibitor: 100
+Tau Imaging: 100
+CDK12 Inhibitor: 100
+Asparagine Endopeptidase Inhibitor: 100
+Nicotinic Receptor Modulator: 100
+DNA Damaging: 100
+Polyamine Transport Inhibitor: 100
+Nociceptin Agonist: 100
+Opiate Receptor: 100
+CD45 Inhibitor: 100
+Metabolic Disorder Treatment: 100
+CXCR7 Antagonist: 100
+TRIM24/BRPF1 Inhibitor: 100
+Sortilin Inhibitor: 100
+Insulin Resistance: 100
+Cell-Division Probe: 100
+Nephrotoxic: 100
+Beta-haematin Inhibitor: 100
+Influenza CEN Inhibitor: 100
+mGlu1 Ligand: 100
+Vasopressor Antagonist: 100
+PfCRT Inhibitor: 100
+HSV-1 TK Inhibitor: 100
+Splicing Modifier: 100
+ALR2 Inhibitor: 99
+H1N1 Inhibitor: 99
+Lung Cancer Inhibitor: 99
+Pyk2 Inhibitor: 99
+CYP2J2 Inhibitor: 99
+DNA Polymerase Beta Inhibitor: 99
+Cancer Chemotherapy: 99
+HDL Elevator: 99
+SHIP2 Inhibitor: 99
+Microbicide: 99
+Human African Trypanosomiasis Treatment: 99
+Folate-Synthesizing Inhibitor: 99
+GlmU Inhibitor: 99
+Anti-CVB3: 99
+Glyoxalase I Inhibitor: 99
+AR Ligand: 99
+GABA A PAM: 99
+NO Formation Inhibitor: 99
+Prostaglandin D2 Receptor Antagonist: 99
+Diabetic Complications: 99
+PAD Inhibitor: 99
+Smooth Muscle Cell Inhibitor: 99
+Reversible: 99
+GPR139 Antagonist: 99
+Inflammatory Disease: 99
+Adherence Inhibitor: 99
+Vasculature Damaging: 99
+Virulence Factor Suppressor: 99
+G2 Checkpoint Inhibitor: 99
+Histamine-3R Modulator: 98
+DMT1 Blocker: 98
+P450 17a Inhibitor: 98
+Alpha7 nAChR Modulator: 98
+Influenza M2 Inhibitor: 98
+MAO-B Substrate: 98
+HER-2 Sheddase Inhibitor: 98
+STING Modulator: 98
+D4 Receptor Ligand: 98
+Choline Acetyltransferase Inhibitor: 98
+Cataract Treatment: 98
+ALDH-2 Inhibitor: 98
+GIRK Channel Inhibitor: 98
+Monoglyceride Lipase Inhibitor: 98
+DNMT3B Inhibitor: 98
+Sterol 14alpha-demethylase Inhibitor: 98
+CB2 Receptor Inhibitor: 98
+GSK-3Alpha Inhibitor: 98
+HPPK Inhibitor: 98
+Bromodomain Ligand: 98
+Beta-Cell Replication: 98
+Metabolic Diseases: 98
+hNav1.7 Blocker: 98
+Mpro Inhibitor: 98
+cN-II Inhibitor: 98
+Antihepatocellular Carcinoma: 98
+Bone-Targeting: 98
+Multi-Target-Directed: 98
+Antispermatogenic: 98
+MIF Antagonist: 98
+Cocaine Antagonist: 98
+Excitatory Amino Acid Antagonist: 98
+D3 Receptor Agonist: 97
+CML: 97
+m1 Agonist: 97
+Androgenic: 97
+GluR5 Agonist: 97
+DNA-Dependent RNA Polymerase Inhibitor: 97
+GST Inhibitor: 97
+Differentiation Enhancer: 97
+Pan-Pim Inhibitor: 97
+SETD8 Inhibitor: 97
+RNA-Binding: 97
+T2DM: 97
+ERAlpha Modulator: 97
+BLT2 Agonist: 97
+Aspartate Aminotransferase 1 Inhibitor: 97
+ERCC1-XPF Inhibitor: 97
+Histamine H4 Receptor Inverse Agonist: 97
+Androgen Receptor: 97
+IL-10 Upregulator: 97
+LANA Inhibitor: 97
+Passive Cutaneous Anaphylaxis Inhibitor: 97
+Checkpoint Kinase Weel Inhibitor: 97
+Influenza NS1 Inhibitor: 97
+cAMP Activator: 97
+GAT1 Binder: 97
+Chemotaxis Inhibitor: 96
+Host-Targeting: 96
+Metal-Chelating: 96
+Neurotoxin: 96
+Bcl-2 Modulator: 96
+Glucose Transporter Inhibitor: 96
+IL-15 Inhibitor: 96
+Microtubule-Binding: 96
+Muscle-Relaxant: 96
+Glucose Transport-Enhancing: 96
+CCR5 Modulator: 96
+ANAT Inhibitor: 96
+Canavan Disease: 96
+Thermogenic: 96
+Trans-sialidase Inhibitor: 96
+TB: 96
+Norovirus 3CL Protease Inhibitor: 96
+CHD Risk: 96
+Nucleoside Hydrolase Inhibitor: 96
+Maltase Inhibitor: 96
+ALI Treatment: 95
+Glycogen Synthase Kinase-3 Inhibitor: 95
+Cocaine Abuse Treatment: 95
+AAC(6')-Ib Inhibitor: 95
+USP8 Inhibitor: 95
+Phospholipid Metabolism Inhibitor: 95
+Bronchospasm Inhibitor: 95
+Antiglutamate: 95
+Uric Acid-Lowering: 95
+Calcineurin A Inhibitor: 95
+Anti-EBV: 95
+Antimelanoma: 95
+Epstein-Barr Inhibitor: 95
+TP Inhibitor: 95
+Dicer Inhibitor: 95
+FMS Kinase Inhibitor: 95
+P-Selectin Antagonist: 95
+Kappa Antagonist: 95
+IKs Blocker: 95
+Pantothenate Kinase Inhibitor: 95
+Cryptochrome Modulator: 95
+PPAR Activator: 95
+Psychotomimetic: 95
+Alpha7* Ligand: 95
+Lethal Factor Inhibitor: 95
+UCH-L1 Inhibitor: 94
+PGAM1 Inhibitor: 94
+Growth-Inhibitory: 94
+Trichomonacidal: 94
+Neuroactive Steroid: 94
+Selective Androgen Receptor Degrader: 94
+UPPS Inhibitor: 94
+Stem Cell Inhibitor: 94
+Cyclophilin A Ligand: 94
+Differentiation-Inducing: 94
+V2 Agonist: 94
+TRPV1 Inhibitor: 94
+Liver X Receptor-alpha Agonist: 94
+V2-Receptor Antagonist: 94
+Histone Reader Inhibitor: 94
+Zmp1 Inhibitor: 94
+Adenylate Kinase Inhibitor: 94
+PKMYT1 Inhibitor: 94
+Psychosis: 94
+B2 Receptor Antagonist: 94
+Nrf2-Keap1 Inhibitor: 94
+Proton Gradient Disruptor: 94
+SNRI: 94
+Potassium Channel Inhibitor: 94
+CAMKK2 Inhibitor: 94
+H1R Antagonist: 94
+Beta-Mannosidase Inhibitor: 94
+WNT/Beta-catenin Signal: 94
+Nicotinic Ligand: 94
+5-HT1A Affinity: 93
+PXR Activator: 93
+Hypoxic Cytotoxin: 93
+ALDH⁺ Inhibitor: 93
+HO-2 Inhibitor: 93
+Leukemic Cell Differentiation: 93
+Ketohexokinase Inhibitor: 93
+MTAP Inhibitor: 93
+S1PR2 Antagonist: 93
+NPC1 Inhibitor: 93
+Insulin Release Potentiator: 93
+CPT Modulator: 93
+Firefly Luciferase Inhibitor: 93
+GABA(A) Positive Modulator: 93
+Cholesterol Efflux: 93
+Micro-Opioid Receptor Agonist: 93
+Potential Antipsychotic: 93
+Ion Channel Modulator: 93
+Lymphatic Filariasis: 93
+PDAC Treatment: 93
+MMPI: 93
+Quorum Sensing Antagonist: 93
+Lyp Inhibitor: 93
+Galactokinase Inhibitor: 93
+Electron Transport Inhibitor: 93
+HIV-1 NC Inhibitor: 93
+TRPV4 Inhibitor: 93
+TLR4 Antagonist: 93
+KCNQ2/3 Activator: 93
+ULK1 Inhibitor: 93
+Down's Syndrome: 93
+PDAC Inhibitor: 93
+SIRT6 Activator: 93
+mAChR5 Ligand: 93
+M5 Positive Allosteric Modulator: 93
+Anti-SARS-CoV-2: 92
+Norepinephrine/Dopamine Reuptake Inhibitor: 92
+Chemokine Inhibitor: 92
+MMP10 Inhibitor: 92
+Anticholinesterase Therapeutic: 92
+Fascin Inhibitor: 92
+Caspase-3/7 Inhibitor: 92
+Glycine Receptor Antagonist: 92
+OATP Inhibitor: 92
+Dehydrosqualene Synthase Inhibitor: 92
+Protein Arginine Deiminase 2 Inhibitor: 92
+Radical-Scavenging: 92
+FKBP51 Ligand: 92
+Liver Carcinoma Inhibitor: 92
+Delta Agonist: 92
+Sodium Channel Binder: 92
+5-HT(1F) Receptor Agonist: 92
+FabK Inhibitor: 92
+Methuosis Inducer: 92
+Uncoupler: 92
+Pulmonary Fibrosis: 92
+AT1 Blocker: 92
+OTR Agonist: 92
+PI4KIIIAlpha Inhibitor: 92
+Genetic Disease: 92
+ATP Phosphoribosyltransferase Inhibitor: 92
+Beta-CA Inhibitor: 91
+CO2 Hydrase: 91
+DNA-binding: 91
+Mitochondrial Dysfunction Modulator: 91
+Aldehyde Oxidase Inhibitor: 91
+F16Bpase Inhibitor: 91
+Renal Protective: 91
+Cytokinin: 91
+Cancer Chemotherapeutic: 91
+RPA Inhibitor: 91
+Organic Anion Transport Inhibitor: 91
+Diabetic Nephropathy: 91
+Influenza Neuraminidase Inhibitor: 91
+Sleep-Promoting: 91
+hB(2) Receptor Antagonist: 91
+HRI Activator: 91
+P-selectin Antagonist: 91
+Gtfs Inhibitor: 91
+CCR3 Inhibitor: 91
+M1 Aminopeptidase Inhibitor: 91
+Substance P Analogue: 91
+Alpha3Beta2 nAChR Positive Allosteric Modulator: 91
+Meprin Beta Inhibitor: 91
+Hypercholesterolemia: 91
+Microtubule Depolymerizer: 91
+Glucokinase-GKRP Disruptor: 90
+VGCC Blocker: 90
+BGT-1 Inhibitor: 90
+BasE Inhibitor: 90
+Diapophytoene Desaturase Inhibitor: 90
+Hsp90 Modulator: 90
+ROS: 90
+17Beta-Hydroxysteroid Dehydrogenase Type 1 Inhibitor: 90
+Oviposition Deterrent: 90
+Cooling Agent: 90
+Annexin A2-S100A10 Inhibitor: 90
+T-ALL: 90
+Protein Arginine Methyltransferase Inhibitor: 90
+Protein Kinase C Activator: 90
+M PAM: 90
+Tau-Aggregation Inhibitor: 90
+Pim2 Inhibitor: 90
+Lipophilicity Modulator: 90
+VRE: 90
+Restenosis: 90
+GAT1 Inhibitor: 90
+WDR5-MLL1 Inhibitor: 90
+CFTR Modulator: 90
+Cannabinoid-1 Receptor Inverse Agonist: 90
+Phenoloxidase Inhibitor: 90
+Angiotensin II Agonist: 90
+Gastroprokinetic: 90
+Somatostatin sst1 Receptor Antagonist: 90
+NTS2-Selective: 90
+SOS1 Activator: 90
+PERK Inhibitor: 90
+CRAC Channel Inhibitor: 90
+Peptidomimetic: 89
+LH Suppressor: 89
+DAT Ligand: 89
+Spermicide: 89
+GLI1 Inhibitor: 89
+Lymphoma Treatment: 89
+PET Imaging Agent: 89
+5-HT1A Receptor Binder: 89
+Phytoestrogen: 89
+CRAF Inhibitor: 89
+CBP Inhibitor: 89
+Selectin Antagonist: 89
+Lipid Uptake Inhibitor: 89
+Growth Hormone: 89
+T Cell Activation: 89
+Vacuolar Pyrophosphatase Inhibitor: 89
+Tryptophan Hydroxylase Inhibitor: 89
+GGPPS Inhibitor: 89
+I(Kur) Inhibitor: 89
+Topoisomerase II Poison: 89
+Viral DNA Synthesis Inhibitor: 89
+M1 Allosteric Activator: 89
+ETA Agonist: 88
+Urinary Bladder: 88
+Cocaine Binding: 88
+Alkylating Agent: 88
+Proline Biosynthesis Inhibitor: 88
+Chemotherapy: 88
+Apoptosis Imaging: 88
+ERRGamma Agonist: 88
+Anti-CSC: 88
+Positive Inotrope: 88
+SARS-CoV-2 Entry Inhibitor: 88
+Antibiotic Resistance: 88
+DP1 Antagonist: 88
+AR Degrader: 88
+Interleukin-1beta Converting Enzyme Inhibitor: 88
+Cell Uptake: 88
+Leucyl tRNA Synthetase Inhibitor: 88
+Anti-HIV Prodrug: 88
+Glucose Uptake Promoter: 88
+Lymphocyte Proliferation Inhibitor: 88
+AlphaBeta-Tubulin Inhibitor: 88
+EP(4) Receptor Antagonist: 88
+NPP Inhibitor: 88
+Hepatoselective: 88
+APJ Receptor Agonist: 88
+Pancreatic Beta-cells Protective: 88
+GPAT Inhibitor: 88
+AhR/XRE Activator: 88
+Male Contraceptive: 87
+Cytokine Release Inhibitor: 87
+Angiogenesis Modulator: 87
+IL-1 Biosynthesis Inhibitor: 87
+GPR39 Agonist: 87
+Macrophage TNF-alpha Inducer: 87
+Endonuclease Inhibitor: 87
+SrtA Inhibitor: 87
+RPA70 Inhibitor: 87
+FFA2 Antagonist: 87
+CCK-B Agonist: 87
+Bladder Selectivity: 87
+UUI Treatment: 87
+KAT6A Inhibitor: 87
+Integrin Alpha5Beta1 Antagonist: 87
+LDL Oxidation Inhibitor: 87
+PAK Inhibitor: 87
+Sigma(2) Ligand: 87
+Wakefulness-Promoting: 87
+Arenavirus Inhibitor: 87
+CMV Primase Inhibitor: 87
+dCK Inhibitor: 87
+hMAO-A Inhibitor: 86
+APE1 Inhibitor: 86
+Leukemia Treatment: 86
+TGFBeta/Smad Inhibitor: 86
+IMP Dehydrogenase Inhibitor: 86
+CNS Protective: 86
+Metabolic Disorder: 86
+Cell Protective: 86
+AXL Inhibitor: 86
+Selectin Inhibitor: 86
+Anti-Retroviral: 86
+Bcl-2 Family: 86
+Aldosterone Antagonist: 86
+Tauopathy Treatment: 86
+Adenylate Cyclase Activator: 86
+Hdm2 Antagonist: 86
+UGT2B17 Inhibitor: 86
+CRL Inhibitor: 86
+CAR Inhibitor: 86
+Psychostimulant Abuse: 86
+eIF4E Phosphorylation Inhibitor: 86
+DLBCL Treatment: 86
+Non-NMDA Glutamate Receptor Antagonist: 86
+CD23 Inhibitor: 86
+Anti-Cytokine: 86
+DNA Alkylating Prodrug: 86
+SSTR3 Agonist: 86
+Uterotonic: 86
+Hyaluronidase Inhibitor: 86
+Surfactant: 86
+Mitophagy: 86
+PARG Inhibitor: 86
+Checkpoint Kinase Inhibitor: 86
+IspF Inhibitor: 86
+Cardiac Inotrope: 86
+Anti-Hepatitis C: 86
+Euglycemic Agent: 86
+FUBP1 Inhibitor: 86
+Sky Kinase Inhibitor: 86
+Measles Virus Inhibitor: 86
+Liver-Protective: 85
+Pharmacological: 85
+Antimigration: 85
+Calcium Modulator: 85
+Anti-AIDS: 85
+Excitatory Amino Acid Transporter Inhibitor: 85
+UGM Inhibitor: 85
+Alpha9-nAChR Antagonist: 85
+BMP-2 Up-regulator: 85
+PKR Inhibitor: 85
+Selective Estrogen Receptor Degrader: 85
+ABCC2 Inhibitor: 85
+Opiate Receptor Binder: 85
+VDR-Coactivator Inhibitor: 85
+TbLeuRS Inhibitor: 85
+Glycine Receptor Ligand: 85
+Galactosyltransferase Inhibitor: 85
+NRP1 Ligand: 85
+HDL-C Modulator: 85
+Hair-Growth Stimulant: 85
+hMC3R Antagonist: 85
+Type III Secretion System Inhibitor: 85
+Soluble Guanylate Cyclase Activator: 85
+Sebum Production Inhibitor: 85
+Anti-Adherence: 85
+Serotonin Receptor Affinity: 85
+Fungal Efflux Pump Inhibitor: 85
+Chlamydia trachomatis Inhibitor: 85
+Plasmodium falciparum DHODH Inhibitor: 85
+Hypothermia Inducer: 85
+Beta-Tryptase Inhibitor: 85
+ULK1 Activator: 85
+D3 Antagonist: 85
+USP1/UAF1 Inhibitor: 84
+PSMA-Targeting: 84
+MKK7 Inhibitor: 84
+MRSA Synergist: 84
+Neurotoxicity: 84
+Retinoid X Receptor Agonist: 84
+Prenyl-transferase Inhibitor: 84
+Cytokine Modulator: 84
+DDR2 Inhibitor: 84
+Glycolic Acid Oxidase Inhibitor: 84
+MM: 84
+Anti-Atherosclerosis: 84
+Reversal Agent: 84
+Necroptosis: 84
+Solubility: 84
+Cytokine Suppressant: 84
+H. pylori Urease Inhibitor: 84
+NCp7 Zn Finger Inhibitor: 84
+BD2 Selective: 84
+PI5P4K Inhibitor: 84
+Acetylcholine-Storage-Blocking: 84
+K(V)1.5 Antagonist: 84
+Duchenne Muscular Dystrophy Treatment: 84
+Mutikinase Inhibitor: 84
+CML Chemotherapeutic: 84
+Broad Spectrum: 84
+L14DM Inhibitor: 84
+PRMT3 Inhibitor: 84
+Na1.7 Inhibitor: 84
+Inhibitor: 84
+Ca2+ Channel Inhibitor: 84
+GluR5 Antagonist: 84
+SST5 Receptor Antagonist: 84
+M5 NAM: 84
+Sphingosin-1-phosphate Agonist: 84
+B-cell Malignancies: 84
+Nitroreductase Substrate: 84
+Regulated Cell Death: 84
+Eosinophil Inhibitor: 84
+Flavonoid: 84
+Antiglioma: 83
+Dopamine Autoreceptor Antagonist: 83
+Alpha4beta2-Selective: 83
+RAS Activator: 83
+SARS-CoV-2 Main Proteinase Inhibitor: 83
+Glucocorticoid Modulator: 83
+p185erbB-2 Inhibitor: 83
+Tubulin Stabilizer: 83
+Calmodulin Inhibitor: 83
+Retinoid Analog: 83
+c-Myb Inhibitor: 83
+Polymerase Inhibitor: 83
+Insulin Pathway Modulator: 83
+GPR55 Agonist: 83
+PLAAT Inhibitor: 83
+BK(Ca) Channel Activator: 83
+PHM Inhibitor: 83
+Grb2 SH2 Ligand: 83
+LDLR Ligand: 83
+Fructose 1,6-bisphosphate Aldolase Inhibitor: 83
+M4 Agonist: 83
+Cocaine Dependence: 83
+HERG Inhibitor: 83
+RORBeta Modulator: 83
+ENaC Blocker: 83
+V1a Receptor Agonist: 83
+Glucagon Agonist: 83
+Anticytokine: 83
+SK1 Inhibitor: 83
+DMD Therapeutic: 83
+H(1)-Antihistamine: 83
+Neuropeptide S Analog: 83
+Carbonic Anhydrase IV Inhibitor: 82
+IFN-Gamma Inhibitor: 82
+Dopaminomimetic: 82
+Anthrax Toxin Inhibitor: 82
+RCC: 82
+Undecaprenyl Pyrophosphate Synthase Inhibitor: 82
+Multidrug Efflux Pump Inhibitor: 82
+VEGFR-3 Inhibitor: 82
+Natriuretic: 82
+Multiple Myeloma Treatment: 82
+TRH Analogue: 82
+ED Treatment: 82
+Alternative Splicing: 82
+DM2 Treatment: 82
+Contraceptive: 82
+Prostaglandin Synthase Inhibitor: 82
+POP Inhibitor: 82
+DLK Inhibitor: 82
+Bax Activator: 82
+LRS Inhibitor: 82
+Nav1.7 Blocker: 82
+Bradykinin B2 Agonist: 82
+RAF Kinase Inhibitor: 82
+Necrosis Inhibitor: 82
+PI 4-Kinase Inhibitor: 82
+NAD+ Elevator: 82
+M1 Muscarinic Receptor Modulator: 82
+S Phase Arrest: 82
+P-Glycoprotein Reversal Agent: 82
+T. cruzi: 82
+NTMT1/2 Inhibitor: 82
+PfENR Inhibitor: 82
+Glycine Agonist: 82
+NS3 Helicase Inhibitor: 82
+Lymphocyte Reducer: 82
+Pyocyanin Inhibitor: 82
+PXR Inverse Agonist: 82
+HAE Treatment: 82
+SOS1 Agonist: 82
+SLK/STK10 Inhibitor: 82
+Antibronchospastic: 81
+Organic Cation Transporter Substrate: 81
+Sigma-2 Agonist: 81
+CSC Inhibitor: 81
+Glutamate Uptake Inhibitor: 81
+Neuronal Nicotinic Receptor Antagonist: 81
+Negative Allosteric Modulator: 81
+HMGCR Degrader: 81
+Hippo Pathway Modulator: 81
+YopH Inhibitor: 81
+Glycine/NMDA Receptor Antagonist: 81
+Hippo Pathway Inhibitor: 81
+ERAs: 81
+Uterine Stimulant: 81
+Beta-N-acetylhexosaminidase Inhibitor: 81
+Mitotic Kinesin-5 Inhibitor: 81
+TB Drug: 81
+AR Agonist: 81
+TMEM16A Inhibitor: 81
+SMO Inhibitor: 81
+Antiadenoviral: 81
+Hair Loss Treatment: 81
+Beta-Agonist: 81
+Hsp27 Inhibitor: 81
+LMW-PTP Inhibitor: 81
+sst2A Agonist: 81
+Anti-Neurodegenerative: 80
+NOX2 Inhibitor: 80
+BCR-ABL Degrader: 80
+LysoPS Agonist: 80
+ADC: 80
+Tubulin Assembly Promoter: 80
+SARS-CoV Helicase Inhibitor: 80
+Spindle Assembly Checkpoint Inhibitor: 80
+JAK/HDAC Inhibitor: 80
+HSD1 Inhibitor: 80
+Complement Factor D Inhibitor: 80
+Matrix Metalloproteinase-13 Inhibitor: 80
+SH2 Domain Binder: 80
+Antiulcerous: 80
+Antitapeworm: 80
+DHDPS Inhibitor: 80
+CB Receptor Ligand: 80
+MT2 Melatonin Receptor Ligand: 80
+MT2-Selective Melatonin Receptor Antagonist: 80
+Virulence Gene Inhibitor: 80
+Bradykinin B(2) Receptor Ligand: 80
+TRBeta Agonist: 80
+ABAD Inhibitor: 80
+NaMNAT Inhibitor: 80
+NADs Inhibitor: 80
+Giardicidal: 80
+PfCDPK1 Inhibitor: 80
+Cerebral Ischemia: 80
+Antiadhesive: 80
+Toxin Inhibitor: 80
+PqsR Antagonist: 80
+GPR17 Agonist: 80
+Sigma Agonist: 80
+Dual-Target Inhibitor: 80
+tRNA-T Box Disruptor: 80
+ASM Inhibitor: 80
+Blood-Brain Barrier Penetration: 80
+HO Inhibitor: 80
+Serotonin Receptor: 79
+CRM1 Inhibitor: 79
+GARFTase Inhibitor: 79
+Cu Chelator: 79
+Anti-Folate: 79
+Prostate Cancer Imaging: 79
+DPD Inhibitor: 79
+Microbicidal: 79
+Mosquitocidal: 79
+Anti-COVID-19: 79
+LXR Activator: 79
+MT2 Agonist: 79
+Pyruvate Carboxylase Inhibitor: 79
+CB Receptor Inverse Agonist: 79
+B-Cell Activator: 79
+UGT Inhibitor: 79
+Sickle Cell Disease: 79
+Mycolic Acid Biosynthesis Inhibitor: 79
+Intestinal Permeability: 79
+Neuromuscular Blocker: 79
+Hypertrophy Inhibitor: 79
+Cardiac Transcription Factor Modulator: 79
+RARAlpha Agonist: 79
+Antimetabolite: 79
+IspC Inhibitor: 79
+Cancer Cell Invasion Inhibitor: 79
+Antiovulatory: 79
+LH-RH Analog: 79
+Enterovirus 71 Inhibitor: 79
+Thyroid Cancer: 79
+Abl Kinase Inhibitor: 79
+P2X4 Inhibitor: 79
+ODCase Inhibitor: 79
+Quorum Sensing Agonist: 79
+Protein A Mimetic: 79
+NTPDase2 Inhibitor: 79
+AICAR Tfase Inhibitor: 79
+hTAAR1 Activator: 79
+Syk Kinase Inhibitor: 79
+CDK19 Inhibitor: 79
+ET Receptor Antagonist: 79
+Radiotracer: 79
+GBM: 79
+Rheumatoid Arthritis Treatment: 79
+MSK-1 Inhibitor: 79
+HO-1 Inducer: 79
+BCL-X Degrader: 79
+TarO Inhibitor: 79
+Antitumor Agent: 79
+Gastrointestinal Absorption Enhancer: 79
+Tubulin-Destabilizing: 79
+D2/D3 Receptor Ligand: 78
+Antiacetylcholinesterase: 78
+Redox Inhibitor: 78
+Hyperuricemia: 78
+CDI: 78
+Central Nervous System Depressant: 78
+Multitarget-Directed Ligand: 78
+MLKL Inhibitor: 78
+GLO1 Inhibitor: 78
+FSGS Treatment: 78
+PP2A Inhibitor: 78
+Immune Activator: 78
+RhoA Inhibitor: 78
+Brk Inhibitor: 78
+Voltage-Gated Sodium Channel Ligand: 78
+PRMT6 Inhibitor: 78
+hPepT2 Ligand: 78
+CDK1/Cyclin B Inhibitor: 78
+Acid Pump Antagonist: 78
+HIF Pathway Inhibitor: 78
+Antiamebic: 78
+Cholinergic Partial Agonist: 78
+Anti-Migratory: 78
+ApoA1 Up-regulator: 78
+Appetite Modulator: 78
+STEP Inhibitor: 78
+Pain and Inflammation: 78
+MET Kinase Inhibitor: 78
+EPAC Antagonist: 78
+Smoking Cessation Aid: 78
+Antigastric: 78
+Bioactive: 78
+sEH/PPARGamma Modulator: 78
+Growth Hormone Inhibitor: 78
+Dipeptidyl Peptidase I Inhibitor: 78
+Immune-Regulating: 78
+Oxytocin Analogue: 78
+ABeta Production Inhibitor: 78
+Smac Mimic: 78
+Lactation Support: 78
+MAC Inhibitor: 78
+PNC Disruptor: 78
+Copper Chelator: 77
+sigma1 Receptor Ligand: 77
+Glioprotective: 77
+Lysine-Specific Demethylase 1 Inhibitor: 77
+Anti-ZIKV: 77
+DNA Methylation Inhibitor: 77
+Serotonin Release Inhibitor: 77
+hPXR Agonist: 77
+NPC1 Chaperone: 77
+FPR1 Inhibitor: 77
+Alpha Beta Integrin Inhibitor: 77
+Estrogen Modulator: 77
+PR Antagonist: 77
+Neurogenic Pain: 77
+Cell Death Inhibitor: 77
+Glucose Tolerance: 77
+Class I/III Antiarrhythmic: 77
+Beta1-Adrenoceptor Antagonist: 77
+Late Sodium Current Inhibitor: 77
+Carbonic Anhydrase VII Inhibitor: 77
+PDK1 Activator: 77
+Melanogenesis Stimulator: 77
+Anti-Staphylococcal: 77
+PGE2 Production Inhibitor: 77
+Pan-RAF Inhibitor: 77
+ALD Treatment: 77
+ELOVL1 Inhibitor: 77
+NAE Inhibitor: 77
+RNA Polymerase I Inhibitor: 77
+Virulence Inhibitor: 77
+RGD Mimetic: 77
+Ischemic Heart: 77
+NF-KappaB Pathway: 77
+V2/V1 Antagonist: 77
+Vasopressor: 77
+A3 Adenosine Receptor Modulator: 77
+Iron Uptake Inhibitor: 76
+Fragile X Syndrome: 76
+Hepatocellular Carcinoma: 76
+Bradycardic: 76
+AChEI: 76
+Kv7 Channel Activator: 76
+mGAT3 Inhibitor: 76
+TLS Inhibitor: 76
+Nur77 Modulator: 76
+Degranulation Inhibitor: 76
+Photosystem II Inhibitor: 76
+pERK Inhibitor: 76
+Antituberculostic: 76
+Cell Wall Biosynthesis: 76
+Anti-Wolbachia: 76
+Filarial Infection: 76
+Onchocerciasis: 76
+IP Receptor Agonist: 76
+Membrane-Disrupting: 76
+Triglyceride-Lowering: 76
+PknA Inhibitor: 76
+Autism Spectrum Disorder: 76
+MitoNEET Ligand: 76
+hMC1R Agonist: 76
+Somatostatin Mimic: 76
+BET Bromodomain Ligand: 76
+HBsAg Inhibitor: 76
+Pyroptosis Inhibitor: 76
+Sorbitol Dehydrogenase Inhibitor: 76
+Neuropeptide FF Receptor Antagonist: 76
+CBR Ligand: 76
+PPAR Ligand: 76
+Guanylate Cyclase Activator: 76
+Nephrotoxicity: 76
+cAMP Inhibitor: 76
+PCP Treatment: 76
+Chemoprevention: 76
+Growth Hormone-Releasing Agonist: 76
+Dual Orexin Receptor Antagonist: 76
+Heparin Delivery: 76
+Antidementia: 75
+kappa-Opioid Receptor: 75
+OSC Inhibitor: 75
+miRNA Inhibitor: 75
+Lipid Reducing: 75
+Metalloaminopeptidase Inhibitor: 75
+LYP Inhibitor: 75
+Cell Wall Synthesis Inhibitor: 75
+Chemotherapeutic Sensitizer: 75
+DNA Damage Response Modulator: 75
+CK1Delta/Epsilon Inhibitor: 75
+TGase 2 Inhibitor: 75
+GPBAR1 Agonist: 75
+QT Prolongation: 75
+MOR Partial Agonist: 75
+LTA H Inhibitor: 75
+Inotropic Agent: 75
+Genotoxic: 75
+NK(2) Antagonist: 75
+Nav1.7 Inhibitor: 75
+NRI: 75
+Alpha 4 Beta 1 Antagonist: 75
+TNF-alpha Suppressor: 75
+Neuronal nAChR Antagonist: 75
+Ischemic Injury: 75
+MRGPRX2 Agonist: 75
+Respiratory Chain Inhibitor: 75
+Pan-HDAC Inhibitor: 75
+Radio Diagnostics: 75
+Gli1 Inhibitor: 75
+Peripherally Restricted: 75
+Pol I Inhibitor: 75
+Thrombopoietin Mimic: 75
+AGE Inhibitor: 75
+SHMT Inhibitor: 75
+ANP Agonist: 75
+HIV-1 Protease Dimerization Inhibitor: 75
+M1 mAChR PAM: 75
+GCase Activator: 75
+Disease-Modifying: 75
+Pan-Raf Inhibitor: 75
+Hec1/Nek2 Inhibitor: 75
+BK Channel Activator: 75
+Phospholipase B1 Inhibitor: 74
+Radioprotector: 74
+CK2Alpha Inhibitor: 74
+PCSK9 Modulator: 74
+p47phox-p22phox Inhibitor: 74
+RNA Polymerase II Inhibitor: 74
+Neurodegeneration: 74
+Antimutagenic: 74
+Anti-Cancer Stem Cells: 74
+Outer-Membrane Permeabilizer: 74
+Antifibrinolytic: 74
+AML Therapy: 74
+Mtb Growth Inhibitor: 74
+Voltage-Gated Sodium Channel Modulator: 74
+NPP3 Inhibitor: 74
+GPR103 Agonist: 74
+Alcohol Abuse Treatment: 74
+Mitocan: 74
+CYP3A Substrate: 74
+Thrombin Receptor Agonist: 74
+Skin Permeation: 74
+RNAP Inhibitor: 74
+GP Inhibitor: 74
+Antimycoplasmic: 74
+K(ATP) Opener: 74
+Sirt5 Inhibitor: 74
+Tubulin Depolymerization: 74
+Cannabinoid Inhibitor: 74
+Kappa Receptor Ligand: 74
+FATP1 Inhibitor: 74
+Tyrosinase Activator: 74
+V1 Receptor Antagonist: 74
+Neprilysin Inhibitor: 74
+Mitogenic: 74
+Src SH2 Domain Inhibitor: 74
+Pepsin Inhibitor: 74
+CNS Penetrable: 74
+P2X1 Receptor Modulator: 74
+Antineuropathic: 74
+Phosphorylation Inhibitor: 74
+Erythrocyte Invasion Inhibitor: 74
+CNS Agents: 74
+Cholestatic Liver Diseases: 74
+mGlu1 Modulator: 74
+Beta-AR Agonist: 74
+Respiratory: 74
+S1PR2 Ligand: 74
+Anti-Osteoclast Formation: 74
+5-HT(1A) Superagonist: 74
+CD1d-Restricted Ligand: 74
+FabG4 Inhibitor: 74
+PKB Inhibitor: 74
+IBD Therapeutic: 74
+Anti-Oxidative: 73
+Neuropeptide S Receptor Antagonist: 73
+BMP Inhibitor: 73
+Hepatitis C: 73
+DDAH-1 Inhibitor: 73
+Biofilm Eradication: 73
+ER Selective Ligand: 73
+CDI Treatment: 73
+Capsid-Binding Inhibitor: 73
+CrtN Inhibitor: 73
+Kainate Receptor Agonist: 73
+Antisickling: 73
+DAP-AT Inhibitor: 73
+RNP Complex Inhibitor: 73
+Chemical Chaperone: 73
+Tissue Factor Inhibitor: 73
+Hepcidin Inhibitor: 73
+Chemotherapeutic Potentiator: 73
+Cardioactive: 73
+Quorum Sensing: 73
+Dermal Anti-Scarring: 73
+Weight Management: 73
+Appetite Regulator: 73
+cGAS Inhibitor: 73
+Cryptosporidium parvum Inhibitor: 73
+IKK-Beta Inhibitor: 73
+Cholestatic DILI: 73
+Cell Death Inducer: 73
+HCV IRES Inhibitor: 73
+HGXPRT Inhibitor: 73
+TASK-1 Inhibitor: 73
+AIMP2-DX2 Inhibitor: 73
+ProTide: 73
+Antimyeloma: 73
+Growth Hormone Release-Inhibitor: 73
+Mu/Delta Opioid Receptor Agonist: 73
+Antitubulin Agent: 73
+2OG Oxygenase Inhibitor: 73
+Galactosemia Treatment: 73
+MERTK Inhibitor: 73
+TcdB Inhibitor: 73
+Liver Regeneration: 73
+NPSR Ligand: 73
+Anion Inhibitor: 72
+Opioid Agonist-Antagonist: 72
+Alpha-Glucosidase Inhibition: 72
+GSPT1/2 Degrader: 72
+Rhomboid Protease Inhibitor: 72
+Neurological Disorder Treatment: 72
+NusB-NusE Inhibitor: 72
+G4 Stabilizer: 72
+SRPK-1 Inhibitor: 72
+Analgesic-antiinflammatory: 72
+Tumor-Associated: 72
+Cycle Blocker: 72
+CD47-SIRPAlpha Modulator: 72
+Phagocytosis Enhancer: 72
+Bfl-1 Inhibitor: 72
+Hypoxia-Activated: 72
+BF3 Inhibitor: 72
+Erythroid Differentiation Inducer: 72
+Tyrosinase Substrate: 72
+Granzyme Inhibitor: 72
+Carcinogenic: 72
+PAD4 Inhibitor: 72
+Redox Activator: 72
+Phosphodiesterase III Inhibitor: 72
+GBM Treatment: 72
+APJ Receptor Antagonist: 72
+Abeta Production Inhibitor: 72
+CXCL8 Inhibitor: 72
+Rotamase Inhibitor: 72
+GAR Tfase Inhibitor: 72
+Pancreatic Beta-cell Proliferation: 72
+Ulcerative Colitis: 72
+V1 Antagonist: 72
+Calcium Entry Blocker: 72
+C1r Inhibitor: 72
+Methyl-Lysine Reader Antagonist: 72
+Bisphosphonates: 72
+Visceral Leishmaniasis Drug: 72
+ROCK1 Inhibitor: 72
+FSAD Treatment: 72
+Translocase I Inhibitor: 72
+ChoK Inhibitor: 72
+Cyclooxygenase/5-Lipoxygenase Inhibitor: 72
+E3 Ligase Binder: 71
+p53-MDM2/MDMX Antagonist: 71
+TRPV6 Inhibitor: 71
+OTUB1 Inhibitor: 71
+Tick-Borne Encephalitis Inhibitor: 71
+Organic Anion Transporter 1 Substrate: 71
+A3 Receptor Agonist: 71
+LTCC Blocker: 71
+15-Prostaglandin Dehydrogenase Inhibitor: 71
+Oxidative Stress Inhibitor: 71
+CCR1 Inhibitor: 71
+Stroke: 71
+Membrane Permeability: 71
+Pyruvate Dehydrogenase Kinase Inhibitor: 71
+Salidiuretic: 71
+Chondroprotective: 71
+RIPK3 Inhibitor: 71
+sRBP-TTR Inhibitor: 71
+sRBP-sRBP Receptor Inhibitor: 71
+ABCA1 Up-regulator: 71
+Gap Junction Inhibitor: 71
+PDE4/7 Inhibitor: 71
+Intrinsically Disordered Protein Stabilizer: 71
+NAD+ Enhancer: 71
+Platelet Activation: 71
+Long-Acting: 71
+NO-Donating Prodrug: 71
+NOP Antagonist: 71
+H2-Receptor Antagonist: 71
+MC4R Partial Agonist: 71
+Cocaine-Seeking Behavior: 71
+Dopamine D2 Modulator: 71
+PSD-95 Inhibitor: 71
+Ras Localization Inhibitor: 71
+KPC-2 Inhibitor: 71
+DMOAD: 71
+EGFR Dimerization Inhibitor: 71
+Membranolytic: 71
+PET Imaging Probe: 71
+AC8 Inhibitor: 71
+Serotonin Regulator: 71
+Anti-BVDV: 71
+RNA Helicase Inhibitor: 71
+Beta-Arrestin Biased: 71
+Herpes Inhibitor: 71
+RhlR Antagonist: 71
+Alpha1A Adrenoceptor Partial Agonist: 71
+Neuronal Na+ Channel Blocker: 70
+TrkB Agonist: 70
+HCV Assembly Inhibitor: 70
+CKD Treatment: 70
+MAO-Inhibitor: 70
+Senolytic: 70
+APC-Asef Inhibitor: 70
+p110Alpha-Selective: 70
+Trypanosome Alternative Oxidase Inhibitor: 70
+Depression: 70
+SF-1 Agonist: 70
+NSCLC Therapy: 70
+PET Imaging: 70
+Pesticide Design: 70
+DDR Kinase Inhibitor: 70
+GLO I Inhibitor: 70
+Collagen Prolyl 4-Hydroxylase Inhibitor: 70
+H4R Agonist: 70
+Intraocular Pressure Reducer: 70
+MHC Class II Inhibitor: 70
+PKCTheta/Delta Inhibitor: 70
+Nitroreductase: 70
+Mito-K(ATP) Channel Opener: 70
+AIM2 Inflammasome Inhibitor: 70
+Coumarin Derivative: 70
+Macrophage: 70
+Redox Modulator: 70
+Anticryptosporidial: 70
+Nephropathy: 70
+AR Down-regulator: 70
+TDP-43: 70
+CK-1 Inhibitor: 70
+Oral Delivery Agent: 70
+NRTI: 70
+gp120 Antagonist: 70
+Hepatotoxic: 70
+V1b Receptor Agonist: 70
+Gastric Secretion Inhibitor: 70
+Ryanodine Receptor Activator: 70
+Oxidative Phosphorylation Inhibitor: 70
+CXCR7 Ligand: 70
+Parkinson's Disease Treatment: 70
+Elongation Factor-Tu Inhibitor: 70
+NKT Cell Stimulant: 70
+Colchicine Site: 70
+AChE-Induced A beta Aggregation Inhibitor: 70
+PSMA Ligand: 70
+Beta-glucuronidase Inhibitor: 69
+Atg8-Atg3 Inhibitor: 69
+Alzheimer's Disease Ligand: 69
+Diacylglycerol Lipase Inhibitor: 69
+HIV-TAR RNA Binder: 69
+mGAT2 Inhibitor: 69
+Tumor Cell Inhibitor: 69
+RXRAlpha Activator: 69
+RAR Antagonist: 69
+CNS Activity: 69
+Estrogen Receptor Inhibitor: 69
+Taste Modulator: 69
+Actinic Keratosis Treatment: 69
+Microtubule Disassembly Inhibitor: 69
+BRD9 Inhibitor: 69
+Anti-Acetylcholinesterase: 69
+D2/5-HT2 Antagonist: 69
+Influenza Antiviral: 69
+IKKEpsilon Inhibitor: 69
+M2 Muscarinic Antagonist: 69
+Purine Metabolism Inhibitor: 69
+HBV Capsid Assembly Effector: 69
+Central Nervous System: 69
+Uterine Contraction Inhibitor: 69
+Opioid Peptide: 69
+Antidopaminergic: 69
+Histamine Inhibitor: 69
+GP-BAR1 Agonist: 69
+Metzincin Inhibitor: 69
+KDM2/7 Inhibitor: 69
+P2Y Inhibitor: 69
+Kallikrein 7 Inhibitor: 69
+Antigen Presentation Inhibitor: 69
+H3K4me3 Demethylase Inhibitor: 69
+Antimigraine: 69
+F1F0 ATPase Inhibitor: 69
+Luliberin Inhibitor: 69
+PDE8A Inhibitor: 69
+Anti-Leukotriene: 69
+Thymidylate Kinase Substrate: 69
+Tryptophan Biosynthesis Inhibitor: 69
+Asthma Therapeutic: 69
+Anti-Arrhythmic: 69
+MOP Receptor Agonist: 69
+Postprandial Hyperglycemia: 69
+Cartilage Degradation: 69
+Mitochondrial Protector: 69
+LspA Inhibitor: 69
+Neurological Ligands: 69
+Respiratory Smooth Muscle Relaxant: 69
+Potential Antidepressant: 69
+Gastrokinetic: 69
+GGT1 Inhibitor: 69
+Muscle Growth: 69
+Negative Inotropic: 68
+TTBK1 Inhibitor: 68
+ETA Selective Endothelin Receptor Antagonist: 68
+Central Benzodiazepine Receptor Ligand: 68
+Anti-PDAC: 68
+UbcH5c Inhibitor: 68
+Pan-TRK Inhibitor: 68
+Neuronal Differentiation: 68
+Ocular Carbonic Anhydrase Inhibitor: 68
+Membrane Depolarization: 68
+FATP4 Inhibitor: 68
+p300 Inhibitor: 68
+Phosphoinositide 3-Kinase Delta Inhibitor: 68
+ThrRS Inhibitor: 68
+FFAR2 Agonist: 68
+Prostanoid Receptor Ligand: 68
+Anti-Aging: 68
+YAP-TEAD Inhibitor: 68
+Anti-Migraine: 68
+Cell Adhesion: 68
+Cancer Pro-Drug: 68
+Leishmania: 68
+MurE Ligase Inhibitor: 68
+Insulin Signalling: 68
+HCV IRES Ligand: 68
+Euglycemic: 68
+Neuroactive: 68
+PA-PB1 Interaction Inhibitor: 68
+Guanylate Cyclase Stimulator: 68
+Mitochondrial Pyruvate Carrier Inhibitor: 68
+CCR9 Antagonist: 68
+N/OFQ Receptor Antagonist: 68
+Neurological Disorder: 68
+Translocator Protein Ligand: 68
+PSA Inhibitor: 68
+Myosin Light Chain Kinase Inhibitor: 68
+Anti-Diabesity: 68
+Akt2 Inhibitor: 68
+5-HT2 Receptor Affinity: 68
+FOP Treatment: 68
+Pancreatic KATP Channel Opener: 68
+HDL Inducer: 68
+Transcriptional Activation Inhibitor: 68
+DNA Affinity: 68
+Half-Life Extension: 68
+JAK2/STAT3 Inhibitor: 68
+Vascular Permeability: 68
+aPKC Inhibitor: 68
+Anti-Dandruff: 68
+H2S-Releasing: 67
+Alpha-Synuclein Aggregation Inhibitor: 67
+TDP-43 Modulator: 67
+ALS Therapy: 67
+HuAChE Inhibitor: 67
+mtFabH Inhibitor: 67
+Post-Coital Antifertility: 67
+Cocaine Medication: 67
+PP1 Inhibitor: 67
+CRC: 67
+Platelet Anti-Aggregatory: 67
+Nematocidal: 67
+Varicella Zoster Virus Inhibitor: 67
+Phencyclidine-Like: 67
+Nicotinic Acetylcholine Receptor Inhibitor: 67
+TEAD Inhibitor: 67
+12/15-LOX Inhibitor: 67
+Transcription Modulator: 67
+Trypanosomiasis Treatment: 67
+Breast Cancer Targeting: 67
+sst4 Agonist: 67
+IBS Therapy: 67
+Brk/PTK6 Inhibitor: 67
+Hyperglycemic: 67
+PKG1Alpha Activator: 67
+Antisteatotic: 67
+Hemoglobin Modulator: 67
+GPR68 PAM: 67
+KCNQ2 Inhibitor: 67
+TTR Inhibitor: 67
+CaCC Inhibitor: 67
+RIP2 Kinase Inhibitor: 67
+Protonophore: 67
+ERAD Inhibitor: 67
+DPP-IV Substrate: 67
+Angiotensin Receptor Ligand: 67
+Potential Cancer Treatment: 67
+Glucosidase Inhibitor: 67
+OXE Receptor Antagonist: 67
+GLP Inhibitor: 67
+LPS Heptosylation Inhibitor: 67
+Gram Negative: 67
+Polyamine Analogue: 66
+H2 Agonist: 66
+rRNA-Binding: 66
+Histone KMT Inhibitor: 66
+Histone KDM Inhibitor: 66
+Ionotropic Glutamate Receptor Ligand: 66
+Alpha-synuclein Ligand: 66
+YAP/TAZ-TEAD Inhibitor: 66
+Peroxisome Proliferator-Activated Receptor Agonist: 66
+Ulcerative Colitis Treatment: 66
+Lck SH2 Antagonist: 66
+Nematocide: 66
+CNS Agent: 66
+Caspase 3/7 Activator: 66
+Repellent: 66
+MDR Pump Inhibitor: 66
+Thioredoxin-1 Inhibitor: 66
+FEN1 Inhibitor: 66
+Gene Delivery: 66
+B-Cell Lymphoma: 66
+Organic Cation Transporter 2 Inhibitor: 66
+CDC2 Kinase Inhibitor: 66
+Channel Inhibitor: 66
+Anti-HRV: 66
+Insulin Degrading Enzyme Inhibitor: 66
+Cancer Metabolism: 66
+CaNmt Inhibitor: 66
+Prion Inhibitor: 66
+Ca 3.2-Blocker: 66
+Overactive Bladder: 66
+Trypanosomicidal: 66
+Protein Kinase B Inhibitor: 66
+Opiate: 66
+FPGS Inhibitor: 66
+PHD-1 Inhibitor: 66
+WDR5 Antagonist: 66
+GABA(B) Receptor Modulator: 66
+Pan-Src Inhibitor: 66
+Prostate Cancer Pro-Drug: 66
+Autophagy Activator: 66
+GO Inhibitor: 66
+Glutamate Receptor Antagonist: 66
+SIRT6 Modulator: 66
+Epigenetic: 66
+Antiaggregatory: 66
+Oncogene Inhibitor: 66
+IP6K Inhibitor: 66
+TMK Inhibitor: 66
+mTORC2 Inhibitor: 66
+Human Chymase Inhibitor: 66
+Antiulcerogenic: 66
+Anticholinesterasic: 66
+Oxytocin Receptor Ligand: 66
+Mu Antagonist: 66
+Pro-Social: 66
+Hepatotoxicity: 66
+Carbonic Anhydrase XV Inhibitor: 65
+DNA Cleaving Agent: 65
+Memory Impairment: 65
+KCNQ2 Agonist: 65
+Osteogenesis Inducer: 65
+Rhinovirus Replication Inhibitor: 65
+Kidney Cancer: 65
+SPOP Inhibitor: 65
+Immune System: 65
+Glucocerebrosidase Chaperone: 65
+Transketolase Inhibitor: 65
+Hepatocellular Carcinoma Inhibitor: 65
+Ewing Sarcoma: 65
+Antibiotic Sensitizer: 65
+Antienteroviral: 65
+HBV Entry Inhibitor: 65
+BET Degrader: 65
+Receptor Inhibitor: 65
+Dermatological Agent: 65
+Vitamin D Receptor Ligand: 65
+Coactivator Inhibitor: 65
+Lipolytic Enzyme Inhibitor: 65
+Cartilage Degradation Inhibitor: 65
+5-HT1A Receptor Inhibitor: 65
+TrkA Kinase Inhibitor: 65
+Heat Shock Response Inducer: 65
+ADAM17 Inhibitor: 65
+Macrophage Migration Inhibitory Factor Inhibitor: 65
+MARK Inhibitor: 65
+PLK1-PBD Inhibitor: 65
+Insulin-like Growth Factor-1 Receptor Inhibitor: 65
+MT(1) Agonist: 65
+Cartilage-Protective: 65
+Influenza PB2 Inhibitor: 65
+Testosterone-Suppressive: 65
+CNS Trauma and Ischemia Treatment: 65
+Adenine Receptor Agonist: 65
+M1 Receptor PAM: 65
+Cocaine Abuse: 65
+hLDH5 Inhibitor: 65
+T. cruzi Growth Inhibitor: 65
+PEX14-PEX5 Inhibitor: 65
+CpIMPDH Inhibitor: 65
+CXCR7 Modulator: 65
+Potassium Channel Blocker: 65
+Insulin Inducer: 65
+HMT Inhibitor: 65
+Norepinephrine-Serotonin Reuptake Inhibitor: 65
+Serotonin Synthesis Inhibitor: 65
+ERAlpha Selective: 65
+PAD2 Inhibitor: 65
+Negative Symptoms: 65
+EAAT2 Activator: 65
+FFA3 Modulator: 65
+KAT II Inhibitor: 65
+Gastric Mucosal Protectant: 65
+Melanoma Imaging: 65
+HDL-Increasing: 65
+GSM: 65
+Insulin Secretion Inducer: 65
+RAS Activation: 65
+Yellow Fever Virus Inhibitor: 65
+SQS Inhibitor: 64
+Gamma-Butyrobetaine Hydroxylase Inhibitor: 64
+Cysteine-Targeting: 64
+Soman Intoxication Therapy: 64
+HIV-AIDS Treatment: 64
+Cancer Cell Migration Inhibitor: 64
+MTAN Inhibitor: 64
+Glioma Treatment: 64
+17Beta-HSD10 Inhibitor: 64
+hCAR Agonist: 64
+Retinoic Acid Receptor Antagonist: 64
+Mitochondrial Respiration Inhibitor: 64
+MptpB Inhibitor: 64
+Sirtuin Activator: 64
+RasGRP Ligand: 64
+Neurotensin Mimetic: 64
+Protein Prenylation Inhibitor: 64
+Anti-CML: 64
+GAlphaq/11 Inhibitor: 64
+Uveal Melanoma: 64
+Druggable: 64
+SRC Kinase Inhibitor: 64
+Glucokinase Modulator: 64
+GK-GKRP Disruptor: 64
+Beta-Amyloid Probe: 64
+Beta-Lactam Adjuvant: 64
+MRSA Reversal: 64
+ERBeta Antagonist: 64
+Mnk Inhibitor: 64
+PanK Inhibitor: 64
+Thrombolytic: 64
+Sepsis Treatment: 64
+Passive Permeability: 64
+PAM Inhibitor: 64
+Androgen Receptor Downregulator: 64
+DT-diaphorase Substrate: 64
+H2-Antagonist: 64
+UT-A1 Inhibitor: 64
+Deoxycytidine Kinase Inhibitor: 64
+mRNA Splicing: 64
+SERT Selective: 64
+Water Soluble: 64
+Glucose Control: 64
+SFK Inhibitor: 64
+GCGR Agonist: 64
+H3R-Selective: 64
+TRAP1 Inhibitor: 64
+Acyl Transferase Inhibitor: 64
+MTHFD2 Inhibitor: 64
+Memory-Improving: 64
+Synthetic Lethal Lead: 64
+TCOF1 Inhibitor: 64
+Cholinergic Channel Activator: 64
+4E-BP1 Upregulator: 64
+Phosphatidylinositol 4-Kinase Inhibitor: 64
+Renal Anemia: 63
+Protein Degradation Inducer: 63
+MDM2 Degrader: 63
+Dopamine Agent: 63
+Myeloid Differentiation: 63
+Constitutive Androstane Receptor Agonist: 63
+Cyclic Peptide: 63
+Carcinostatic: 63
+Glutamic Acid Receptor Agonist: 63
+ERbeta-Selective: 63
+TET2 Inhibitor: 63
+Anti-Mycobacterium tuberculosis: 63
+SMOX Inhibitor: 63
+Dehydroquinase Inhibitor: 63
+Cell Membrane Depolarizer: 63
+Pre-mRNA Splicing Modulator: 63
+hA(2A) Antagonist: 63
+Antifolate Synergy: 63
+BHMT Inhibitor: 63
+HbS Inhibitor: 63
+Blood-Brain Barrier Permeability: 63
+GKA: 63
+HpFabZ Inhibitor: 63
+PYK2 Inhibitor: 63
+S1P3-sparing: 63
+GAT Inhibitor: 63
+ccRCC Treatment: 63
+Insulin-like: 63
+hCB1 Selective: 63
+Peripheralized: 63
+Wnt Pathway Modulator: 63
+Periodontitis: 63
+SerB653 Inhibitor: 63
+Urinary Incontinence: 63
+Pain Management: 63
+Megakaryocytopoiesis Promoter: 63
+Herpesvirus Polymerase Inhibitor: 63
+Pulmonary Fibrosis Treatment: 63
+GLP-1 Derivative: 63
+eN Inhibitor: 63
+Bile Acid Transporter: 63
+Skin Repair: 63
+AICARFTase Inhibitor: 63
+Anti-Ischemic Stroke: 63
+ADA Inhibitor: 63
+WNV Inhibitor: 63
+Tpo Receptor Agonist: 63
+CCK-8-Inactivating Peptidase Inhibitor: 62
+Protein Kinase G Inhibitor: 62
+MRS Inhibitor: 62
+E7 Inhibitor: 62
+Enteropeptidase Inhibitor: 62
+Anticardiac Fibrotic: 62
+IL-13 Signaling: 62
+Partial Antagonist: 62
+Myasthenia Gravis Treatment: 62
+MRP2 Inhibitor: 62
+Free Fatty Acid Lowering: 62
+Kainate Receptor Ligand: 62
+Invasion Inhibitor: 62
+Antihepatotoxic: 62
+Menin Inhibitor: 62
+Atg4B Inhibitor: 62
+CCR5 Ligand: 62
+Peripheral Analgesic: 62
+AIDS: 62
+NPC1: 62
+Niemann-Pick: 62
+PRL-3 Inhibitor: 62
+Pulmonary Fibrosis Inhibitor: 62
+TGF-Beta/Smad Pathway Inhibitor: 62
+CREBBP Bromodomain Inhibitor: 62
+hA2A Receptor Antagonist: 62
+Mitochondrial KATP Channel Opener: 62
+Histone Deacetylase 8 Inhibitor: 62
+Diazepam Binding Inhibitor: 62
+PfCLK1 Inhibitor: 62
+Fast-Killing: 62
+CYP19A1 Inhibitor: 62
+D(1)-Selective: 62
+Sexual Dysfunction: 62
+Anti-Ulcer: 62
+Cancer Cell Apoptosis: 62
+Cardiac NaV 1.5 Inhibitor: 62
+MyD88 Inhibitor: 62
+GH Secretagogue: 62
+C. difficile: 62
+CPT-I Activator: 62
+Ischemic Heart Disease: 62
+Malonyl-CoA Decarboxylase Inhibitor: 62
+Antimitotic Prodrug: 62
+Zika Virus Protease Inhibitor: 62
+ACKR3 Ligand: 62
+Ricin Inhibitor: 62
+CYP51/HDAC Inhibitor: 62
+EHMT1/EHMT2 Inhibitor: 62
+ALKBH5 Inhibitor: 62
+GSK3/ PK6 Inhibitor: 62
+Filovirus Entry Inhibitor: 62
+Anti-HSV: 62
+GLP-1/Glucagon Receptor Agonist: 62
+iNKT Cell Stimulator: 62
+Tau Protein Inhibitor: 62
+NSRI: 62
+HG(X)PRT Inhibitor: 62
+CXCL12 Neutraligand: 62
+Monoamine Transporter Binder: 62
+Imidazoline Ligand: 61
+Parasympatholytic: 61
+Pan-Muscarinic Antagonist: 61
+PP2A Activator: 61
+RON Inhibitor: 61
+Hypobetalipoproteinemic: 61
+NOTUM Inhibitor: 61
+Estrogen Receptor: 61
+TLR2/4 Antagonist: 61
+RORGamma Agonist: 61
+HIV-1-Inhibitory: 61
+NGF Inducer: 61
+PIKK Inhibitor: 61
+Lipid Lowering Agent: 61
+SH2 Domain-Binding: 61
+Autoimmune Disorder Treatment: 61
+CDYL Inhibitor: 61
+TRH-R1 Agonist: 61
+AC2 Agonist: 61
+AdoMet-DC Inhibitor: 61
+Diabetic Retinopathy: 61
+Reactivates AChE: 61
+Larvicide: 61
+AlphavBeta8-Selective Ligand: 61
+Integrin AlphavBeta8 Ligand: 61
+NT Receptor Agonist: 61
+ACL Inhibitor: 61
+Prolactin-Inhibitor: 61
+ADAM-TS4 Inhibitor: 61
+Urea Transporter Inhibitor: 61
+Anti-AIV: 61
+C5aR Agonist: 61
+Hepcidin Production Inhibitor: 61
+Tumor-therapeutic: 61
+AlphaBeta-Tubulin Degradation Agent: 61
+Colchicine-Site Ligand: 61
+HBV cccDNA Reducer: 61
+hCNT2 Inhibitor: 61
+SMS2 Inhibitor: 61
+Photochemotherapeutic: 61
+Anti-Ovarian Cancer: 61
+Termite Control: 61
+Retinoidal: 61
+GPR54 Antagonist: 61
+Metallo-Protease Inhibitor: 61
+COVID-19 Treatment: 61
+Proteolytic Stability: 61
+Capsid Assembly Effector: 61
+H4R Inverse Agonist: 61
+MrgX1 Modulator: 61
+TG-Lowering: 61
+LPL Stabilizer: 61
+Cannabinoid Receptor NAM: 61
+CB2 Receptor Modulator: 61
+Splicing Modulator: 61
+Vasopressin Receptor Ligand: 61
+M4 Positive Allosteric Modulator: 61
+Growth Arrest: 61
+Telomeric G-Quadruplex Stabilizer: 61
+sNRI: 61
+Anti-CF: 61
+Uterine Activity: 61
+PI3K/AKT/Smad Inhibitor: 61
+Anti-Hepatic Fibrosis: 61
+Na(V)1.7 Channel Blocker: 61
+D4R Antagonist: 61
+AKT PROTAC: 61
+Neurogenesis: 60
+TASK Channel Modulator: 60
+SST4 Agonist: 60
+Papain-like Protease Inhibitor: 60
+PYCR1 Inhibitor: 60
+GABA-T Inhibitor: 60
+Testosterone-Lowering: 60
+Triple-Negative Breast Cancer: 60
+Adenosine Deaminase Substrate: 60
+SUMO-Activating Enzyme Inhibitor: 60
+SAE Inhibitor: 60
+Erythropoiesis Stimulator: 60
+Anti-Hepatitis B: 60
+PDEDelta Inhibitor: 60
+Phospholipidosis Inducer: 60
+CB(2) Receptor Ligand: 60
+G-Protein Inhibitor: 60
+Antidipsotropic: 60
+MenA Inhibitor: 60
+L-type Channel Inhibitor: 60
+CaL Channel Inhibitor: 60
+Neuropathic Pain Attenuator: 60
+Hsc70 Down-regulator: 60
+Tumor Immunotherapy: 60
+Protein Kinase C Agonist: 60
+Alpha3 Integrin Ligand: 60
+EED Ligand: 60
+Tissue Distribution: 60
+Cell Penetration: 60
+Cytolysis Inhibitor: 60
+c-Jun N-terminal Kinase Inhibitor: 60
+CDK6/9 Inhibitor: 60
+CAIX Inhibitor: 60
+T Cell Suppressor: 60
+Cell-Growth Inhibitor: 60
+Anti-IAV: 60
+GPR81 Agonist: 60
+FtsZ Modulator: 60
+Muscarinic Receptor Modulator: 60
+Pulmonary Hypertension: 60
+Ototoxicity: 60
+K(Ca) Channel Blocker: 60
+Antidiuretic Antagonist: 60
+5-HT(3) Receptor Partial Agonist: 60
+MABA: 60
+CRC Treatment: 60
+BPH/LUTS Treatment: 60
+NO Scavenger: 60
+Antineuropathic Pain: 60
+CDK9 Degrader: 60
+MAO-B Inactivator: 60
+C3aR Ligand: 60
+Na 1.7 Inhibitor: 60
+Pompe Disease: 60
+GAA Ligand: 60
+Spns2 Inhibitor: 60
+S1P Export Inhibitor: 60
+Peripheral Selective: 60
+NAD Synthetase Inhibitor: 60
+CXCR6 Antagonist: 60
+ER Stress Activator: 60
+Skeletal Muscle Relaxant: 59
+17,20-Lyase Inhibitor: 59
+T2D Therapy: 59
+QR Inducer: 59
+Alpha4Beta2 nAChR: 59
+Anti-Filovirus Entry Inhibitor: 59
+Wnt/Beta-catenin Agonist: 59
+Metabolism: 59
+JAK2-STAT3 Activator: 59
+MshC Inhibitor: 59
+Nuclear Receptor Agonist: 59
+Beta-Adrenergic Blocking Agent: 59
+Mitochondrial Respiratory Chain Inhibitor: 59
+CECR2 Inhibitor: 59
+Mitochondrial Benzodiazepine Receptor Ligand: 59
+Mitochondrial Depolarization: 59
+HMGB1 Inhibitor: 59
+Menaquinone Biosynthesis Inhibitor: 59
+Antispasmodic: 59
+Antitoxoplasmosis: 59
+hM1 Agonist: 59
+Steroidogenesis Stimulator: 59
+Mushroom Tyrosinase Inhibitor: 59
+PPAT Inhibitor: 59
+Cytotoxicity Protection: 59
+Cachexia: 59
+Oxytocin Agonist: 59
+BPTF-BRD Inhibitor: 59
+TRF2 Inhibitor: 59
+NF-KappaB/DNA Interaction Inhibitor: 59
+SYN Inhibitor: 59
+Nucleotide Biosynthesis Inhibitor: 59
+RT DNA Polymerase Inhibitor: 59
+Redox Active: 59
+Opioid Use Disorder: 59
+LAT-1 Substrate: 59
+HCC Tumor: 59
+Cognition Activation: 59
+HIF Stabilizer: 59
+15-Hydroxyprostaglandin Dehydrogenase Inhibitor: 59
+PGE2 Inducer: 59
+Topical: 59
+Metastasis: 59
+ChoKAlpha Inhibitor: 59
+Urotensin II Modulator: 59
+Negative Chronotropic: 59
+TORKi: 59
+TTR Tetramer Stabilizer: 59
+c-KIT/PDGFRAlpha Inhibitor: 59
+D2 DAR Antagonist: 59
+hERG Affinity: 59
+h5-HT(2A) Receptor Antagonist: 59
+Aminoglycoside: 59
+MRSA Re-sensitizer: 59
+FKBP51 Inhibitor: 59
+Adrenergic Agonist: 58
+Dopamine Release: 58
+Mu-Agonist: 58
+Prokinetic: 58
+APE1/Ref-1 Inhibitor: 58
+hIDO1/hTDO Inhibitor: 58
+Adipogenesis Inducer: 58
+Non-Apoptotic Cell Death: 58
+Influenza HA Inhibitor: 58
+PCAF Inhibitor: 58
+DNA Groove Binder: 58
+Prenylation Inhibitor: 58
+Glucose-6-Phosphatase Inhibitor: 58
+Retinoid Receptor Agonist: 58
+Prolyl-tRNA Synthetase Inhibitor: 58
+Cytochrome bc1 Reductase Inhibitor: 58
+Nurr1 Activator: 58
+PSC Inhibitor: 58
+TGF-Beta1/Smad3 Inhibitor: 58
+NUAK Inhibitor: 58
+V(2) Receptor Agonist: 58
+Resistance-Modifying: 58
+PAC1R Antagonist: 58
+Rho/MKL1/SRF Inhibitor: 58
+CNS Drug Partitioning: 58
+NSCLC Inhibitor: 58
+AMP Mimic: 58
+CYP4F2 Inhibitor: 58
+Maxi-K Opener: 58
+Peripheral COMT Inhibitor: 58
+Airway Inflammation: 58
+Influenza RdRp Inhibitor: 58
+Orexigenic: 58
+MMP7 Inhibitor: 58
+GPR103 Ligand: 58
+HGFA Inhibitor: 58
+Kallikrein Inhibitor: 58
+Thrombin Receptor Ligand: 58
+Epigenetic Drug: 58
+Sodium Channel Ligand: 58
+hGPR91 Antagonist: 58
+Hematoregulatory: 58
+5-HT1A: 58
+Peripheral Opioid Agonist: 58
+Antigiardial: 58
+Atriopeptidase Inhibitor: 58
+Wake Promoting: 58
+NO-donor: 58
+Carcinogen: 58
+RUNX3 Modulator: 58
+HsClpP Agonist: 58
+Melanoma Therapy: 58
+GPR84 Inhibitor: 58
+Alpha6Beta4 nAChR Ligand: 58
+Tryptophanyl tRNA Synthetase Inhibitor: 58
+Anticholinergic Bronchodilator: 58
+Acetylcholine Binding Protein Ligand: 58
+Mitochondrial Apoptotic Inducer: 58
+A2AAR Ligand: 58
+PTGES Inhibitor: 58
+-MYC Reducer: 58
+Pim Inhibitor: 58
+Abeta Fibril Inhibitor: 58
+MEK1/2 Degrader: 58
+VHL-Recruiting: 58
+ASCT2 Inhibitor: 58
+Dopamine Receptor Stimulator: 57
+Estrogen-Dependent Diseases: 57
+ABeta Disaggregator: 57
+Blood-Brain Barrier Permeable: 57
+AGT Inhibitor: 57
+BBOX Inhibitor: 57
+Carnitine Biosynthesis Inhibitor: 57
+Substance Abuse Treatment: 57
+VRSA: 57
+S1PL Inhibitor: 57
+Glycine Site: 57
+Sirt3 Activator: 57
+Tau Hyperphosphorylation Inhibitor: 57
+DNA Alkylation: 57
+Cancer Preventive: 57
+Kainate Receptor Inhibitor: 57
+GluR6-Antagonist: 57
+Cushing's Syndrome: 57
+KDM Inhibitor: 57
+Photodynamic Therapy Photosensitizer: 57
+Tsg101-Binding: 57
+HDL Formation: 57
+Pre-Beta HDL: 57
+Hypertriglyceridemia: 57
+TNF-alpha Antagonist: 57
+Peripheral Vasodilator: 57
+Colon Carcinoma Inhibitor: 57
+IDH2 R140Q Inhibitor: 57
+PPIase Inhibitor: 57
+Y1R Agonist: 57
+DR Treatment: 57
+TAOK2 Inhibitor: 57
+Anti-Chagasic: 57
+Inflammation Modulator: 57
+EPAC1 Agonist: 57
+DNA-Docking Scoring Function: 57
+LTD(4) Antagonist: 57
+PANK2 Activator: 57
+CoA Regenerator: 57
+Drug Efflux Pump Inhibitor: 57
+Wnt Signaling Modulator: 57
+CAR Inverse Agonist: 57
+Direct Renin Inhibitor: 57
+Psychotherapeutic: 57
+Smad3 Inhibitor: 57
+PPARdelta Partial Agonist: 57
+S1P3-Sparing: 57
+14Alpha-Demethylase Inhibitor: 57
+GDEPT: 57
+DAPK Inhibitor: 57
+Anti-Estrogen: 57
+Cytodifferentiation: 57
+AMPA/Kainate Receptor Antagonist: 57
+Topoisomerase Poison: 57
+Slack Channel Inhibitor: 57
+iNKT-Cell Agonist: 57
+ACER3 Inhibitor: 57
+Alpha-l-rhamnosidase Inhibitor: 57
+D3R Antagonist: 57
+GAA Activator: 57
+Fungal Hsp90 Inhibitor: 57
+Synergist: 57
+hiCE Inhibitor: 57
+Bitter Taste Blocker: 57
+TAS2R8 Antagonist: 57
+OX(1) Receptor Ligand: 57
+15-hLO-1 Inhibitor: 57
+APL Cell Growth Inhibitor: 57
+Idiopathic Pulmonary Fibrosis: 57
+Tubulin-HDAC Dual Inhibitor: 56
+ERG2 Ligand: 56
+EBP Ligand: 56
+Neurogenesis Promoter: 56
+D5 Receptor Ligand: 56
+Alpha7 Selective: 56
+Neuropathic Pain Inhibitor: 56
+ER Degrader: 56
+Tumor Regressor: 56
+NAD⁺ Catabolizing Inhibitor: 56
+Centrosome Clustering Inhibitor: 56
+hPAT1 Substrate: 56
+Akt Activator: 56
+alpha(4)beta(1) Integrin Ligand: 56
+CHB Therapeutic: 56
+PKC Modulator: 56
+Phospholipase C Inhibitor: 56
+FcRn Antagonist: 56
+PvdQ Inhibitor: 56
+hAChE Inhibitor: 56
+Benzodiazepine Affinity: 56
+NAE Reducer: 56
+CXCR3 Agonist: 56
+LIN28 Inhibitor: 56
+Malarial ENR Inhibitor: 56
+JMJD3 Inhibitor: 56
+ERK Phosphorylation Inhibitor: 56
+Tetanus Toxin Inhibitor: 56
+GRP Antagonist: 56
+Nerve Agent Antidote: 56
+Neuroprotection: 56
+Carnitine Transporter: 56
+Beta-Lactamase: 56
+Venous Antithrombotic: 56
+CYP2B1 Inducer: 56
+Keratinocyte Differentiation Inducer: 56
+Local Anaesthetic: 56
+Immune-chemotherapy: 56
+Topoisomerase IIBeta Inhibitor: 56
+PLAP Inhibitor: 56
+MRP1 Modulator: 56
+PMI Inhibitor: 56
+Gene Expression Regulator: 56
+Transdermal Permeation Enhancer: 56
+Human Beta3 Agonist: 56
+EV-A71 Entry Inhibitor: 56
+LHRH Agonist: 56
+DA Uptake Inhibitor: 56
+sst1 Agonist: 56
+Alpha4beta2 nAChR Potentiator: 56
+L-2-hydroxy Acid Oxidase Inhibitor: 56
+Salmonella: 56
+Neuroinflammation Modulator: 56
+Calcium Channel Agonist: 56
+HDACs 1, 2, 3 Inhibitor: 56
+NF-KappaB Pathway Inhibitor: 56
+PPAR-delta Ligand: 56
+Anti-Aggregating: 56
+HD: 55
+TNKS1/2 Inhibitor: 55
+Dyslipidemia Treatment: 55
+Immunoregulatory: 55
+SERT Binding: 55
+Cocaine Abuse Therapy: 55
+AM2-S31N Inhibitor: 55
+A(3)AR Agonist: 55
+Radioligand: 55
+hMAO Inhibitor: 55
+Cholinomimetic: 55
+PPARgamma Partial Agonist: 55
+HB-EGF Shedding Inhibitor: 55
+Fatty Acid Synthesis: 55
+Mitochondrial Function Enhancer: 55
+Radio-sensitizing: 55
+Protein-Protein Interaction Disruptor: 55
+Mycotoxin: 55
+GSH Depletor: 55
+VHR Inhibitor: 55
+Alpha-Adrenolytic: 55
+Plant Growth Inhibitor: 55
+Phytoene Desaturase Inhibitor: 55
+VEGF Inducer: 55
+DNA Damage Inducer: 55
+DNA Damage Repair: 55
+Colitis Treatment: 55
+Estrogen Biosynthesis Promoter: 55
+Pteridine Reductase 1 Inhibitor: 55
+MDR1-Selective: 55
+Ethanol Metabolism Inhibitor: 55
+Hyperproliferation: 55
+Wnt3a/Beta-catenin Activator: 55
+Weight Loss Agent: 55
+RAD51-BRCA2 Inhibitor: 55
+Complement Modulator: 55
+Cysteine Cathepsin Inhibitor: 55
+Appetite-Inducing: 55
+UPR Activator: 55
+DMD Therapy: 55
+hENT1 Inhibitor: 55
+Mitotic Spindle Inhibitor: 55
+Organ Protection: 55
+Mineralocorticoid Receptor Modulator: 55
+AR Ligand-Binding Inhibitor: 55
+AR Dimerization Disruptor: 55
+Intestinal Toxicity: 55
+Anti-Allodynic: 55
+Telomerase Activator: 55
+NTR Ligand: 55
+Beta-Catenin/BCL9 Inhibitor: 55
+Na(V)1.7 Inhibitor: 55
+Oncogenic Kinase Inhibitor: 55
+Systemic Sclerosis: 55
+HIV-1 Entry Antagonist: 55
+AED: 55
+Lipopeptide: 55
+PPI Disruptor: 55
+Renal Drug Carrier: 55
+NS3 Protease Substrate: 55
+N-Myristoyltransferase Inhibitor: 55
+SIRS Treatment: 55
+Metallocarboxypeptidase Inhibitor: 55
+Amyloid-Beta Clearance: 55
+MLK1/3 Inhibitor: 55
+Mer Tyrosine Kinase Inhibitor: 55
+5-HT4R Partial Agonist: 55
+Cognitive Disorder Treatment: 55
+Nitroreductase Activated Prodrug: 55
+NS4B Protein Inhibitor: 55
+Anti-Rheumatoid Arthritis: 55
+P2X3 Receptor Agonist: 55
+iNKT Cell Activator: 55
+Acid Sphingomyelinase Inhibitor: 55
+AT2 Receptor Antagonist: 55
+DNA Nuclease: 55
+ODC Activator: 55
+PtpA Inhibitor: 55
+PARP1 Degrader: 55
+Multi-targeted RTK Inhibitor: 55
+D-2 Dopamine Receptor Imaging Agent: 54
+c-Met/ALK Inhibitor: 54
+Potential Cancer Therapeutic: 54
+Pestivirus Inhibitor: 54
+Imidazoline I2 Receptor Ligand: 54
+Nucleocytoplasmic Transport Inhibitor: 54
+HA Protein Inhibitor: 54
+RNA Binder: 54
+hBChE Inhibitor: 54
+c-Met Degradation Facilitator: 54
+EGFR Degradation Facilitator: 54
+NAT1 Inhibitor: 54
+Glycine Receptor Modulator: 54
+TRPV4 Agonist: 54
+Epigenetic Therapy: 54
+CD39 Inhibitor: 54
+Hydroxyl Radical Scavenger: 54
+CKLF1 Inhibitor: 54
+Selective Kinase Inhibitor: 54
+Anti-Hemorrhagic: 54
+Tubulin Polymerization Disruptor: 54
+Autophagy Regulator: 54
+Mutagenesis Inhibitor: 54
+MNK Inhibitor: 54
+Motility Inhibitor: 54
+Sex-Hormone Disorder Treatment: 54
+Aminoglycoside Antibiotic: 54
+NSD2 Inhibitor: 54
+PrrB-PrrA Inhibitor: 54
+Glucose Consumption Improver: 54
+IBS: 54
+RNA Recognition: 54
+Melanogenesis Activator: 54
+GPR54 Agonist: 54
+Delta Selective: 54
+Fe-Homeostasis Perturbator: 54
+ErbB2/neu Inhibitor: 54
+Sigma R Agonist: 54
+NRP-1 Inhibitor: 54
+Protein Kinase D Inhibitor: 54
+NPR-A Agonist: 54
+Bioreductive Alkylating Agent: 54
+Trypanosomatid: 54
+PH1 Treatment: 54
+Oxalate Production Inhibitor: 54
+PrP(C) Lowering: 54
+PROT Inhibitor: 54
+Beta5i-Selective: 54
+Prodrug Activator: 54
+CCR9 Inhibitor: 54
+DNA DSBs: 54
+S. aureus: 54
+Retinal Disorder: 54
+Microtubule-Disrupting: 54
+Anti-Insulin-Resistant: 54
+GHS-R1a Ligand: 54
+CD36 Ligand: 54
+Yes Inhibitor: 54
+Complex II Inhibitor: 54
+Anti-Zika Virus: 54
+EZH1 Inhibitor: 54
+Parkinson's: 54
+MsbA Inhibitor: 54
+CaSR Agonist: 54
+Calcium Chelator: 54
+Psychostimulant Abuse Medication: 54
+sAC Inhibitor: 54
+Des1 Inhibitor: 54
+Lysosomal Beta-Mannosidase Inhibitor: 54
+Cationic AMP: 54
+MDR-Selective: 54
+Peptidoleukotriene Antagonist: 54
+SUMO E1 Inhibitor: 54
+NRP1 Antagonist: 54
+Ceramidase Inhibitor: 54
+Dual Antithrombotic: 54
+Lipid Droplet Inhibitor: 54
+Na(v)1.7 Inhibitor: 54
+NK3R Agonist: 54
+Intestinal Alkaline Phosphatase Inhibitor: 54
+Polyamine Metabolism: 53
+Anti-Opportunistic Infection: 53
+Flavodoxin Inhibitor: 53
+Ovicidal: 53
+Hippo Pathway Activator: 53
+Pgp-ATPase Stimulator: 53
+Vesicle Trafficking Inhibitor: 53
+Chelator: 53
+RUVBL1/2 Inhibitor: 53
+c-MYC Transcription Inhibitor: 53
+Antipneumococcal: 53
+CRLs Activation Inhibitor: 53
+Neddylation Modulator: 53
+Cardiac-Slowing: 53
+Pan-Antagonist: 53
+Acetylcholine Receptor Ligand: 53
+HK2 Inhibitor: 53
+KAS III Inhibitor: 53
+Mitochondrial Pathway: 53
+Cancer Metastasis Inhibitor: 53
+NMDAR Inhibitor: 53
+Hepatocarcinogenic: 53
+HDV Inhibitor: 53
+17Beta-HSD14 Inhibitor: 53
+Splicing Inhibitor: 53
+cAMP Assay: 53
+Beta2-Adrenoceptor Antagonist: 53
+GABAB Antagonist: 53
+CXCL12 Ligand: 53
+ARK5 Inhibitor: 53
+Phosphotyrosine Mimetic: 53
+Pan-JAK Inhibitor: 53
+Epigenetic Cancer Therapy: 53
+Insulin Stimulator: 53
+KCC2 Blocker: 53
+CXCR3 Inhibitor: 53
+Chek1 Inhibitor: 53
+Bronchoconstriction: 53
+IDP Inhibitor: 53
+c-Abl Activator: 53
+Gene Regulator: 53
+P-selectin Inhibitor: 53
+KSHV Inhibitor: 53
+Pain Regulator: 53
+ILK Inhibitor: 53
+Water Solubility Improvement: 53
+Penicillin-Binding Protein Inhibitor: 53
+CBG Binding Affinity: 53
+Procoagulant Inhibitor: 53
+PfMIF Inhibitor: 53
+EphA2 Inhibitor: 53
+Tph-1 Inhibitor: 53
+NS Therapy: 53
+Cdk4/6 Inhibitor: 53
+Pan-PIM Kinase Inhibitor: 53
+Cereblon E3 Ligase Modulator: 53
+Gastrin/CCK-B Receptor Antagonist: 53
+Hdmx Antagonist: 53
+Cell Cycle: 53
+AccC Inhibitor: 53
+FXR Activator: 53
+AF Treatment: 53
+Chaperonin Inhibitor: 53
+Isoprenoid Biosynthesis Inhibitor: 53
+Lung Injury: 53
+Cytomegalovirus Protease Inhibitor: 53
+Dengue: 53
+APN/CD13 Inhibitor: 53
+Dual Function: 53
+Antihypercholesterolemic: 53
+Ischemia Reperfusion: 53
+Statin: 53
+HSV1: 53
+Abeta Aggregation: 53
+Polyomavirus Inhibitor: 53
+Cancer Selective: 53
+Amyloid Cascade Modulator: 53
+DNA/RNA Inhibitor: 53
+P-gp/BCRP Inhibitor: 53
+Metabolic Reprogramming: 53
+TSPO Binding: 53
+Bronchospasmolytic: 53
+Glucose Consumption-Promoting: 53
+A2BAR Agonist: 53
+HIV-1 gp41 Inhibitor: 53
+Myeloma: 53
+Anti-Aggregation: 53
+Nectin-4-Targeted: 53
+Glycogen Synthase Activator: 53
+Locomotor Stimulant: 53
+Nonsense Mutation Suppressor: 53
+P5C Reductase Inhibitor: 53
+Na(v)1.4 Channel Blocker: 53
+Chemokine Antagonist: 52
+Dopamine Synthesis: 52
+D3 Dopamine Receptor Ligand: 52
+H1 Receptor Ligand: 52
+GDEPT Prodrug: 52
+Non-nucleoside: 52
+OGT Inhibitor: 52
+Chaperone Inhibitor: 52
+CSE Inhibitor: 52
+Immune Response Augmenter: 52
+PknG Inhibitor: 52
+Anti-Salmonella: 52
+Androgen Biosynthesis: 52
+TRPC4/5 Inhibitor: 52
+BH3 Mimic: 52
+HA Fusion Inhibitor: 52
+TdT Inhibitor: 52
+Foam Cell Formation Inhibitor: 52
+H(1)/5-HT(2A) Receptor Antagonist: 52
+Dopamine Receptor Binder: 52
+Positive Inotropic Agent: 52
+SK(Ca) Channel Blocker: 52
+Alpha7 nAChR Silent Agonist: 52
+NK Cell Enhancer: 52
+4-HPPD Inhibitor: 52
+Antialgal: 52
+Oxazolidinone: 52
+Direct Thrombin Inhibitor: 52
+AIDS Therapeutic: 52
+HIV-1 LTR Inhibitor: 52
+Anti-MRS: 52
+Wound-Healing Promoter: 52
+NEU2 Inhibitor: 52
+NEU1 Inhibitor: 52
+Thermal Analgesic: 52
+UPR Modulator: 52
+LH-RH Agonist: 52
+Muscular Dystrophy Treatment: 52
+cIAP1/2 Inhibitor: 52
+Tachykinin Antagonist: 52
+VEGF-NRP1 Binding Disruptor: 52
+TNF-alpha Regulator: 52
+ENL Inhibitor: 52
+MBR Ligand: 52
+Antiurease: 52
+Reactive Oxygen Species Inducer: 52
+Virulence Blocker: 52
+ACMSD Inhibitor: 52
+GPR4 Antagonist: 52
+VPS34 Inhibitor: 52
+LDL-C Lowering: 52
+CX3CR1 Antagonist: 52
+Raf-1/MAPK/ERK Inhibitor: 52
+Human Acrosin Inhibitor: 52
+Thymoleptic: 52
+Nurr1/NOT Agonist: 52
+A(1) Receptor Antagonist: 52
+Alpha-Dystroglycan Enhancer: 52
+O-Mannosylation Modulator: 52
+Pro-Inflammatory: 52
+Anti-Wnt: 52
+RAS-RAF-MEK-ERK Pathway Inhibitor: 52
+Nucleoside Hydrolase: 52
+m A Demethylase Inhibitor: 52
+Nuisance Inhibitor: 52
+DP2 Antagonist: 52
+ecKAS III Inhibitor: 52
+Methionine Adenosyltransferase Inhibitor: 52
+ARFGAP1 Inhibitor: 52
+CXCR3 Ligand: 52
+Endothelial Cell Proliferation Inhibitor: 52
+CK1Epsilon Inhibitor: 52
+ETB Selective: 52
+GPR174 Agonist: 52
+UTI Treatment: 52
+S2 Serotonergic Receptor Antagonist: 52
+HSP60/10 Inhibitor: 52
+KRAS-PDEDelta Inhibitor: 52
+Antinephritic: 52
+Marburg Inhibitor: 52
+Histamine H1-Receptor Agonist: 52
+Cytotoxin Conjugate: 52
+Gastric Acid Stimulator: 52
+Arachidonic Acid Release: 52
+Phospholipase Activator: 52
+OX2 Receptor Agonist: 52
+OX1 Receptor Agonist: 52
+GIRK Channel Modulator: 52
+Lysosomotropic: 52
+Mitochondrial Permeability Transition Pore Inhibitor: 52
+Chagas: 52
+Protozoan Growth Inhibitor: 52
+C/EBPAlpha Inducer: 52
+Phosphodiesterase 2A Inhibitor: 52
+Bone Loss: 52
+Osteoclast: 52
+Temozolomide Resistance Overcomer: 52
+Stem Cell Mobilizer: 51
+Opiate-Like: 51
+Dopamine D3/D2 Receptor: 51
+Alpha4Beta2 nAChR Modulator: 51
+PDE-III Inhibitor: 51
+EMT Modulator: 51
+PKCbeta Inhibitor: 51
+Tumor Angiogenesis Inhibitor: 51
+FadD Inhibitor: 51
+MRSA-Antimicrobial: 51
+Erectile Dysfunction Treatment: 51
+EGFR/CAIX Inhibitor: 51
+Myosin Inhibitor: 51
+S1P Lyase Inhibitor: 51
+DNA-Interacting: 51
+M2 Receptor Ligand: 51
+TRPV1 Ligand: 51
+Beta-catenin Inhibitor: 51
+Cancer-Targeting: 51
+Endothelin Converting Enzyme Inhibitor: 51
+TcrPDEC Inhibitor: 51
+HAE Prophylactic: 51
+Pan-Pim Kinase Inhibitor: 51
+Radiopharmaceutical: 51
+GI Motility: 51
+DNA Sliding Clamp Inhibitor: 51
+DOXP Reductoisomerase Inhibitor: 51
+Adaptor Protein Inhibitor: 51
+Glioblastoma Treatment: 51
+E1 Helicase Inhibitor: 51
+West Nile Virus: 51
+PP1 Modulator: 51
+Glucagon Analog: 51
+Eosinophil Chemotaxis Inhibitor: 51
+EP(1) Receptor Antagonist: 51
+Virulence Modulator: 51
+Choline Transport Inhibitor: 51
+Multidrug Efflux Pump: 51
+NaV1.8 Inhibitor: 51
+PG Synthesis Inhibitor: 51
+Blood Pressure Reducer: 51
+Cytoskeleton Depolymerization: 51
+Selective Alkylation: 51
+Bladder Activity: 51
+Cytoprotectant: 51
+RNase Domain Modulator: 51
+Lanosterol 14alpha-Demethylase Inhibitor: 51
+MPD Treatment: 51
+PMT1 Inhibitor: 51
+Chloride Transport: 51
+Protein Kinase Substrate: 51
+InsR Substrate: 51
+IGF-1R Substrate: 51
+ADP-Ribosyl Hydrolase Inhibitor: 51
+Beta-Glucocerebrosidase Modulator: 51
+Polyamine Biosynthesis Inhibitor: 51
+Carbamate: 51
+A1 Agonist: 51
+T Cell Immunity: 51
+PKCTheta Modulator: 51
+GLK Inhibitor: 51
+Cognitive Disorders: 51
+CYP2C19 Inhibitor: 51
+Type II Topoisomerase Inhibitor: 51
+Auditory Gating: 51
+Multi-Tyrosine Kinase Inhibitor: 51
+Immunostimulatory Antagonist: 51
+Cytosolic Calcium Inhibitor: 50
+Neuronal Choline Transporter Ligand: 50
+Antitetrabenazine: 50
+Porphyromonas gingivalis Inhibitor: 50
+hAAR Antagonist: 50
+Antibiotic Target: 50
+Glycogenolysis Inhibitor: 50
+Bronchorelaxing: 50
+Ribonucleotide Reductase Inactivator: 50
+Efflux Inhibitor: 50
+Ubiquitin Pathway Inhibitor: 50
+Veinotonic: 50
+FAAH Substrate: 50
+Anti-Tyrosinase: 50
+Flea Efficacy: 50
+p53: 50
+Prostaglandin Receptor Binder: 50
+LXR Ligand: 50
+Ras-PDEDelta Inhibitor: 50
+PPARgamma Inverse Agonist: 50
+Mitochondrial Dysfunction Treatment: 50
+Chlamydia Inhibitor: 50
+Cardioprotectant: 50
+TRPA1 Channel Agonist: 50
+Lanosterol Synthase Inhibitor: 50
+Anti-MI/R Injury: 50
+SSAO Substrate: 50
+Zinc Chelator: 50
+Anti-Sleeping Sickness: 50
+KLF5 Inhibitor: 50
+Proteinase Inhibitor: 50
+TCR Signaling Inhibitor: 50
+JMJD2A Inhibitor: 50
+HIV-1 Treatment: 50
+Biofilm Potentiator: 50
+LDLR Binding Inhibitor: 50
+BD2 Inhibitor: 50
+T-Cell Activator: 50
+ErmC' Inhibitor: 50
+Protozoan Inhibitor: 50
+TRIM37-Amplified Breast Cancer: 50
+Carbapenemase Inhibitor: 50
+Fyn Inhibitor: 50
+NMDA Receptor Co-Agonist: 50
+Beta-Amyloid Binding: 50
+Liver Diseases: 50
+GATs Inhibitor: 50
+GHS Agonist: 50
+JSP-1 Inhibitor: 50
+USP30 Inhibitor: 50
+Histidine-Containing Protein Kinase/Phosphatase Inhibitor: 50
+HAT Therapeutic: 50
+Dengue Virus: 50
+Heterocyclic Scaffold: 50
+Cationic Antimicrobial: 50
+CaR Antagonist: 50
+Beta-adrenoceptor Stimulant: 50
+Peptidase Inhibitor: 50
+APA Inhibitor: 50
+Macrophage Metalloelastase Inhibitor: 50
+APP Metabolism Modulator: 50
+CYP1A1-Activated: 50
+Indoximod: 50
+Depigmenting: 50
+Hypothalamic-Pituitary-Gonadal Axis Activation: 50
+OAB Therapy: 50
+RAS-GTP Increase: 50
+Muscarinic Receptor Allosteric Modulator: 50
+5-HT1A/5-HT2A: 50
+Dopamine D2/D3: 50
+Apoptosis Regulator: 50
+WTA Biosynthesis Inhibitor: 50
+ERbeta-Selective Ligand: 50
+Muscular nAChR Antagonist: 50
+Dual Pathway: 50
+Antineophobic: 50
+PET Inhibitor: 50
+PfPKG Inhibitor: 50
+Oxytocic: 50
+ExoS ADPRT Inhibitor: 50
