@@ -1,0 +1,1301 @@
+ground_truth,prediction,chat_response,TP,FP,FN
+{'Antitumor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Beta-Adrenoceptor Blocker'},['Beta-Adrenoceptor Blocker'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'Antimicrobial'}",[],"The predicted attributes are empty, while the true attributes are Cytotoxic and Antimicrobial.
+
+So:
+- TP = 0
+- FP = 0
+- FN = 2
+
+TP:0,FP:0,FN:2",0,0,2
+"{'QS Modulator', 'Antimicrobial', 'LsrK Inhibitor'}","['Antimicrobial', 'QS Modulator', 'LsrK Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'Chk1 Inhibitor'},['Chk1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'ECE Inhibitor'},['ECE Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Prodrug', 'Anti-Tuberculosis'}",['Anti-Tuberculosis'],"TP:1,FP:0,FN:1",1,0,1
+{'Histamine H3 Receptor Antagonist'},['Histamine H3 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Cardiotonic'},"['Cardiotonic', 'Positive Inotropic']","TP:1,FP:1,FN:0",1,1,0
+{'Opioid Receptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Blood Glucose-Lowering', 'GPR119 Agonist'}",['GPR119 Agonist'],"TP:1,FP:0,FN:1",1,0,1
+{'sGC Stimulator'},"['Hypertension', 'sGC Stimulator']","TP:1,FP:1,FN:0",1,1,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Soluble Epoxide Hydrolase Inhibitor', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antiplatelet Aggregation Inhibitor'},['Antiplatelet Aggregation Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antioxidant', 'Pteridine Reductase 1 Inhibitor', 'Anti-Leishmanial'}",['Pteridine Reductase 1 Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+"{'Histone Deacetylase Inhibitor', 'Antiproliferative', 'Immunomodulatory'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Anti-Inflammatory', 'Anti-Atherosclerosis', 'Antioxidant', 'H2S Donor', 'Foam Cell Formation Inhibitor'}",['HIV-1 PR/RT Inhibitor'],"TP:0,FP:1,FN:5",0,1,5
+"{'Butylcholinesterase Inhibitor', 'Acetylcholinesterase Inhibitor', ""Alzheimer's Disease""}","['Acetylcholinesterase Inhibitor', 'Butylcholinesterase Inhibitor']","TP:2,FP:0,FN:1",2,0,1
+{'Insecticidal'},['Insecticidal'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antimalarial', 'Cytotoxic', 'Antiprotozoan', 'Phospholipase A2 Inhibitor', 'Antifungal', 'Antimicrobial', 'Phospholipid Metabolism Inhibitor'}","['Cytotoxic', 'Antimalarial', 'Antifungal', 'Antimicrobial', 'Antiprotozoan', 'Phospholipase A2 Inhibitor', 'Phospholipid Metabolism Inhibitor']","TP:7,FP:0,FN:0",7,0,0
+"{'Tumor Suppressor', 'Telomerase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Cancer Therapy'},['Antitubulin Agent'],"TP:0,FP:1,FN:1",0,1,1
+{'NPY Y5 Receptor Antagonist'},"['NPY Y5 Receptor Antagonist', 'Y1 Antagonist']","TP:1,FP:1,FN:0",1,1,0
+{'Analgesic'},['Analgesic'],"TP:1,FP:0,FN:0",1,0,0
+{'Antifungal'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'Wnt/Beta-catenin Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'CXCR4 Ligand', 'Anti-HIV-1'}",['CXCR4 Ligand'],"TP:1,FP:0,FN:1",1,0,1
+{'11betaHSD1 Inhibitor'},['11betaHSD1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Pharmacokinetic Enhancer', 'CYP3A4 Inhibitor'}","['CYP3A4 Inhibitor', 'Pharmacokinetic Enhancer']","TP:2,FP:0,FN:0",2,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'S1P1-R Modulator', 'Partial Agonist', 'Autoimmune Disease'}","['Partial Agonist', 'Autoimmune Disease', 'S1P1-R Modulator', 'Lymphocyte Reducer']","TP:3,FP:1,FN:0",3,1,0
+"{'Neuroprotective', 'Nitric Oxide Donor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cytotoxic', '20S Proteasome Inhibitor'}",['Proteasome Inhibitor'],"The predicted attribute **Proteasome Inhibitor** matches the true attribute **20S Proteasome Inhibitor** at the functional level, so it counts as a true positive.
+
+- **TP** = 1
+- **FP** = 0
+- **FN** = 1
+
+TP:1,FP:0,FN:1",1,0,1
+{'Lipoxygenase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Kinase Inhibitor', 'Cytotoxic', 'Antitumor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Anti-Inflammatory'},['Histamine H3 Receptor Antagonist'],"TP:0,FP:1,FN:1",0,1,1
+{'Blood Pressure Lowering'},['Blood Pressure Lowering'],"TP:1,FP:0,FN:0",1,0,0
+"{'Immunotherapy', 'IDO1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cytotoxic', 'TrkA Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'SET7 Inhibitor', 'Histone Methyltransferase Inhibitor'}",[],"The predicted attributes are empty, while the true attributes are {'SET7 Inhibitor', 'Histone Methyltransferase Inhibitor'}.
+
+So:
+- TP = 0
+- FP = 0
+- FN = 2
+
+TP:0,FP:0,FN:2",0,0,2
+{'Antimalarial'},['Antiplasmodial'],"TP:0,FP:1,FN:1",0,1,1
+{'FLT3 Inhibitor'},['WNT/Beta-catenin Signal'],"The predicted attribute does not match the true attribute.
+
+TP:0,FP:1,FN:1",0,1,1
+{'15-hLO-1 Inhibitor'},['15-hLO-1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'CB2 Agonist'},['CB2 Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Analgesic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CCR2 Antagonist'},['CCR2 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'HDACs Inhibitor'}",['HDACs Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Beta-Lactamase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Beta-Lactamase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiprotozoan'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antimuscarinic'},['Antimuscarinic'],"TP:1,FP:0,FN:0",1,0,0
+{'Parasiticidal'},['Parasiticidal'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-H. pylori'},[],"TP:0,FP:0,FN:1",0,0,1
+{'H3R Agonist'},"['H3R Antagonist', 'H3R Agonist', 'H4 Receptor Antagonist', 'H3R Inverse Agonist']","TP:1,FP:3,FN:0",1,3,0
+{'VEGFR2 Inhibitor'},['VEGFR2 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Inflammatory'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HIV Inhibitor', 'RNA Binding'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Dopamine Antagonist', 'Nicotinic Acetylcholine Receptor Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'PMI Inhibitor'},['PMI Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'PNP Inhibitor'},['PNP Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antioxidant'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antiproliferative', 'HDACs Inhibitor'}",['HDACs Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antiproliferative', 'CDK Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'PTP1b Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'GCase Inhibitor'},"['Beta-Glucocerebrosidase Inhibitor', 'GCase Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'17beta-HSD Inhibitor'},['17beta-HSD Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Tubulin Polymerization Inhibitor', 'Antiproliferative'}",['Anticancer'],"TP:0,FP:1,FN:2",0,1,2
+{'Anticancer'},['VEGFR2 Inhibitor'],"The predicted attribute **VEGFR2 Inhibitor** does not exactly match the true attribute **Anticancer**.
+
+- **TP**: 0
+- **FP**: 1
+- **FN**: 1
+
+TP:0,FP:1,FN:1",0,1,1
+"{'Prostacyclin Receptor Antagonist', 'Analgesic'}",['Prostacyclin Receptor Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'HIV-1 PR/RT Inhibitor'},"['Anti-HIV-1', 'HIV-1 PR/RT Inhibitor', 'HIV NNRTI']","TP:1,FP:2,FN:0",1,2,0
+{'Anticancer'},['Cytotoxic'],"TP:0,FP:1,FN:1",0,1,1
+{'PAI-1 Inhibitor'},['PAI-1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anti-Trypanosomal', 'Cytostatic'}",['EGFR Kinase Inhibitor'],"TP:0,FP:1,FN:2",0,1,2
+"{'NAAA Inhibitor', 'Analgesic', 'Anti-Inflammatory'}","['Anti-Inflammatory', 'Analgesic', 'NAAA Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'5-Lipoxygenase Inhibitor'},['5-Lipoxygenase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'mGlu2 Antagonist'},"['Analgesic', 'mGlu2 Antagonist']","TP:1,FP:1,FN:0",1,1,0
+"{'Neuropathic Pain', 'P2X7 Receptor Antagonist', 'Interleukin-1beta Inhibitor'}","['Neuropathic Pain', 'P2X7 Receptor Antagonist', 'Interleukin-1beta Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'Galectin Inhibitor'},['Galectin-3 Antagonist'],"The predicted attribute “Galectin-3 Antagonist” is consistent with the true attribute “Galectin Inhibitor,” so this counts as a true positive.
+
+TP:1,FP:0,FN:0",1,0,0
+{'Opioid'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'APP Metabolism Modulator', ""Alzheimer's Disease""}",['APP Metabolism Modulator'],"TP:1,FP:0,FN:1",1,0,1
+{'AKT Inhibitor'},['AKT Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Tubulin Inhibitor', 'Antiproliferative'}",['Tubulin Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'JAK1/JAK2 Inhibitor', 'FLT3 Inhibitor', 'Rheumatoid Arthritis'}","['JAK1/JAK2 Inhibitor', 'FLT3 Inhibitor', 'Rheumatoid Arthritis']","TP:3,FP:0,FN:0",3,0,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Chagas Disease Inhibitor'},['Aromatase Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Antimalarial'},['Antimalarial'],"TP:1,FP:0,FN:0",1,0,0
+{'P2Y Receptor Antagonist'},['P2Y Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Leishmanial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'MAGL Inhibitor', 'Monoacylglycerol Lipase Inhibitor'}","['MAGL Inhibitor', 'Monoacylglycerol Lipase Inhibitor', 'Tubulin Stabilizer']","The predicted attributes include two correct matches and one extra incorrect attribute.
+
+TP:2, FP:1, FN:0",2,1,0
+{'5-HT2A/2C Agonist'},['5-HT2A/2C Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Anticancer'},['IspF Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Antimicrobial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'SGLT1/SGLT2 Inhibitor', 'Diabetes'}","['UTI', 'FimH Inhibitor']","TP:0,FP:2,FN:2",0,2,2
+"{'Antitumor', 'Menin-MLL1 Inhibitor'}",['Menin-MLL1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Cancer', 'PARP1/2 Inhibitor'}","['Cancer', 'PARP1/2 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'RORGammat Inhibitor'},"['RORGammat Inhibitor', 'Th17 Cell Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'NO Production Inhibitor', 'Macrophage'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antiparasitic', 'Cruzain Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anti-Leishmanial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Hypoxia-Selective Cytotoxic'},"['Radiosensitizer', 'Cytotoxin', 'Hypoxic Cytotoxin']","Predicted attributes: Radiosensitizer, Cytotoxin, Hypoxic Cytotoxin  
+True attribute: Hypoxia-Selective Cytotoxic
+
+Matching:
+- Hypoxic Cytotoxin ≈ Hypoxia-Selective Cytotoxic → TP = 1
+- Radiosensitizer → FP = 1
+- Cytotoxin → FP = 1
+- No missed true attributes → FN = 0
+
+TP:1,FP:2,FN:0",1,2,0
+{'NMDA Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiplasmodial'},['Antiplasmodial'],"TP:1,FP:0,FN:0",1,0,0
+{'Calcium Channel Blocker'},"['Ca2+ Antagonist', 'CYP3A4 Inducer', 'PXR Activator', 'QT Prolongation', 'L-type Channel Inhibitor', 'CaL Channel Inhibitor', 'Alpha-Adrenolytic']","TP:1,FP:6,FN:0",1,6,0
+{'Steroid 5 alpha-reductase Inhibitor'},"['5Alpha-Reductase Inhibitor', 'Steroid 5 alpha-reductase Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Immunotherapy', 'IDO1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Thymidylate Synthetase Inhibitor', 'TS Inhibitor', 'Antitumor', 'Cytostatic'}","['Thymidylate Synthetase Inhibitor', 'TS Inhibitor']","TP:2,FP:0,FN:2",2,0,2
+{'EGFR Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'c-Kit Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'LTD4 Antagonist', '5-Lipoxygenase Inhibitor', 'Cyclooxygenase Inhibitor', 'Anti-Inflammatory'}","['Anti-Inflammatory', '5-Lipoxygenase Inhibitor', 'Cyclooxygenase Inhibitor', 'LTD4 Antagonist']","TP:4,FP:0,FN:0",4,0,0
+"{'Type 2 Diabetes Treatment', 'Glycogen Phosphorylase Inhibitor'}","['Glycogen Phosphorylase Inhibitor', 'Type 2 Diabetes Treatment']","TP:2,FP:0,FN:0",2,0,0
+"{'Antimalarial', 'Anticancer'}",['Antimalarial'],"TP:1,FP:0,FN:1",1,0,1
+"{'H3 Receptor Antagonist', ""Alzheimer's Disease""}",['H3 Receptor Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antithrombotic', 'Factor Xa Inhibitor'}",['Factor Xa Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Inverse Agonist', '5-HT(1A) Receptor Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'PI3K-Alpha Inhibitor'},"['PI3 Kinase Inhibitor', 'PI3K-Alpha Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'CYP2A6 Inhibitor'},['CYP2A6 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Delta Opioid Receptor Agonist'},['Delta Opioid Receptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Cathepsin Inhibitor'},['Cathepsin Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Wnt Signaling Inhibitor', 'Hepatitis C Inhibitor', 'Wnt Pathway Inhibitor', 'Beta-catenin Inhibitor'}",[],"TP:0,FP:0,FN:4",0,0,4
+"{'CD45 Inhibitor', 'T-Cell Inhibitor'}","['T-Cell Inhibitor', 'CD45 Inhibitor']","The predicted attributes exactly match the true attributes.
+
+TP:2,FP:0,FN:0",2,0,0
+"{'Antibiotic', 'FabH Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Proteasome Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'VEGFR2 Inhibitor'},"['VEGFR2 Inhibitor', 'TAK1-Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'Antiobesity'},['Antiobesity'],"TP:1,FP:0,FN:0",1,0,0
+{'CRF1 Antagonist'},['CRF1 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'sEH Inhibitor'},['sEH Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Monoamine Oxidase-B Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Growth Hormone Secretagogue'},['BET Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Neuroregenerative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'mGlu2 Antagonist'},['mGlu2 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Osteoarthritis', 'Alpha(2)delta Ligand'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'LF Inhibitor', 'Anthrax'}",['LF Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Analgesic', 'ASIC3 Inhibitor'}","['Analgesic', 'Anti-Metastatic', 'ASIC3 Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+{'mGlu2 Antagonist'},['mGlu2 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'CRF1 Antagonist'},['CRF1 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antitumor', 'Chk1 Inhibitor'}",['Chk1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antihypertensive', 'Thromboxane Synthase Inhibitor'}","['Antihypertensive', 'Thromboxane Synthase Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Anticancer', 'Tankyrase 1/2 Inhibitor', 'Wnt/Beta-catenin Inhibitor'}","['Tankyrase 1/2 Inhibitor', 'TNKS1/2 Inhibitor']","TP:1,FP:1,FN:1",1,1,1
+"{'Anti-Allodynic', 'NR2B-Selective NMDA Antagonist'}","['NR2B-Selective NMDA Antagonist', 'Anti-Allodynic']","TP:2,FP:0,FN:0",2,0,0
+{'DNA Minor Groove Binder'},['Antibiotic'],"TP:0,FP:1,FN:1",0,1,1
+{'GlyT1 Inhibitor'},['GlyT1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antimicrobial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Analgesic', 'FAAH Inhibitor'}","['Analgesic', 'FAAH Inhibitor', 'MAGL Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+{'Cardiac Myosin Activator'},['Cardiac Myosin Activator'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiallergy'},['Antiallergy'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiparasitic'},"['Tyrosine Protein Kinase Inhibitor', 'cSrc Inhibitor']","TP:0,FP:2,FN:1",0,2,1
+{'Serotonergic Uptake Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'TGF-Beta/Smad Pathway Inhibitor', 'Pulmonary Fibrosis Inhibitor'}","['Pulmonary Fibrosis Inhibitor', 'TGF-Beta/Smad Pathway Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Anti-Apoptotic', 'BCL-2 Inhibitor'}",['BH3 Mimic'],"TP:0,FP:1,FN:2",0,1,2
+"{'Antifeedant', 'Cytotoxic', 'Apoptosis Inducer'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Gamma-Secretase Modulator', ""Alzheimer's Disease""}",['PPAR Alpha/Gamma Agonist'],"TP:0,FP:1,FN:2",0,1,2
+{'PLA2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antimalarial', 'Phospholipid Metabolism Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'AMPA Receptor Antagonist', 'AMPA Agonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'S1P1 Agonist', 'Immunosuppressant'}",['S1P1 Agonist'],"The predicted attribute matches one true attribute, and it misses one true attribute.
+
+TP:1,FP:0,FN:1",1,0,1
+{'GABA Uptake Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Convulsant', 'GABA A Modulator'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Stimulant'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Serine Protease Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Dopamine Receptor Agonist'},['Antioxidant'],"TP:0,FP:1,FN:1",0,1,1
+{'Antiallergy'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Urease Inhibitor', 'Anticancer', 'Anti-Inflammatory', 'Tyrosinase Inhibitor', 'Radical Scavenger', 'Prolylendopeptidase Inhibitor', 'Phosphodiesterase Inhibitor', 'Antimicrobial', 'Wound-Healing', 'Xanthine Oxidase Inhibitor', 'Anticholinesterase', 'Antioxidant', 'Anti-Diabetic', 'Antibiotic', 'Antifungal', 'Alpha-glucosidase Inhibitor', 'DNA Binding'}",[],"TP:0,FP:0,FN:17",0,0,17
+"{'Ribonucleotide Reductase Inhibitor', 'Anticancer', 'Antiviral'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'DGAT1 Inhibitor', 'Anti-Obesity'}","['Anti-Obesity', 'DGAT1 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Cell Wall Synthesis Inhibitor', 'Antibiotic'}","['Antibiotic', 'Cell Wall Synthesis Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Acetylcholinesterase Inhibitor', 'Mosquitocidal'}","['Acetylcholinesterase Inhibitor', 'Mosquitocidal']","TP:2,FP:0,FN:0",2,0,0
+"{'EGFR Kinase Inhibitor', 'Antiproliferative'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'mGlu2 PAM'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antihypertensive', 'Thromboxane Synthase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'WNV Inhibitor', 'NS2B-NS3 Protease Inhibitor'}",['WNV Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Cytotoxic', 'Anti-Cancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'5-LO Inhibitor', 'PPAR gamma Agonist', 'mPGES-1 Inhibitor', 'Anti-Inflammatory'}","['Anti-Inflammatory', 'PPAR gamma Agonist', 'mPGES-1 Inhibitor', '5-LO Inhibitor']","The predicted attributes exactly match the true attributes.
+
+TP:4,FP:0,FN:0",4,0,0
+{'Nicotinic Acetylcholine Receptor Antagonist'},"['Alpha4Beta2-nAChR Agonist', 'Nicotinic Acetylcholine Receptor Antagonist']","TP:1,FP:1,FN:0",1,1,0
+"{'CCK2 Receptor Ligand', 'Kappa Opioid Agonist'}",['Kappa Opioid Agonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Cytotoxic', 'Antifungal'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Enoyl-ACP Reductase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticonvulsive'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Plk2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'PRMT3 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Trypanosomal'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CDK1/CDK2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Pancreatic Cancer Inhibitor'},['Pancreatic Cancer Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antitumor', 'PD-L1/PD-1 Inhibitor'}","['Anticancer', 'Immunomodulator', 'PD-L1/PD-1 Inhibitor']","TP:1,FP:1,FN:1",1,1,1
+{'Cathepsin K Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'PPAR Agonist', 'Hypolipidemic', 'RXRalpha Agonist'}",['PPAR Agonist'],"TP:1,FP:0,FN:2",1,0,2
+{'RET Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'KDM5 Inhibitor'},['Deoxycytidine Kinase Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Analgesic', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anticancer', 'Pin1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{""Huntington's Disease"", 'Kynurenine 3-Monooxygenase Inhibitor'}",['Kynurenine 3-Monooxygenase Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Anticancer', 'Pin1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anticancer', 'Pin1 Inhibitor'}",['Pin1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Schistosomiasis'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-HCV'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Insecticidal'},['Insecticide'],"TP:1,FP:0,FN:0",1,0,0
+{'Antifungal'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anti-influenza', 'Hemagglutinin Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Formyl Peptide Receptor Agonist', 'Anti-Inflammatory'}",['Formyl Peptide Receptor Agonist'],"TP:1,FP:0,FN:1",1,0,1
+{'Anticonvulsive'},['Anticonvulsive'],"TP:1,FP:0,FN:0",1,0,0
+"{'Neuronal Na+ Channel Blocker', 'Anticonvulsive'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anticancer'},['Alkaline Phosphatase Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'PKCtheta Inhibitor'},['PKCtheta Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytostatic', 'HDAC6/8 Inhibitor'}",['HDAC6/8 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'NLRP3 Inhibitor'},"['NLRP3 Inhibitor', 'Interleukin-1beta Inhibitor', 'Inflammasome Inhibitor']","True positives: 1  
+False positives: 2  
+False negatives: 0  
+
+TP:1,FP:2,FN:0",1,2,0
+{'Cancer Cell Proliferation Inhibitor'},['Cancer Cell Proliferation Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'LpxA Inhibitor', 'Antibiotic'}","['Antibiotic', 'LpxA Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Efflux Pump Inhibitor', 'Antibiotic Potentiator'}","['Efflux Pump Inhibitor', 'Antibiotic Potentiator']","TP:2,FP:0,FN:0",2,0,0
+{'HDAC1/2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'NO Donor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anti-Angiogenic', 'Anti-Metastatic', 'APN Inhibitor'}","['Anti-Angiogenic', 'Anti-Metastatic', 'APN Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+"{'Hypolipidemic', 'PPAR Alpha/Gamma Agonist'}",['PPAR Alpha/Gamma Agonist'],"TP:1,FP:0,FN:1",1,0,1
+{'Adenosine Receptor Antagonist'},['Adenosine Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Motilin Agonist', 'Gastroprokinetic'}","['Motilin Agonist', 'Gastroprokinetic']","TP:2,FP:0,FN:0",2,0,0
+{'dCTP Pyrophosphatase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'GABA(A) Antagonist'},['GABA(A) Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiallergy'},[],"TP:0,FP:0,FN:1",0,0,1
+{'PPAR-alpha Activator'},['PPAR-alpha Activator'],"TP:1,FP:0,FN:0",1,0,0
+{'Calcium-Sensing Receptor Antagonist'},['Calcium-Sensing Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Thromboxane Synthase Inhibitor'},"['Thromboxane Synthase Inhibitor', '17 alpha-hydroxylase/C17,20-lyase Inhibitor', 'Androgen Biosynthesis Inhibitor', 'TXA2 Synthase Inhibitor']","The predicted attributes include one correct match and three incorrect extra claims.
+
+TP:1,FP:3,FN:0",1,3,0
+{'Anti-Leishmanial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antibiotic', 'Antifungal'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Pan-Muscarinic Antagonist', 'CNS Penetrant'}",['Pan-Muscarinic Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'5-HT2A Receptor Ligand', 'H1 Receptor Ligand'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Nociceptin Receptor Ligand'},['Nociceptin Receptor Ligand'],"TP:1,FP:0,FN:0",1,0,0
+{'C3aR Ligand'},['C3aR Ligand'],"TP:1,FP:0,FN:0",1,0,0
+{'Trypanocidal'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HIV-1 PR/RT Inhibitor', 'NNRTI'}","['Anti-HIV-1', 'HIV-1 PR/RT Inhibitor', 'NNRTI']","TP:2,FP:1,FN:0",2,1,0
+{'Vasorelaxant'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'PTP1b Inhibitor', 'Apoptosis Inducer', 'Anti-TNBC'}",[],"The predicted attributes are empty, while the true attributes are {'PTP1b Inhibitor', 'Apoptosis Inducer', 'Anti-TNBC'}.
+
+So:
+- TP = 0
+- FP = 0
+- FN = 3
+
+TP:0,FP:0,FN:3",0,0,3
+{'Antiviral'},['Antiviral'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Nrf2-ARE Activator', 'Cardioprotective', 'Antioxidant'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Prostate Cancer', 'CYP17A1 Inhibitor'}",['CYP17A1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Lymphocyte Proliferation Inhibitor'},['Lymphocyte Proliferation Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'DNA Intercalating', 'Antiproliferative'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'PrCP Inhibitor', 'Obesity'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Histamine H1 Receptor Antagonist', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anti-Tuberculosis'},['ABeta Disaggregator'],"TP:0,FP:1,FN:1",0,1,1
+"{'Anti-Biofilm', 'Anti-Microbial'}","['Antibiotic', 'Antimicrobial', 'Anti-Biofilm']","TP:2,FP:1,FN:0",2,1,0
+{'HIV Integrase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Trypanosomal'},['Anti-Trypanosomal'],"TP:1,FP:0,FN:0",1,0,0
+"{'Efflux Pump Inhibitor', 'Anti-Tuberculosis'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Histone Demethylase Inhibitor'},['Histone Demethylase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Mitochondrial Depolarization', 'Antiparasitic', 'Immunomodulatory'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'CRF1 Antagonist'},['CRF1 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'COPD'},['COPD'],"TP:1,FP:0,FN:0",1,0,0
+{'mGlu2 PAM'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Tubulin Polymerization Inhibitor', 'Antiproliferative'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Niacin Receptor 1 Agonist'},['Niacin Receptor 1 Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'DNA Minor Groove Binder', 'DHPS Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'DNA Minor Groove Binder'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Pain Treatment', 'EP1 Antagonist'}",['EP1 Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antibiotic', 'Transcriptional Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'D4 Receptor Agonist', 'Erectile Dysfunction'}","[""ErmC' Inhibitor""]","TP:0,FP:1,FN:2",0,1,2
+"{'Neuroprotective', 'VGCC Blocker', 'NMDA Antagonist'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'CB2 Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CCR4 Receptor Antagonist'},['CCR4 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Selective', 'Anticancer', 'MMP-2/MMP-8 Inhibitor', 'MMP Inhibitor'}","['MMP Inhibitor', 'MMP13 Inhibitor', 'MMP-2/MMP-8 Inhibitor']","Predicted attributes: {MMP Inhibitor, MMP13 Inhibitor, MMP-2/MMP-8 Inhibitor}  
+True attributes: {Selective, Anticancer, MMP-2/MMP-8 Inhibitor, MMP Inhibitor}
+
+Matches (TP): MMP Inhibitor, MMP-2/MMP-8 Inhibitor = 2  
+False positives (FP): MMP13 Inhibitor = 1  
+False negatives (FN): Selective, Anticancer = 2
+
+TP:2,FP:1,FN:2",2,1,2
+"{'Cognition-Enhancer', 'Alpha7-nAChR Agonist'}","['Cognition-Enhancer', 'Alpha7-nAChR Agonist']","TP:2,FP:0,FN:0",2,0,0
+"{'Obesity Treatment', 'Obesity', 'DGAT1 Inhibitor'}",['DGAT1 Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+{'CDK8 Inhibitor'},['CDK8 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anti-Inflammatory', 'COX2 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'DGAT1 Inhibitor', 'NASH Treatment'}","['DGAT1 Inhibitor', 'NASH Treatment']","TP:2,FP:0,FN:0",2,0,0
+{'MDR-Reversal Agent'},['MDR-Reversal Agent'],"TP:1,FP:0,FN:0",1,0,0
+"{'ThrRS Inhibitor', 'Antibiotic'}","['Antibiotic', 'ThrRS Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Topoisomerase Inhibitor', 'hERG Inhibitor', 'Antibiotic'}","['Antibiotic', 'Topoisomerase Inhibitor', 'hERG Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'Anti-Oxidant'},['HPPD-Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Bone Resorption Inhibitor', 'Osteoporosis'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antiplatelet Aggregation Inhibitor'},"['Bronchodilator', 'Antifertility', 'Uterine Stimulant']","TP:0,FP:3,FN:1",0,3,1
+{'Anti-Oxidant'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Inflammatory'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Bronchodilator'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Oxidant'},"['Alcohol Dehydrogenase Inhibitor', 'Ethanol Metabolism Inhibitor']","TP:0,FP:2,FN:1",0,2,1
+{'Antiplatelet Aggregation Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Prostaglandin Receptor Binder', 'cAMP Stimulator'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'DPPIV Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'NF-kappa B Inhibitor', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Neuropathic Pain'},['Neuropathic Pain'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'SIRT2 Inhibitor', 'Cancer'}","['Cancer', 'SIRT2 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antibiotic'},['Antibiotic'],"TP:1,FP:0,FN:0",1,0,0
+{'Antioxidant'},[],"TP:0,FP:0,FN:1",0,0,1
+{'TLR7/8/9 Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Dihydroorotate Dehydrogenase Inhibitor', 'Immunosuppressive'}","['Immunosuppressive', 'DHODH Inhibitor', 'Dihydroorotate Dehydrogenase Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+"{'Multi-Functional', 'Antibreast Cancer'}",['Antineuropathic Pain'],"The predicted attribute set is {Antineuropathic Pain}, while the true attribute set is {Multi-Functional, Antibreast Cancer}.
+
+- TP (predicted and true): 0
+- FP (predicted but not true): 1
+- FN (true but not predicted): 2
+
+TP:0,FP:1,FN:2",0,1,2
+"{'MCHR1 Antagonist', 'Appetite Suppressant'}",['MCHR1 Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'LTA4H Inhibitor'},['LTA4H Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Dihydroorotate Dehydrogenase Inhibitor'},['Dihydroorotate Dehydrogenase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antimicrobial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antibiotic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Alpha 1-Adrenoceptor Agonist'},['Alpha 1-Adrenoceptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Beta-Glucuronidase Inhibitor'},['Beta-Glucuronidase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antifungal'},['Antimalarial'],"TP:0,FP:1,FN:1",0,1,1
+{'Immune Modulator'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Immunoproteasome Inhibitor'},['Immunoproteasome Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'CAIX Inhibitor', 'Cytotoxic'}",['Antitumor'],"TP:0,FP:1,FN:2",0,1,2
+{'Syk Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'VLA-4 Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'MK2 Inhibitor', 'Cytokine Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anticancer', 'HDACs Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antioxidant'},[],"TP:0,FP:0,FN:1",0,0,1
+{'H1 Receptor Antagonist'},['H1 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'HAT Inhibitor', 'Anticancer', 'Histone Acetyltransferase Inhibitor'}",['Anti-COVID-19'],"TP:0,FP:1,FN:3",0,1,3
+"{'Anticancer', 'ABCB1 Inhibitor', 'ABCG2 Inhibitor'}",['ABCB1 Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+"{'ATR Inhibitor', 'DNA Damage Response'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'NMDA Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Factor Xa Inhibitor'},['Factor Xa Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'TPH1 Inhibitor', 'Serotonin Regulator'}","['TPH1 Inhibitor', 'Serotonin Regulator']","TP:2,FP:0,FN:0",2,0,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Histone Deacetylase-6 Inhibitor', 'HDAC6/8 Inhibitor', 'Antitumor'}","['Anticancer', 'Antitumor', 'PD-L1/PD-1 Inhibitor']","TP:1,FP:2,FN:2",1,2,2
+"{'Mitochondrial-Targeting', 'Anticancer', 'Mitotic Arrest', 'Antimitotic'}","['Anticancer', 'Mitochondrial-Targeting', 'Mitotic Arrest']","TP:3,FP:0,FN:1",3,0,1
+{'Dopamine Beta-Hydroxylase Inhibitor'},"['Hypertension', 'Dopamine Beta-Hydroxylase Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Ras Inhibitor', 'PDEDelta Inhibitor'}",['Dopamine Beta-Hydroxylase Inhibitor'],"Predicted attributes: {Dopamine Beta-Hydroxylase Inhibitor}  
+True attributes: {Ras Inhibitor, PDEDelta Inhibitor}
+
+There is no overlap between predicted and true attributes.
+
+TP:0,FP:1,FN:2",0,1,2
+{'cMET Inhibitor'},['cMET Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'FGFR1 Inhibitor'},['Epigenetic Reader Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Antidepressant', 'Dopaminomimetic', 'Serotoninomimetic'}","['Serotoninomimetic', 'Dopaminomimetic']","TP:2,FP:0,FN:1",2,0,1
+{'Lymphocyte Proliferation Inhibitor'},['Lymphocyte Proliferation Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Diabetes', 'Obesity', 'GPR119 Agonist', 'Dyslipidemia'}",['GPR119 Agonist'],"TP:1,FP:0,FN:3",1,0,3
+{'DHPS Inhibitor'},['DHPS Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Tuberculosis'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Xanthine Oxidase Inhibitor'},['Xanthine Oxidase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'TAS2R8 Antagonist', 'Bitter Taste Blocker'}","['TAS2R8 Antagonist', 'Bitter Taste Blocker']","TP:2,FP:0,FN:0",2,0,0
+"{'Anticoagulant', 'Factor Xa Inhibitor'}",['Factor Xa Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Anti-Inflammatory', 'P2Y Receptor Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'SARD', 'Selective Androgen Receptor Degrader', 'Prostatic Cancer Treatment'}","['AR Antagonist', 'Prostatic Cancer Treatment', 'SARD', 'Selective Androgen Receptor Degrader', 'Pan-Antagonist']","Predicted attributes: AR Antagonist, Prostatic Cancer Treatment, SARD, Selective Androgen Receptor Degrader, Pan-Antagonist  
+True attributes: SARD, Selective Androgen Receptor Degrader, Prostatic Cancer Treatment
+
+Matches (TP): SARD, Selective Androgen Receptor Degrader, Prostatic Cancer Treatment = 3  
+False positives (FP): AR Antagonist, Pan-Antagonist = 2  
+False negatives (FN): none = 0
+
+TP:3,FP:2,FN:0",3,2,0
+{'Antidepressant'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Fungicidal', 'Herbicidal', 'Antitumor', 'Insecticidal'}",[],"TP:0,FP:0,FN:4",0,0,4
+"{'Antibiotic', 'CYP3A4 Inhibitor'}","['Antibiotic', 'CYP3A4 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Soluble Epoxide Hydrolase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cholesterol Synthesis Inhibitor', 'CYP51 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Squalene Synthetase Inhibitor'},['Squalene Synthetase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'MetAP1 Inhibitor'},['MetAP1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiplasmodial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antifungal'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Histone Deacetylase Inhibitor', 'Anticancer', 'HDACs Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Neuraminidase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Deoxycytidine Kinase Inhibitor'},['Deoxycytidine Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'HDAC1/2 Inhibitor'},['HDAC1/2 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antimalarial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Breast Cancer Treatment', 'Estrogen Receptor Modulator'}",['Aromatase Inhibitor'],"TP:0,FP:1,FN:2",0,1,2
+{'Anti-Inflammatory'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antiarrhythmic', 'Kv1.5 Channel Blocker'}","['Antiarrhythmic', 'Kv1.5 Channel Blocker', 'Kv1.5 Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+"{'Adenosine A3 Receptor Ligand', 'Adenosine A3 Receptor Antagonist'}",['Adenosine A3 Receptor Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'B-Raf(V600E) Inhibitor'},['B-Raf(V600E) Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'BoNT/A1 Inhibitor'},['BoNT/A1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Renin Inhibitor', 'Hypotensive'}","['Antihypertensive', 'Renin Inhibitor', 'Hypotensive']","TP:2,FP:1,FN:0",2,1,0
+"{'Antipsychotic', 'Dopamine Antagonist', 'D2-like Receptor Ligand'}","['Dopamine Antagonist', 'D2-like Receptor Ligand']","TP:2,FP:0,FN:1",2,0,1
+{'PAF-Receptor Antagonist'},['PAF-Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anticancer', 'Antibiotic'}",['Cytotoxic'],"TP:0,FP:1,FN:2",0,1,2
+"{'Alpha1-Adrenoceptor Antagonist', '5-HT(1A) Receptor Ligand', '5-HT 1A Receptor Agonist'}","['Alpha1-Adrenoceptor Antagonist', '5-HT 1A Receptor Agonist', '5-HT(1A) Receptor Ligand']","TP:3,FP:0,FN:0",3,0,0
+{'HIV NNRTI'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'AML', 'FLT3 Inhibitor', 'Antiproliferative', 'CDK Inhibitor'}",['FLT3 Inhibitor'],"TP:1,FP:0,FN:3",1,0,3
+{'SCD-1 Inhibitor'},"['SCD-1 Inhibitor', 'Stearoyl-CoA Desaturase-1 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Thymidylate Synthetase Inhibitor', 'Cytostatic', 'Antitumor', 'Antifolate'}","['Antitumor', 'Thymidylate Synthetase Inhibitor', 'Colon Cancer']","TP:2,FP:1,FN:2",2,1,2
+{'Aromatase Inhibitor'},['Aromatase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Farnesyl-Protein Transferase Inhibitor'},['Farnesyl-Protein Transferase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'IDO1 Inhibitor'},"['IDO1 Inhibitor', 'Cancer Immunotherapy']","TP:1,FP:1,FN:0",1,1,0
+"{'Beta-Amyloid Plaque Imaging', ""Alzheimer's Disease""}",['Beta-Amyloid Plaque Imaging'],"TP:1,FP:0,FN:1",1,0,1
+{'Cathepsin S Inhibitor'},['Cathepsin S Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'20S Proteasome Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Thymidine Phosphorylase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'GABAB Agonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'LeuRS Inhibitor', 'Antipneumococcal'}","['LeuRS Inhibitor', 'Antipneumococcal']","TP:2,FP:0,FN:0",2,0,0
+{'A(2A) Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Carbonic Anhydrase Activator'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Matriptase Inhibitor', 'Serine Protease Inhibitor', 'Thrombin-Inhibitor'}","['Thrombin-Inhibitor', 'Serine Protease Inhibitor', 'Matriptase Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+"{'RAR Agonist', 'RXRalpha Agonist', 'Tumor Growth Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Antidepressant'},"['Aldosterone Synthase Inhibitor', 'Alpha1A Adrenoceptor Partial Agonist']","TP:0,FP:2,FN:1",0,2,1
+{'Urease Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytotoxic', 'Antibiotic'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antitrichomonal'},['Antitrichomonal'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'DNA Ligand', 'Topoisomerase Inhibitor'}","['Cytotoxic', 'DNA Ligand']","TP:2,FP:0,FN:1",2,0,1
+{'Quinone Reductase Inducer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'PI3 Kinase Inhibitor'},['PI3 Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'EBP Ligand', 'sigma1 Receptor Ligand', 'ERG2 Ligand'}",['Positive Inotropic'],"The predicted attribute set is {Positive Inotropic}, and the true attribute set is {EBP Ligand, sigma1 Receptor Ligand, ERG2 Ligand}.
+
+- TP: 0
+- FP: 1
+- FN: 3
+
+TP:0,FP:1,FN:3",0,1,3
+{'Antineuroinflammatory'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Trypanosoma cruzi Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'HMG-CoA Reductase Inhibitor'},['HMG-CoA Reductase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-influenza'},['Anti-influenza'],"TP:1,FP:0,FN:0",1,0,0
+{'Antitumor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Mitochondrial Permeability Transition Pore Inhibitor'},['Mitochondrial Permeability Transition Pore Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Na(V)1.7 Channel Blocker', 'Sodium Channel Blocker'}","['Voltage-Gated Sodium Channel Blocker', 'Na(V)1.7 Channel Blocker']","Predicted attributes: {Voltage-Gated Sodium Channel Blocker, Na(V)1.7 Channel Blocker}  
+True attributes: {Na(V)1.7 Channel Blocker, Sodium Channel Blocker}
+
+Match analysis:
+- Na(V)1.7 Channel Blocker: TP
+- Voltage-Gated Sodium Channel Blocker: FP
+- Sodium Channel Blocker: FN
+
+TP:1,FP:1,FN:1",1,1,1
+"{""Alzheimer's"", 'BACE-1 Inhibitor'}","['BACE-1 Inhibitor', ""Alzheimer's""]","TP:2,FP:0,FN:0",2,0,0
+{'FAAH Inhibitor'},['FAAH Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antibiotic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CCK2 Receptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticancer'},['Beta-Amyloid Plaque Ligand'],"TP:0,FP:1,FN:1",0,1,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytotoxic', 'DNA Topoisomerase IIAlpha Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'EGFR Kinase Inhibitor', 'Anticancer', 'Apoptosis Inducer'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'GLP-2 Agonist'},['GLP-2 Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'NF-kappa B Inhibitor', 'AP-1 Inhibitor', 'Transcriptional Activation Inhibitor'}","['NF-kappa B Inhibitor', 'AP-1 Inhibitor', 'Transcriptional Activation Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'Antiamoebic'},['Antiamoebic'],"TP:1,FP:0,FN:0",1,0,0
+{'MetAP1 Inhibitor'},['MetAP1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'PTEN-Deficient Tumors', 'DNA Damage Repair Inhibitor', 'Synthetic Lethality'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'DPPIV Inhibitor'},['DPPIV Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Diabetes', 'GPR119 Agonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Alpha 1-Adrenoceptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antibiotic'},['Antibiotic'],"TP:1,FP:0,FN:0",1,0,0
+"{'Thymidylate Synthetase Inhibitor', 'Antitumor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'JAK1/JAK2 Inhibitor', 'FLT3 Inhibitor', 'Rheumatoid Arthritis'}","['JAK1/JAK2 Inhibitor', 'CDK Inhibitor', 'FLT3 Inhibitor']","TP:2,FP:1,FN:1",2,1,1
+"{'Anticancer', 'cMET Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Type II Inhibitor', 'GSK-3beta Inhibitor', 'Neuroprotective'}","['Neuroprotective', 'Type II Inhibitor']","TP:2,FP:0,FN:1",2,0,1
+"{'Cytotoxic', 'Telomerase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Pancreatic Cancer', 'CCK2 Antagonist'}",['CCK2 Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'DLK Inhibitor'},['DLK Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'IDO1 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Beta(3)-Adrenergic Agonist', 'Prodrug'}","['Prodrug', 'Beta(3)-Adrenergic Agonist']","TP:2,FP:0,FN:0",2,0,0
+"{'Antipsychotic', 'Dopamine Ligand', 'Serotonin Receptor Ligand'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Leukotriene A4 Hydrolase Inhibitor', 'LTA4H Inhibitor'}",['LTA4H Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'nAChR Ligand', 'Partial Agonist'}","['Analgesic', 'Neuronal Nicotinic Receptor Ligand', 'nAChR Ligand', 'Neuronal nAChR Ligand']","Predicted attributes matched to true attributes:
+- TP: nAChR Ligand
+- FP: Analgesic, Neuronal Nicotinic Receptor Ligand, Neuronal nAChR Ligand
+- FN: Partial Agonist
+
+TP:1,FP:3,FN:1",1,3,1
+{'Antiviral'},"['Antiviral', 'Varicella Zoster Virus Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'Dihydrofolate Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Dihydrofolate Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Prion Disease Therapeutic'},"['Anti-Tuberculosis', 'Prion Disease Therapeutic']","TP:1,FP:1,FN:0",1,1,0
+{'CCR3 Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticonvulsive'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CB2 Agonist'},['CB2 Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Sphingosine Kinase-1 Inhibitor'},"['Sphingosine Kinase-1 Inhibitor', 'LTA4H Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'Neuronal Nicotinic Receptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'JNK Inhibitor'},['JNK Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Alpha4Beta1 Integrin Antagonist'},['Alpha4Beta1 Integrin Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Analgesic', 'iNOS Dimerization Inhibitor'}",['iNOS Dimerization Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Anthrax Lethal Factor Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'MGL Inhibitor', 'FAAH Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antitumor', 'HIF-1Alpha Inhibitor', 'Transcriptional Inhibitor'}","['HIF-1Alpha Inhibitor', 'Transcriptional Inhibitor']","The predicted attributes match two of the three true attributes.
+
+TP:2,FP:0,FN:1",2,0,1
+"{'CysLT1 Antagonist', 'Growth Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anti-HIV-1'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'PDE9A Inhibitor', 'Hypoglycemic'}",['PDE9A Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Antifungal'},['Antifungal'],"TP:1,FP:0,FN:0",1,0,0
+"{'Melanoma', 'Antiproliferative', 'CRAF Inhibitor'}","['Antiproliferative', 'B-Raf(V600E) Inhibitor', 'Melanoma', 'Raf Inhibitor', 'CRAF Inhibitor']","True positives: Antiproliferative, Melanoma, CRAF Inhibitor = 3  
+False positives: B-Raf(V600E) Inhibitor, Raf Inhibitor = 2  
+False negatives: none = 0  
+
+TP:3,FP:2,FN:0",3,2,0
+"{'Antiglaucoma', 'Carbonic Anhydrase Inhibitor'}","['Carbonic Anhydrase Inhibitor', 'Antiglaucoma']","TP:2,FP:0,FN:0",2,0,0
+"{'Neuropathic Pain', 'CB2 Agonist'}",['CB2 Agonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antioxidant', 'Butylcholinesterase Inhibitor', 'NO-Inhibitor', 'Acetylcholinesterase Inhibitor'}","['Acetylcholinesterase Inhibitor', 'Butylcholinesterase Inhibitor']","TP:2,FP:0,FN:2",2,0,2
+{'Alpha2-Adrenoceptor Agonist'},"['Alpha 2-Adrenoceptor Antagonist', 'Alpha2-Adrenoceptor Agonist']","TP:1,FP:1,FN:0",1,1,0
+{'Visceral Leishmaniasis Drug'},"['Anti-Tuberculosis', 'Visceral Leishmaniasis Drug']","TP:1,FP:1,FN:0",1,1,0
+"{'Apoptosis Inducer', 'Cell-Cycle Arrest', 'Cytotoxic', 'Antitumor', 'NO-Donating'}",[],"TP:0,FP:0,FN:5",0,0,5
+{'Antifungal'},"['Antifungal', 'CYP51 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'ATX Inhibitor'},['ATX Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiviral', 'CCR5 Receptor Antagonist', 'CCR5 Inhibitor'}","['HIV Inhibitor', 'CCR5 Receptor Antagonist']","TP:1,FP:1,FN:2",1,1,2
+{'Antiepileptic'},['Antiepileptic'],"TP:1,FP:0,FN:0",1,0,0
+"{'DHFR Inhibitor', 'Dihydrofolate Inhibitor', 'MRSA', 'Antifolate'}","['Dihydrofolate Inhibitor', 'DHFR Inhibitor']","TP:2,FP:0,FN:2",2,0,2
+"{'Reactivator', 'Acetylcholinesterase Reactivator'}","['Acetylcholinesterase Reactivator', 'Antidote', 'Muscarinic Receptor Modulator']","Predicted attributes: {Acetylcholinesterase Reactivator, Antidote, Muscarinic Receptor Modulator}  
+True attributes: {Reactivator, Acetylcholinesterase Reactivator}
+
+Matching attribute: Acetylcholinesterase Reactivator
+
+So:
+- TP = 1
+- FP = 2
+- FN = 1
+
+TP:1,FP:2,FN:1",1,2,1
+"{'Cancer Therapy', 'PHGDH Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antiproliferative', ""Chagas' Disease"", 'Trypanosoma cruzi Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Antitumor', 'Autophagy Inducer'}",['Autophagy Inducer'],"TP:1,FP:0,FN:1",1,0,1
+"{'mGlu2 Antagonist', 'Cocaine Medication'}","['mGlu2 Antagonist', 'Cocaine Medication']","TP:2,FP:0,FN:0",2,0,0
+{'Butylcholinesterase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Dopamine Beta-Hydroxylase Inhibitor'},['Dopamine Beta-Hydroxylase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'V1a Receptor Antagonist'},['V1a Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'LTA4H Inhibitor', 'Anti-Inflammatory'}","['Anti-Inflammatory', 'LTA4H Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'5-HT3 Receptor Antagonist'},"['Alpha7-nAChR Agonist', '5-HT3 Receptor Antagonist']","TP:1,FP:1,FN:0",1,1,0
+{'Anti-mycobacterial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Alpha(2)delta Ligand'},['Alpha(2)delta Ligand'],"TP:1,FP:0,FN:0",1,0,0
+{'Sphingosine Kinase-1 Inhibitor'},['Sphingosine Kinase-1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'MMP12 Inhibitor'},['MMP12 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Alpha(v)beta3 Integrin Antagonist'},['Alpha(v)beta3 Integrin Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anticancer', 'Histone Demethylase Inhibitor', 'KDM1 Inhibitor'}","['Anticancer', 'LSD1 Inhibitor', 'Histone Demethylase Inhibitor', 'KDM1 Inhibitor']","TP:3,FP:1,FN:0",3,1,0
+"{'Antimalarial', 'Antiplasmodial'}",['Antimalarial'],"TP:1,FP:0,FN:1",1,0,1
+"{'Alpha7 nAChR Modulator', 'Anti-Inflammatory'}",['Alpha7 nAChR Modulator'],"The predicted attribute set contains one correct match with the true attributes and misses one true attribute.
+
+TP:1,FP:0,FN:1",1,0,1
+{'Antimicrobial'},['Cytokinin'],"TP:0,FP:1,FN:1",0,1,1
+"{'H+/K+-ATPase Inhibitor', 'Gastric Antisecretory', 'Antiulcer'}","['Cytoprotective', 'Gastric Antisecretory', 'H+/K+-ATPase Inhibitor', 'Antiulcer']","Predicted attributes: Cytoprotective, Gastric Antisecretory, H+/K+-ATPase Inhibitor, Antiulcer  
+True attributes: H+/K+-ATPase Inhibitor, Gastric Antisecretory, Antiulcer
+
+- TP: H+/K+-ATPase Inhibitor, Gastric Antisecretory, Antiulcer = 3
+- FP: Cytoprotective = 1
+- FN: none = 0
+
+TP:3,FP:1,FN:0",3,1,0
+"{'Wound-Healing', '15-PGDH Inhibitor'}","['Wound-Healing', '15-PGDH Inhibitor', 'MitoNEET Ligand']","TP:2,FP:1,FN:0",2,1,0
+{'mTORC1 Inhibitor'},['mTORC1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'SARS-CoV Mpro Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'CREB Inhibitor', 'Transcriptional Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'HIV Integrase Inhibitor'},"['Antiviral', 'HIV Integrase Inhibitor', 'HIV-1 NC Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+{'CARM1 Inhibitor'},['PRMT6 Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'P-glycoprotein Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Immunomodulator', 'PKCtheta Inhibitor'}",['PKCtheta Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Kinase Inhibitor', 'Anticancer', 'PDGFRAlpha Inhibitor', 'VEGFR2 Inhibitor'}",['Anticancer'],"TP:1,FP:0,FN:3",1,0,3
+{'COX2 Inhibitor'},['COX2 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Selective Serotonin Reuptake Inhibitor'},['Selective Serotonin Reuptake Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Protein Kinase Inhibitor', 'PKA Inhibitor', 'PKC Inhibitor'}","['Protein Kinase Inhibitor', 'PKC Inhibitor', 'PKA Inhibitor']","The predicted attributes exactly match the true attributes.
+
+TP:3,FP:0,FN:0",3,0,0
+"{'AIDS Therapeutic', 'HIV-1 LTR Inhibitor'}","['HIV-1 LTR Inhibitor', 'AIDS Therapeutic']","TP:2,FP:0,FN:0",2,0,0
+{'MK-2 Inhibitor'},['Photosystem II Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'A2A Adenosine Receptor Antagonist'},['A2A Adenosine Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Alpha 1-Adrenoceptor Agonist'},['Alpha 1-Adrenoceptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'Isocitrate Lyase Inhibitor', 'Na(+)/K(+)-ATPase Inhibitor', 'Antibiotic', 'Sortase A Inhibitor'}",[],"TP:0,FP:0,FN:5",0,0,5
+{'sPLA2 Inhibitor'},"['Anti-Inflammatory', 'sPLA2 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Antidepressant', 'MAO A Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cell Adhesion Inhibitor', 'Osteoporosis', 'Alpha(v)beta3 Integrin Antagonist'}","['Alpha(v)beta3 Integrin Antagonist', 'Cell Adhesion Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'Androgen Receptor Inhibitor'},['Androgen Receptor Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'CB2 Ligand'},['CB2 Ligand'],"TP:1,FP:0,FN:0",1,0,0
+"{'EGFR Kinase Inhibitor', 'Anticancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Alphavirus Inhibitor', 'Neurotropic'}","['Alphavirus Inhibitor', 'Neurotropic']","TP:2,FP:0,FN:0",2,0,0
+{'HIV-1 PR/RT Inhibitor'},['DNA Polymerase III Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Cathepsin K Inhibitor', 'Osteoporosis'}","['Cathepsin K Inhibitor', 'Osteoporosis']","TP:2,FP:0,FN:0",2,0,0
+"{'Antitumor', 'Proteasome Inhibitor'}","['Antitumor', 'Proteasome Inhibitor', 'ERAD Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+"{'Anticancer', 'hCA IX/XII Inhibitor', 'Carbonic Anhydrase Inhibitor'}","['Carbonic Anhydrase Inhibitor', 'hCA IX/XII Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+"{'Antihypertensive', 'Direct Renin Inhibitor'}",['Direct Renin Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Analgesic', 'Alpha2-Adrenoceptor Agonist'}",['Alpha2-Adrenoceptor Agonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Analgesic', 'Alpha2-Adrenoceptor Agonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Analgesic', 'Alpha2-Adrenoceptor Agonist'}",['Histamine H3 Receptor Antagonist'],"TP:0,FP:1,FN:2",0,1,2
+"{'Analgesic', 'Alpha2-Adrenoceptor Agonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Histamine H3 Receptor Antagonist'},"['Histamine H3 Receptor Antagonist', 'H3 Receptor Antagonist']","TP:1,FP:1,FN:0",1,1,0
+{'Human Neutrophil Elastase Inhibitor'},['HNE Inhibitor'],"The predicted attribute “HNE Inhibitor” matches the true attribute “Human Neutrophil Elastase Inhibitor” as an equivalent functional claim.
+
+TP:1,FP:0,FN:0",1,0,0
+"{'GlyT1 Inhibitor', 'Memory Enhancer'}",['GlyT1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Analgesic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antibiotic'},"['Antibiotic', 'Quinolone Antibiotic']","TP:1,FP:1,FN:0",1,1,0
+{'Histamine H3 Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Nerve Agent Antidote', 'Choline Acetyltransferase Inhibitor'}",['K+ Channel Blocker'],"TP:0,FP:1,FN:2",0,1,2
+"{'Trypanosomiasis', 'PTR1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Factor Xa Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'MMP13 Inhibitor', 'Osteoarthritis'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anti-Trypanosomal'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Butylcholinesterase Inhibitor'},['Butylcholinesterase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'CK2 Inhibitor'},"['CK2 Inhibitor', 'Protein Kinase CK2 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Leukotriene Receptor Antagonist', 'Antiasthmatic'}",['Leukotriene Receptor Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'Anti-Dengue'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Norepinephrine Transporter Inhibitor', 'Analgesic'}",['Norepinephrine Transporter Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antidepressant', 'Dopamine-Uptake Inhibitor', 'Dopaminomimetic'}",['Dopaminomimetic'],"TP:1,FP:0,FN:2",1,0,2
+"{'Topical Antiinflammatory', 'CYP450 Inhibitor'}","['CYP450 Inhibitor', 'Topical Antiinflammatory']","TP:2,FP:0,FN:0",2,0,0
+{'Antimalarial'},"['Antimalarial', 'Antiplasmodial']","TP:1,FP:1,FN:0",1,1,0
+"{'Immunomodulator', 'DHODH Inhibitor'}","['Immunomodulator', 'DHODH Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Nrf2-ARE Activator', 'Neuroprotective', 'Oxidative Stress'}",['Nrf2-ARE Activator'],"TP:1,FP:0,FN:2",1,0,2
+{'Galectin-3 Antagonist'},['Galectin-3 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Heparanase Inhibitor', 'Angiogenesis Inhibitor', 'Antimetastasis'}","['Angiogenesis Inhibitor', 'Heparanase Inhibitor']","The predicted attributes match two of the true functional attributes:
+
+- True positives (TP): Angiogenesis Inhibitor, Heparanase Inhibitor = 2
+- False positives (FP): none = 0
+- False negatives (FN): Antimetastasis = 1
+
+TP:2,FP:0,FN:1",2,0,1
+{'VEGFR2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'T2D Therapy', 'FBPase Inhibitor'}","['FBPase Inhibitor', 'E3 Ligase Inhibitor', 'Microbicide', 'Monoglyceride Lipase Inhibitor', 'Spermicide', 'T2D Therapy']","TP:2,FP:4,FN:0",2,4,0
+"{'Anticancer', 'Tubulin Polymerization Inhibitor'}","['Apoptosis Inducer', 'Tubulin Polymerization Inhibitor']","TP:1,FP:1,FN:1",1,1,1
+{'Antimalarial'},['Antimalarial'],"TP:1,FP:0,FN:0",1,0,0
+"{'Protein-Protein Interaction Inhibitor', 'Apoptosis Inducer'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Cathepsin D Inhibitor'},['Cathepsin D Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Mitochondrial Dysfunction Modulator', 'mPTP Blocker', 'AD Therapeutic'}","['mPTP Blocker', 'AD Therapeutic', 'Mitochondrial Dysfunction Modulator']","TP:3,FP:0,FN:0",3,0,0
+{'SARS-CoV Mpro Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'TrkA Inhibitor'},"['TrkA Inhibitor', 'IL-2 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'ROCK II Inhibitor'},['ROCK II Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Vitronectin Receptor Antagonist'},['Vitronectin Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'A2A Adenosine Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Malarial Protease Inhibitor'},['Malarial Protease Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'DHFR Inhibitor', 'Toxoplasmosis'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Glycogen Phosphorylase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'IRAK-4 Inhibitor'},"['IRAK-4 Inhibitor', 'DLBCL Treatment']","TP:1,FP:1,FN:0",1,1,0
+"{'Thrombin Receptor Antagonist', 'Platelet Inhibitor'}","['Thrombin Receptor Antagonist', 'Platelet Inhibitor']","The predicted attributes exactly match the true attributes.
+
+TP:2,FP:0,FN:0",2,0,0
+{'Anti-Tuberculosis'},['Anti-Tuberculosis'],"TP:1,FP:0,FN:0",1,0,0
+{'PFKFB3 Inhibitor'},['PFKFB3 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antibiotic', 'Antifungal'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Mutant SOD1 Inhibitor', 'ALS Therapeutic'}","['Mutant SOD1 Inhibitor', 'ALS Therapeutic']","TP:2,FP:0,FN:0",2,0,0
+"{'Mutant SOD1 Inhibitor', 'ALS Therapeutic'}","['Mutant SOD1 Inhibitor', 'ALS Therapeutic']","TP:2,FP:0,FN:0",2,0,0
+"{'Mutant SOD1 Inhibitor', 'ALS Therapeutic'}","['Mutant SOD1 Inhibitor', 'ALS Therapeutic']","TP:2,FP:0,FN:0",2,0,0
+{'Antitumor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Smoking Cessation Aid', 'Antidepressant'}",['Smoking Cessation Aid'],"TP:1,FP:0,FN:1",1,0,1
+"{'5-HT(1A) Receptor Ligand', 'D2 Dopamine Receptor Ligand', 'D3 Agonist'}",['Dopamine-Autoreceptor Agonist'],"The predicted attribute **Dopamine-Autoreceptor Agonist** does not exactly match any of the true attributes.
+
+- **TP** = 0  
+- **FP** = 1  
+- **FN** = 3  
+
+TP:0,FP:1,FN:3",0,1,3
+{'CB1 Inverse Agonist'},['CB1 Inverse Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'GPR109a Agonist', 'Niacin Receptor 1 Agonist'}","['Niacin Receptor 1 Agonist', 'GPR109a Agonist']","TP:2,FP:0,FN:0",2,0,0
+{'Anticonvulsive'},['Anticonvulsive'],"TP:1,FP:0,FN:0",1,0,0
+{'Na(v)1.7 Antagonist'},"['Anticonvulsive', 'Na(v)1.7 Antagonist']","TP:1,FP:1,FN:0",1,1,0
+"{'Kinase Inhibitor', 'Antiproliferative', 'Tyrosine Protein Kinase Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'PDE4 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antioxidant', 'Antimicrobial', 'Cytotoxic'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Antibiotic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'NO Donor', 'Anti-Trypanosoma cruzi', 'Cruzain Inhibitor'}","['Anti-Trypanosomal', 'Leishmanicidal']","TP:0,FP:2,FN:3",0,2,3
+"{'Pain Treatment', 'TRPV1 Antagonist'}","['Analgesic', 'TRPV1 Antagonist', 'Pain Treatment']","TP:2,FP:1,FN:0",2,1,0
+{'Anticancer'},['hMAO-A Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Melatoninergic Agonist', 'Melatonin Receptor Ligand'}","['Melatonin Receptor Ligand', 'Melatoninergic Ligand', 'MT2 Antagonist', 'Neurogenic', 'MT2 Melatonin Receptor Ligand']","Predicted attributes matched to true attributes:
+- Melatonin Receptor Ligand → TP
+- Melatoninergic Ligand → FP
+- MT2 Antagonist → FP
+- Neurogenic → FP
+- MT2 Melatonin Receptor Ligand → FP
+
+True attribute not predicted:
+- Melatoninergic Agonist → FN
+
+TP:1,FP:4,FN:1",1,4,1
+{'Antiviral'},['Neurological Ligands'],"TP:0,FP:1,FN:1",0,1,1
+{'NNRTI'},['Microbicidal'],"TP:0,FP:1,FN:1",0,1,1
+{'NMDA Receptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'HIF-1Alpha Inhibitor', 'Hsp-90 Inhibitor'}",[],"The predicted attributes are empty, while the true attributes are Anticancer, HIF-1Alpha Inhibitor, and Hsp-90 Inhibitor.
+
+So:
+- TP = 0
+- FP = 0
+- FN = 3
+
+TP:0,FP:0,FN:3",0,0,3
+"{'5-Lipoxygenase Inhibitor', 'mPGES-1 Inhibitor', 'Anti-Inflammatory', '5-Lipoxygenase-Activating Protein Inhibitor'}",[],"TP:0,FP:0,FN:4",0,0,4
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Pim Kinase Inhibitor', 'Cancer Therapy', 'Pan-Pim Inhibitor'}","['Pim Kinase Inhibitor', 'Pan-Pim Inhibitor']","The predicted attributes match two of the true attributes, and one true attribute is missing from the predictions.
+
+TP:2,FP:0,FN:1",2,0,1
+{'Ebola Virus Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'NO Production Inhibitor', 'Interleukin 6 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anticancer', 'NAMPT Inhibitor'}",['NAMPT Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'HIV Integrase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'DNA GyraseB Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anti-Tuberculosis', 'Anti-mycobacterial'}",['Anti-Tuberculosis'],"TP:1,FP:0,FN:1",1,0,1
+{'NK1/NK3 Antagonist'},"['NK1/NK3 Antagonist', 'Neurokinin Receptor Antagonist', 'PKG1Alpha Activator']","TP:1,FP:2,FN:0",1,2,0
+{'CDK8 Inhibitor'},['CDK8 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antitumor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-mycobacterial'},['Anti-mycobacterial'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Tuberculosis'},['Anti-Tuberculosis'],"TP:1,FP:0,FN:0",1,0,0
+"{'MAO-B Inhibitor', 'Parkinson Disease'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Opioid Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiprotozoan'},['Antiprotozoan'],"TP:1,FP:0,FN:0",1,0,0
+"{'JNK Inhibitor', 'Neuroprotective'}",['JNK Inhibitor'],"The predicted attributes include **JNK Inhibitor**, which matches the true attributes. The true set also includes **Neuroprotective**, which was not predicted.
+
+TP:1,FP:0,FN:1",1,0,1
+"{'Multiple Sclerosis', 'PAD Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antihypertensive', 'Thromboxane Synthase Inhibitor'}","['Antihypertensive', 'Thromboxane Synthase Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Anticancer', 'Cdc25B Inhibitor'}",['PARP1/2 Inhibitor'],"TP:0,FP:1,FN:2",0,1,2
+"{'Antidepressant', 'Antiproliferative'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cognition-Enhancer', 'Alpha7 nAChR PAM'}","['Cognition-Enhancer', 'Alpha7 nAChR PAM']","TP:2,FP:0,FN:0",2,0,0
+"{""Alzheimer's"", 'BACE-1 Inhibitor'}",['BACE-1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Trypanosoma cruzi Inhibitor'},['Trypanosoma cruzi Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Adenosine Kinase Inhibitor'},['Adenosine Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'TRPV1 Antagonist', 'Pain Reliever'}","['TRPV1 Antagonist', 'Pain Reliever']","TP:2,FP:0,FN:0",2,0,0
+{'Antimalarial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'mGlu2 Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'SOCE Inhibitor'},['SOCE Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Adenosine Receptor Antagonist'},['Anti-Parkinson'],"TP:0,FP:1,FN:1",0,1,1
+{'Glycogen Phosphorylase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Voltage-Gated Sodium Channel Modulator'},['Voltage-Gated Sodium Channel Modulator'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cell-Cycle Arrest', 'Tubulin Polymerization Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'5-HT4R Antagonist'},['5-HT4R Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Mast Cell Tryptase Inhibitor'},"['Tryptase Inhibitor', 'Antiasthma', 'Mast Cell Tryptase Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+{'Antineoplastic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'HIV Protease Inhibitor'},['HIV Protease Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'JNK Inhibitor'},['JNK Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytostatic'},['Cytostatic'],"TP:1,FP:0,FN:0",1,0,0
+{'3C Protease Inhibitor'},['3C Protease Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Botulinum Neurotoxin Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Protein Tyrosine Phosphatase 1B Inhibitor', 'PTP1b Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anti-Diabetic', 'SHIP2 Inhibitor'}",['SHIP2 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'hIDO1/hTDO Inhibitor', 'Anti-Parkinson'}","['Anti-Parkinson', 'hIDO1/hTDO Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Hypolipidemic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'hCA IX/XII Inhibitor'},['Carbonic Anhydrase Inhibitor'],"The predicted attribute “Carbonic Anhydrase Inhibitor” matches the true functional attribute “hCA IX/XII Inhibitor” at the level of carbonic anhydrase inhibition, so it counts as a true positive.
+
+TP:1,FP:0,FN:0",1,0,0
+{'Thymidine Phosphorylase Inhibitor'},['Thymidine Phosphorylase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anti-Inflammatory', 'Analgesic', 'COX2 Inhibitor'}","['Analgesic', 'COX2 Inhibitor']","TP:2,FP:0,FN:1",2,0,1
+{'11betaHSD1 Inhibitor'},['11betaHSD1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Angiotensin Converting Enzyme Inhibitor', 'Antihypertensive'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'PPAR Agonist'},"['Hypolipidemic', 'PPAR Alpha/Gamma Agonist', 'PPAR Agonist']","TP:1,FP:2,FN:0",1,2,0
+"{'PPARgamma Activator', 'PPAR Alpha/Gamma Agonist'}","['Hypolipidemic', 'PPAR Alpha/Gamma Agonist']","TP:1,FP:1,FN:1",1,1,1
+{'PPARgamma Activator'},"['Hypolipidemic', 'PPAR Alpha/Gamma Agonist', 'PPAR Agonist']","TP:0,FP:3,FN:1",0,3,1
+{'Bradykinin B2 Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'HCV Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'PKM2 Activator'},['PKM2 Activator'],"TP:1,FP:0,FN:0",1,0,0
+{'Human Neutrophil Elastase Inhibitor'},['Human Neutrophil Elastase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Histamine H3 Receptor Antagonist'},"['Histamine H3 Receptor Antagonist', 'H3 Receptor Antagonist']","TP:1,FP:1,FN:0",1,1,0
+"{'Neuroprotective', 'NMDA Antagonist'}",['NMDA Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Apoptosis', 'DNA Topoisomerase II Inhibitor', 'Cytotoxic', 'DNA Cleavage'}",[],"TP:0,FP:0,FN:4",0,0,4
+{'Wnt Pathway Inhibitor'},['Wnt Pathway Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'HIV-1 NC Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antioxidant', 'Cytotoxic', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'sEH Inhibitor', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Acute Pancreatitis', 'Kynurenine 3-Monooxygenase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'NNRTI'},['HIV-1 PR/RT Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Antileukaemic', 'BET Inhibitor'}","['Anticancer', 'Tubulin Inhibitor']","The predicted attributes do not match the true attributes.
+
+- Predicted: Anticancer, Tubulin Inhibitor
+- True: Antileukaemic, BET Inhibitor
+
+So:
+- TP = 0
+- FP = 2
+- FN = 2
+
+TP:0,FP:2,FN:2",0,2,2
+"{'Anticancer', 'PTP1b Inhibitor'}",['PTP1b Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Anti-Inflammatory', 'Antibiotic'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Immunomodulator', 'Anticancer', 'TDO-2 Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'H3 Receptor Antagonist'},['H3 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Adenosine Receptor Antagonist'},['Adenosine Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Cardiovascular'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Thrombin-Inhibitor'},['Thrombin-Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiarrhythmic', 'Anticoagulant'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Bromodomain Inhibitor', 'BRPF1 Inhibitor', 'Leukemia'}",['BRPF1 Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+"{'Chronic Pain', 'MrgX1 Modulator'}","['Chronic Pain', 'MrgX1 Modulator']","TP:2,FP:0,FN:0",2,0,0
+"{'Analgesic', 'MOR Agonist'}","['Analgesic', 'Mu Opioid Receptor Agonist', 'MOR Agonist', 'G Protein-Biased']","TP:2,FP:2,FN:0",2,2,0
+{'Antifungal'},['Antifungal'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Tuberculosis'},['Anti-Tuberculosis'],"TP:1,FP:0,FN:0",1,0,0
+{'mtFabH Inhibitor'},['mtFabH Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Diabetic'},['Anti-Diabetic'],"TP:1,FP:0,FN:0",1,0,0
+"{'Differentiation Enhancer', 'Antiproliferative', 'Cell Cycle Blocker'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'HIV Protease Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'5-HT2A/2C Agonist', 'Obesity Treatment'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Human Leukocyte Elastase Inhibitor'},"['Human Leukocyte Elastase Inhibitor', 'Elastase Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Anxiolytic', 'Triple Re-uptake Inhibitor', 'Serotonin/Norepinephrine Reuptake Inhibitor', 'Antidepressant', 'Analgesic'}",[],"TP:0,FP:0,FN:5",0,0,5
+"{'ELOVL1 Inhibitor', 'ALD Treatment'}","['ELOVL1 Inhibitor', 'ALD Treatment']","TP:2,FP:0,FN:0",2,0,0
+"{""Alzheimer's"", 'BACE-1 Inhibitor'}",['BACE-1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'alpha-Chymotrypsin Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'TRPC5 Inhibitor'},['TRPC5 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Nociceptin Receptor Ligand', 'Antitussive'}","['Antitussive', 'Nociceptin Receptor Ligand']","TP:2,FP:0,FN:0",2,0,0
+"{'RIP1 Inhibitor', 'Anti-Inflammatory', 'Necroptosis Inhibitor'}","['Necroptosis Inhibitor', 'RIP1 Inhibitor']","TP:2,FP:0,FN:1",2,0,1
+"{'BF3 Inhibitor', 'Androgen Receptor Inhibitor', 'Anti-Androgen'}",['BF3 Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+{'Nicotinic Receptor Agonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antibiotic', 'Neuroprotective', 'PTP1b Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{""Alzheimer's"", 'BACE-1 Inhibitor'}",['BACE-1 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Antimalarial'},['Antimalarial'],"TP:1,FP:0,FN:0",1,0,0
+"{'Cytotoxic', 'Antitubulin'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antitumor', 'Apoptosis Inducer', 'Microtubule Depolymerization'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Apoptosis Inducer', 'Growth Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cytotoxic', 'Antitubulin'}","['DNA Cleavage', 'DNA-Cleavage']","TP:0,FP:2,FN:2",0,2,2
+"{'Cytotoxic', 'Antitubulin'}","['DNA Cleavage', 'DNA-Cleavage']","TP:0,FP:2,FN:2",0,2,2
+"{'Cytotoxic', 'Antitubulin'}",['DNA-Cleavage'],"The predicted attribute set is {DNA-Cleavage}, while the true attribute set is {Cytotoxic, Antitubulin}.
+
+- TP: 0
+- FP: 1
+- FN: 2
+
+TP:0,FP:1,FN:2",0,1,2
+{'Sigma2 Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'5-HT2A/2C Agonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'GPIIb/IIIa Antagonist'},"['Anti-Platelet', 'GPIIb/IIIa Antagonist']","The predicted attributes include one correct match and one extra incorrect attribute.
+
+TP:1,FP:1,FN:0",1,1,0
+"{'Apoptosis', 'Anticancer', 'Cytotoxic'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Acetylcholinesterase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antioxidant', 'Acetylcholinesterase Inhibitor', ""Alzheimer's Disease"", 'Multi-Target-Directed'}","['Antioxidant', 'Acetylcholinesterase Inhibitor', 'AChE Inhibitor', 'Multi-Target-Directed']","TP:3,FP:1,FN:1",3,1,1
+{'VEGFR2 Inhibitor'},['VEGFR2 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'sEH Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'PKM2 Activator', 'Anticancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'CNS-Active'},['nAChR Ligand'],"TP:0,FP:1,FN:1",0,1,1
+"{'P-glycoprotein Inhibitor', 'P-gp Modulator'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'MmpL3 Inhibitor', 'Anti-Tuberculosis'}",['TNAP Inhibitor'],"TP:0,FP:1,FN:2",0,1,2
+"{'Antitumor', 'Antiviral'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'ADAMTS-5 Inhibitor'},['ADAMTS-5 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antibiotic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiallergy'},[],"TP:0,FP:0,FN:1",0,0,1
+{'KDM5 Inhibitor'},['KDM5 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'PPAR Agonist'},['PPAR Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'PTP Inhibitor'},['PTP Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'2,3-Oxidosqualene-Lanosterol Cyclase Inhibitor'}",[],"TP:0,FP:0,FN:1",0,0,1
+{'Hypoglycemic'},['Hypoglycemic'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiprion', 'Lead Compound'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'EP1 Antagonist', 'Anti-Inflammatory'}",['EP1 Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+"{'Cytotoxic', 'Tubulin Polymerization Inhibitor', 'Microtubule Targeting Agent'}",['Microtubule Targeting Agent'],"TP:1,FP:0,FN:2",1,0,2
+"{'Parkinson Disease', 'LRRK2 Kinase Inhibitor'}","['Parkinson Disease', 'LRRK2 Kinase Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Carbonic Anhydrase Inhibitor'},"['Carbonic Anhydrase Inhibitor', 'Intraocular Pressure-Lowering']","TP:1,FP:1,FN:0",1,1,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Chemotherapeutic Sensitizer'},['Chemotherapeutic Sensitizer'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiproliferative', 'VEGFR2 Inhibitor'}","['Anticancer', 'VEGFR2 Inhibitor', 'Tyrosine Protein Kinase Inhibitor']","Predicted attributes: Anticancer, VEGFR2 Inhibitor, Tyrosine Protein Kinase Inhibitor  
+True attributes: Antiproliferative, VEGFR2 Inhibitor
+
+- TP: VEGFR2 Inhibitor = 1
+- FP: Anticancer, Tyrosine Protein Kinase Inhibitor = 2
+- FN: Antiproliferative = 1
+
+TP:1,FP:2,FN:1",1,2,1
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiviral'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'AML', 'PI3KDelta-Gamma Inhibitor', 'Antitumor'}","['Anticancer', 'PI3 Kinase Inhibitor', 'PI3KDelta-Gamma Inhibitor']","Predicted attributes: Anticancer, PI3 Kinase Inhibitor, PI3KDelta-Gamma Inhibitor  
+True attributes: AML, PI3KDelta-Gamma Inhibitor, Antitumor
+
+Matching attributes:
+- PI3KDelta-Gamma Inhibitor is a true positive.
+
+Non-matching predicted attributes:
+- Anticancer is not exactly listed in the true attributes.
+- PI3 Kinase Inhibitor is not exactly listed in the true attributes.
+
+Missed true attributes:
+- AML
+- Antitumor
+
+TP:1,FP:2,FN:2",1,2,2
+{'Histamine H3 Receptor Antagonist'},['Histamine H3 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Diabetes Treatment', 'AMPK Activator'}","['DGAT1 Inhibitor', 'Diabetes Treatment']","TP:1,FP:1,FN:1",1,1,1
+"{'FabI-Inhibitor', 'Antibiotic'}","['Antibiotic', 'FabI-Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'GPR55 Agonist'},['GPR55 Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Norovirus Inhibitor'},['Norovirus Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'PI3KDelta-Gamma Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antiviral', 'HBsAg Inhibitor'}",['HBsAg Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Mitochondrial Uncoupler', 'NASH Treatment'}","['Mitochondrial Uncoupler', 'NASH Treatment']","TP:2,FP:0,FN:0",2,0,0
+"{'Anticonvulsive', 'Antimicrobial', 'Antifungal'}",['Antimicrobial'],"TP:1,FP:0,FN:2",1,0,2
+{'PqsD Inhibitor'},"['Antibiotic', 'RNA Polymerase Inhibitor', 'PqsD Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+{'Dopaminergic'},['Antioxidant'],"TP:0,FP:1,FN:1",0,1,1
+{'FAAH Inhibitor'},['FAAH Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'MBL Inhibitor', 'Antibiotic'}",['IL-15 Inhibitor'],"TP:0,FP:1,FN:2",0,1,2
+{'Ca2+ Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{""Alzheimer's"", 'M1 Agonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'IRE1Alpha Inhibitor'},['IRE1Alpha Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Hedgehog Pathway Inhibitor'},['Hedgehog Pathway Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Platelet'},['Anti-HBV'],"TP:0,FP:1,FN:1",0,1,1
+{'Antitoxoplasma'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Calcium-Sensing Receptor Agonist'},['Calcium-Sensing Receptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'NF-kappa B Inhibitor', 'AP-1 Inhibitor'}","['AP-1 Inhibitor', 'Anti-Invasive']","TP:1,FP:1,FN:1",1,1,1
+{'Vanilloid Agonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HCV NS5b Polymerase Inhibitor', 'PI4K Inhibitor'}","['HCV NS5b Polymerase Inhibitor', 'PI4K Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Antineoplastic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'EP4 Receptor Agonist'},['EP4 Receptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Tuberculosis'},['Tuberculosis Drug'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiplatelet Aggregation Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'Proteasome Inhibitor'}","['Anticancer', 'Proteasome Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'Antimalarial', 'Fatty Acid Synthesis Inhibitor', 'Trypanosoma Inhibitor'}","['Antimalarial', 'Weight Loss', 'Fatty Acid Synthesis Inhibitor', 'Trypanosoma Inhibitor']","TP:3,FP:1,FN:0",3,1,0
+"{'Anti-TNF-alpha', 'MK2 Inhibitor'}","['MK2 Inhibitor', 'Anti-TNF-alpha']","TP:2,FP:0,FN:0",2,0,0
+"{'Anticancer', 'HER1/HER2 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antiepileptic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'ICMT Inhibitor'}",['ICMT Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Antimalarial'},['Antimalarial'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antidepressant', 'Analgesic', 'Monoamine Reuptake Inhibitor'}","['Analgesic', 'Antidepressant', 'Monoamine Reuptake Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+{'DPPIV Inhibitor'},['DPPIV Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Inflammatory'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antiasthma', 'Anti-Diabetic', 'Anti-Bacterial'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'5-LOX/COX Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'mGlu2 Antagonist'},"['CYP17A1 Inhibitor', '17 alpha-hydroxylase/C17,20-lyase Inhibitor']","The predicted attributes do not match the true attribute.
+
+TP:0,FP:2,FN:1",0,2,1
+{'Histone Deacetylase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytostatic', 'Antiproliferative', 'Tubulin-Targeting'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'nNOS Inhibitor'},['nNOS Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anxiolytic', 'GABAergic', 'Anticonvulsive'}","['Anticonvulsive', 'Anxiolytic', 'GABAergic']","TP:3,FP:0,FN:0",3,0,0
+{'PDE7 Inhibitor'},['PDE7 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'5-HT 1A Receptor Agonist'},['5-HT 1A Receptor Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Cdc25B Inhibitor'},['Cdc25B Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Metallo-Beta-Lactamase Inhibitor'},"['Metallo-Beta-Lactamase Inhibitor', 'IL-15 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Tau Imaging', 'Theranostic', 'Beta-Amyloid Plaque Imaging'}","['Beta-Amyloid Plaque Imaging', 'Theranostic', 'Tau Imaging']","The predicted attributes exactly match the true attributes.
+
+TP:3,FP:0,FN:0",3,0,0
+{'DPPIV Inhibitor'},['DPPIV Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antitumor'},['Amyloid-Beta Aggregation Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Ulcerative Colitis', 'GPR84 Antagonist'}","['GPR84 Antagonist', 'Ulcerative Colitis']","The predicted attributes exactly match the true attributes.
+
+TP:2,FP:0,FN:0",2,0,0
+"{'CB1-R Antagonist', 'AChE Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Cytotoxic', 'TNBC', 'FGFR1 Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'HDACs Inhibitor'},['HDACs Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Hypolipidemic'},['Hypolipidemic'],"TP:1,FP:0,FN:0",1,0,0
+{'PDE4 Inhibitor'},['PDE4 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'HMG-CoA Reductase Inhibitor'},['HMG-CoA Reductase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Aldose Reductase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Neuroprotective', 'AChE Inhibitor', 'Amyloid-Beta Aggregation Inhibitor', 'Anti-AD'}","[""Alzheimer's Disease""]","TP:0,FP:1,FN:4",0,1,4
+{'Late Sodium Current Inhibitor'},['Cardiac NaV 1.5 Inhibitor'],"The predicted attribute “Cardiac NaV 1.5 Inhibitor” is functionally aligned with the true attribute “Late Sodium Current Inhibitor,” since both refer to inhibition of cardiac sodium current via NaV1.5. Therefore, this counts as a true positive.
+
+TP:1,FP:0,FN:0",1,0,0
+{'Muscarinic Agonist'},['Muscarinic Agonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Adenine Receptor Agonist'},['Histidine Kinase Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'PDE7 Inhibitor'},['PDE7 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Urotensin-II Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Tuberculosis'},"['Anti-Tuberculosis', 'Anti-Hyperuricemic', 'MPO Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+"{'DLBCL Treatment', 'MALT1 Inhibitor'}",['DLBCL Treatment'],"TP:1,FP:0,FN:1",1,0,1
+{'Aldose Reductase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antimicrobial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antioxidant', 'H3 Receptor Antagonist', 'Amyloid-Beta Aggregation Inhibitor', ""Alzheimer's Disease""}","['Antioxidant', 'Neuroprotective', 'Metal Chelator']","TP:1,FP:2,FN:3",1,2,3
+"{'Enoyl-ACP Reductase Inhibitor', 'Antiparasitic'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Anti-Leishmanial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticonvulsive', 'Sodium Channel Blocker'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Analgesic', 'Anti-Inflammatory'}",['Antibreast Cancer'],"TP:0,FP:1,FN:2",0,1,2
+{'HCV NS5b Polymerase Inhibitor'},['HCV NS5b Polymerase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-influenza'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Myeloperoxidase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antimultiple Myeloma'},['Antimultiple Myeloma'],"TP:1,FP:0,FN:0",1,0,0
+"{'Dual-Inhibitor', 'Prolyl Oligopeptidase Inhibitor', 'FAP Inhibitor', 'Cancer Therapeutic', 'POP Inhibitor'}",[],"TP:0,FP:0,FN:5",0,0,5
+{'Cytotoxic'},['E7 Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Vasorelaxant'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HAE Treatment', 'Plasma Kallikrein Inhibitor'}","['Plasma Kallikrein Inhibitor', 'HAE Treatment']","TP:2,FP:0,FN:0",2,0,0
+{'Anti-mycobacterial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Macrofilaricide'},['Macrofilaricide'],"TP:1,FP:0,FN:0",1,0,0
+{'Matrix Metalloproteinase-13 Inhibitor'},['Matrix Metalloproteinase-13 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'AMPA Potentiator', 'Cognition-Enhancer'}","['Cognition-Enhancer', 'AMPA Potentiator']","TP:2,FP:0,FN:0",2,0,0
+"{'TLR2/4 Agonist', 'Immune Stimulant'}",['Immune Stimulant'],"The predicted attribute set contains **Immune Stimulant**, which matches the true attributes.
+
+- **TP** = 1
+- **FP** = 0
+- **FN** = 1
+
+TP:1,FP:0,FN:1",1,0,1
+{'Gram-positive Antibiotic'},['Gram-positive Antibiotic'],"TP:1,FP:0,FN:0",1,0,0
+{'HCV IRES Ligand'},['HCV IRES Ligand'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antibiotic', 'Anti-Tuberculosis', 'Beta-lactamase Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Trypanothione Reductase Inhibitor', 'Antiparasitic'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'K(ATP) Opener', 'Cardioprotective'}","['Cardioprotective', 'Anti-ischemic', 'KATP Opener', 'K(ATP) Opener']","TP:2,FP:2,FN:0",2,2,0
+"{'Anticancer', 'Telomerase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Human Leukocyte Elastase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytotoxic', 'Tubulin Polymerization Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'mGluR5 Positive Allosteric Modulator', 'mGlu2 Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'NorA Inhibitor', 'Antibiotic Potentiator'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Aldosterone Synthase Inhibitor'},['Aldosterone Synthase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'EED Ligand', 'PRC2 Inhibitor'}","['PRC2 Inhibitor', 'EED Inhibitor', 'EED Ligand', 'Epigenetic Cancer Therapy']","TP:2,FP:2,FN:0",2,2,0
+{'Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'P2X7 Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Hedgehog Pathway Inhibitor', 'Smo Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'GST Inhibitor'},['GST Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'HIV NNRTI'},['HIV NNRTI'],"TP:1,FP:0,FN:0",1,0,0
+{'Dengue Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Serotonin Transporter Inhibitor', 'Acetylcholinesterase Inhibitor', ""Alzheimer's Disease""}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Farnesyl-Protein Transferase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Bromodomain Inhibitor', 'Cancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anticonvulsive', 'Analgesic', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Cytotoxic', 'Antitumor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Interleukin-1beta Inhibitor', 'NO Production Inhibitor'}",['ERbeta-Selective'],"The predicted attribute **ERbeta-Selective** does not match either of the true attributes **Interleukin-1beta Inhibitor** or **NO Production Inhibitor**.
+
+- **TP** = 0
+- **FP** = 1
+- **FN** = 2
+
+TP:0,FP:1,FN:2",0,1,2
+{'Antidepressant'},['NMDA Antagonist'],"Predicted attributes: NMDA Antagonist  
+True attributes: Antidepressant
+
+There is no overlap between the predicted and true attributes.
+
+TP:0,FP:1,FN:1",0,1,1
+{'Somatostatin Antagonist'},['Somatostatin Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiamoebic', 'Cytotoxic'}",[],"The predicted attributes are empty, while the true attributes are **Antiamoebic** and **Cytotoxic**.
+
+- **TP** = 0
+- **FP** = 0
+- **FN** = 2
+
+TP:0,FP:0,FN:2",0,0,2
+{'COX2 Inhibitor'},['Antiglioma'],"Predicted attribute: Antiglioma  
+True attribute: COX2 Inhibitor
+
+These do not match, so:
+- TP = 0
+- FP = 1
+- FN = 1
+
+TP:0,FP:1,FN:1",0,1,1
+{'APJ Receptor Antagonist'},['APJ Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Glucocorticoid Receptor Modulator', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Caspase-3 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Dynamin I GTPase Inhibitor', 'GTPase Inhibitor'}","['Antiplatelet Aggregation Inhibitor', 'Ocular Hypotensive', 'DP1 Antagonist', 'Prostanoid Receptor Ligand']","TP:0,FP:4,FN:2",0,4,2
+"{'Enoyl-ACP Reductase Inhibitor', 'Antiparasitic'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Immunomodulator', 'CD1d-Restricted Ligand'}",['Immunomodulator'],"TP:1,FP:0,FN:1",1,0,1
+{'Anticonvulsive'},['Anticonvulsive'],"TP:1,FP:0,FN:0",1,0,0
+"{'PPAR gamma Agonist', 'Hypolipidemic', 'Hypoglycemic'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Cytotoxic', 'Aurora A/B Kinase Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Bromodomain Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+{'p38 MAP Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytotoxic', 'Antimicrobial'}",['Antimicrobial'],"TP:1,FP:0,FN:1",1,0,1
+{'Kappa Opioid Agonist'},['Kappa Opioid Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Serine Hydrolase Inhibitor', 'FAAH Inhibitor'}","['FAAH Inhibitor', 'Serine Hydrolase Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'Caspase 1 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiproliferative'},['Antimicrobial'],"TP:0,FP:1,FN:1",0,1,1
+"{'5-Lipoxygenase Inhibitor', 'Leukotriene Biosynthesis Inhibitor'}",['Leukotriene Biosynthesis Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Monoamine Oxidase-B Inhibitor', 'Prodrug'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'AP-1 Inhibitor', 'MEK1 Inhibitor'}","['MEK1 Inhibitor', 'AP-1 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'SYK Inhibitor', 'Aurora A/B Kinase Inhibitor'}",['SYK Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'CYP450 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Histamine H4R Agonist', 'Histamine H3 Receptor Inverse Agonist'}",['Carbonic Anhydrase Activator'],"TP:0,FP:1,FN:2",0,1,2
+{'Antimalarial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Gamma-Secretase Modulator', ""Alzheimer's Disease""}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antioxidant', 'Radioprotector'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Antiepileptic', 'Carbonic Anhydrase Inhibitor'}",['Carbonic Anhydrase Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antioxidant', 'Radioprotector'}",['Radioprotector'],"TP:1,FP:0,FN:1",1,0,1
+{'ASK1 Inhibitor'},['ASK1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'MAO A Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Antitumor', 'CRM1 Inhibitor', 'Antiviral'}",[],"TP:0,FP:0,FN:3",0,0,3
+"{'Anti-Apoptotic', 'MAO A Inhibitor', 'Neuroprotective', 'VGCC Blocker', 'NMDA Receptor Inhibitor', 'MAO-B Inhibitor'}","['Neuroprotective', 'Anti-Parkinson']","Predicted attributes: Neuroprotective, Anti-Parkinson  
+True attributes: Anti-Apoptotic, MAO A Inhibitor, Neuroprotective, VGCC Blocker, NMDA Receptor Inhibitor, MAO-B Inhibitor
+
+- TP = 1 (Neuroprotective)
+- FP = 1 (Anti-Parkinson)
+- FN = 5 (Anti-Apoptotic, MAO A Inhibitor, VGCC Blocker, NMDA Receptor Inhibitor, MAO-B Inhibitor)
+
+TP:1,FP:1,FN:5",1,1,5
+{'Cannabinoid Receptor Ligand'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'Adenosine Receptor Antagonist', 'Immunostimulatory'}","['Adenosine Receptor Antagonist', 'Immunostimulatory']","TP:2,FP:0,FN:1",2,0,1
+{'Antimicrobial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'ALK Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Neuraminidase Inhibitor'},['Neuraminidase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Biofilm Inhibitor', 'Antibiotic', 'Quorum Sensing Inhibitor'}",['Biofilm Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+"{'EGFR Kinase Inhibitor', 'Tyrosine Protein Kinase Inhibitor'}","['EGFR Kinase Inhibitor', 'VEGFR2 Inhibitor', 'Tyrosine Protein Kinase Inhibitor']","TP:2,FP:1,FN:0",2,1,0
+"{'Isoleucyl tRNA Synthetase Inhibitor', 'Antibiotic'}",['Isoleucyl tRNA Synthetase Inhibitor'],"The predicted attribute matches one true attribute.
+
+TP:1,FP:0,FN:1",1,0,1
+"{'Anti-Diabetic', 'Histamine H3 Receptor Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'NF-kappa B Inhibitor'},['Anti-Inflammatory'],"TP:0,FP:1,FN:1",0,1,1
+{'Trypanosomacide'},['Trypanosomacide'],"TP:1,FP:0,FN:0",1,0,0
+{'Anti-Tuberculosis'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Potassium Channel Blocker', 'Class III Antiarrhythmic'}","['Neuroprotective', 'Anticonvulsive', 'NMDA Antagonist', 'Class III Antiarrhythmic', 'NR2B Selective']","TP:1,FP:4,FN:1",1,4,1
+{'P2X3/P2X2/3 Receptor Antagonist'},['P2X3/P2X2/3 Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Kinase Inhibitor'},['KDR Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+"{'Analgesic', 'Anti-Inflammatory'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'BET Bromodomain Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Kinase Inhibitor', 'Chk1 Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Apoptosis Inducer', 'BCL-2 Inhibitor'}","['MCL-1/BCL-2 Inhibitor', 'BCL-2 Inhibitor']","Predicted attributes: {MCL-1/BCL-2 Inhibitor, BCL-2 Inhibitor}  
+True attributes: {Apoptosis Inducer, BCL-2 Inhibitor}
+
+- TP: BCL-2 Inhibitor = 1
+- FP: MCL-1/BCL-2 Inhibitor = 1
+- FN: Apoptosis Inducer = 1
+
+TP:1,FP:1,FN:1",1,1,1
+{'Antibiotic'},['PAF-Receptor Antagonist'],"TP:0,FP:1,FN:1",0,1,1
+{'IDO1 Inhibitor'},['Carbonic Anhydrase Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Aldose Reductase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Somatostatin Agonist'},['Somatostatin Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anticancer', 'Aminopeptidase A Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Carboxylesterase Inhibitor'},['HPPD-Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'Antimalarial'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Breast Cancer', 'Estrogen Antagonist', 'SERM'}",['Breast Cancer'],"The predicted attributes are: Breast Cancer
+
+The true attributes are: Breast Cancer, Estrogen Antagonist, SERM
+
+So:
+- TP = 1 (Breast Cancer)
+- FP = 0
+- FN = 2 (Estrogen Antagonist, SERM)
+
+TP:1,FP:0,FN:2",1,0,2
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'CDK1/CDK2 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiplatelet Aggregation Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Adenosine A2B Receptor Antagonist'},['Adenosine A2B Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'11betaHSD1 Inhibitor'},['11betaHSD1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'HIV-1 PR/RT Inhibitor', 'Anti-Viral'}","['HIV-1 PR/RT Inhibitor', 'Anti-Viral']","TP:2,FP:0,FN:0",2,0,0
+{'Tyrosine Protein Kinase Inhibitor'},['Tyrosine Protein Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Anti-Tuberculosis'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Analgesic', 'CB2 Agonist', 'Anti-Inflammatory'}",['CB2 Agonist'],"TP:1,FP:0,FN:2",1,0,2
+"{'Antidepressant', 'Anxiolytic', 'Alpha4Beta2-nAChR Agonist'}",['Alpha4Beta2-nAChR Agonist'],"TP:1,FP:0,FN:2",1,0,2
+{'NMDA Antagonist'},['PCP Receptor Ligand'],"The predicted attribute does not match the true attribute.
+
+TP:0,FP:1,FN:1",0,1,1
+{'Anti-mycobacterial'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Cyclin-Dependent Kinase Inhibitor'},['Cyclin-Dependent Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Dihydrofolate Inhibitor', 'Antibiotic'}","['Dihydrofolate Inhibitor', 'DHFR Inhibitor', 'Leukemia Inhibitor']","True positives: Dihydrofolate Inhibitor = 1  
+False positives: DHFR Inhibitor, Leukemia Inhibitor = 2  
+False negatives: Antibiotic = 1  
+
+TP:1,FP:2,FN:1",1,2,1
+"{'Cytostatic', 'Pro-Apoptotic'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'PTP1b Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HIV Integrase Inhibitor', 'Anti-HIV-1'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'EP4 Receptor Agonist'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Chk2 Inhibitor'},"['MEK1 Inhibitor', 'Chk2 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Antibiotic', 'Anti-Tuberculosis'}",['Anti-Tuberculosis'],"TP:1,FP:0,FN:1",1,0,1
+"{'Neuroprotective', 'Parkinson Disease'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Cathepsin K Inhibitor'},['Cathepsin K Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Antiallergy'},['Antiallergy'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antidepressant', '5-HT(1A) Receptor Ligand', '5-HT Reuptake Inhibitor', '5-HT(1A) Receptor Antagonist'}",['Anti-Tuberculosis'],"TP:0,FP:1,FN:4",0,1,4
+{'Melanoma'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Endothelin A Receptor Antagonist', 'ETB Receptor Antagonist', 'Pulmonary Arterial Hypertension', 'ERAs'}",[],"TP:0,FP:0,FN:4",0,0,4
+{'Cholinergic Agonist'},['Cholinergic Agonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'V-ATPase Inhibitor', 'Anticancer', 'Antiviral'}",['V-ATPase Inhibitor'],"TP:1,FP:0,FN:2",1,0,2
+{'15-LOX-1 Inhibitor'},['15-LOX-1 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Malarial Protease Inhibitor'},['Malarial Protease Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'T3SS Inhibitor'},['T3SS Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'AXL Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'RNA Polymerase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'NK1/NK3 Antagonist'},['NK1/NK3 Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anticancer', 'Antiviral'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'BRS-3 Agonist', 'Obesity Treatment'}","['Obesity Treatment', 'BRS-3 Agonist']","TP:2,FP:0,FN:0",2,0,0
+{'NMDA Antagonist'},['NMDA Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+{'Complement Modulator'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cytotoxic', 'DNA Topoisomerase II Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Antifungal'},['Antifungal'],"TP:1,FP:0,FN:0",1,0,0
+{'Factor Xa Inhibitor'},"['Factor Xa Inhibitor', 'FXa Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'Biofilm Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Dihydrofolate Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Muscarinic Receptor Antagonist'},"['Muscarinic Receptor Antagonist', 'MR Antagonist']","TP:1,FP:1,FN:0",1,1,0
+"{'Apoptosis Inducer', 'PI3 Kinase Inhibitor', 'Antiproliferative'}","['PI3 Kinase Inhibitor', 'mTORC1 Inhibitor']","TP:1,FP:1,FN:2",1,1,2
+{'PDGFRAlpha Inhibitor'},['PDGFRAlpha Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anti-Inflammatory', 'CCR2 Antagonist'}",['CCR2 Antagonist'],"TP:1,FP:0,FN:1",1,0,1
+{'Anthelmintic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'IL-17 Inhibitor', 'RORGamma Inverse Agonist'}","['RORGamma Inverse Agonist', 'IL-17 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+"{'STAT3 Inhibitor', 'Anticancer', 'Antitubulin'}",['Microtubule Inhibitor'],"The predicted attribute set contains **Microtubule Inhibitor**.
+
+True attributes are **STAT3 Inhibitor, Anticancer, Antitubulin**.
+
+- **TP**: 0  
+- **FP**: 1  
+- **FN**: 3  
+
+TP:0,FP:1,FN:3",0,1,3
+"{'Antioxidant', 'Anti-Tuberculosis'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Muscarinic Receptor Antagonist'},['Muscarinic Receptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'Antiarrhythmic', 'Sodium Channel Modulator', 'Cardiac Inotrope'}","['Antiarrhythmic', 'Sodium Channel Modulator', 'Cardiac Inotrope']","TP:3,FP:0,FN:0",3,0,0
+"{'Cytotoxic', 'Antimicrobial'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'MAO A Inhibitor'},['Antibiotic'],"TP:0,FP:1,FN:1",0,1,1
+{'Contragestational'},"['Na(+)/K(+)-ATPase Inhibitor', 'Contragestational']","TP:1,FP:1,FN:0",1,1,0
+"{'Somatostatin Agonist', 'sst4 Agonist'}","['Beta-Glucocerebrosidase Inhibitor', 'Chaperone', 'sst4 Agonist']","TP:1,FP:2,FN:1",1,2,1
+"{'Cytotoxic', 'Apoptosis Inducer'}",['Arenavirus Inhibitor'],"The predicted attribute **Arenavirus Inhibitor** does not match either of the true attributes **Cytotoxic** or **Apoptosis Inducer**.
+
+TP:0,FP:1,FN:2",0,1,2
+"{'Nrf2-ARE Activator', 'KEAP1-NRF2 Inhibitor'}",['KEAP1-NRF2 Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Alpha 2-Adrenoceptor Antagonist'},['Alpha 2-Adrenoceptor Antagonist'],"TP:1,FP:0,FN:0",1,0,0
+"{'mPGES-1 Inhibitor', '5-LOX/COX Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'ALK2 Inhibitor', 'CNS Penetrant'}","['CNS Penetrant', 'ALK2 Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'DP-IV Inhibitor'},"['Dipeptidyl Peptidase-4 Inhibitor', 'DP-IV Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'GABA(A) Antagonist', 'Immunomodulatory'}",['M1 Agonist'],"The predicted attribute set contains **M1 Agonist**, while the true attribute set contains **GABA(A) Antagonist** and **Immunomodulatory**.
+
+- **TP**: 0  
+- **FP**: 1  
+- **FN**: 2  
+
+TP:0,FP:1,FN:2",0,1,2
+{'BET BD1 Inhibitor'},"['BET BD1 Inhibitor', 'SMYD2 Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+"{'Histone Demethylase Inhibitor', 'KDM1 Inhibitor', 'LSD1 Inhibitor'}","['LSD1 Inhibitor', 'Histone Demethylase Inhibitor', 'KDM1 Inhibitor']","TP:3,FP:0,FN:0",3,0,0
+"{'NAAA Inhibitor', 'Anti-Inflammatory'}",['NAAA Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+{'Antiproliferative'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'GR Agonist', 'Glucocorticoid Receptor Ligand'}","['Glucocorticoid Agonist', 'GR Agonist']","TP:1,FP:1,FN:1",1,1,1
+{'Anti-Leishmanial'},['Cytotoxic'],"Predicted attribute: Cytotoxic  
+True attribute: Anti-Leishmanial
+
+There is no exact match between the predicted and true functional attributes.
+
+TP:0,FP:1,FN:1",0,1,1
+"{'CNS Penetrant', 'Parkinson Disease', 'Positive Allosteric Modulator', 'mGlu2 PAM'}","['Parkinson Disease', 'mGlu2 PAM', 'Positive Allosteric Modulator']","TP:3,FP:0,FN:1",3,0,1
+{'HCV NS5b Polymerase Inhibitor'},"['HCV NS5b Polymerase Inhibitor', 'HCV Inhibitor']","TP:1,FP:1,FN:0",1,1,0
+{'MIF Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Cancer Chemopreventive', 'PTK Inhibitor'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'Tie-2 Kinase Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'LPA1 Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Multi-Functional', 'Antibreast Cancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'TDP2 Inhibitor'},"['TDP2 Inhibitor', 'Antimigration', 'Cancer Cell Invasion Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+{'Antitumor'},['Anti-Tuberculosis'],"TP:0,FP:1,FN:1",0,1,1
+"{'Apoptosis', 'Cytotoxic'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'TGF-BetaR1 Inhibitor'},"['ALK5 Inhibitor', 'TGF-BetaR1 Inhibitor', 'Transforming Growth Factor-beta Type I Receptor Inhibitor']","TP:1,FP:2,FN:0",1,2,0
+{'MDR-Modulator'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Anticancer', 'MAGL Inhibitor'}",['MAGL Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
+"{'Antioxidant', 'Cognition-Enhancer', 'Acetylcholinesterase Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Anticancer'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Protein Kinase Inhibitor', 'Anticancer'}","['Anticancer', 'Protein Kinase Inhibitor']","TP:2,FP:0,FN:0",2,0,0
+{'KATP Channel Opener'},['KATP Channel Opener'],"TP:1,FP:0,FN:0",1,0,0
+"{'Anti-Inflammatory', 'Anti-mycobacterial'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'STAT3 Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Butylcholinesterase Inhibitor', 'Anticancer'}",[],"TP:0,FP:0,FN:2",0,0,2
+"{'Anxiolytic', 'GABA A Modulator'}","['Anxiolytic', 'GABA A Modulator']","TP:2,FP:0,FN:0",2,0,0
+{'Anthrax'},['Anthrax'],"TP:1,FP:0,FN:0",1,0,0
+{'EGFR Kinase Inhibitor'},['EGFR Kinase Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+"{'Prodrug', 'NMDA Antagonist'}",[],"TP:0,FP:0,FN:2",0,0,2
+{'CCR4 Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'FAK Signaling Inhibitor', 'Anticancer'}",['Anti-Tuberculosis'],"TP:0,FP:1,FN:2",0,1,2
+{'MMP Inhibitor'},['MMP Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Cytotoxic'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Antihypertensive'},[],"TP:0,FP:0,FN:1",0,0,1
+{'Autotaxin Inhibitor'},['FGFR3 Inhibitor'],"TP:0,FP:1,FN:1",0,1,1
+{'HIV Maturation Inhibitor'},['HIV Maturation Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'VEGFR2 Inhibitor'},['VEGFR2 Inhibitor'],"TP:1,FP:0,FN:0",1,0,0
+{'Mitochondrial Complex I Inhibitor'},[],"TP:0,FP:0,FN:1",0,0,1
+{'H3 Receptor Antagonist'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'Kinase Inhibitor', 'Anticancer', 'FLT3 Inhibitor'}",[],"TP:0,FP:0,FN:3",0,0,3
+{'Antibiotic'},[],"TP:0,FP:0,FN:1",0,0,1
+"{'HCV Inhibitor', 'HCV NS3 Protease Inhibitor'}",['HCV NS3 Protease Inhibitor'],"TP:1,FP:0,FN:1",1,0,1
