@@ -1,0 +1,2104 @@
+ground_truth,prediction,TP_KX,FP_KX,FN_KX,chat_response,TP,FP,FN,smiles
+{'prostate cancer'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'prostate cancer'}
+- Predicted attributes (P): {}
+
+To compute True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+1. **True Positives (TP)** are the correctly predicted attributes, i.e., attributes that are both in the predicted and true sets. Since there are no predicted attributes that match the true attributes, TP = 0.
+
+2. **False Positives (FP)** are the attributes that are predicted but not true. Since there are no predicted attributes at all, FP = 0.
+
+3. **False Negatives (FN)** are the true attributes that were not predicted. Since 'prostate cancer' is a true attribute but was not predicted, FN = 1.
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,O=C(O)CC[C@H](NP(=O)(O)OCCC[C@H](NC(=O)CC[C@H](NC(=O)CCCCCNC(=O)c1ccc(F)cc1)C(=O)O)C(=O)O)C(=O)O
+{'allergic disease'},['muscarinic'],0,1,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given predicted and true attributes of the molecule, we first need to identify the overlap and differences between these sets.
+
+Predicted attributes: {'muscarinic'}
+True attributes: {'allergic disease'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted as being present. In this case, there are no attributes that are both in the predicted set and the true set.
+   - TP = 0
+
+2. **False Positives (FP)**: These are attributes that are predicted to be present but are not actually present in the true attributes.
+   - FP = 1 ('muscarinic' is predicted but not a true attribute)
+
+3. **False Negatives (FN)**: These are attributes that are true but were not predicted.
+   - FN = 1 ('allergic disease' is a true attribute but was not predicted)
+
+Thus, the values are:
+'TP:0,FP:1,FN:1'",0,1,1,CN1CCC(OC(c2ccccc2)c2ccccc2)CC1
+"{'follicular lymphoma', 'angiosarcoma', 'urethra cancer', 'clear cell renal carcinoma', 'lung cancer', 'colorectal neoplasm', 'classic hodgkin lymphoma', 'neoplasm', 'melanoma', 'prostate cancer', 'gastric adenocarcinoma', 'von hippel-lindau disease', 'cancer', 'follicular thyroid carcinoma', 'head and neck malignant neoplasia', 'kidney cancer', 'papillary thyroid carcinoma', 'cervical cancer', 'non-small cell lung carcinoma', 'mycosis fungoides', 'pain', 'urinary bladder cancer', 'cervical adenocarcinoma', 'hodgkins lymphoma', 'lymphoma', 'pancreatic carcinoma', 'acute myeloid leukemia', 'lymphoid neoplasm', 'sarcoma', 'rheumatoid arthritis', 'glioblastoma multiforme', 'alzheimer disease', 'gliosarcoma', 'breast cancer'}",[],0,0,34,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}'
+True attributes of the molecule: '{{'follicular lymphoma', 'angiosarcoma', 'urethra cancer', 'clear cell renal carcinoma', 'lung cancer', 'colorectal neoplasm', 'classic hodgkin lymphoma', 'neoplasm', 'melanoma', 'prostate cancer', 'gastric adenocarcinoma', 'von hippel-lindau disease', 'cancer', 'follicular thyroid carcinoma', 'head and neck malignant neoplasia', 'kidney cancer', 'papillary thyroid carcinoma', 'cervical cancer', 'non-small cell lung carcinoma', 'mycosis fungoides', 'pain', 'urinary bladder cancer', 'cervical adenocarcinoma', 'hodgkins lymphoma', 'lymphoma', 'pancreatic carcinoma', 'acute myeloid leukemia', 'lymphoid neoplasm', 'sarcoma', 'rheumatoid arthritis', 'glioblastoma multiforme', 'alzheimer disease', 'gliosarcoma', 'breast cancer'}}'
+
+Since the predicted attributes are empty (no attributes predicted), we can determine:
+- True Positives (TP): 0 (no correct predictions)
+- False Positives (FP): 0 (no incorrect predictions since nothing was predicted)
+- False Negatives (FN): 34 (all true attributes were not predicted)
+
+Thus, the response is:
+'TP:0,FP:0,FN:34'",0,0,34,OC[C@H]1O[C@H](O)[C@H](F)[C@@H](O)[C@@H]1O
+"{'atopic eczema', 'eczematoid dermatitis', 'diabetic foot', 'infection', 'pulpitis', 'pain'}",[],0,0,6,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+True attributes of the molecule: '{{'atopic eczema', 'eczematoid dermatitis', 'diabetic foot', 'infection', 'pulpitis', 'pain'}}'
+
+True Positives (TP) are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+False Positives (FP) are the attributes predicted that are not true. Since no attributes were predicted, FP = 0.
+
+False Negatives (FN) are the true attributes that were not predicted. All the true attributes were not predicted, so FN = 6 (the number of true attributes).
+
+Therefore, the results are:
+'TP:0,FP:0,FN:6'",0,0,6,OCl
+{'neoplasm'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'neoplasm'}
+- Predicted attributes (P): {}
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted as being present. TP is the intersection of predicted attributes and true attributes.
+   \[ TP = P \cap T = \{\} \cap \{'neoplasm'\} = \{\} \]
+   Number of TP = 0
+
+2. **False Positives (FP)**: These are attributes that are predicted to be present but are not actually present.
+   \[ FP = P - T = \{\} - \{'neoplasm'\} = \{\} \]
+   Number of FP = 0
+
+3. **False Negatives (FN)**: These are attributes that are actually present but were not predicted.
+   \[ FN = T - P = \{'neoplasm'\} - \{\} = \{'neoplasm'\} \]
+   Number of FN = 1
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,CN(C)CCNC(=O)COc1c2cccc1Cc1cccc(c1OCC(=O)NCCN(C)C)Cc1cccc(c1OCC(=O)NCCN(C)C)Cc1cccc(c1OCC(=O)NCCN(C)C)C2
+"{'idiopathic pulmonary fibrosis', 'asthma', 'obstructive sleep apnea', 'renal insufficiency', 'interstitial cystitis', 'osteoarthritis, knee', 'cough'}",[],0,0,7,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+True attributes of the molecule: '{{'idiopathic pulmonary fibrosis', 'asthma', 'obstructive sleep apnea', 'renal insufficiency', 'interstitial cystitis', 'osteoarthritis, knee', 'cough'}}'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+2. **False Positives (FP)**: These are the attributes predicted that are not true. Since no attributes were predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Since all true attributes were missed, FN is equal to the number of true attributes. Counting the true attributes: 'idiopathic pulmonary fibrosis', 'asthma', 'obstructive sleep apnea', 'renal insufficiency', 'interstitial cystitis', 'osteoarthritis, knee', 'cough' gives us FN = 7.
+
+Therefore, the results are:
+'TP:0,FP:0,FN:7'",0,0,7,COc1cc(C(C)C)c(Oc2cnc(N)nc2N)cc1S(N)(=O)=O
+"{'prostate cancer', 'lymphoid neoplasm', 'renal cell carcinoma', 'non-small cell lung carcinoma', 'neuroblastoma', 'breast cancer', 'childhood acute lymphoblastic leukemia', 'colorectal carcinoma'}",[],0,0,8,"From the information provided:
+
+- Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+- True attributes of the molecule: '{{'prostate cancer', 'lymphoid neoplasm', 'renal cell carcinoma', 'non-small cell lung carcinoma', 'neuroblastoma', 'breast cancer', 'childhood acute lymphoblastic leukemia', 'colorectal carcinoma'}}'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+2. **False Positives (FP)**: These are the attributes that were predicted but are not true. Since no attributes were predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Since all true attributes were missed, FN is equal to the number of true attributes. Counting the true attributes, we have 8 (prostate cancer, lymphoid neoplasm, renal cell carcinoma, non-small cell lung carcinoma, neuroblastoma, breast cancer, childhood acute lymphoblastic leukemia, colorectal carcinoma).
+
+Therefore, the values are:
+- TP: 0
+- FP: 0
+- FN: 8
+
+Final response: 'TP:0,FP:0,FN:8'",0,0,8,COc1ccc(S(=O)(=O)Nc2cccnc2Nc2ccc(O)cc2)cc1
+"{'orthostatic intolerance', 'parkinson disease', 'orthostatic hypotension'}",[],0,0,3,"From the information provided:
+
+- Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+- True attributes of the molecule: '{{'orthostatic intolerance', 'parkinson disease', 'orthostatic hypotension'}}'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+2. **False Positives (FP)**: These are the attributes that were predicted but are not true. Since no attributes were predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Since none of the true attributes ('orthostatic intolerance', 'parkinson disease', 'orthostatic hypotension') were predicted, FN = 3.
+
+Therefore, the results are:
+'TP:0,FP:0,FN:3'",0,0,3,NCCc1ccc(O)cc1
+"{'pyelonephritis', 'pouchitis', 'cancer', 'neonatal sepsis', 'gonorrhea', 'childhood acute lymphoblastic leukemia', 'bacterial pneumonia', 'bacterial disease', 'infection', 'staphylococcus aureus infection', 'pseudomonas infection', 'urinary tract infection', 'osteomyelitis', 'appendicitis'}",[],0,0,14,"The predicted attributes of the molecule are given as an empty set: '{[]}', which means no attributes were predicted.
+
+The true attributes of the molecule are given as: 
+{'pyelonephritis', 'pouchitis', 'cancer', 'neonatal sepsis', 'gonorrhea', 'childhood acute lymphoblastic leukemia', 'bacterial pneumonia', 'bacterial disease', 'infection', 'staphylococcus aureus infection', 'pseudomonas infection', 'urinary tract infection', 'osteomyelitis', 'appendicitis'}
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+- **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+- **False Positives (FP)**: These are the attributes that were predicted but are not true. Since no attributes were predicted, FP = 0.
+- **False Negatives (FN)**: These are the true attributes that were not predicted. Since none of the true attributes were predicted, FN is equal to the number of true attributes, which is 14.
+
+Therefore, the results are:
+'TP:0,FP:0,FN:14'",0,0,14,C[C@@H]1O[C@@H]1P(=O)(O)O
+"{'insomnia', 'depressive disorder'}","['inhibitor', 'treatment', 'growth', 'antiproliferative', 'abnormal']",0,5,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given predicted and true attributes of the molecule, we need to analyze the overlap and differences between these sets.
+
+**Predicted Attributes**: {'inhibitor', 'treatment', 'growth', 'antiproliferative', 'abnormal'}
+**True Attributes**: {'insomnia', 'depressive disorder'}
+
+**True Positives (TP)**: These are attributes that are correctly predicted as being true. In this case, there are no attributes in the predicted set that match the true attributes.
+- TP = 0
+
+**False Positives (FP)**: These are attributes that are predicted but are not actually true. Since none of the predicted attributes match the true attributes, all predicted attributes are false positives.
+- FP = 5 (inhibitor, treatment, growth, antiproliferative, abnormal)
+
+**False Negatives (FN)**: These are true attributes that were not predicted. Since none of the true attributes were predicted, all true attributes are false negatives.
+- FN = 2 (insomnia, depressive disorder)
+
+Thus, the evaluation of the model's predictions is:
+'TP:0,FP:5,FN:2'",0,5,2,CC(=O)N(C)c1cccc(-c2ccnc3c(C(=O)c4cccs4)cnn23)c1
+"{'chemotherapy-induced nausea and vomiting', 'vomiting'}","['inhibitor', 'treatment', 'sclerosis']",0,3,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the given predicted and true attributes of the molecule, we first need to identify which attributes are correctly predicted, which are incorrectly predicted, and which true attributes are missed.
+
+**Predicted Attributes**: {'inhibitor', 'treatment', 'sclerosis'}
+**True Attributes**: {'chemotherapy-induced nausea and vomiting', 'vomiting'}
+
+1. **True Positives (TP)**: These are the attributes that are correctly predicted as being true. In this case, there are no attributes that appear in both the predicted and true sets.
+   - TP = 0
+
+2. **False Positives (FP)**: These are the attributes that are predicted but are not true. All the predicted attributes do not appear in the true attribute set.
+   - FP = 3 (inhibitor, treatment, sclerosis)
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Both attributes in the true set were not predicted.
+   - FN = 2 (chemotherapy-induced nausea and vomiting, vomiting)
+
+Thus, the counts are:
+- TP: 0
+- FP: 3
+- FN: 2
+
+Final response format:
+'TP:0,FP:3,FN:2'",0,3,2,Cc1ccccc1-c1cc(N2CC[N+](C)(COP(=O)([O-])O)CC2)ncc1N(C)C(=O)C(C)(C)c1cc(C(F)(F)F)cc(C(F)(F)F)c1
+"{'merkel cell skin cancer', 'hypopharyngeal carcinoma', 'lethal midline granuloma', 'colorectal adenocarcinoma', 'diarrhea', 'small cell lung carcinoma', 'burkitts lymphoma', 'colorectal neoplasm', 'verrucous carcinoma', 'anus cancer', 'cancer', 'rectal carcinoma', 'peritoneum cancer', 'urinary bladder cancer', 'oropharyngeal carcinoma', 'choroid plexus neoplasm', 'squamous cell carcinoma', 'lymphoblastic lymphoma', 'neutropenia', 'colorectal carcinoma', 'mantle cell lymphoma', 'neuroendocrine carcinoma', 'peripheral primitive neuroectodermal tumor', 'fallopian tube carcinoma', 'ewing sarcoma', 'biliary tract cancer', 'inverted papilloma', 'endometrial carcinoma', 'gallbladder cancer', 'rhabdomyosarcoma', 'esophageal cancer', 'gastric adenocarcinoma', 'carcinoma', 'alveolar rhabdomyosarcoma', 'chronic lymphocytic leukemia', 'neuroblastoma', 'gastric carcinoma', 'mycosis fungoides', 'grade iii meningioma', 'leukemia', 'medulloblastoma', 'lymphoma, aids-related', 'adult t-cell leukemia/lymphoma', 'metastatic melanoma', 'gastrointestinal stromal tumor', 'liver cancer', 'urethra cancer', 'malignant epithelial tumor of ovary', 'lung carcinoma', 'osteosarcoma', 'malignant colon neoplasm', 'neoplasm', 'prostate cancer', 'cerebral astrocytoma', 'head and neck malignant neoplasia', 'kidney cancer', 'pineoblastoma', 'hodgkins lymphoma', 'carcinoid tumor', 'malt lymphoma', 'laryngeal squamous cell carcinoma', 'salivary gland cancer', 'triple-negative breast cancer', 'anaplastic large cell lymphoma', 'sarcoma', 'fallopian tube cancer', 'adenocarcinoma', 'malignant pancreatic neoplasm', 'anaplastic astrocytoma', 'gliosarcoma', 'hepatoblastoma', 'renal cell carcinoma', 'oligodendroglioma', 'appendix carcinoma', 'breast cancer', 'penile cancer', 'follicular lymphoma', 'angioimmunoblastic t-cell lymphoma', 'diffuse large b-cell lymphoma', 'olfactory neuroblastoma', 'lung cancer', 'embryonal rhabdomyosarcoma', 'ganglioneuroblastoma', 'basal cell carcinoma', 'pancreatic neoplasm', 'cervical cancer', 'non-small cell lung carcinoma', 'ovarian cancer', 'lymphoma', 'pancreatic carcinoma', 'rectum cancer', 'gastric cancer', ""sezary's disease"", 'glioblastoma multiforme', 'ovarian carcinoma', 'central nervous system neoplasm', 'anaplastic oligodendroglioma', 'malignant glioma', 'pancreatic ductal adenocarcinoma', 'cutaneous melanoma'}","['anti-tumor', 'topoisomerase']",1,1,94,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes:**
+- 'anti-tumor'
+- 'topoisomerase'
+
+**True Attributes:**
+- 'merkel cell skin cancer'
+- 'hypopharyngeal carcinoma'
+- 'lethal midline granuloma'
+- 'colorectal adenocarcinoma'
+- 'diarrhea'
+- 'small cell lung carcinoma'
+- 'burkitts lymphoma'
+- 'colorectal neoplasm'
+- 'verrucous carcinoma'
+- 'anus cancer'
+- 'cancer'
+- 'rectal carcinoma'
+- 'peritoneum cancer'
+- 'urinary bladder cancer'
+- 'oropharyngeal carcinoma'
+- 'choroid plexus neoplasm'
+- 'squamous cell carcinoma'
+- 'lymphoblastic lymphoma'
+- 'neutropenia'
+- 'colorectal carcinoma'
+- 'mantle cell lymphoma'
+- 'neuroendocrine carcinoma'
+- 'peripheral primitive neuroectodermal tumor'
+- 'fallopian tube carcinoma'
+- 'ewing sarcoma'
+- 'biliary tract cancer'
+- 'inverted papilloma'
+- 'endometrial carcinoma'
+- 'gallbladder cancer'
+- 'rhabdomyosarcoma'
+- 'esophageal cancer'
+- 'gastric adenocarcinoma'
+- 'carcinoma'
+- 'alveolar rhabdomyosarcoma'
+- 'chronic lymphocytic leukemia'
+- 'neuroblastoma'
+- 'gastric carcinoma'
+- 'mycosis fungoides'
+- 'grade iii meningioma'
+- 'leukemia'
+- 'medulloblastoma'
+- 'lymphoma, aids-related'
+- 'adult t-cell leukemia/lymphoma'
+- 'metastatic melanoma'
+- 'gastrointestinal stromal tumor'
+- 'liver cancer'
+- 'urethra cancer'
+- 'malignant epithelial tumor of ovary'
+- 'lung carcinoma'
+- 'osteosarcoma'
+- 'malignant colon neoplasm'
+- 'neoplasm'
+- 'prostate cancer'
+- 'cerebral astrocytoma'
+- 'head and neck malignant neoplasia'
+- 'kidney cancer'
+- 'pineoblastoma'
+- 'hodgkins lymphoma'
+- 'carcinoid tumor'
+- 'malt lymphoma'
+- 'laryngeal squamous cell carcinoma'
+- 'salivary gland cancer'
+- 'triple-negative breast cancer'
+- 'anaplastic large cell lymphoma'
+- 'sarcoma'
+- 'fallopian tube cancer'
+- 'adenocarcinoma'
+- 'malignant pancreatic neoplasm'
+- 'anaplastic astrocytoma'
+- 'gliosarcoma'
+- 'hepatoblastoma'
+- 'renal cell carcinoma'
+- 'oligodendroglioma'
+- 'appendix carcinoma'
+- 'breast cancer'
+- 'penile cancer'
+- 'follicular lymphoma'
+- 'angioimmunoblastic t-cell lymphoma'
+- 'diffuse large b-cell lymphoma'
+- 'olfactory neuroblastoma'
+- 'lung cancer'
+- 'embryonal rhabdomyosarcoma'
+- 'ganglioneuroblastoma'
+- 'basal cell carcinoma'
+- 'pancreatic neoplasm'
+- 'cervical cancer'
+- 'non-small cell lung carcinoma'
+- 'ovarian cancer'
+- 'lymphoma'
+- 'pancreatic carcinoma'
+- 'rectum cancer'
+- 'gastric cancer'
+- ""sezary's disease""
+- 'glioblastoma multiforme'
+- 'ovarian carcinoma'
+- 'central nervous system neoplasm'
+- 'anaplastic oligodendroglioma'
+- 'malignant glioma'
+- 'pancreatic ductal adenocarcinoma'
+- 'cutaneous melanoma'
+
+**Analysis:**
+- **True Positives (TP):** 'anti-tumor' can be considered a true positive since it is a general term that can encompass any of the cancer types listed in the true attributes.
+- **False Positives (FP):** 'topoisomerase' is not listed in the true attributes, so it is a false positive.
+- **False Negatives (FN):** All specific cancer types and related conditions listed in the true attributes that are not covered by the general term 'anti-tumor' are false negatives. Given the extensive list of specific cancers and related conditions, the count of false negatives is high.
+
+**Calculation:**
+- TP: 1 (for 'anti-tumor')
+- FP: 1 (for 'topoisomerase')
+- FN: The number of unique cancer types and conditions listed minus 1 (since 'anti-tumor' covers them generally). There are 95 unique conditions listed, so FN = 95 - 1 = 94.
+
+**Final Response:**
+'TP:1,FP:1,FN:94'",1,1,94,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC.Cl.O.O.O
+{'cognitive impairment'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'cognitive impairment'}
+- Predicted attributes (P): {}
+
+To compute True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+1. **True Positives (TP)** are the correctly predicted attributes. TP is the intersection of P and T.
+   - TP = P ∩ T = {} ∩ {'cognitive impairment'} = {}
+   - TP count = 0
+
+2. **False Positives (FP)** are the attributes predicted that are not true. FP is the set difference of P and T.
+   - FP = P - T = {} - {'cognitive impairment'} = {}
+   - FP count = 0
+
+3. **False Negatives (FN)** are the true attributes that were not predicted. FN is the set difference of T and P.
+   - FN = T - P = {'cognitive impairment'} - {} = {'cognitive impairment'}
+   - FN count = 1
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,Cc1cc(F)c2[nH]c(=O)n(C3CCN(C4CCOCC4)CC3)c2c1
+"{'prostate cancer', 'lung cancer', 'neoplasm', 'breast cancer', 'colorectal carcinoma'}","['cytotoxic', 'solubility', 'water', 'microtubulin']",0,4,5,"To compute the true positives (TP), false positives (FP), and false negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes**: {'cytotoxic', 'solubility', 'water', 'microtubulin'}
+**True Attributes**: {'prostate cancer', 'lung cancer', 'neoplasm', 'breast cancer', 'colorectal carcinoma'}
+
+**True Positives (TP)**: These are attributes that are correctly predicted as being present. In this case, none of the predicted attributes directly match any of the true attributes. However, if we consider ""cytotoxic"" as a functional attribute that could imply effectiveness against various cancers (neoplasms), it might be considered a TP. But without specific evidence that ""cytotoxic"" directly implies effectiveness against the listed cancers, it's safer to count TP as 0.
+
+**False Positives (FP)**: These are attributes that are predicted but not actually present. All the predicted attributes ('cytotoxic', 'solubility', 'water', 'microtubulin') do not appear in the list of true attributes. Therefore, all four are false positives unless we consider ""cytotoxic"" as explained above. Assuming no direct implication, FP = 4.
+
+**False Negatives (FN)**: These are attributes that are true but were not predicted. All the true attributes ('prostate cancer', 'lung cancer', 'neoplasm', 'breast cancer', 'colorectal carcinoma') are not predicted. Therefore, FN = 5.
+
+Thus, the counts are:
+- TP: 0
+- FP: 4
+- FN: 5
+
+Final response: 'TP:0,FP:4,FN:5'",0,4,5,C/C1=C/C[C@@H](/C(C)=C/c2csc(C)n2)OC(=O)C[C@H](O)C(C)(C)C(=O)[C@H](C)[C@@H](O)[C@@H](C)CCC1
+{'tinea pedis'},['boron'],0,1,1,"From the information provided:
+
+- Predicted attributes: {'boron'}
+- True attributes: {'tinea pedis'}
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+- TP (True Positives) are the correctly predicted attributes that match the true attributes. In this case, there are no attributes that match between the predicted and true attributes. Thus, TP = 0.
+  
+- FP (False Positives) are the attributes that are predicted but are not true. Here, 'boron' is predicted but it is not a true attribute. Thus, FP = 1.
+
+- FN (False Negatives) are the true attributes that were not predicted. 'tinea pedis' is a true attribute but was not predicted. Thus, FN = 1.
+
+Therefore, the results are:
+'TP:0,FP:1,FN:1'",0,1,1,OB1OCc2cc(Cl)ccc21
+{'atrial fibrillation'},[],0,0,1,"In this scenario, the predicted attributes of the molecule are represented by an empty set '{[]}', indicating that no attributes were predicted. The true attributes of the molecule are given as '{{'atrial fibrillation'}}', indicating that the molecule is associated with the attribute 'atrial fibrillation'.
+
+To compute the True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+- **True Positives (TP)** are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+- **False Positives (FP)** are the attributes that were incorrectly predicted to be present. Since no attributes were predicted, FP = 0.
+- **False Negatives (FN)** are the attributes that are true but were not predicted. Here, 'atrial fibrillation' was not predicted, so FN = 1.
+
+Thus, the evaluation of the prediction is:
+'TP:0,FP:0,FN:1'",0,0,1,CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl
+{'neoplasm'},"['histone', 'demethylase']",0,2,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given data:
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted by the model. They are the intersection of predicted attributes and true attributes.
+   - Predicted attributes: {'histone', 'demethylase'}
+   - True attributes: {'neoplasm'}
+   - Intersection (TP): None (no common elements between predicted and true attributes)
+
+2. **False Positives (FP)**: These are attributes that are predicted by the model but are not true.
+   - Since none of the predicted attributes match the true attributes, all predicted attributes are false positives.
+   - FP: {'histone', 'demethylase'} (2 elements)
+
+3. **False Negatives (FN)**: These are attributes that are true but were not predicted by the model.
+   - Since 'neoplasm' was not predicted, it is a false negative.
+   - FN: {'neoplasm'} (1 element)
+
+Thus, the counts are:
+- TP: 0
+- FP: 2
+- FN: 1
+
+Final response: 'TP:0,FP:2,FN:1'",0,2,1,CC(C)c1ccc(N(C)c2ccc3c(c2)OCC[C@H]3CNc2cnccc2C(=O)O)cc1
+"{'glucosephosphate dehydrogenase deficiency', 'plasmodium falciparum malaria', 'pneumocystosis', 'obesity', 'covid-19', 'plasmodium vivax malaria', 'malaria'}",[],0,0,7,"From the information provided:
+
+Predicted attributes: None (empty set)
+True attributes: {'glucosephosphate dehydrogenase deficiency', 'plasmodium falciparum malaria', 'pneumocystosis', 'obesity', 'covid-19', 'plasmodium vivax malaria', 'malaria'}
+
+True Positives (TP) are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+False Positives (FP) are attributes predicted incorrectly (i.e., predicted but not true). Since no attributes were predicted, FP = 0.
+
+False Negatives (FN) are true attributes that were not predicted. Since all true attributes were not predicted, FN = 7 (the number of true attributes).
+
+Therefore, the results are:
+'TP:0,FP:0,FN:7'",0,0,7,COc1cc(NC(C)CCCN)c2ncccc2c1
+{'dental caries'},[],0,0,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given data:
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted by the model. In this case, the model predicts no attributes ('{[]}'), and the true attribute is 'dental caries'. Since there are no correct predictions, TP = 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted by the model but are not true. Since the model predicts no attributes, there are no false positives. Thus, FP = 0.
+
+3. **False Negatives (FN)**: These are true attributes that the model failed to predict. The true attribute is 'dental caries', which the model did not predict. Therefore, FN = 1.
+
+The final computation is:
+'TP:0,FP:0,FN:1'",0,0,1,Cc1cc2nc3ccc(N(C)C)cc3[s+]c2cc1N.[Cl-]
+"{'migraine disorder', 'drug dependence'}","['inhibitor', 'treatment']",0,2,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given predicted and true attributes of the molecule, we need to analyze the overlap and differences between these sets.
+
+**Predicted Attributes**: {'inhibitor', 'treatment'}
+**True Attributes**: {'migraine disorder', 'drug dependence'}
+
+1. **True Positives (TP)**: These are the attributes that are correctly predicted. They are the intersection of the predicted and true attributes. In this case, there are no common elements between the predicted and true attributes.
+   - TP = 0
+
+2. **False Positives (FP)**: These are the attributes that are predicted but are not true. They are the elements present in the predicted set but not in the true set.
+   - FP = {'inhibitor', 'treatment'} = 2
+
+3. **False Negatives (FN)**: These are the attributes that are true but were not predicted. They are the elements present in the true set but not in the predicted set.
+   - FN = {'migraine disorder', 'drug dependence'} = 2
+
+Thus, the values are:
+- TP: 0
+- FP: 2
+- FN: 2
+
+Final response: 'TP:0,FP:2,FN:2'",0,2,2,CN1CCC(C(=O)c2cccc(NC(=O)c3c(F)cc(F)cc3F)n2)CC1
+"{'iron deficiency anemia', 'anemia (phenotype)', 'colorectal cancer'}",['iron'],1,0,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the given data:
+
+1. **True Positives (TP)**: These are the attributes that are correctly predicted by the model. In this case, the predicted attribute is 'iron', which does not exactly match any of the true attributes ('iron deficiency anemia', 'anemia (phenotype)', 'colorectal cancer'). However, 'iron' could be considered relevant to 'iron deficiency anemia' since it is directly related to iron levels in the body. Thus, we can consider this as 1 TP.
+
+2. **False Positives (FP)**: These are the attributes predicted by the model that are not correct or not present in the true attributes. Since 'iron' is somewhat relevant to 'iron deficiency anemia', we might not count it as a false positive. However, since it does not exactly match any of the true attributes and is too general compared to the specific conditions listed, it could be considered as 1 FP.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted by the model. The model failed to predict 'iron deficiency anemia', 'anemia (phenotype)', and 'colorectal cancer'. Since 'iron' only partially covers 'iron deficiency anemia', we still count 'iron deficiency anemia', 'anemia (phenotype)', and 'colorectal cancer' as missed. This gives us 3 FN.
+
+Thus, the counts are:
+- TP: 1
+- FP: 1
+- FN: 3
+
+Final response: 'TP:1,FP:1,FN:3'",1,1,3,Cc1occc(=O)c1O
+{'bacterial disease'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'bacterial disease'}
+- Predicted attributes (P): {}
+
+To compute True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+1. **True Positives (TP)** are the correctly predicted attributes, i.e., attributes that are both in the predicted set and the true set. Since there are no predicted attributes that match the true attributes:
+   \[ TP = 0 \]
+
+2. **False Positives (FP)** are the attributes that are predicted but not true, i.e., attributes in the predicted set but not in the true set. Since there are no predicted attributes:
+   \[ FP = 0 \]
+
+3. **False Negatives (FN)** are the attributes that are true but not predicted, i.e., attributes in the true set but not in the predicted set. Since 'bacterial disease' is not predicted:
+   \[ FN = 1 \]
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,O=C1CN(/N=C/C=C/c2ccc([N+](=O)[O-])o2)C(=O)N1
+"{'atrial fibrillation', 'recurrent thrombophlebitis'}",[],0,0,2,"From the information provided:
+
+- Predicted attributes of the molecule: '{[]}' (which indicates no attributes were predicted)
+- True attributes of the molecule: '{{'atrial fibrillation', 'recurrent thrombophlebitis'}}'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+2. **False Positives (FP)**: These are the attributes that were predicted but are not true. Since no attributes were predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Since the true attributes are 'atrial fibrillation' and 'recurrent thrombophlebitis', and neither was predicted, FN = 2 (one for each missed attribute).
+
+Therefore, the results are:
+'TP:0,FP:0,FN:2'",0,0,2,CCC(C(=O)O)c1ccc(N2Cc3ccccc3C2=O)cc1
+"{'migraine disorder', 'headache'}","['treatment', 'migraine']",1,1,0,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) for the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes**: {'treatment', 'migraine'}
+**True Attributes**: {'migraine disorder', 'headache'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted. Here, 'migraine' from the predicted attributes can be considered a partial match to 'migraine disorder' in the true attributes. However, since the terms are not identical and the context might differ ('migraine' as a general term vs. 'migraine disorder' as a specific condition), this might not be a straightforward TP. For a conservative approach, we consider TP as 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted but not present in the true attributes. 'treatment' is predicted but not present in the true attributes. Therefore, FP = 1.
+
+3. **False Negatives (FN)**: These are attributes that are true but not predicted. Both 'migraine disorder' and 'headache' are not exactly predicted (considering 'migraine' does not fully match 'migraine disorder'). Therefore, FN = 2.
+
+Thus, the counts are:
+- TP: 0
+- FP: 1
+- FN: 2
+
+Final response: 'TP:0,FP:1,FN:2'",0,1,2,CNS(=O)(=O)CCc1ccc2[nH]cc(C3CCN(C)CC3)c2c1.Cl
+{'tension-type headache'},['identify'],0,1,1,"From the information provided:
+
+- Predicted attributes: 'identify'
+- True attributes: 'tension-type headache'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted. Since 'identify' does not match 'tension-type headache', there are no true positives.
+   - TP = 0
+
+2. **False Positives (FP)**: These are attributes that are predicted but are not true. Since 'identify' is predicted but is not a true attribute, it is a false positive.
+   - FP = 1
+
+3. **False Negatives (FN)**: These are true attributes that were not predicted. Since 'tension-type headache' is a true attribute but was not predicted, it is a false negative.
+   - FN = 1
+
+Thus, the results are:
+'TP:0,FP:1,FN:1'",0,1,1,CN[C@H](C)CCC=C(C)C.CN[C@H](C)CCC=C(C)C.O=C(O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)C(=O)O
+"{'iga glomerulonephritis', 'pulmonary arterial hypertension', 'brain neoplasm', 'diabetic nephropathy', 'weight loss', 'acute kidney injury', 'depressive disorder', 'kidney failure', 'myocardial ischemia', 'heart failure', 'albuminuria', 'obesity', 'physical activity', 'non-alcoholic steatohepatitis', 'metabolic syndrome', 'type 1 diabetes mellitus', 'cirrhosis of liver', 'ischemia reperfusion injury', 'pancreatic carcinoma', 'type 2 diabetes mellitus', 'diabetic neuropathy', 'diabetic retinopathy', 'hepatic steatosis', 'prostate carcinoma', 'diastolic heart failure', 'atrial fibrillation', 'insulin resistance', 'polycystic ovary syndrome', 'diabetes mellitus', 'cystinuria', 'chronic kidney disease', 'alzheimer disease', 'coronary artery disease', 'fabry disease', 'myocardial infarction', 'covid-19', 'hyperuricemia', 'breast cancer'}","['diabetes', 'anti-hypoglycemic', 'glucose', 'co-transport', 'sglt', 'glycoside']",1,5,37,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes:**
+- diabetes
+- anti-hypoglycemic
+- glucose
+- co-transport
+- sglt
+- glycoside
+
+**True Attributes:**
+- iga glomerulonephritis
+- pulmonary arterial hypertension
+- brain neoplasm
+- diabetic nephropathy
+- weight loss
+- acute kidney injury
+- depressive disorder
+- kidney failure
+- myocardial ischemia
+- heart failure
+- albuminuria
+- obesity
+- physical activity
+- non-alcoholic steatohepatitis
+- metabolic syndrome
+- type 1 diabetes mellitus
+- cirrhosis of liver
+- ischemia reperfusion injury
+- pancreatic carcinoma
+- type 2 diabetes mellitus
+- diabetic neuropathy
+- diabetic retinopathy
+- hepatic steatosis
+- prostate carcinoma
+- diastolic heart failure
+- atrial fibrillation
+- insulin resistance
+- polycystic ovary syndrome
+- diabetes mellitus
+- cystinuria
+- chronic kidney disease
+- alzheimer disease
+- coronary artery disease
+- fabry disease
+- myocardial infarction
+- covid-19
+- hyperuricemia
+- breast cancer
+
+**Analysis:**
+- **True Positives (TP)**: These are correctly predicted attributes. The predicted attribute ""diabetes"" can be considered a TP as it broadly matches ""diabetes mellitus"", ""type 1 diabetes mellitus"", and ""type 2 diabetes mellitus"" in the true attributes.
+- **False Positives (FP)**: These are attributes predicted that are not in the true attributes list. ""anti-hypoglycemic"", ""glucose"", ""co-transport"", ""sglt"", and ""glycoside"" do not directly match any of the true attributes.
+- **False Negatives (FN)**: These are attributes that are true but were not predicted. All true attributes except those that can be broadly matched by ""diabetes"" are FNs.
+
+**Counting:**
+- TP: 1 (broad match for ""diabetes"" with ""diabetes mellitus"", ""type 1 diabetes mellitus"", and ""type 2 diabetes mellitus"")
+- FP: 5 (""anti-hypoglycemic"", ""glucose"", ""co-transport"", ""sglt"", ""glycoside"")
+- FN: Total true attributes (38) - 1 (broad match for ""diabetes"") = 37
+
+**Conclusion:**
+'TP:1,FP:5,FN:37'",1,5,37,CCOc1ccc(Cc2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1
+"{'asthma', 'neonatal sepsis', 'immune system disease', 'acute lymphoblastic leukemia', 'sleep apnea', 'respiratory system disease', 'seasonal allergic rhinitis', 'diabetic nephropathy', 'cough', 'rhinitis, allergic, perennial', 'airway obstruction', 'dengue hemorrhagic fever', 'non-small cell lung carcinoma', 'non-alcoholic steatohepatitis', 'severe acute respiratory syndrome', 'sickle cell anemia', 'pain', 'eosinophilic esophagitis', 'status asthmaticus', 'premature birth', 'acute myeloid leukemia', 'multiple myeloma', 'bronchiolitis', 'bronchiolitis obliterans', 'bronchopulmonary dysplasia', 'wheezing', 'rheumatoid arthritis', 'chronic obstructive pulmonary disease', 'allergic rhinitis', 'hiv infection', 'obstructive sleep apnea', 'alzheimer disease', 'covid-19', 'sepsis', 'rhinitis'}","['leukotriene', 'antiasthma']",1,1,34,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the sets.
+
+**Predicted Attributes:**
+- leukotriene
+- antiasthma
+
+**True Attributes:**
+- asthma
+- neonatal sepsis
+- immune system disease
+- acute lymphoblastic leukemia
+- sleep apnea
+- respiratory system disease
+- seasonal allergic rhinitis
+- diabetic nephropathy
+- cough
+- rhinitis, allergic, perennial
+- airway obstruction
+- dengue hemorrhagic fever
+- non-small cell lung carcinoma
+- non-alcoholic steatohepatitis
+- severe acute respiratory syndrome
+- sickle cell anemia
+- pain
+- eosinophilic esophagitis
+- status asthmaticus
+- premature birth
+- acute myeloid leukemia
+- multiple myeloma
+- bronchiolitis
+- bronchiolitis obliterans
+- bronchopulmonary dysplasia
+- wheezing
+- rheumatoid arthritis
+- chronic obstructive pulmonary disease
+- allergic rhinitis
+- hiv infection
+- obstructive sleep apnea
+- alzheimer disease
+- covid-19
+- sepsis
+- rhinitis
+
+**Analysis:**
+- **True Positives (TP)**: These are correctly predicted attributes. The attribute ""antiasthma"" can be considered a match for ""asthma"" since antiasthma drugs are used to treat asthma. Thus, TP = 1.
+- **False Positives (FP)**: These are attributes predicted by the model that do not match any true attribute. ""leukotriene"" is not listed as a true attribute (it's a molecule type, not a disease or condition), so FP = 1.
+- **False Negatives (FN)**: These are true attributes not predicted by the model. Since the model only correctly predicted a relation to asthma (covered by ""antiasthma""), all other true attributes are missed. FN = number of true attributes - 1 (for asthma) = 35 - 1 = 34.
+
+Therefore, the results are:
+'TP:1,FP:1,FN:34'",1,1,34,CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1
+{'constipation'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'constipation'}
+- Predicted attributes (P): {}
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted as being present. Since there are no attributes predicted, TP = 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted to be present but are not actually present. Since no attributes are predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are attributes that are actually present but were not predicted. Since 'constipation' is a true attribute but was not predicted, FN = 1.
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,O=C1OC(c2ccc(O)cc2)(c2ccc(O)cc2)c2ccccc21
+"{'schizoaffective disorder', 'bipolar i disorder', 'schizophrenia', 'psychosis', 'bipolar disorder', 'stuttering'}",[],0,0,6,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which indicates no attributes were predicted)
+True attributes of the molecule: '{{'schizoaffective disorder', 'bipolar i disorder', 'schizophrenia', 'psychosis', 'bipolar disorder', 'stuttering'}}'
+
+True Positives (TP) are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+False Positives (FP) are the attributes predicted that are not true. Since no attributes were predicted, FP = 0.
+
+False Negatives (FN) are the true attributes that were not predicted. All true attributes were not predicted, so FN = 6 (schizoaffective disorder, bipolar i disorder, schizophrenia, psychosis, bipolar disorder, stuttering).
+
+Therefore, the evaluation is:
+'TP:0,FP:0,FN:6'",0,0,6,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1.O=C(O)/C=C\C(=O)O
+"{'epilepsy', 'seizure'}",['hydantoin'],1,0,1,"To compute the true positives (TP), false positives (FP), and false negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the sets.
+
+Predicted attributes: {'hydantoin'}
+True attributes: {'epilepsy', 'seizure'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted. In this case, there are no attributes in the predicted set that directly match any in the true set. Thus, TP = 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted but are not true. Since 'hydantoin' is not in the true set, it is a false positive. Thus, FP = 1.
+
+3. **False Negatives (FN)**: These are true attributes that were not predicted. Both 'epilepsy' and 'seizure' are in the true set but not in the predicted set. Thus, FN = 2.
+
+Therefore, the results are:
+'TP:0,FP:1,FN:2'",0,1,2,CCN1C(=O)NC(c2ccccc2)C1=O
+"{'asthma', 'smoking cessation', 'hypertension', 'stroke', 'hemangioma', 'cardiovascular disease', 'myocardial infarction', 'angina pectoris'}","['anti-hypertensive', 'adrenergic', 'homeostasis']",1,2,7,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we first need to identify which predicted attributes correctly match the true attributes:
+
+**Predicted Attributes:**
+- anti-hypertensive
+- adrenergic
+- homeostasis
+
+**True Attributes:**
+- asthma
+- smoking cessation
+- hypertension
+- stroke
+- hemangioma
+- cardiovascular disease
+- myocardial infarction
+- angina pectoris
+
+**Analysis:**
+- **anti-hypertensive** matches with **hypertension** (TP)
+- **adrenergic** and **homeostasis** do not directly match any of the true attributes, but if we consider broader implications:
+  - **adrenergic** could be related to cardiovascular effects, but there's no direct attribute like ""adrenergic"" in the true list.
+  - **homeostasis** is a general term and does not specifically match any of the true attributes.
+
+**True Positives (TP):** 1 (anti-hypertensive)
+**False Positives (FP):** 2 (adrenergic, homeostasis)
+**False Negatives (FN):** 7 (asthma, smoking cessation, stroke, hemangioma, cardiovascular disease, myocardial infarction, angina pectoris)
+
+Thus, the final counts are:
+'TP:1,FP:2,FN:7'",1,2,7,CC(C)(C)NCC(O)COc1cccc2c1CC(O)C(O)C2
+"{'alzheimer disease', 'liver disease', 'schizophrenia'}","['inhibitor', 'treatment', 'cns', 'pde', 'schizophrenia', 'impairment']",1,5,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the predicted and true attributes of the molecule, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes**: {'inhibitor', 'treatment', 'cns', 'pde', 'schizophrenia', 'impairment'}
+**True Attributes**: {'alzheimer disease', 'liver disease', 'schizophrenia'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted, i.e., they appear in both the predicted and true sets.
+   - TP = {'schizophrenia'}
+   - TP count = 1
+
+2. **False Positives (FP)**: These are attributes that are predicted but do not appear in the true set.
+   - FP = {'inhibitor', 'treatment', 'cns', 'pde', 'impairment'}
+   - FP count = 5
+
+3. **False Negatives (FN)**: These are attributes that are true but were not predicted.
+   - FN = {'alzheimer disease', 'liver disease'}
+   - FN count = 2
+
+Thus, the counts are:
+- TP: 1
+- FP: 5
+- FN: 2
+
+Final formatted response:
+'TP:1,FP:5,FN:2'",1,5,2,Cc1ccc([C@H]2C[C@@H]2COc2cc(NCc3nnc(C)s3)nc(C)n2)nc1
+{'gastrointestinal disease'},['inhibitor'],0,1,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given predicted and true attributes of the molecule, we need to analyze the overlap and differences between these sets.
+
+Predicted Attributes: {'inhibitor'}
+True Attributes: {'gastrointestinal disease'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted as being present. In this case, there are no attributes that are both in the predicted set and the true set. Thus, TP = 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted to be present but are not actually present in the true attributes. Here, 'inhibitor' is predicted but not a true attribute. Thus, FP = 1.
+
+3. **False Negatives (FN)**: These are attributes that are true but were not predicted. 'gastrointestinal disease' is a true attribute but was not predicted. Thus, FN = 1.
+
+Therefore, the counts are:
+TP:0,FP:1,FN:1
+
+Final response:
+'TP:0,FP:1,FN:1'",0,1,1,CCN(CC)CCn1c(=O)c(Cc2ccc(OC)cc2)nc2ccccc21
+"{'hodgkins lymphoma', 'multiple myeloma', 'myeloproliferative disorder', 'duchenne and becker muscular dystrophy', 'polycythemia vera', 'becker muscular dystrophy', 'chronic lymphocytic leukemia', ""crohn's disease"", 'juvenile idiopathic arthritis', 'duchenne muscular dystrophy'}","['histone', 'deacetylase']",0,2,10,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes:**
+- 'histone'
+- 'deacetylase'
+
+**True Attributes:**
+- 'hodgkins lymphoma'
+- 'multiple myeloma'
+- 'myeloproliferative disorder'
+- 'duchenne and becker muscular dystrophy'
+- 'polycythemia vera'
+- 'becker muscular dystrophy'
+- 'chronic lymphocytic leukemia'
+- ""crohn's disease""
+- 'juvenile idiopathic arthritis'
+- 'duchenne muscular dystrophy'
+
+**Analysis:**
+- **True Positives (TP)**: These are the attributes correctly predicted by the model. Since none of the predicted attributes ('histone', 'deacetylase') appear in the true attributes list, TP = 0.
+- **False Positives (FP)**: These are the attributes predicted by the model that are not in the true attributes list. Both 'histone' and 'deacetylase' do not appear in the true attributes, so FP = 2.
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since none of the true attributes were predicted, FN equals the total number of true attributes, which is 10.
+
+Therefore, the values are:
+- TP: 0
+- FP: 2
+- FN: 10
+
+**Final Response:**
+'TP:0,FP:2,FN:10'",0,2,10,CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1
+"{'bone neoplasm', 'primary myelofibrosis', 'osteitis deformans', 'lung cancer', 'mesothelioma', 'prostate adenocarcinoma', 'urogenital neoplasm', 'beta-thalassemia', 'osteosarcoma', 'paget disease', 'giant cell tumor', 'metastasis', 'plasmacytoma', 'spinal cord injury', 'progeria', 'prostate cancer', 'bone disease', 'myelofibrosis', 'osteogenesis imperfecta', 'hepatocellular carcinoma', 'kidney cancer', 'cervical cancer', 'osteonecrosis', 'non-small cell lung carcinoma', 'sickle cell anemia', 'osteopenia', 'neuroblastoma', 'osteoarthritis, hip', 'pain', 'cervical adenocarcinoma', 'age-related macular degeneration', 'hutchinson-gilford progeria syndrome', 'reflex sympathetic dystrophy', 'multiple myeloma', 'non-hodgkins lymphoma', 'breast neoplasm', 'bone metastasis', 'metastatic prostate cancer', 'chondrosarcoma', 'ewing sarcoma', 'breast ductal carcinoma in situ', 'sarcoma', 'prostate carcinoma', 'nasopharyngeal neoplasm', 'rheumatoid arthritis', 'complex regional pain syndrome', 'adenocarcinoma', 'menopause', 'bone fracture', 'low back pain', 'leiomyosarcoma', 'renal cell carcinoma', 'osteoporosis', 'postmenopausal osteoporosis', 'breast cancer'}",['bone'],0,0,55,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the predicted and true attribute sets.
+
+**Predicted Attributes:**
+- 'bone'
+
+**True Attributes:**
+- 'bone neoplasm', 'primary myelofibrosis', 'osteitis deformans', 'lung cancer', 'mesothelioma', 'prostate adenocarcinoma', 'urogenital neoplasm', 'beta-thalassemia', 'osteosarcoma', 'paget disease', 'giant cell tumor', 'metastasis', 'plasmacytoma', 'spinal cord injury', 'progeria', 'prostate cancer', 'bone disease', 'myelofibrosis', 'osteogenesis imperfecta', 'hepatocellular carcinoma', 'kidney cancer', 'cervical cancer', 'osteonecrosis', 'non-small cell lung carcinoma', 'sickle cell anemia', 'osteopenia', 'neuroblastoma', 'osteoarthritis, hip', 'pain', 'cervical adenocarcinoma', 'age-related macular degeneration', 'hutchinson-gilford progeria syndrome', 'reflex sympathetic dystrophy', 'multiple myeloma', 'non-hodgkins lymphoma', 'breast neoplasm', 'bone metastasis', 'metastatic prostate cancer', 'chondrosarcoma', 'ewing sarcoma', 'breast ductal carcinoma in situ', 'sarcoma', 'prostate carcinoma', 'nasopharyngeal neoplasm', 'rheumatoid arthritis', 'complex regional pain syndrome', 'adenocarcinoma', 'menopause', 'bone fracture', 'low back pain', 'leiomyosarcoma', 'renal cell carcinoma', 'osteoporosis', 'postmenopausal osteoporosis', 'breast cancer'
+
+**Analysis:**
+- **True Positives (TP):** These are correctly predicted attributes. The predicted attribute 'bone' is a general term that can be considered a match for specific true attributes related to bone, such as 'bone neoplasm', 'bone disease', 'bone metastasis', 'bone fracture'. Thus, TP = 4.
+- **False Positives (FP):** These are attributes predicted that are not in the true set. Since 'bone' is a general term and matches some specific true attributes, there are no false positives outside of these matches. Thus, FP = 0.
+- **False Negatives (FN):** These are attributes that are true but not predicted. Since many specific bone-related diseases and other conditions were not individually predicted, FN is the count of true attributes minus those covered by the general term 'bone'. Thus, FN = total true attributes - TP = 56 - 4 = 52.
+
+Therefore, the results are:
+'TP:4,FP:0,FN:52'",4,0,52,O.O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O
+{'alzheimer disease'},['local'],0,1,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given information:
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted by the model. In this case, the model should have predicted attributes related to 'alzheimer disease' to have a TP. However, the predicted attribute is 'local', which does not match 'alzheimer disease'. Therefore, TP = 0.
+
+2. **False Positives (FP)**: These are attributes that are predicted by the model but are not true. Since 'local' is predicted but not a true attribute related to the molecule's function in treating or being associated with 'alzheimer disease', FP = 1.
+
+3. **False Negatives (FN)**: These are true attributes that the model failed to predict. The model did not predict 'alzheimer disease', which is a true attribute. Therefore, FN = 1.
+
+Thus, the values are:
+'TP:0,FP:1,FN:1'",0,1,1,Cc1cccc(C)c1NC(=O)CN1CCCC1=O
+"{'adenocarcinoma', 'glioblastoma multiforme', 'lung neoplasm', 'cancer', 'brain neoplasm', 'carcinoma', 'lung cancer', 'squamous cell carcinoma', 'non-small cell lung carcinoma', 'colorectal cancer', 'neoplasm', 'lung adenocarcinoma'}","['inhibitor', 'tumor', 'egfr', 'her2']",1,3,9,"To compute the true positives (TP), false positives (FP), and false negatives (FN) of the predicted attributes against the true attributes, we need to analyze the overlap and differences between the two sets.
+
+**Predicted Attributes**: {'inhibitor', 'tumor', 'egfr', 'her2'}
+**True Attributes**: {'adenocarcinoma', 'glioblastoma multiforme', 'lung neoplasm', 'cancer', 'brain neoplasm', 'carcinoma', 'lung cancer', 'squamous cell carcinoma', 'non-small cell lung carcinoma', 'colorectal cancer', 'neoplasm', 'lung adenocarcinoma'}
+
+**True Positives (TP)**: These are attributes that are correctly predicted. In this case, the predicted attribute ""tumor"" can be considered a TP since it generally refers to neoplasms, which aligns with the true attributes like 'lung neoplasm', 'brain neoplasm', 'neoplasm'. However, the terms 'egfr' and 'her2' could be considered TP if the molecule is known to inhibit these specific targets, which are often relevant in the context of cancers and neoplasms. Since we don't have explicit confirmation of this, we'll conservatively count only ""tumor"" as TP.
+
+**False Positives (FP)**: These are attributes predicted that are not in the true attributes list. 'inhibitor', 'egfr', and 'her2' do not explicitly appear in the true attributes list. Although 'inhibitor' might be implied if the molecule inhibits 'egfr' or 'her2', without explicit confirmation, it's safer to count these as FP. Thus, 'inhibitor', 'egfr', and 'her2' are FPs.
+
+**False Negatives (FN)**: These are attributes that are true but were not predicted. This includes all specific types of cancers and neoplasms listed in the true attributes that are not covered by the general term 'tumor'. This includes 'adenocarcinoma', 'glioblastoma multiforme', 'lung neoplasm', 'cancer', 'brain neoplasm', 'carcinoma', 'lung cancer', 'squamous cell carcinoma', 'non-small cell lung carcinoma', 'colorectal cancer', 'lung adenocarcinoma'. Since 'tumor' might cover 'lung neoplasm', 'brain neoplasm', and 'neoplasm', we exclude these from FN. Thus, FN includes the remaining specific cancer types.
+
+Counting the FNs:
+- 'adenocarcinoma'
+- 'glioblastoma multiforme'
+- 'cancer'
+- 'carcinoma'
+- 'lung cancer'
+- 'squamous cell carcinoma'
+- 'non-small cell lung carcinoma'
+- 'colorectal cancer'
+- 'lung adenocarcinoma'
+
+This gives us 9 FNs.
+
+Thus, the final counts are:
+- TP: 1 (tumor)
+- FP: 3 ('inhibitor', 'egfr', 'her2')
+- FN: 9 (specific cancer types not covered by 'tumor')
+
+Therefore, the response is:
+'TP:1,FP:3,FN:9'",1,3,9,C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C
+{'migraine disorder'},"['composition', 'medicament', 'migraine', 'cgrp', 'cgrp-antagonist']",1,3,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the predicted and true attributes of the molecule, we first need to identify which attributes correctly match (TP), which are incorrectly predicted (FP), and which are missing from the predictions (FN).
+
+**Predicted Attributes:**
+- composition
+- medicament
+- migraine
+- cgrp
+- cgrp-antagonist
+
+**True Attributes:**
+- migraine disorder
+
+**Analysis:**
+- **True Positives (TP)**: Correctly predicted attributes that are also in the true attributes. Here, 'migraine' from the predicted attributes can be considered a partial match to 'migraine disorder' in the true attributes. Thus, TP = 1.
+- **False Positives (FP)**: Attributes that are predicted but not present in the true attributes. 'composition', 'medicament', 'cgrp', and 'cgrp-antagonist' do not appear in the true attributes. Thus, FP = 4.
+- **False Negatives (FN)**: Attributes that are in the true attributes but not predicted. Since 'migraine disorder' is more specific and not fully captured by just 'migraine', and no other true attributes are predicted, FN = 1.
+
+**Result:**
+'TP:1,FP:4,FN:1'",1,4,1,Cc1cc(C[C@@H](OC(=O)N2CCC(N3CCc4ccccc4NC3=O)CC2)C(=O)N2CCC(N3CCOCC3)CC2)cc(C)c1O
+{'herpes zoster'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'herpes zoster'}
+- Predicted attributes (P): {}
+
+To compute True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+1. **True Positives (TP)** are the correctly predicted attributes. TP is the intersection of predicted attributes and true attributes.
+   - TP = P ∩ T = {} ∩ {'herpes zoster'} = {}
+   - TP count = 0
+
+2. **False Positives (FP)** are the attributes that were predicted but are not true. FP is the set difference of predicted attributes minus true attributes.
+   - FP = P - T = {} - {'herpes zoster'} = {}
+   - FP count = 0
+
+3. **False Negatives (FN)** are the true attributes that were not predicted. FN is the set difference of true attributes minus predicted attributes.
+   - FN = T - P = {'herpes zoster'} - {} = {'herpes zoster'}
+   - FN count = 1
+
+Thus, the counts are:
+- TP: 0
+- FP: 0
+- FN: 1
+
+Final response: 'TP:0,FP:0,FN:1'",0,0,1,CCCCCc1ccc(-c2cc3cn([C@H]4C[C@H](O)[C@@H](COC(=O)[C@@H](N)C(C)C)O4)c(=O)nc3o2)cc1.Cl
+"{'myelodysplastic syndrome', 'fever', 'myeloproliferative disorder', 'leukemia', 'pain'}",[],0,0,5,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+True attributes of the molecule: '{{'myelodysplastic syndrome', 'fever', 'myeloproliferative disorder', 'leukemia', 'pain'}}'
+
+True Positives (TP) are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+False Positives (FP) are the attributes predicted that are not true. Since no attributes were predicted, FP = 0.
+
+False Negatives (FN) are the true attributes that were not predicted. Since all true attributes were not predicted, FN = number of true attributes = 5 (myelodysplastic syndrome, fever, myeloproliferative disorder, leukemia, pain).
+
+Therefore, the evaluation is:
+'TP:0,FP:0,FN:5'",0,0,5,O=C([O-])c1ccccc1O.[Na+]
+{'viral disease'},"['inhibitor', 'treatment', 'replication', 'virus', 'influenza']",1,3,0,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the predicted and true attributes of the molecule, we first need to identify the overlap and differences between the sets.
+
+**Predicted Attributes**: {'inhibitor', 'treatment', 'replication', 'virus', 'influenza'}
+**True Attributes**: {'viral disease'}
+
+**True Positives (TP)**: These are the attributes that are correctly predicted. In this case, the predicted attributes related to 'virus' could be considered as partially correct since 'viral disease' implies a disease caused by a virus. However, since 'virus' and 'viral disease' are not exactly the same, and no other attributes match exactly, TP = 0.
+
+**False Positives (FP)**: These are the attributes that are predicted but are not true. Since none of the predicted attributes exactly match the true attribute, and considering the broad interpretation without exact matches, all predicted attributes are false positives. FP = 5 ('inhibitor', 'treatment', 'replication', 'virus', 'influenza').
+
+**False Negatives (FN)**: These are the true attributes that were not predicted. Since 'viral disease' was not predicted, FN = 1.
+
+Thus, the evaluation of the model's predictions is:
+'TP:0,FP:5,FN:1'",0,5,1,O=C(O)[C@H]1C2CCC(CC2)[C@@H]1Nc1nc(-c2n[nH]c3ncc(F)cc23)nc(C2CC2)c1F
+{'prostate cancer'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'prostate cancer'}
+- Predicted attributes (P): {}
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)** are the correctly predicted attributes. TP is the intersection of predicted attributes and true attributes.
+   \[ TP = P \cap T = \{\} \cap \{'prostate cancer'\} = \{\} \]
+   TP = 0
+
+2. **False Positives (FP)** are the attributes that were predicted but are not true.
+   \[ FP = P - T = \{\} - \{'prostate cancer'\} = \{\} \]
+   FP = 0
+
+3. **False Negatives (FN)** are the true attributes that were not predicted.
+   \[ FN = T - P = \{'prostate cancer'\} - \{\} = \{'prostate cancer'\} \]
+   FN = 1
+
+Thus, the results are:
+'TP:0,FP:0,FN:1'",0,0,1,CC(=O)N1CCN(CCOc2ccc(C3CCN(C4=Nn5c(nnc5C(F)(F)F)CC4)CC3)cc2)CC1
+{'schizophrenia'},[],0,0,1,"From the information provided:
+
+- True attributes (T): {'schizophrenia'}
+- Predicted attributes (P): {}
+
+To compute True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+1. **True Positives (TP)** are the correctly predicted attributes. TP is the intersection of predicted attributes and true attributes.
+   - TP = P ∩ T = {} ∩ {'schizophrenia'} = {}
+   - TP count = 0
+
+2. **False Positives (FP)** are the attributes that were predicted but are not true.
+   - FP = P - T = {} - {'schizophrenia'} = {}
+   - FP count = 0
+
+3. **False Negatives (FN)** are the true attributes that were not predicted.
+   - FN = T - P = {'schizophrenia'} - {} = {'schizophrenia'}
+   - FN count = 1
+
+Thus, the counts are:
+- TP: 0
+- FP: 0
+- FN: 1
+
+Final response: 'TP:0,FP:0,FN:1'",0,0,1,Cc1cc(C)c2c(n1)CN(C(=O)CC1CN(c3ccnc(C(F)(F)F)c3)C1)C2
+{'neoplasm'},"['inhibitor', 'treatment', 'kinase', 'fgfr']",0,4,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the given data:
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted and are present in the true attributes. 
+   - Predicted: {'inhibitor', 'treatment', 'kinase', 'fgfr'}
+   - True: {'neoplasm'}
+   - Common: None
+
+   TP = 0
+
+2. **False Positives (FP)**: These are attributes that are predicted but not present in the true attributes.
+   - Predicted but not true: {'inhibitor', 'treatment', 'kinase', 'fgfr'}
+
+   FP = 4
+
+3. **False Negatives (FN)**: These are attributes that are true but not predicted.
+   - True but not predicted: {'neoplasm'}
+
+   FN = 1
+
+Thus, the results are:
+'TP:0,FP:4,FN:1'",0,4,1,COc1cc(OC)c(F)c(COc2cnc(Nc3cnn(CCO)c3)nc2)c1F
+{'cough'},[],0,0,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given data:
+
+1. **True Attributes (Ground Truth)**: {'cough'}
+2. **Predicted Attributes**: {}
+
+**True Positives (TP)**: These are attributes that are correctly predicted as being present. Since there are no attributes predicted, there are no true positives.
+- TP = 0
+
+**False Positives (FP)**: These are attributes that are predicted to be present but are not actually present in the true attributes. Since no attributes were predicted, there are no false positives.
+- FP = 0
+
+**False Negatives (FN)**: These are attributes that are actually present but were not predicted. The attribute 'cough' was not predicted.
+- FN = 1
+
+Thus, the values are:
+'TP:0,FP:0,FN:1'",0,0,1,CC(CN(C)C)C(C)(O)Cc1ccc(Cl)cc1
+{'neoplasm'},"['antiviral', 'rna', 'nucleotide', 'neoplastic']",0,4,1,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) from the predicted and true attributes of the molecule, we first need to identify which attributes fall into each category:
+
+1. **True Positives (TP)**: Attributes that are correctly predicted as being true. These are the attributes that appear in both the predicted and true sets.
+2. **False Positives (FP)**: Attributes that are predicted but are not true. These are the attributes that appear in the predicted set but not in the true set.
+3. **False Negatives (FN)**: Attributes that are true but were not predicted. These are the attributes that appear in the true set but not in the predicted set.
+
+Given:
+- Predicted attributes: {'antiviral', 'rna', 'nucleotide', 'neoplastic'}
+- True attributes: {'neoplasm'}
+
+**True Positives (TP)**:
+- 'neoplastic' is considered a TP if we assume it to be a variant or related term to 'neoplasm'. However, typically 'neoplastic' refers to the nature of forming neoplasms, while 'neoplasm' is the term for the actual tumor or abnormal growth. If we strictly interpret these terms, there are no TPs as 'neoplastic' and 'neoplasm' are not exactly the same. Thus, TP = 0.
+
+**False Positives (FP)**:
+- 'antiviral', 'rna', 'nucleotide', 'neoplastic' are all predicted but none of these terms exactly match 'neoplasm'. Thus, FP = 4.
+
+**False Negatives (FN)**:
+- 'neoplasm' is a true attribute but was not predicted. Thus, FN = 1.
+
+Therefore, the counts are:
+TP:0,FP:4,FN:1
+
+Final response:
+'TP:0,FP:4,FN:1'",0,4,1,CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@H]1O[C@@H](n2ccc(N)nc2=O)C(F)(F)[C@@H]1O
+"{'glaucoma', 'urinary incontinence', 'xerostomia', 'sjogren syndrome', 'dry eye syndrome', 'head and neck malignant neoplasia', 'angle-closure glaucoma', 'open-angle glaucoma', 'presbyopia', 'miosis', 'ocular hypertension', 'myopia'}",[],0,0,12,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' - This indicates that no attributes were predicted for the molecule.
+
+True attributes of the molecule: '{{'glaucoma', 'urinary incontinence', 'xerostomia', 'sjogren syndrome', 'dry eye syndrome', 'head and neck malignant neoplasia', 'angle-closure glaucoma', 'open-angle glaucoma', 'presbyopia', 'miosis', 'ocular hypertension', 'myopia'}}' - This indicates that the molecule has multiple true attributes.
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+- TP (True Positives) is the count of attributes correctly predicted by the model. Since no attributes were predicted, TP = 0.
+
+- FP (False Positives) is the count of attributes predicted by the model that are not true. Since no attributes were predicted, FP = 0.
+
+- FN (False Negatives) is the count of true attributes that were not predicted by the model. Since all true attributes were not predicted, FN is equal to the number of true attributes. Counting the true attributes, we have 12.
+
+Therefore, the results are:
+'TP:0,FP:0,FN:12'",0,0,12,CC[C@@H]1C(=O)OC[C@@H]1Cc1cncn1C
+"{'lymphoma, aids-related', 'anaplastic astrocytoma', 'lymphoma', 'glioblastoma multiforme', 'central nervous system neoplasm', 'brain neoplasm', 'classic hodgkin lymphoma'}",[],0,0,7,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which means no attributes were predicted)
+True attributes of the molecule: '{{'lymphoma, aids-related', 'anaplastic astrocytoma', 'lymphoma', 'glioblastoma multiforme', 'central nervous system neoplasm', 'brain neoplasm', 'classic hodgkin lymphoma'}}'
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+1. **True Positives (TP)**: These are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+2. **False Positives (FP)**: These are the attributes that were predicted but are not true. Since no attributes were predicted, FP = 0.
+
+3. **False Negatives (FN)**: These are the true attributes that were not predicted. Since all true attributes were not predicted, FN is equal to the number of true attributes. Counting the true attributes, we have:
+   - lymphoma, aids-related
+   - anaplastic astrocytoma
+   - lymphoma
+   - glioblastoma multiforme
+   - central nervous system neoplasm
+   - brain neoplasm
+   - classic hodgkin lymphoma
+
+   Total FN = 7 (Note: ""lymphoma"" appears twice, but it is counted each time as it represents separate instances or mentions).
+
+Thus, the results are:
+'TP:0,FP:0,FN:7'",0,0,7,CNNCc1ccc(C(=O)NC(C)C)cc1.Cl
+"{'onchocerciasis', 'filarial elephantiasis', 'helminthiasis', 'infection', 'strongyloidiasis'}",[],0,0,5,"From the information provided:
+
+Predicted attributes of the molecule: '{[]}' (which implies no attributes were predicted)
+True attributes of the molecule: '{{'onchocerciasis', 'filarial elephantiasis', 'helminthiasis', 'infection', 'strongyloidiasis'}}'
+
+True Positives (TP) are the correctly predicted attributes. Since no attributes were predicted, TP = 0.
+
+False Positives (FP) are the attributes predicted that are not true. Since no attributes were predicted, FP = 0.
+
+False Negatives (FN) are the true attributes that were not predicted. All true attributes were not predicted, so FN = 5 (onchocerciasis, filarial elephantiasis, helminthiasis, infection, strongyloidiasis).
+
+Therefore, the results are:
+'TP:0,FP:0,FN:5'",0,0,5,CO/N=C1\C[C@]2(C[C@@H]3C[C@@H](C/C=C(\C)C[C@@H](C)/C=C/C=C4\CO[C@@H]5[C@H](O)C(C)=C[C@@H](C(=O)O3)[C@]45O)O2)O[C@H](/C(C)=C/C(C)C)[C@H]1C
+"{'constipation disorder', 'constipation'}",[],0,0,2,"To compute the True Positives (TP), False Positives (FP), and False Negatives (FN) based on the given predicted and true attributes of the molecule, we first need to identify the sets of attributes:
+
+Predicted attributes: {}
+True attributes: {'constipation disorder', 'constipation'}
+
+1. **True Positives (TP)**: These are attributes that are correctly predicted. They appear in both the predicted and true attribute sets.
+   - TP = {} ∩ {'constipation disorder', 'constipation'} = {}
+   - Number of TP = 0
+
+2. **False Positives (FP)**: These are attributes that are predicted but do not appear in the true attribute set.
+   - FP = {} - {'constipation disorder', 'constipation'} = {}
+   - Number of FP = 0
+
+3. **False Negatives (FN)**: These are attributes that are true but were not predicted.
+   - FN = {'constipation disorder', 'constipation'} - {}
+   - Number of FN = 2 (constipation disorder, constipation)
+
+Thus, the values are:
+'TP:0,FP:0,FN:2'",0,0,2,OC[C@@H](O)[C@@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)[C@@H](O)CO
+{'prostate cancer'},"The molecule is a tetrapeptide comprising L-alanyl, gamma-D-glutamyl, meso-diaminopimelyl and L-alanine units in a linear sequence. It is a conjugate acid of a L-Ala-gamma-D-Glu-meso-Dap-D-Ala(1-).",0,0,1,"The prediction provided does not make any claims about the functional attributes of the molecule, such as its therapeutic uses or biological activity. It only describes the structural composition of the molecule.
+
+Given the true attributes of the molecule, which state that it is related to prostate cancer, there are no true positive (TP) claims since the prediction does not mention this attribute.
+
+Since the prediction does not make any incorrect claims about the functional attributes of the molecule, there are no false positive (FP) claims.
+
+The false negative (FN) count is 1 because the prediction fails to mention the molecule's relevance to prostate cancer, which is a known attribute.
+
+Therefore, the evaluation of the prediction against the true attributes is:
+'TP:0,FP:0,FN:1'",0,0,1,O=C(O)CC[C@H](NP(=O)(O)OCCC[C@H](NC(=O)CC[C@H](NC(=O)CCCCCNC(=O)c1ccc(F)cc1)C(=O)O)C(=O)O)C(=O)O
+{'allergic disease'},The molecule is a member of the class of morpholines that is morpholine substituted with a methyl group at position 2 and a 1-methylpiperidin-4-yl group at position 5. It has a role as a local anaesthetic. It is a member of morpholines and a tertiary amino compound.,0,1,1,"From the prediction provided, the only functional attribute claim about the molecule is:
+- It has a role as a local anaesthetic.
+
+The true attributes of the molecule are:
+- It is used for allergic diseases.
+
+Breaking down the prediction into individual claims about the molecule's function:
+1. The molecule has a role as a local anaesthetic.
+
+Comparing this to the true attributes:
+- True Positive (TP): There are no correct predictions about the molecule's function as a treatment for allergic diseases.
+- False Positive (FP): The claim that the molecule acts as a local anaesthetic is incorrect based on the true attributes provided.
+- False Negative (FN): The model failed to predict the molecule's role in treating allergic diseases.
+
+Therefore, the counts are:
+TP:0, FP:1, FN:1
+
+'TP:0,FP:1,FN:1'",0,1,1,CN1CCC(OC(c2ccccc2)c2ccccc2)CC1
+"{'classic hodgkin lymphoma', 'pancreatic carcinoma', 'mycosis fungoides', 'head and neck malignant neoplasia', 'breast cancer', 'cervical cancer', 'lymphoma', 'lung cancer', 'follicular lymphoma', 'hodgkins lymphoma', 'alzheimer disease', 'gastric adenocarcinoma', 'pain', 'papillary thyroid carcinoma', 'neoplasm', 'gliosarcoma', 'follicular thyroid carcinoma', 'prostate cancer', 'rheumatoid arthritis', 'von hippel-lindau disease', 'angiosarcoma', 'lymphoid neoplasm', 'urinary bladder cancer', 'non-small cell lung carcinoma', 'cancer', 'kidney cancer', 'cervical adenocarcinoma', 'acute myeloid leukemia', 'clear cell renal carcinoma', 'sarcoma', 'urethra cancer', 'melanoma', 'colorectal neoplasm', 'glioblastoma multiforme'}","The molecule is an organofluorine compound that is 1-methyl-1-oxa-4-azabicyclo[3.2.1]octane-2-carboxylic acid substituted by a fluoro group at position 5 and a methyl group at position 2 (the 2S,3S,4R,5R stereoisomer). It is isolated from the culture broth of Streptomyces sp.TC-0363 and exhibits inhibitory activity against the enzyme protein tyrosine phosphatase. It has a role as a metabolite, an antimicrobial agent and an EC 3.1.3.48 (protein-tyrosine-phosphatase) inhibitor. It is a monosaccharide derivative, an organofluorine compound, a secondary alcohol and a methyl ester.",0,3,34,"From the model's prediction, the functional claims about the molecule are:
+1. It exhibits inhibitory activity against the enzyme protein tyrosine phosphatase.
+2. It has a role as a metabolite.
+3. It acts as an antimicrobial agent.
+4. It is an EC 3.1.3.48 (protein-tyrosine-phosphatase) inhibitor.
+
+The true attributes of the molecule provided are various types of cancers and diseases, none of which directly mention the specific enzyme inhibition or roles as a metabolite or antimicrobial agent.
+
+**True Positives (TP)**: These are claims that are correctly predicted and are true.
+- None of the predicted functional roles or activities (inhibitory activity against protein tyrosine phosphatase, role as a metabolite, antimicrobial agent, EC 3.1.3.48 inhibitor) are explicitly listed in the true attributes.
+
+**False Positives (FP)**: These are claims that are predicted but not true.
+- Inhibitory activity against the enzyme protein tyrosine phosphatase (not listed in true attributes)
+- Role as a metabolite (not listed in true attributes)
+- Antimicrobial agent (not listed in true attributes)
+- EC 3.1.3.48 inhibitor (not listed in true attributes)
+
+**False Negatives (FN)**: These are true claims that were not predicted.
+- All the listed diseases and cancer types (since none of these specific conditions or their direct treatment/inhibition are mentioned in the predicted claims).
+
+Counting the false negatives, we have 34 different types of diseases and cancers listed as true attributes that were not predicted.
+
+Thus, the evaluation is:
+TP: 0, FP: 4, FN: 34
+
+Final response: 'TP:0,FP:4,FN:34'",0,4,34,OC[C@H]1O[C@H](O)[C@H](F)[C@@H](O)[C@@H]1O
+"{'pain', 'infection', 'pulpitis', 'atopic eczema', 'eczematoid dermatitis', 'diabetic foot'}","The molecule is a chlorine oxoacid with formula HOCl; a weak, unstable acid, it is the active form of chlorine in water. It has a role as a human metabolite, an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an EC 2.5.1.18 (glutathione transferase) inhibitor. It is a member of reactive oxygen species and a chlorine oxoacid. It is a conjugate acid of a hypochlorite.",0,3,6,"From the prediction, the functional attributes of the molecule are:
+1. Role as a human metabolite
+2. EC 3.1.1.7 (acetylcholinesterase) inhibitor
+3. EC 2.5.1.18 (glutathione transferase) inhibitor
+4. Member of reactive oxygen species
+
+The true attributes of the molecule are:
+- Pain
+- Infection
+- Pulpitis
+- Atopic eczema
+- Eczematoid dermatitis
+- Diabetic foot
+
+**True Positives (TP)**: These are attributes correctly predicted by the model. None of the predicted functional attributes match the true attributes directly. Therefore, TP = 0.
+
+**False Positives (FP)**: These are attributes predicted by the model but are not true. All the predicted functional attributes (human metabolite, acetylcholinesterase inhibitor, glutathione transferase inhibitor, member of reactive oxygen species) do not match the true attributes. Therefore, FP = 4.
+
+**False Negatives (FN)**: These are true attributes not predicted by the model. All the true attributes (pain, infection, pulpitis, atopic eczema, eczematoid dermatitis, diabetic foot) were not predicted by the model. Therefore, FN = 6.
+
+'TP:0,FP:4,FN:6'",0,4,6,OCl
+{'neoplasm'},"The molecule is a carbamate ester, a member of cyclopropanes and a carbamate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, a carbamate insecticide and an agrochemical.",0,3,1,"From the model's prediction, the functional attributes of the molecule are:
+1. EC 3.1.1.7 (acetylcholinesterase) inhibitor
+2. Carbamate insecticide
+3. Agrochemical
+
+The true attributes of the molecule are:
+1. Neoplasm
+
+Now, let's evaluate the True Positives (TP), False Positives (FP), and False Negatives (FN):
+
+- **True Positives (TP)**: These are the correct predictions. Since none of the predicted functional attributes match the true attribute (neoplasm), TP = 0.
+  
+- **False Positives (FP)**: These are the attributes predicted by the model that are not true. Since all predicted attributes (EC 3.1.1.7 inhibitor, carbamate insecticide, agrochemical) do not match the true attribute, FP = 3.
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since ""neoplasm"" was not predicted, FN = 1.
+
+Therefore, the evaluation of the model's prediction is:
+'TP:0,FP:3,FN:1'",0,3,1,CN(C)CCNC(=O)COc1c2cccc1Cc1cccc(c1OCC(=O)NCCN(C)C)Cc1cccc(c1OCC(=O)NCCN(C)C)Cc1cccc(c1OCC(=O)NCCN(C)C)C2
+"{'asthma', 'osteoarthritis, knee', 'interstitial cystitis', 'idiopathic pulmonary fibrosis', 'cough', 'renal insufficiency', 'obstructive sleep apnea'}","The molecule is an organosulfonate salt obtained by combining equimolar amounts of 3,3'-dimethoxy[1,1'-biphenyl]-4,4'-diamine and sulfonic acid. A selective cyclooxygenase 2 inhibitor, it is used in veterinary medicine for the control of pain and inflammation associated with osteoarthritis in dogs. It has a role as a cyclooxygenase 2 inhibitor, a non-steroidal anti-inflammatory drug and a non-narcotic analgesic. It contains a 3,3'-dimethoxy[1,1'-biphenyl]-4,4'-diamine and a 3,3'-dimethoxy[1,1'-biphenyl]-4,4'-diamine.",1,3,6,"From the prediction, the functional claims about the molecule are:
+1. It is a selective cyclooxygenase 2 inhibitor.
+2. It is used in veterinary medicine for the control of pain and inflammation associated with osteoarthritis in dogs.
+3. It has a role as a cyclooxygenase 2 inhibitor.
+4. It is a non-steroidal anti-inflammatory drug (NSAID).
+5. It is a non-narcotic analgesic.
+
+The true attributes of the molecule are:
+- Asthma
+- Osteoarthritis, knee
+- Interstitial cystitis
+- Idiopathic pulmonary fibrosis
+- Cough
+- Renal insufficiency
+- Obstructive sleep apnea
+
+Breaking down the TP/FP/FN:
+- True Positives (TP): Claims that are correctly predicted and match the true attributes. Here, the prediction mentions ""osteoarthritis"" which matches with ""osteoarthritis, knee"" in the true attributes. Thus, TP = 1.
+- False Positives (FP): Claims that are predicted but do not match any of the true attributes. The claims about being a cyclooxygenase 2 inhibitor, used in veterinary medicine, NSAID, and non-narcotic analgesic do not match any of the listed true attributes. Thus, FP = 4.
+- False Negatives (FN): True attributes that were not predicted. These include asthma, interstitial cystitis, idiopathic pulmonary fibrosis, cough, renal insufficiency, and obstructive sleep apnea. Since ""osteoarthritis, knee"" is somewhat covered by the prediction, it is not counted here. Thus, FN = 6.
+
+Therefore, the final count is:
+'TP:1,FP:4,FN:6'",1,4,6,COc1cc(C(C)C)c(Oc2cnc(N)nc2N)cc1S(N)(=O)=O
+"{'colorectal carcinoma', 'renal cell carcinoma', 'breast cancer', 'childhood acute lymphoblastic leukemia', 'neuroblastoma', 'prostate cancer', 'lymphoid neoplasm', 'non-small cell lung carcinoma'}","The molecule is a sulfonamide incorporating 2-(aminomethyl)-1,3-thiazole-4-carboxylic acid as the nucleobase. An antibacterial/antimicrobial, it is often used in conjunction with sulfathiazole and sulfacetamide as a topical, intravaginal antibacterial preparation. It has a role as an antibacterial drug and an antimicrobial drug. It is a sulfonamide, a member of 1,3-thiazoles and a sulfonamide antibiotic.",0,3,8,"From the prediction, the functional attributes of the molecule are:
+1. Antibacterial/antimicrobial
+2. Used in conjunction with sulfathiazole and sulfacetamide as a topical, intravaginal antibacterial preparation
+3. Role as an antibacterial drug
+4. Role as an antimicrobial drug
+5. Sulfonamide antibiotic
+
+The true attributes of the molecule are:
+- colorectal carcinoma
+- renal cell carcinoma
+- breast cancer
+- childhood acute lymphoblastic leukemia
+- neuroblastoma
+- prostate cancer
+- lymphoid neoplasm
+- non-small cell lung carcinoma
+
+**True Positives (TP)**: These are the correct predictions made by the model. In this case, there are no overlapping attributes between the predicted and true attributes. Therefore, TP = 0.
+
+**False Positives (FP)**: These are the attributes predicted by the model that are not true. All the predicted attributes (antibacterial/antimicrobial roles and uses) are not listed in the true attributes. Therefore, FP = 5 (each of the predicted functional attributes).
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since none of the true attributes (related to various types of cancer) were predicted by the model, FN = 8 (each of the true attributes).
+
+Thus, the evaluation of the model's predictions is:
+'TP:0,FP:5,FN:8'",0,5,8,COc1ccc(S(=O)(=O)Nc2cccnc2Nc2ccc(O)cc2)cc1
+"{'parkinson disease', 'orthostatic hypotension', 'orthostatic intolerance'}",The molecule is the N-(2-hydroxyethyl) derivative of 4-aminobutanal. It is a metabolite of the drug atenolol. It has a role as a marine xenobiotic metabolite and a drug metabolite. It is a member of phenols and a N-(2-hydroxyethyl)carboxamide.,0,3,3,"From the prediction provided, the functional attributes of the molecule are:
+1. It is a metabolite of the drug atenolol.
+2. It has a role as a marine xenobiotic metabolite.
+3. It has a role as a drug metabolite.
+
+The true attributes of the molecule are:
+- It is associated with parkinson disease.
+- It is associated with orthostatic hypotension.
+- It is associated with orthostatic intolerance.
+
+To evaluate the prediction:
+- True Positives (TP): These are the correct predictions. In this case, there are no correct predictions about the molecule's association with diseases or conditions.
+- False Positives (FP): These are the attributes predicted but not true. The predicted roles as a metabolite of atenolol, a marine xenobiotic metabolite, and a drug metabolite are not listed in the true attributes.
+- False Negatives (FN): These are the true attributes that were not predicted. The associations with parkinson disease, orthostatic hypotension, and orthostatic intolerance were not predicted.
+
+Thus, the evaluation is:
+TP: 0 (no true attributes were correctly predicted),
+FP: 3 (three incorrect functional attributes were predicted),
+FN: 3 (three true attributes were not predicted).
+
+Final response: 'TP:0,FP:3,FN:3'",0,3,3,NCCc1ccc(O)cc1
+"{'urinary tract infection', 'bacterial pneumonia', 'appendicitis', 'bacterial disease', 'infection', 'gonorrhea', 'childhood acute lymphoblastic leukemia', 'osteomyelitis', 'neonatal sepsis', 'cancer', 'pouchitis', 'pyelonephritis', 'pseudomonas infection', 'staphylococcus aureus infection'}","The molecule is a member of the class of phosphonic acids that is propylphosphonic acid substituted by hydroxy groups at positions 1 and 2 (the 1S,2S-stereoisomer). It is a member of phosphonic acids, a secondary alcohol and a glycol. It is a conjugate acid of a (1S,2S)-1,2-dihydroxypropylphosphonate(1-).",0,0,14,"From the model's prediction, the claims about the molecule are focused on its chemical structure and properties, such as being a member of phosphonic acids, a secondary alcohol, and a glycol. There are no specific functional attributes related to biological or medical applications mentioned in the prediction.
+
+Given the true attributes of the molecule, which are all related to its applications or effectiveness against various diseases and conditions (e.g., urinary tract infection, bacterial pneumonia, etc.), there is no overlap between the predicted claims and the true attributes.
+
+Therefore, the evaluation of the prediction in terms of TP (True Positives), FP (False Positives), and FN (False Negatives) is as follows:
+- TP (True Positives): There are no correct predictions about the molecule's functional attributes or applications in treating diseases.
+- FP (False Positives): There are no incorrect claims about the molecule's functional attributes since the prediction did not make any claims about its biological or medical applications.
+- FN (False Negatives): All the true attributes are missed in the prediction. Since there are 14 true attributes listed, the FN is 14.
+
+Thus, the final evaluation is:
+'TP:0,FP:0,FN:14'",0,0,14,C[C@@H]1O[C@@H]1P(=O)(O)O
+"{'depressive disorder', 'insomnia'}","The molecule is an azaspiro compound that is spirotetramat in which the carbonate ester group has been hydrolysed to the corresponding hydroxy group. It is the active insecticide of the proinsecticicde spirotetramat. It has a role as an agrochemical, an EC 6.4.1.2 (acetyl-CoA carboxylase) inhibitor and an insecticide. It is an azaspiro compound, a member of benzenes, an organic hydroxy compound, an enamide, a member of tetramic acids and an ether.",0,3,2,"From the prediction, the functional attributes of the molecule are:
+1. Active insecticide of the proinsecticide spirotetramat
+2. Agrochemical
+3. EC 6.4.1.2 (acetyl-CoA carboxylase) inhibitor
+4. Insecticide
+
+The true attributes of the molecule are:
+1. Depressive disorder
+2. Insomnia
+
+Analyzing the predicted attributes against the true attributes:
+- None of the predicted functional attributes (active insecticide, agrochemical, EC 6.4.1.2 inhibitor, insecticide) match the true attributes (depressive disorder, insomnia).
+
+Therefore:
+- True Positives (TP): 0 (no predicted attributes match the true attributes)
+- False Positives (FP): 4 (all predicted attributes are incorrect)
+- False Negatives (FN): 2 (two true attributes were not predicted)
+
+Thus, the final evaluation is:
+'TP:0,FP:4,FN:2'",0,4,2,CC(=O)N(C)c1cccc(-c2ccnc3c(C(=O)c4cccs4)cnn23)c1
+"{'vomiting', 'chemotherapy-induced nausea and vomiting'}","The molecule is a member of pyrrolidines, a member of (trifluoromethyl)benzenes and a tertiary amine. It has a role as a serotonergic agonist and a vasoconstrictor agent.",0,2,2,"From the prediction, the functional attributes of the molecule are:
+1. Serotonergic agonist
+2. Vasoconstrictor agent
+
+The true attributes of the molecule are:
+1. Vomiting
+2. Chemotherapy-induced nausea and vomiting
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+- **True Positives (TP)**: These are the correctly predicted attributes. However, none of the predicted functional attributes ('serotonergic agonist' and 'vasoconstrictor agent') match the true attributes ('vomiting' and 'chemotherapy-induced nausea and vomiting'). Therefore, TP = 0.
+
+- **False Positives (FP)**: These are the attributes that were predicted but are not true. Both predicted attributes ('serotonergic agonist' and 'vasoconstrictor agent') do not appear in the list of true attributes. Therefore, FP = 2.
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted. Both true attributes ('vomiting' and 'chemotherapy-induced nausea and vomiting') were not predicted. Therefore, FN = 2.
+
+Thus, the final counts are:
+'TP:0,FP:2,FN:2'",0,2,2,Cc1ccccc1-c1cc(N2CC[N+](C)(COP(=O)([O-])O)CC2)ncc1N(C)C(=O)C(C)(C)c1cc(C(F)(F)F)cc(C(F)(F)F)c1
+"{'pancreatic carcinoma', 'pancreatic ductal adenocarcinoma', 'basal cell carcinoma', 'alveolar rhabdomyosarcoma', 'leukemia', 'mantle cell lymphoma', 'anaplastic large cell lymphoma', 'hepatoblastoma', 'adenocarcinoma', 'peritoneum cancer', 'urinary bladder cancer', 'biliary tract cancer', 'metastatic melanoma', 'oligodendroglioma', 'kidney cancer', 'gastric carcinoma', 'rhabdomyosarcoma', 'medulloblastoma', 'ovarian cancer', 'lethal midline granuloma', 'chronic lymphocytic leukemia', 'diarrhea', 'penile cancer', ""sezary's disease"", 'gallbladder cancer', 'choroid plexus neoplasm', 'head and neck malignant neoplasia', 'osteosarcoma', 'neuroblastoma', 'carcinoma', 'adult t-cell leukemia/lymphoma', 'hodgkins lymphoma', 'fallopian tube cancer', 'liver cancer', 'endometrial carcinoma', 'burkitts lymphoma', 'gliosarcoma', 'neoplasm', 'carcinoid tumor', 'prostate cancer', 'anaplastic astrocytoma', 'pineoblastoma', 'non-small cell lung carcinoma', 'anaplastic oligodendroglioma', 'oropharyngeal carcinoma', 'lung carcinoma', 'malignant epithelial tumor of ovary', 'malt lymphoma', 'small cell lung carcinoma', 'lymphoma, aids-related', 'anus cancer', 'lung cancer', 'follicular lymphoma', 'malignant pancreatic neoplasm', 'squamous cell carcinoma', 'colorectal carcinoma', 'rectal carcinoma', 'ovarian carcinoma', 'neutropenia', 'gastrointestinal stromal tumor', 'inverted papilloma', 'hypopharyngeal carcinoma', 'cutaneous melanoma', 'central nervous system neoplasm', 'malignant glioma', 'embryonal rhabdomyosarcoma', 'merkel cell skin cancer', 'diffuse large b-cell lymphoma', 'colorectal neoplasm', 'neuroendocrine carcinoma', 'malignant colon neoplasm', 'appendix carcinoma', 'ewing sarcoma', 'cerebral astrocytoma', 'salivary gland cancer', 'mycosis fungoides', 'renal cell carcinoma', 'breast cancer', 'colorectal adenocarcinoma', 'cervical cancer', 'lymphoma', 'gastric adenocarcinoma', 'rectum cancer', 'fallopian tube carcinoma', 'esophageal cancer', 'angioimmunoblastic t-cell lymphoma', 'olfactory neuroblastoma', 'lymphoblastic lymphoma', 'pancreatic neoplasm', 'gastric cancer', 'grade iii meningioma', 'cancer', 'sarcoma', 'urethra cancer', 'ganglioneuroblastoma', 'triple-negative breast cancer', 'verrucous carcinoma', 'laryngeal squamous cell carcinoma', 'glioblastoma multiforme', 'peripheral primitive neuroectodermal tumor'}","The molecule is the dihydrate of a tris(1,10-phenanthroline)ruthenium(2+) dichloride salt. It has a role as a fluorochrome. It is an organic chloride salt and a hydrate. It contains a tris(1,10-phenanthroline)ruthenium(2+).",0,1,108,"From the model's prediction, the functional attributes of the molecule are:
+1. It has a role as a fluorochrome.
+
+From the true attributes list, the molecule is associated with various types of cancers and other medical conditions, but there is no mention of its role as a fluorochrome.
+
+**True Positives (TP)**: These are the correctly predicted attributes that match the true attributes. In this case, there are no matches between the predicted functional role as a fluorochrome and the list of true attributes which are all related to types of cancers and other diseases.
+
+**False Positives (FP)**: These are the attributes predicted by the model that do not match the true attributes. Since the role as a fluorochrome is not listed in the true attributes, this is a false positive.
+- Count: 1 (role as a fluorochrome)
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since the model did not predict any of the listed diseases and conditions, all of these are false negatives.
+- Count: All the listed diseases and conditions (numerous)
+
+Given the extensive list of true attributes related to various diseases and conditions, the exact count of false negatives would be the total number of unique diseases and conditions listed.
+
+**Calculation**:
+- TP: 0
+- FP: 1
+- FN: The number of unique diseases and conditions listed in the true attributes.
+
+For simplicity, if we assume each disease and condition listed is unique, the FN would be the total count of those listed.
+
+'TP:0,FP:1,FN:108'",0,1,108,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC.Cl.O.O.O
+{'cognitive impairment'},"The molecule is a member of the class of pyrazoles that is 1,3-dihydro-2H-pyrazole which is substituted at positions 1, 4, and 5 by cyclohexyl, p-fluorophenyl, and 2-aminopyrimidin-4-yl groups, respectively. It is a selective inhibitor of the delta- and epsilon-isoforms of casein kinase 1 (CK1delta and CK1epsilon). It has a role as an EC 2.7.11.1 (non-specific serine/threonine protein kinase) inhibitor. It is a member of pyrazoles, an organofluorine compound and a member of monofluorobenzenes. It is a conjugate base of a PF-670462 free base(2+).",0,2,1,"From the prediction, the functional attributes of the molecule are:
+1. Selective inhibitor of the delta- and epsilon-isoforms of casein kinase 1 (CK1delta and CK1epsilon).
+2. EC 2.7.11.1 (non-specific serine/threonine protein kinase) inhibitor.
+
+The true attribute of the molecule is:
+- Cognitive impairment
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+
+- **True Positives (TP)**: These are the correctly predicted attributes that match the true attributes. In this case, there are no matches between the predicted functional attributes and the true attribute of cognitive impairment. Thus, TP = 0.
+
+- **False Positives (FP)**: These are the attributes predicted by the model that do not match the true attributes. Since both predicted functional attributes (selective inhibition of CK1delta and CK1epsilon, and inhibition of EC 2.7.11.1) do not match the true attribute of cognitive impairment, FP = 2.
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. The attribute of cognitive impairment was not predicted. Thus, FN = 1.
+
+Therefore, the final counts are:
+'TP:0,FP:2,FN:1'",0,2,1,Cc1cc(F)c2[nH]c(=O)n(C3CCN(C4CCOCC4)CC3)c2c1
+"{'colorectal carcinoma', 'neoplasm', 'breast cancer', 'prostate cancer', 'lung cancer'}","The molecule is a cyclodepsipeptide isolated from Jaspis splendens. It has a role as an antineoplastic agent, an animal metabolite and a marine metabolite. It is a member of phenols, a cyclodepsipeptide, a member of indoles and an organosulfur compound.",1,2,0,"From the prediction, the functional claims about the molecule are:
+1. It has a role as an antineoplastic agent.
+2. It has a role as an animal metabolite.
+3. It has a role as a marine metabolite.
+
+The true attributes of the molecule are:
+- colorectal carcinoma
+- neoplasm
+- breast cancer
+- prostate cancer
+- lung cancer
+
+To evaluate the prediction:
+- True Positives (TP): Claims that are correctly predicted and match the true attributes. Here, ""antineoplastic agent"" matches with ""neoplasm"" and other cancer types listed, as antineoplastic agents are used to treat neoplasms (cancers).
+- False Positives (FP): Claims that are predicted but do not match any true attribute. ""Animal metabolite"" and ""marine metabolite"" do not directly relate to the treatment or characteristics of the cancers listed.
+- False Negatives (FN): True attributes that were not predicted. Specific cancer types (colorectal carcinoma, breast cancer, prostate cancer, lung cancer) are not explicitly mentioned in the prediction, but they are covered under the broader category of ""antineoplastic agent.""
+
+Thus, the evaluation is:
+- TP: 1 (antineoplastic agent)
+- FP: 2 (animal metabolite, marine metabolite)
+- FN: 0 (all cancer types are covered under the broader category of antineoplastic agent)
+
+Final response:
+'TP:1,FP:2,FN:0'",1,2,0,C/C1=C/C[C@@H](/C(C)=C/c2csc(C)n2)OC(=O)C[C@H](O)C(C)(C)C(=O)[C@H](C)[C@@H](O)[C@@H](C)CCC1
+{'tinea pedis'},"The molecule is a member of the class of oxanes that is tetrahydro-2H-pyran which is substituted at positions 2 and 4 by an isoprop-1-enyl group and a methyl group, respectively. Organic compound of the pyran class and the monoterpene class and a fragrance found in roses and rose oil. All four possible stereoisomers are known; the 2S,4R and 2S,4S diastereoisomers [also known as the (-)-cis- and (-)-trans-isomers, respectively] are the main constituents in several essential oils and are used as a food flavouring and in perfumes and cosmetics. It has a role as a plant metabolite. It is a monoterpenoid, a member of oxanes and an olefinic compound.",0,2,1,"From the prediction, the functional attributes of the molecule are:
+1. Organic compound of the pyran class and the monoterpene class.
+2. A fragrance found in roses and rose oil.
+3. Used as a food flavouring.
+4. Used in perfumes and cosmetics.
+5. Has a role as a plant metabolite.
+
+The true attribute of the molecule is:
+- 'tinea pedis'
+
+Breaking down the evaluation:
+- True Positives (TP): These are the correctly predicted attributes that match the true attributes. In this case, there are no matches between the predicted functional attributes and the true attribute. Thus, TP = 0.
+- False Positives (FP): These are the attributes predicted by the model that do not match the true attributes. Since none of the predicted attributes match the true attribute, all predicted attributes are false positives. Thus, FP = 5.
+- False Negatives (FN): These are the true attributes that were not predicted by the model. Since 'tinea pedis' was not predicted as an attribute, it is a false negative. Thus, FN = 1.
+
+Therefore, the evaluation of the prediction in terms of TP, FP, and FN is:
+'TP:0,FP:5,FN:1'",0,5,1,OB1OCc2cc(Cl)ccc21
+{'atrial fibrillation'},"The molecule is the hydrochloride salt of tilorone. It is used as an antiviral drug to treat influenza, herpes infection, viral hepatitis, acute respiratory viral infections and SARS. It has a role as an anti-inflammatory agent, an antineoplastic agent, an interferon inducer, a nicotinic acetylcholine receptor agonist and an antiviral drug. It contains a tilorone(2+).",0,4,1,"To evaluate the model's predictions against the ground-truth attributes of the molecule, we need to identify the true positives (TP), false positives (FP), and false negatives (FN) from the claims made by the model.
+
+**Model's Predictions:**
+1. Used as an antiviral drug to treat influenza
+2. Used as an antiviral drug to treat herpes infection
+3. Used as an antiviral drug to treat viral hepatitis
+4. Used as an antiviral drug to treat acute respiratory viral infections
+5. Used as an antiviral drug to treat SARS
+6. Has a role as an anti-inflammatory agent
+7. Has a role as an antineoplastic agent
+8. Has a role as an interferon inducer
+9. Has a role as a nicotinic acetylcholine receptor agonist
+10. Has a role as an antiviral drug
+
+**True Attributes:**
+- Used to treat atrial fibrillation
+
+**Analysis:**
+- **True Positives (TP)**: There are no true positives, as none of the predicted uses or roles match the true attribute of treating atrial fibrillation.
+- **False Positives (FP)**: All the predicted claims are false positives since none of them are confirmed by the true attributes. There are 10 false positive claims.
+- **False Negatives (FN)**: The true attribute (used to treat atrial fibrillation) was not predicted by the model. Therefore, there is 1 false negative.
+
+**Conclusion:**
+TP:0,FP:10,FN:1",0,10,1,CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl
+{'neoplasm'},"The molecule is a pyrrolo[3,4-b]pyrazine compound having a methyl substituent at the 1-position, a propyl substituent at the 3-position and a 2-carboxy-2-methylpropyl group at the 5-position. It has a role as a central nervous system depressant, a GABA agonist and a sedative. It is a pyrrolopyrazine and a monocarboxylic acid.",0,3,1,"From the prediction, the functional attributes of the molecule are:
+1. Central nervous system depressant
+2. GABA agonist
+3. Sedative
+
+The true attributes of the molecule are:
+- Neoplasm
+
+Analyzing the predicted functional attributes against the true attributes:
+- None of the predicted functional attributes (central nervous system depressant, GABA agonist, sedative) match the true attribute (neoplasm).
+
+True Positives (TP): 0 (no predicted attributes match the true attribute)
+False Positives (FP): 3 (all three predicted attributes are incorrect)
+False Negatives (FN): 1 (neoplasm attribute was not predicted)
+
+Therefore, the evaluation is:
+'TP:0,FP:3,FN:1'",0,3,1,CC(C)c1ccc(N(C)c2ccc3c(c2)OCC[C@H]3CNc2cnccc2C(=O)O)cc1
+"{'plasmodium vivax malaria', 'plasmodium falciparum malaria', 'covid-19', 'glucosephosphate dehydrogenase deficiency', 'obesity', 'malaria', 'pneumocystosis'}","The molecule is a tertiary amino compound that is N-(2-aminoethyl)cyclohexanecarboxamide in which one of the hydrogens of the amino group has been replaced by a 2-aminoethyl group. It is a member of cyclohexanols, a tertiary amino compound and an aromatic ether.",0,0,7,"From the model's prediction, the claims about the molecule's functional attributes are:
+1. It is a tertiary amino compound.
+2. It is N-(2-aminoethyl)cyclohexanecarboxamide in which one of the hydrogens of the amino group has been replaced by a 2-aminoethyl group.
+3. It is a member of cyclohexanols.
+4. It is an aromatic ether.
+
+The true attributes of the molecule are:
+- Plasmodium vivax malaria
+- Plasmodium falciparum malaria
+- COVID-19
+- Glucosephosphate dehydrogenase deficiency
+- Obesity
+- Malaria
+- Pneumocystosis
+
+Since the model's predictions are all structural and do not mention any functional attributes related to the diseases or conditions listed as true attributes, we can analyze as follows:
+
+True Positives (TP): There are no correct predictions about the molecule's functional attributes related to its efficacy against diseases or conditions. Therefore, TP = 0.
+
+False Positives (FP): All the predicted attributes (tertiary amino compound, N-(2-aminoethyl)cyclohexanecarboxamide, member of cyclohexanols, aromatic ether) are not relevant to the true functional attributes related to diseases or conditions. Therefore, FP = 4.
+
+False Negatives (FN): The model failed to predict any of the true functional attributes related to diseases or conditions (Plasmodium vivax malaria, Plasmodium falciparum malaria, COVID-19, Glucosephosphate dehydrogenase deficiency, Obesity, Malaria, Pneumocystosis). Therefore, FN = 7.
+
+Thus, the final computation is:
+'TP:0,FP:4,FN:7'",0,4,7,COc1cc(NC(C)CCCN)c2ncccc2c1
+{'dental caries'},"The molecule is an organic chloride salt having 3,7-bis(dimethylamino)phenothiazin-5-ium as the counterion. A commonly used dye that also exhibits antioxidant, antimalarial, antidepressant and cardioprotective properties. It has a role as an EC 1.4.3.4 (monoamine oxidase) inhibitor, an acid-base indicator, a fluorochrome, an antidepressant, a cardioprotective agent, an EC 3.1.1.8 (cholinesterase) inhibitor, a histological dye, an EC 4.6.1.2 (guanylate cyclase) inhibitor, an antioxidant, an antimicrobial agent, a neuroprotective agent, a physical tracer and an antimalarial. It contains a 3,7-bis(dimethylamino)phenothiazin-5-ium.",0,14,1,"From the prediction, the functional attributes of the molecule are listed as:
+1. Antioxidant
+2. Antimalarial
+3. Antidepressant
+4. Cardioprotective
+5. EC 1.4.3.4 (monoamine oxidase) inhibitor
+6. Acid-base indicator
+7. Fluorochrome
+8. Antidepressant (repeated)
+9. Cardioprotective agent (repeated)
+10. EC 3.1.1.8 (cholinesterase) inhibitor
+11. Histological dye
+12. EC 4.6.1.2 (guanylate cyclase) inhibitor
+13. Antioxidant (repeated)
+14. Antimicrobial agent
+15. Neuroprotective agent
+16. Physical tracer
+17. Antimalarial (repeated)
+
+The true attributes of the molecule are:
+- Dental caries
+
+Breaking down the prediction against the true attributes:
+- True Positives (TP): None of the predicted attributes match 'dental caries'.
+- False Positives (FP): All predicted attributes are incorrect as none of them mention 'dental caries'. There are 16 unique incorrect attributes.
+- False Negatives (FN): The attribute 'dental caries' was not predicted.
+
+Therefore, the evaluation is:
+TP:0,FP:16,FN:1",0,16,1,Cc1cc2nc3ccc(N(C)C)cc3[s+]c2cc1N.[Cl-]
+"{'migraine disorder', 'drug dependence'}","The molecule is a secondary carboxamide resulting from the formal condensation of the carboxy group of 3-(difluoromethyl)-1-methylpyrazole-4-carboxylic acid with the amino group of 7-fluoro-1,1,3-trimethylindan-4-amine. It is a member of pyrazoles, a secondary carboxamide, a member of indanes and an organofluorine compound.",0,0,2,"The prediction provided details the structural composition of the molecule but does not make any explicit claims about its functional attributes or therapeutic uses. The true attributes of the molecule are listed as being relevant to 'migraine disorder' and 'drug dependence.'
+
+From the prediction:
+- No functional attributes or therapeutic uses are claimed.
+
+True attributes:
+- Migraine disorder
+- Drug dependence
+
+Based on this information:
+- True Positives (TP): There are no true positives, as the prediction does not claim any of the true functional attributes.
+- False Positives (FP): There are no false positives, as the prediction does not claim any functional attributes that are not true.
+- False Negatives (FN): There are two false negatives, as the prediction fails to mention the true attributes 'migraine disorder' and 'drug dependence.'
+
+Therefore, the evaluation is:
+'TP:0,FP:0,FN:2'",0,0,2,CN1CCC(C(=O)c2cccc(NC(=O)c3c(F)cc(F)cc3F)n2)CC1
+"{'iron deficiency anemia', 'colorectal cancer', 'anemia (phenotype)'}",The molecule is a gamma-lactone that is oxolan-2-one substituted by an ethyl group at position 5. It has a role as a human blood serum metabolite.,0,1,3,"From the prediction provided, the only functional attribute claim about the molecule is:
+- It has a role as a human blood serum metabolite.
+
+The true attributes of the molecule are:
+- Iron deficiency anemia
+- Colorectal cancer
+- Anemia (phenotype)
+
+To evaluate the prediction:
+- True Positives (TP): These are the correctly predicted attributes. Since none of the true attributes match the predicted role as a human blood serum metabolite, TP = 0.
+- False Positives (FP): These are the attributes predicted that are not true. The role as a human blood serum metabolite is not listed as a true attribute, so FP = 1.
+- False Negatives (FN): These are the true attributes that were not predicted. Since none of the true attributes (iron deficiency anemia, colorectal cancer, anemia (phenotype)) were predicted, FN = 3.
+
+Therefore, the evaluation of the prediction is:
+TP:0,FP:1,FN:3",0,1,3,Cc1occc(=O)c1O
+{'bacterial disease'},"The molecule is a member of the class of oxazolidines that is 1,3-oxazolidin-2-one in which the hydrogen attached to the nitrogen is replaced by an N-[(5-nitro-2-furyl)methylene]amino group. It has antibacterial and antiprotozoal properties, and is used in the treatment of giardiasis and cholera. It has a role as an EC 1.4.3.4 (monoamine oxidase) inhibitor, an antitrichomonal drug, an antiinfective agent and an antibacterial drug. It is a member of oxazolidines and a nitrofuran antibiotic.",1,6,0,"From the model's prediction, the functional claims about the molecule are:
+1. It has antibacterial properties.
+2. It has antiprotozoal properties.
+3. It is used in the treatment of giardiasis.
+4. It is used in the treatment of cholera.
+5. It has a role as an EC 1.4.3.4 (monoamine oxidase) inhibitor.
+6. It has a role as an antitrichomonal drug.
+7. It has a role as an antiinfective agent.
+8. It has a role as an antibacterial drug.
+
+The true attributes of the molecule are:
+- It is related to bacterial diseases.
+
+Breaking down the claims:
+- True Positives (TP): Claims that are correctly predicted and match the true attributes.
+  - It has antibacterial properties.
+  - It is used in the treatment of cholera (a bacterial disease).
+  - It has a role as an antibacterial drug.
+
+- False Positives (FP): Claims that are predicted but do not match the true attributes.
+  - It has antiprotozoal properties.
+  - It is used in the treatment of giardiasis (a protozoal disease).
+  - It has a role as an EC 1.4.3.4 (monoamine oxidase) inhibitor.
+  - It has a role as an antitrichomonal drug.
+  - It has a role as an antiinfective agent.
+
+- False Negatives (FN): Attributes that are true but not predicted by the model.
+  - None, as all aspects of bacterial disease treatment or association are covered in the predictions.
+
+Calculation:
+- TP: 3 (antibacterial properties, treatment of cholera, antibacterial drug role)
+- FP: 5 (antiprotozoal properties, treatment of giardiasis, monoamine oxidase inhibitor role, antitrichomonal drug role, antiinfective agent role)
+- FN: 0
+
+Final response:
+'TP:3,FP:5,FN:0'",3,5,0,O=C1CN(/N=C/C=C/c2ccc([N+](=O)[O-])o2)C(=O)N1
+"{'recurrent thrombophlebitis', 'atrial fibrillation'}","The molecule is a monocarboxylic acid that is propionic acid in which one of the hydrogens at position 2 is substituted by a 4-(1-oxo-1,3-dihydroisoindol-2-yl)phenyl group. Initially used as an anti-inflammatory and analgesic, it was withdrawn from the market due to causing severe gastrointestinal bleeding. It has been subsequently found to increase production of the survival motor neuron protein. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic and an EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor. It is a monocarboxylic acid, a member of isoindoles and a gamma-lactam. It derives from a propionic acid.",0,6,2,"From the prediction, the functional attributes of the molecule are:
+1. Initially used as an anti-inflammatory.
+2. Initially used as an analgesic.
+3. Withdrawn from the market due to causing severe gastrointestinal bleeding.
+4. Found to increase production of the survival motor neuron protein.
+5. Has a role as a non-steroidal anti-inflammatory drug (NSAID).
+6. Has a role as a non-narcotic analgesic.
+7. Has a role as an EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor.
+
+The true attributes of the molecule are:
+- Recurrent thrombophlebitis
+- Atrial fibrillation
+
+**True Positives (TP)**: These are the correct predictions made by the model. In this case, there are no overlapping attributes between the predicted functional attributes and the true attributes. Thus, TP = 0.
+
+**False Positives (FP)**: These are the attributes predicted by the model that are not true. Since none of the predicted functional attributes match the true attributes, all predicted attributes are false positives. Thus, FP = 7 (all predicted attributes).
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since the model did not predict 'recurrent thrombophlebitis' or 'atrial fibrillation', both of these are false negatives. Thus, FN = 2.
+
+Therefore, the final evaluation is:
+'TP:0,FP:7,FN:2'",0,7,2,CCC(C(=O)O)c1ccc(N2Cc3ccccc3C2=O)cc1
+"{'migraine disorder', 'headache'}","The molecule is a hydrochloride salt resulting from the reaction of equimolar amounts of sulfisoxazole and hydrogen chloride. An antibacterial agent, sulfisoxazole is used in veterinary medicine (generally as its hydrogen fumarate salt) for the treatment of swine dysentery caused by Serpulina hyodysenteriae. It has a role as an antibacterial drug. It is a hydrochloride and a sulfonamide. It contains a sulfisoxazole(1+).",0,2,2,"From the prediction, the functional attributes of the molecule are:
+1. Used in veterinary medicine for the treatment of swine dysentery caused by Serpulina hyodysenteriae.
+2. Has a role as an antibacterial drug.
+
+The true attributes of the molecule are:
+1. Used for migraine disorder.
+2. Used for headache.
+
+True Positives (TP) are the correctly predicted attributes:
+- None of the predicted functional attributes match the true attributes. Therefore, TP = 0.
+
+False Positives (FP) are the attributes predicted but not true:
+- The prediction that it is used in veterinary medicine for the treatment of swine dysentery and that it has a role as an antibacterial drug are not true attributes. Therefore, FP = 2.
+
+False Negatives (FN) are the true attributes not predicted:
+- The true attributes that it is used for migraine disorder and headache were not predicted. Therefore, FN = 2.
+
+Thus, the evaluation of the prediction is:
+'TP:0,FP:2,FN:2'",0,2,2,CNS(=O)(=O)CCc1ccc2[nH]cc(C3CCN(C)CC3)c2c1.Cl
+{'tension-type headache'},The molecule is a leukotriene that is leukotriene B4 carrying an additional methyl substituent at position 19. It has a role as a mouse metabolite. It derives from a leukotriene B4. It is a conjugate acid of a 19-methylleukotriene B4(1-).,0,1,1,"From the prediction provided, the functional attributes of the molecule are:
+1. It has a role as a mouse metabolite.
+
+The true attributes of the molecule are:
+1. It is associated with tension-type headache.
+
+Breaking down the evaluation:
+- True Positives (TP): There are no correct predictions matching the true attributes.
+- False Positives (FP): The prediction incorrectly claims the molecule has a role as a mouse metabolite, which is not listed among the true attributes.
+- False Negatives (FN): The true attribute that the molecule is associated with tension-type headache was not predicted.
+
+Therefore, the evaluation results in:
+TP:0,FP:1,FN:1",0,1,1,CN[C@H](C)CCC=C(C)C.CN[C@H](C)CCC=C(C)C.O=C(O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)C(=O)O
+"{'pancreatic carcinoma', 'kidney failure', 'breast cancer', 'myocardial ischemia', 'myocardial infarction', 'iga glomerulonephritis', 'ischemia reperfusion injury', 'hyperuricemia', 'alzheimer disease', 'covid-19', 'diabetic retinopathy', 'insulin resistance', 'fabry disease', 'non-alcoholic steatohepatitis', 'weight loss', 'heart failure', 'acute kidney injury', 'brain neoplasm', 'diabetic nephropathy', 'physical activity', 'hepatic steatosis', 'atrial fibrillation', 'type 1 diabetes mellitus', 'prostate carcinoma', 'cirrhosis of liver', 'metabolic syndrome', 'diabetes mellitus', 'polycystic ovary syndrome', 'coronary artery disease', 'obesity', 'pulmonary arterial hypertension', 'type 2 diabetes mellitus', 'depressive disorder', 'diabetic neuropathy', 'cystinuria', 'chronic kidney disease', 'diastolic heart failure', 'albuminuria'}",The molecule is a hydrochloride obtained by combining oseltamivir with one molar equivalent of hydrochloric acid. Used for the treatment of acute uncomplicated influenza in patients 18 years and older who have been symptomatic for no more than two days. It has a role as an EC 3.2.1.18 (exo-alpha-sialidase) inhibitor and an antiviral drug. It contains an oseltamivir(1+).,0,3,38,"From the model's prediction, the functional claims about the molecule are:
+1. Used for the treatment of acute uncomplicated influenza in patients 18 years and older who have been symptomatic for no more than two days.
+2. It has a role as an EC 3.2.1.18 (exo-alpha-sialidase) inhibitor.
+3. It has a role as an antiviral drug.
+
+The true attributes of the molecule are related to various diseases and conditions, but none of these include influenza or specify the molecule's role as an EC 3.2.1.18 inhibitor or as an antiviral drug.
+
+- True Positives (TP): These are the correct predictions that match the true attributes. In this case, there are no matches between the predicted functional attributes and the true attributes.
+- False Positives (FP): These are the predictions that do not match any of the true attributes. All three predicted claims (treatment of influenza, role as EC 3.2.1.18 inhibitor, and antiviral drug) are not listed in the true attributes, so all are false positives.
+- False Negatives (FN): These are the true attributes that were not predicted by the model. Since none of the true attributes were predicted, all of them are false negatives. The total number of false negatives is the count of all listed true attributes, which is 38.
+
+Therefore, the evaluation of the model's predictions is:
+TP:0,FP:3,FN:38",0,3,38,CCOc1ccc(Cc2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1
+"{'premature birth', 'rhinitis', 'seasonal allergic rhinitis', 'alzheimer disease', 'covid-19', 'cough', 'status asthmaticus', 'non-alcoholic steatohepatitis', 'pain', 'chronic obstructive pulmonary disease', 'diabetic nephropathy', 'rheumatoid arthritis', 'bronchiolitis obliterans', 'rhinitis, allergic, perennial', 'severe acute respiratory syndrome', 'obstructive sleep apnea', 'non-small cell lung carcinoma', 'airway obstruction', 'allergic rhinitis', 'dengue hemorrhagic fever', 'asthma', 'sickle cell anemia', 'respiratory system disease', 'bronchopulmonary dysplasia', 'neonatal sepsis', 'multiple myeloma', 'acute lymphoblastic leukemia', 'acute myeloid leukemia', 'sepsis', 'bronchiolitis', 'immune system disease', 'eosinophilic esophagitis', 'sleep apnea', 'wheezing', 'hiv infection'}","The molecule is a member of the class of thromboxanes that is thromboxane A2 in which the bridging oxygen has been replaced by a methylene group. It has a role as a vasoconstrictor agent and a thromboxane A2 agonist. It is a thromboxane, a hydroxy monocarboxylic acid, a bridged compound, a cyclic ether and a secondary allylic alcohol. It derives from a thromboxane A2. It is a conjugate acid of a thromboxane A2(1-).",0,2,35,"From the model's prediction, the functional claims about the molecule are:
+1. It has a role as a vasoconstrictor agent.
+2. It is a thromboxane A2 agonist.
+
+The true attributes of the molecule are related to various diseases and conditions, but none specifically mention its role as a vasoconstrictor agent or a thromboxane A2 agonist. 
+
+To compute TP (True Positives), FP (False Positives), and FN (False Negatives):
+- **True Positives (TP)** are the correctly predicted attributes. Since none of the predicted functional roles (vasoconstrictor agent, thromboxane A2 agonist) are explicitly listed in the true attributes, TP = 0.
+- **False Positives (FP)** are the attributes predicted by the model that are not in the true attributes. Both predicted roles (vasoconstrictor agent, thromboxane A2 agonist) are not listed in the true attributes, so FP = 2.
+- **False Negatives (FN)** are the true attributes that were not predicted by the model. Since none of the true attributes (disease conditions) were predicted by the model, FN equals the number of true attributes, which is 35.
+
+Therefore, the final counts are:
+'TP:0,FP:2,FN:35'",0,2,35,CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1
+{'constipation'},"The molecule is a member of the class of 1,3-oxazoles that is 1,3-oxazol-4(5H)-one which is substituted by a cyclohexyl group at position 2 and by a 3,4-dihydroxyphenyl group at position 5. It is a cyclohexylketone, a member of 1,3-oxazoles and a tertiary alcohol.",0,0,1,"From the prediction, the functional attributes of the molecule are identified as:
+1. cyclohexylketone
+2. tertiary alcohol
+
+The true attributes of the molecule are:
+- constipation (which is a therapeutic or biological effect rather than a chemical property)
+
+Analyzing the predicted functional attributes against the true attributes:
+- ""cyclohexylketone"" and ""tertiary alcohol"" are chemical classifications and do not directly relate to the biological effect of ""constipation.""
+
+True Positives (TP): There are no correct predictions about the molecule's biological or therapeutic effects.
+False Positives (FP): Both predicted attributes (""cyclohexylketone"" and ""tertiary alcohol"") are incorrect as they do not match the true attribute of ""constipation.""
+False Negatives (FN): The prediction missed mentioning the molecule's effect on ""constipation.""
+
+Thus, the evaluation is:
+TP:0,FP:2,FN:1",0,2,1,O=C1OC(c2ccc(O)cc2)(c2ccc(O)cc2)c2ccccc21
+"{'bipolar i disorder', 'bipolar disorder', 'psychosis', 'stuttering', 'schizoaffective disorder', 'schizophrenia'}","The molecule is a maleate salt obtained by reaction of pizotifen with one equivalent of maleic acid. It has a role as a histamine antagonist, a muscarinic antagonist and a serotonergic antagonist. It contains a pizotifen(1+).",0,3,6,"From the prediction, the functional claims about the molecule are:
+1. Histamine antagonist
+2. Muscarinic antagonist
+3. Serotonergic antagonist
+
+The true attributes of the molecule are:
+- Bipolar I disorder
+- Bipolar disorder
+- Psychosis
+- Stuttering
+- Schizoaffective disorder
+- Schizophrenia
+
+To evaluate the prediction:
+- **True Positives (TP)**: These are the correct predictions. None of the predicted roles (histamine antagonist, muscarinic antagonist, serotonergic antagonist) are explicitly mentioned in the true attributes list. Therefore, TP = 0.
+  
+- **False Positives (FP)**: These are the predicted roles that do not match the true attributes. Since none of the predicted roles are mentioned in the true attributes, all predicted roles are false positives. Therefore, FP = 3 (histamine antagonist, muscarinic antagonist, serotonergic antagonist).
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted. Since none of the true attributes (related to various psychiatric disorders) were predicted by the model, all true attributes are false negatives. Therefore, FN = 6 (Bipolar I disorder, Bipolar disorder, Psychosis, Stuttering, Schizoaffective disorder, Schizophrenia).
+
+Thus, the evaluation of the model's predictions is:
+'TP:0,FP:3,FN:6'",0,3,6,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1.O=C(O)/C=C\C(=O)O
+"{'epilepsy', 'seizure'}","The molecule is a pyrimidone that is dihydropyrimidine-4,6(1H,5H)-dione substituted by an ethyl and a methyl group at position 5. It is used as an anticonvulsant for treatment of various types of seizures. It has a role as an environmental contaminant, a xenobiotic and an anticonvulsant.",1,2,0,"From the prediction, the functional attributes of the molecule are:
+1. It is used as an anticonvulsant for treatment of various types of seizures.
+2. It has a role as an environmental contaminant.
+3. It has a role as a xenobiotic.
+4. It has a role as an anticonvulsant.
+
+The true attributes of the molecule are:
+- It is used for epilepsy.
+- It is used for seizures.
+
+Breaking down the evaluation:
+- True Positive (TP): The prediction correctly identifies the molecule as an anticonvulsant used for treating seizures. This matches with the true attributes related to seizures and epilepsy (since epilepsy is characterized by seizures). Thus, the claim of being an anticonvulsant for seizures is a TP.
+- False Positive (FP): The prediction incorrectly claims the molecule as an environmental contaminant and a xenobiotic. These attributes are not mentioned in the true attributes.
+- False Negative (FN): There are no false negatives as all true attributes (related to seizures and epilepsy) are captured in the prediction.
+
+Calculation:
+- TP: 1 (anticonvulsant for seizures)
+- FP: 2 (environmental contaminant, xenobiotic)
+- FN: 0
+
+Final response: 'TP:1,FP:2,FN:0'",1,2,0,CCN1C(=O)NC(c2ccccc2)C1=O
+"{'hemangioma', 'asthma', 'smoking cessation', 'myocardial infarction', 'angina pectoris', 'hypertension', 'cardiovascular disease', 'stroke'}","The molecule is a synthetic morphinane alkaloid that is morphinone in which the enone double bond has been reduced to a single bond, the hydrogen at position 14 has been replaced by a hydroxy group, and the methyl group attached to the nitrogen has been replaced by an acetyl group. A specific opioid antagonist, it is used (commonly as its hydrochloride salt) to reverse the effects of opioids, both following their use of opioids during surgery and in cases of known or suspected opioid overdose. It has a role as a mu-opioid receptor antagonist, a central nervous system depressant and an antidote to opioid poisoning. It is an oxacycle, a morphinane alkaloid and a tertiary alcohol. It is a conjugate base of a naloxone(1+). It derives from a hydride of a morphinan.",0,2,8,"From the model's prediction, the functional claims about the molecule are:
+1. It is used to reverse the effects of opioids during surgery.
+2. It is used to reverse the effects of opioids in cases of known or suspected opioid overdose.
+3. It has a role as a mu-opioid receptor antagonist.
+4. It has a role as a central nervous system depressant.
+5. It has a role as an antidote to opioid poisoning.
+
+The true attributes of the molecule are:
+- Hemangioma
+- Asthma
+- Smoking cessation
+- Myocardial infarction
+- Angina pectoris
+- Hypertension
+- Cardiovascular disease
+- Stroke
+
+**True Positives (TP)**: These are the correct predictions made by the model. In this case, none of the predicted functional claims match the true attributes listed. Therefore, TP = 0.
+
+**False Positives (FP)**: These are the claims predicted by the model that are not true. Since none of the predicted functional claims match the true attributes, all predicted claims are false positives. Therefore, FP = 5 (all the predicted functional claims).
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since the model did not predict any of the true attributes, all true attributes are false negatives. Therefore, FN = 8 (all the true attributes listed).
+
+Thus, the final computation is:
+'TP:0,FP:5,FN:8'",0,5,8,CC(C)(C)NCC(O)COc1cccc2c1CC(O)C(O)C2
+"{'liver disease', 'schizophrenia', 'alzheimer disease'}","The molecule is a member of the class of thiinolines that is 2-amino-1,3-thiinocyclohexane which is substituted at positions 2, 4, and 5 by 2,4-dimethylamino, 1-thienyl, and methyl groups, respectively (the 2R,4R,5S diastereoisomer). It has a role as an EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor and an antineoplastic agent. It is a member of thiinolines, a member of benzenes, a secondary amino compound and a primary amino compound.",0,2,3,"From the prediction, the functional attributes of the molecule are:
+1. EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor
+2. Antineoplastic agent
+
+The true attributes of the molecule are:
+1. Liver disease
+2. Schizophrenia
+3. Alzheimer disease
+
+**True Positives (TP)**: These are the correctly predicted attributes. However, none of the predicted functional attributes match the true attributes. Thus, TP = 0.
+
+**False Positives (FP)**: These are the attributes predicted by the model that are not true. Both predicted attributes (receptor protein-tyrosine kinase inhibitor and antineoplastic agent) are not listed in the true attributes. Thus, FP = 2.
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. All three true attributes (liver disease, schizophrenia, Alzheimer disease) were not predicted. Thus, FN = 3.
+
+Therefore, the evaluation of the prediction is:
+'TP:0,FP:2,FN:3'",0,2,3,Cc1ccc([C@H]2C[C@@H]2COc2cc(NCc3nnc(C)s3)nc(C)n2)nc1
+{'gastrointestinal disease'},"The molecule is a member of the class of pyrrolidin-2-ones that is N-ethylpyrrolidin-2-one in which both of the hydrogens at the 3 position (adjacent to the carbonyl group) are substituted by a 2-(diethylamino)ethyl group, while the hydrogen at the 4 position is substituted by a 2-(diethylamino)ethyl group. A central and respiratory stimulant, it is used (generally as the hydrochloride or the hydrochloride hydrate) as a temporary treatment of acute respiratory failure, particularly when superimposed on chronic obstructive pulmonary disease, and of postoperative respiratory depression. It has also been used for treatment of postoperative shivering. It has a role as a central nervous system stimulant. It is a member of pyrrolidin-2-ones and a tertiary amino compound.",0,5,1,"From the prediction, the functional attributes of the molecule are:
+1. Central and respiratory stimulant
+2. Used as a temporary treatment of acute respiratory failure
+3. Used in cases of chronic obstructive pulmonary disease
+4. Used for postoperative respiratory depression
+5. Used for treatment of postoperative shivering
+6. Has a role as a central nervous system stimulant
+
+The true attributes of the molecule are:
+- Gastrointestinal disease
+
+Evaluating the predicted claims against the true attributes:
+- True Positives (TP): There are no correct predictions matching the true attribute.
+- False Positives (FP): All the predicted functional attributes (6 in total) do not match the true attribute.
+- False Negatives (FN): The true attribute (gastrointestinal disease) was not predicted.
+
+Therefore, the evaluation is:
+TP:0,FP:6,FN:1",0,6,1,CCN(CC)CCn1c(=O)c(Cc2ccc(OC)cc2)nc2ccccc21
+"{'duchenne muscular dystrophy', 'juvenile idiopathic arthritis', ""crohn's disease"", 'becker muscular dystrophy', 'chronic lymphocytic leukemia', 'polycythemia vera', 'duchenne and becker muscular dystrophy', 'hodgkins lymphoma', 'multiple myeloma', 'myeloproliferative disorder'}","The molecule is a hydroxamic acid obtained by formal condensation of the carboxy group of indometacin with the amino group of hydroxylamine. It has a role as a non-steroidal anti-inflammatory drug, an EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor and a non-narcotic analgesic. It is an organic heterobicyclic compound, a N-acylindole, a tertiary amino compound and a hydroxamic acid. It derives from an indometacin.",0,3,10,"From the model's prediction, the functional claims about the molecule are:
+1. Non-steroidal anti-inflammatory drug (NSAID)
+2. EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor
+3. Non-narcotic analgesic
+
+The true attributes of the molecule are related to its therapeutic applications in various diseases:
+- Duchenne muscular dystrophy
+- Juvenile idiopathic arthritis
+- Crohn's disease
+- Becker muscular dystrophy
+- Chronic lymphocytic leukemia
+- Polycythemia vera
+- Duchenne and Becker muscular dystrophy
+- Hodgkins lymphoma
+- Multiple myeloma
+- Myeloproliferative disorder
+
+**True Positives (TP)**: These are correctly predicted functional attributes that match the true attributes. From the prediction:
+- Non-steroidal anti-inflammatory drug (NSAID) could be relevant for juvenile idiopathic arthritis and potentially other inflammatory conditions listed, but without specific evidence linking NSAID use to these other conditions directly in the true attributes, it's safer to count only juvenile idiopathic arthritis.
+- EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor is typically a function of NSAIDs, which again could be relevant for juvenile idiopathic arthritis.
+
+**False Positives (FP)**: These are predicted attributes that do not match any of the true attributes:
+- Non-narcotic analgesic is not specifically mentioned in the true attributes, and while it might be implied by the use of NSAIDs, it's not directly listed.
+
+**False Negatives (FN)**: These are true attributes not predicted by the model:
+- Duchenne muscular dystrophy
+- Crohn's disease
+- Becker muscular dystrophy
+- Chronic lymphocytic leukemia
+- Polycythemia vera
+- Duchenne and Becker muscular dystrophy
+- Hodgkins lymphoma
+- Multiple myeloma
+- Myeloproliferative disorder
+
+Given the above analysis:
+- TP: 1 (juvenile idiopathic arthritis as an application of NSAID)
+- FP: 1 (non-narcotic analgesic not directly mentioned in the true attributes)
+- FN: 9 (all other diseases listed in the true attributes not predicted)
+
+Therefore, the final response is:
+'TP:1,FP:1,FN:9'",1,1,9,CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1
+"{'renal cell carcinoma', 'complex regional pain syndrome', 'breast cancer', 'osteogenesis imperfecta', 'osteosarcoma', 'leiomyosarcoma', 'cervical cancer', 'neuroblastoma', 'lung cancer', 'giant cell tumor', 'low back pain', 'breast ductal carcinoma in situ', 'mesothelioma', 'osteoporosis', 'spinal cord injury', 'metastasis', 'pain', 'menopause', 'progeria', 'primary myelofibrosis', 'hepatocellular carcinoma', 'adenocarcinoma', 'age-related macular degeneration', 'reflex sympathetic dystrophy', 'metastatic prostate cancer', 'prostate cancer', 'rheumatoid arthritis', 'prostate adenocarcinoma', 'bone metastasis', 'non-small cell lung carcinoma', 'prostate carcinoma', 'beta-thalassemia', 'nasopharyngeal neoplasm', 'myelofibrosis', 'osteoarthritis, hip', 'postmenopausal osteoporosis', 'sickle cell anemia', 'plasmacytoma', 'osteitis deformans', 'bone neoplasm', 'cervical adenocarcinoma', 'urogenital neoplasm', 'bone fracture', 'multiple myeloma', 'kidney cancer', 'bone disease', 'osteonecrosis', 'non-hodgkins lymphoma', 'sarcoma', 'paget disease', 'hutchinson-gilford progeria syndrome', 'osteopenia', 'chondrosarcoma', 'ewing sarcoma', 'breast neoplasm'}",The molecule is a phosphonic acid having a 1-hydroxy-2-aminoethyl group attached to the phosphorus. It derives from a phosphonic acid. It is a tautomer of a (2-amino-1-hydroxyethyl)phosphonate zwitterion.,0,0,59,"From the model's prediction, there are no specific claims about the functional attributes or diseases related to the molecule. The prediction only describes the chemical structure and tautomeric forms of the molecule. Therefore, there are no true positive (TP) or false positive (FP) claims since no functional attributes were predicted.
+
+The true attributes list numerous diseases and conditions that the molecule is associated with, such as various cancers, bone diseases, and pain-related conditions. Since none of these were predicted by the model, all of these attributes are false negatives (FN).
+
+Given the information:
+- TP (True Positives) = 0 (no correct functional attributes predicted)
+- FP (False Positives) = 0 (no incorrect functional attributes predicted)
+- FN (False Negatives) = 59 (all true attributes were missed)
+
+Therefore, the final response is:
+'TP:0,FP:0,FN:59'",0,0,59,O.O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O
+{'alzheimer disease'},The molecule is a member of the class of pyrrolidin-2-ones in which the amide hydrogen of pyrrolidin-2-one has been replaced by a 2-oxocyclohexyl group. It has a role as a human urinary metabolite. It is a member of pyrrolidin-2-ones and a member of cyclohexanones.,0,1,1,"From the prediction provided, the only functional attribute claim about the molecule is:
+- It has a role as a human urinary metabolite.
+
+The true attributes of the molecule are:
+- It is related to Alzheimer's disease.
+
+Breaking down the prediction and the truth into relevant categories for evaluation:
+- True Positives (TP): These are correctly predicted attributes. There are no correct predictions matching the true attribute.
+- False Positives (FP): These are attributes predicted that are not true. The claim that it has a role as a human urinary metabolite is not supported by the true attributes provided.
+- False Negatives (FN): These are true attributes that were not predicted. The molecule's relation to Alzheimer's disease was not predicted.
+
+Therefore, the evaluation is:
+TP:0,FP:1,FN:1",0,1,1,Cc1cccc(C)c1NC(=O)CN1CCCC1=O
+"{'squamous cell carcinoma', 'lung adenocarcinoma', 'neoplasm', 'glioblastoma multiforme', 'colorectal cancer', 'brain neoplasm', 'adenocarcinoma', 'carcinoma', 'lung cancer', 'cancer', 'lung neoplasm', 'non-small cell lung carcinoma'}","The molecule is a member of the class of pyrazines that is pyrazine-2-carboxamide which is substituted by 3-methoxy-4-[4-(dimethylamino)phenyl]propan-2-ylnitrilo, (oxan-4-yl)nitrilo and ethyl groups at positions 3,5 and 6, respectively. It is a potent inhibitor of FLT3, PDGFR and KIT. It has a role as an EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor. It is a member of pyrazines, a member of naphthalenes, a tertiary amino compound, a secondary amino compound and a monomethoxybenzene.",0,4,12,"From the prediction provided, the functional claims about the molecule are:
+1. It is a potent inhibitor of FLT3, PDGFR, and KIT.
+2. It has a role as an EC 2.7.10.1 (receptor protein-tyrosine kinase) inhibitor.
+
+The true attributes of the molecule are related to its therapeutic or disease-related applications:
+- squamous cell carcinoma
+- lung adenocarcinoma
+- neoplasm
+- glioblastoma multiforme
+- colorectal cancer
+- brain neoplasm
+- adenocarcinoma
+- carcinoma
+- lung cancer
+- cancer
+- lung neoplasm
+- non-small cell lung carcinoma
+
+**Analysis:**
+- The prediction does not directly mention any specific types of cancer or diseases but describes the molecule's inhibitory activity against certain kinases (FLT3, PDGFR, KIT) and its role as a tyrosine kinase inhibitor.
+- The true attributes list various types of cancers but do not specify the molecular targets or mechanisms of action.
+
+**True Positives (TP):** None of the predicted functional attributes directly match the true attributes, as the prediction does not specify the types of cancer or diseases it targets, only the mechanism of action.
+
+**False Positives (FP):** The predicted claims about being an inhibitor of FLT3, PDGFR, KIT, and being a tyrosine kinase inhibitor are not false per se, but they are not confirmed by the provided true attributes list, which focuses solely on types of cancers. Therefore, these claims are considered FP in the context of this specific evaluation.
+
+**False Negatives (FN):** All the types of cancers listed in the true attributes (12 types) are not mentioned in the predicted claims. Therefore, there are 12 FNs.
+
+Thus, the evaluation is:
+'TP:0,FP:2,FN:12'",0,2,12,C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C
+{'migraine disorder'},The molecule is a hydrate that is the monohydrate form of anhydrous saxagliptin. Used for the treatment of Type II diabetes. It has a role as a hypoglycemic agent and an EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor. It contains a saxagliptin.,0,3,1,"From the prediction provided, the functional claims about the molecule are:
+1. Used for the treatment of Type II diabetes.
+2. It has a role as a hypoglycemic agent.
+3. It has a role as an EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor.
+
+The true attributes of the molecule are:
+- Used for the treatment of migraine disorder.
+
+Breaking down the evaluation:
+- True Positives (TP): There are no correct predictions matching the true attributes.
+- False Positives (FP): All three predicted claims are incorrect given the true attribute (migraine disorder treatment), so there are 3 false positives.
+- False Negatives (FN): The true attribute (migraine disorder treatment) was not predicted, so there is 1 false negative.
+
+Therefore, the evaluation is:
+'TP:0,FP:3,FN:1'",0,3,1,Cc1cc(C[C@@H](OC(=O)N2CCC(N3CCc4ccccc4NC3=O)CC2)C(=O)N2CCC(N3CCOCC3)CC2)cc(C)c1O
+{'herpes zoster'},"The molecule is the dihydrochloride salt of sapropterin. It is used for the diagnosis and treatment of variant forms of phenylketonuria (hyperphenylalaninaemia) associated with tetrahydrobiopterin deficiency. Natural cofactor for phenylalanine hydroxylase, tyrosine hydroxylase, tryptophan hydroxylase, and nitric oxide synthetase. It has a role as a diagnostic agent and a coenzyme. It contains a sapropterin.",0,2,1,"From the prediction, the functional claims about the molecule are:
+1. Used for the diagnosis and treatment of variant forms of phenylketonuria (hyperphenylalaninaemia) associated with tetrahydrobiopterin deficiency.
+2. Natural cofactor for phenylalanine hydroxylase, tyrosine hydroxylase, tryptophan hydroxylase, and nitric oxide synthetase.
+3. Has a role as a diagnostic agent.
+4. Has a role as a coenzyme.
+
+The true attributes of the molecule are:
+- Related to herpes zoster.
+
+Evaluating the claims:
+- None of the predicted functional claims match the true attribute of being related to herpes zoster.
+
+Thus:
+- True Positives (TP): 0 (no predicted claims correctly match the true attribute)
+- False Positives (FP): 4 (all predicted claims are incorrect as they do not match the true attribute)
+- False Negatives (FN): 1 (the true attribute of being related to herpes zoster was not predicted)
+
+Therefore, the evaluation is:
+'TP:0,FP:4,FN:1'",0,4,1,CCCCCc1ccc(-c2cc3cn([C@H]4C[C@H](O)[C@@H](COC(=O)[C@@H](N)C(C)C)O4)c(=O)nc3o2)cc1.Cl
+"{'pain', 'myelodysplastic syndrome', 'leukemia', 'fever', 'myeloproliferative disorder'}",The molecule is a hydrate that is the monohydrate form of sodium nitroprusside. It has a role as a nitric oxide donor and a vasodilator agent. It contains a sodium nitroprusside.,0,2,5,"From the model's prediction, the functional claims about the molecule are:
+1. Nitric oxide donor
+2. Vasodilator agent
+
+The true attributes of the molecule are:
+- Pain
+- Myelodysplastic syndrome
+- Leukemia
+- Fever
+- Myeloproliferative disorder
+
+**True Positives (TP)**: These are the correct predictions made by the model. In this case, there are no overlapping attributes between the predicted functional roles and the true attributes. Thus, TP = 0.
+
+**False Positives (FP)**: These are the attributes predicted by the model that are not true for the molecule. Both ""nitric oxide donor"" and ""vasodilator agent"" are not listed in the true attributes. Thus, FP = 2.
+
+**False Negatives (FN)**: These are the true attributes of the molecule that the model failed to predict. Since none of the true attributes ('pain', 'myelodysplastic syndrome', 'leukemia', 'fever', 'myeloproliferative disorder') were predicted by the model, FN = 5.
+
+Therefore, the evaluation of the model's predictions is:
+'TP:0,FP:2,FN:5'",0,2,5,O=C([O-])c1ccccc1O.[Na+]
+{'viral disease'},"The molecule is a member of the class of azepinoindoles that is 1,3,4,5-tetrahydro-6H-azepino[5,4,3-cd]indol-6-one carrying additional 4-[(methylamino)methyl]phenyl and fluoro substituents at positions 2 and 8 respectively. It is an inhibitor of poly (ADP-ribose) polymerase and is used (as the camsylate salt) as monotherapy for advanced ovarian cancer and deleterious germline or somatic BRCA mutation. It has a role as an EC 2.4.2.30 (NAD(+) ADP-ribosyltransferase) inhibitor and an antineoplastic agent. It is an azepinoindole, a member of caprolactams, an organofluorine compound and a secondary amino compound. It is a conjugate base of a rucaparib(1+).",0,4,1,"From the prediction, the functional claims about the molecule are:
+1. It is an inhibitor of poly (ADP-ribose) polymerase.
+2. It is used as monotherapy for advanced ovarian cancer and deleterious germline or somatic BRCA mutation.
+3. It has a role as an EC 2.4.2.30 (NAD(+) ADP-ribosyltransferase) inhibitor.
+4. It is an antineoplastic agent.
+
+The true attributes of the molecule are:
+- It is used for viral diseases.
+
+Analyzing the claims:
+- None of the predicted functional claims match the true attribute of being used for viral diseases.
+
+Therefore:
+- True Positives (TP): 0 (no predicted functional claims correctly match the true attribute)
+- False Positives (FP): 4 (all predicted functional claims are incorrect given the true attribute)
+- False Negatives (FN): 1 (the true attribute of being used for viral diseases was not predicted)
+
+Thus, the final evaluation is:
+'TP:0,FP:4,FN:1'",0,4,1,O=C(O)[C@H]1C2CCC(CC2)[C@@H]1Nc1nc(-c2n[nH]c3ncc(F)cc23)nc(C2CC2)c1F
+{'prostate cancer'},"The molecule is a member of the class of piperidines that is the 4-acetyl-2-methoxyphenyl ether of 3-(piperidin-1-yl)propan-1-ol which is substituted at position 4 of the piperidine ring by a 6-fluoro-1,2-benzoxazol-3-yl group. A member of the group of second generation antipsychotics (also known as an atypical antipsychotics), it is used for the treatment of schizophrenia. It has a role as a serotonergic antagonist, a dopaminergic antagonist and a second generation antipsychotic. It is a monoamine, an organofluorine compound, a tertiary amino compound, a methyl ketone, a member of 1,2-benzoxazoles, a member of piperidines, an aromatic ether and an aromatic ketone.",0,4,1,"From the model's prediction, the functional attributes of the molecule are:
+1. Used for the treatment of schizophrenia.
+2. Role as a serotonergic antagonist.
+3. Role as a dopaminergic antagonist.
+4. Role as a second generation antipsychotic.
+
+The true attributes of the molecule are:
+1. Used for the treatment of prostate cancer.
+
+Now, let's evaluate the TP (True Positive), FP (False Positive), and FN (False Negative) based on the predicted and true attributes:
+
+- **True Positives (TP)**: These are the correct predictions. There are no correct predictions about the molecule's function related to prostate cancer or any other correctly identified function, so TP = 0.
+
+- **False Positives (FP)**: These are the attributes predicted by the model that are not true. The model incorrectly predicted the molecule as being used for schizophrenia treatment, and having roles as a serotonergic antagonist, a dopaminergic antagonist, and a second generation antipsychotic. Therefore, FP = 4.
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. The model failed to predict the molecule's use in treating prostate cancer, so FN = 1.
+
+Thus, the evaluation is:
+'TP:0,FP:4,FN:1'",0,4,1,CC(=O)N1CCN(CCOc2ccc(C3CCN(C4=Nn5c(nnc5C(F)(F)F)CC4)CC3)cc2)CC1
+{'schizophrenia'},"The molecule is an azaspiro compound that is 1,7-diazaspiro[4.5]decan-2-one carrying additional 3-(trifluoromethyl)phenyl and 6-methylpyridin-2-yl substituents at position 8. Used (in the form of the hydrochloride hydrate) for the prevention of delayed nausea and vomiting associated with initial and repeat courses of emetogenic cancer chemotherapy. It has a role as an antiemetic and a neurokinin-1 receptor antagonist. It is an azaspiro compound, a member of pyridines, a member of piperidines, a tertiary amino compound and an organofluorine compound. It is a conjugate base of a rolapitant(1+).",0,3,1,"From the prediction, the functional attributes of the molecule are:
+1. Used for the prevention of delayed nausea and vomiting associated with initial and repeat courses of emetogenic cancer chemotherapy.
+2. It has a role as an antiemetic.
+3. It has a role as a neurokinin-1 receptor antagonist.
+
+The true attributes of the molecule are:
+- Used for the treatment of schizophrenia.
+
+Now, let's evaluate the TP (True Positive), FP (False Positive), and FN (False Negative):
+
+- **True Positives (TP)**: These are the correctly predicted attributes. There are no correct predictions about the molecule's use or role related to schizophrenia in the prediction.
+  - TP = 0
+
+- **False Positives (FP)**: These are the attributes predicted by the model that are not true. The model incorrectly predicts the molecule's use in chemotherapy-induced nausea and vomiting, and its roles as an antiemetic and neurokinin-1 receptor antagonist.
+  - FP = 3 (prevention of nausea and vomiting, antiemetic, neurokinin-1 receptor antagonist)
+
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. The model failed to predict the molecule's use in treating schizophrenia.
+  - FN = 1 (treatment of schizophrenia)
+
+Therefore, the evaluation of the model's prediction is:
+'TP:0,FP:3,FN:1'",0,3,1,Cc1cc(C)c2c(n1)CN(C(=O)CC1CN(c3ccnc(C(F)(F)F)c3)C1)C2
+{'neoplasm'},"The molecule is a member of the class of pyrazoles that is an adrenergic antagonist with non-selective beta- and alpha-1 receptor blocking properties which helps in the management of congestive heart failure. It has a role as a beta-adrenergic antagonist, an antihypertensive agent, an alpha-adrenergic antagonist, a vasodilator agent and a cardiovascular drug. It is a member of pyrazoles, a primary alcohol and a member of ethanolamines.",0,5,1,"To evaluate the model's predictions against the ground-truth attributes of the molecule, we need to identify the true positives (TP), false positives (FP), and false negatives (FN) from the claims.
+
+**Predicted Claims:**
+1. Adrenergic antagonist
+2. Non-selective beta- and alpha-1 receptor blocking properties
+3. Helps in the management of congestive heart failure
+4. Beta-adrenergic antagonist
+5. Antihypertensive agent
+6. Alpha-adrenergic antagonist
+7. Vasodilator agent
+8. Cardiovascular drug
+
+**True Attributes:**
+- Neoplasm
+
+**Analysis:**
+- **True Positives (TP)**: These are the claims that are correctly predicted and match the true attributes. In this case, there are no claims directly related to ""neoplasm"" in the predictions.
+- **False Positives (FP)**: These are the claims that are predicted but do not match the true attributes. Since none of the predicted claims match ""neoplasm,"" all the predicted claims are false positives.
+- **False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since ""neoplasm"" was not predicted, it is a false negative.
+
+**Counting:**
+- TP: 0 (no correct predictions related to ""neoplasm"")
+- FP: 8 (all the predicted claims are incorrect)
+- FN: 1 (""neoplasm"" was not predicted)
+
+**Conclusion:**
+'TP:0,FP:8,FN:1'",0,8,1,COc1cc(OC)c(F)c(COc2cnc(Nc3cnn(CCO)c3)nc2)c1F
+{'cough'},"The molecule is a tertiary amino compound that is propylamine which is substituted at position 3 by a p-chlorophenyl group and a methyl group, and in which the hydrogens attached to the nitrogen are replaced by methyl groups. A histamine H1 antagonist, it is used to relieve the symptoms of hay fever, rhinitis, urticaria, and asthma. It has a role as a H1-receptor antagonist, an antipruritic drug, a histamine antagonist, a serotonin uptake inhibitor, an antidepressant and an anti-allergic agent. It is a tertiary amino compound, a member of monochlorobenzenes and a member of cyclopropanes.",0,6,1,"From the prediction, the functional attributes of the molecule are listed as:
+1. Histamine H1 antagonist
+2. Used to relieve symptoms of hay fever
+3. Used to relieve symptoms of rhinitis
+4. Used to relieve symptoms of urticaria
+5. Used to relieve symptoms of asthma
+6. Has a role as a H1-receptor antagonist
+7. Has a role as an antipruritic drug
+8. Has a role as a histamine antagonist
+9. Has a role as a serotonin uptake inhibitor
+10. Has a role as an antidepressant
+11. Has a role as an anti-allergic agent
+
+The true attributes of the molecule are:
+- Cough
+
+Analyzing the claims:
+- None of the predicted functional attributes match the true attribute of ""cough.""
+
+True Positives (TP): 0 (no predicted attributes correctly match the true attribute)
+False Positives (FP): 11 (all predicted attributes are incorrect as they do not match the true attribute)
+False Negatives (FN): 1 (the true attribute ""cough"" was not predicted)
+
+Therefore, the final evaluation is:
+'TP:0,FP:11,FN:1'",0,11,1,CC(CN(C)C)C(C)(O)Cc1ccc(Cl)cc1
+{'neoplasm'},"The molecule is a prostaglandin Falpha that is prostaglandin F2alpha in which the carboxylic acid function has been converted to the corresponding isopropyl ester and the 3-hydroxy-1-octenyl side-chain is substituted by 3,3-difluoro-4-phenoxybut-1-enyl. Used for treatment of elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension. It has a role as a prostaglandin receptor agonist. It is a prostaglandins Falpha, an organofluorine compound and an isopropyl ester. It derives from a prostaglandin F2alpha.",0,2,1,"From the prediction, the functional attributes of the molecule are:
+1. Used for treatment of elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension.
+2. It has a role as a prostaglandin receptor agonist.
+
+The true attributes of the molecule are:
+- Used in the treatment of neoplasm.
+
+Breaking down the evaluation:
+- True Positives (TP): There are no correctly predicted functional attributes that match the true attribute.
+- False Positives (FP): The predicted functional attributes (treatment of elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension, and role as a prostaglandin receptor agonist) do not match the true attribute (neoplasm treatment), so there are 2 false positives.
+- False Negatives (FN): The true attribute (neoplasm treatment) was not predicted, so there is 1 false negative.
+
+Therefore, the evaluation is:
+TP:0,FP:2,FN:1",0,2,1,CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@H]1O[C@@H](n2ccc(N)nc2=O)C(F)(F)[C@@H]1O
+"{'sjogren syndrome', 'myopia', 'xerostomia', 'head and neck malignant neoplasia', 'dry eye syndrome', 'presbyopia', 'urinary incontinence', 'glaucoma', 'ocular hypertension', 'open-angle glaucoma', 'miosis', 'angle-closure glaucoma'}","The molecule is a pyrrolizine alkaloid that is seneciphylline in which the hydroxy hydrogen has been replaced by an ethyl group. It has a role as a Jacobaea metabolite. It is a macrocyclic lactone, an olefinic compound, a pyrrolizine alkaloid and a tertiary amino compound. It derives from a seneciphylline.",0,1,12,"From the model's prediction, the functional claims about the molecule are:
+1. It has a role as a Jacobaea metabolite.
+
+The true attributes of the molecule are related to various medical conditions and syndromes:
+- sjogren syndrome
+- myopia
+- xerostomia
+- head and neck malignant neoplasia
+- dry eye syndrome
+- presbyopia
+- urinary incontinence
+- glaucoma
+- ocular hypertension
+- open-angle glaucoma
+- miosis
+- angle-closure glaucoma
+
+**True Positives (TP)**: These are the correctly predicted attributes. Since none of the predicted functional roles match the true attributes, TP = 0.
+
+**False Positives (FP)**: These are the attributes predicted by the model that are not true. The claim of being a ""Jacobaea metabolite"" does not match any of the true attributes, so FP = 1.
+
+**False Negatives (FN)**: These are the true attributes that were not predicted by the model. Since none of the true attributes were predicted, FN = 12 (the total number of true attributes).
+
+Therefore, the evaluation is:
+'TP:0,FP:1,FN:12'",0,1,12,CC[C@@H]1C(=O)OC[C@@H]1Cc1cncn1C
+"{'classic hodgkin lymphoma', 'lymphoma, aids-related', 'brain neoplasm', 'lymphoma', 'central nervous system neoplasm', 'anaplastic astrocytoma', 'glioblastoma multiforme'}","The molecule is a hydrochloride obtained by combining procarbazine with one equivalent of hydrochloric acid. An antineoplastic chemotherapy drug used for treatment of Hodgkin's lymphoma. Metabolism yields azo-procarbazine and hydrogen peroxide, which results in the breaking of DNA strands. It has a role as an antineoplastic agent. It contains a procarbazine(1+).",2,1,6,"To evaluate the model's predictions against the ground-truth attributes of the molecule, we need to identify the true positive (TP), false positive (FP), and false negative (FN) claims from the prediction. The prediction includes several functional claims about the molecule:
+
+1. An antineoplastic chemotherapy drug used for treatment of Hodgkin's lymphoma.
+2. Metabolism yields azo-procarbazine and hydrogen peroxide, which results in the breaking of DNA strands.
+3. It has a role as an antineoplastic agent.
+
+The true attributes of the molecule are:
+- classic hodgkin lymphoma
+- lymphoma, aids-related
+- brain neoplasm
+- lymphoma
+- central nervous system neoplasm
+- anaplastic astrocytoma
+- glioblastoma multiforme
+
+**Analysis of Claims:**
+
+1. **Claim: An antineoplastic chemotherapy drug used for treatment of Hodgkin's lymphoma.**
+   - **TP**: The molecule is indeed used for Hodgkin's lymphoma (classic hodgkin lymphoma).
+   - **FP**: None for this claim.
+   - **FN**: None directly from this claim, but other uses in lymphoma types and other cancers are not mentioned.
+
+2. **Claim: Metabolism yields azo-procarbazine and hydrogen peroxide, which results in the breaking of DNA strands.**
+   - **TP**: None, as this is a mechanistic claim and not directly related to the therapeutic use.
+   - **FP**: This claim is not relevant to the therapeutic uses listed in the ground-truth.
+   - **FN**: None directly from this claim.
+
+3. **Claim: It has a role as an antineoplastic agent.**
+   - **TP**: True, as it is used for various types of neoplasms.
+   - **FP**: None for this claim.
+   - **FN**: None directly from this claim, but specific other neoplasms are not mentioned.
+
+**False Negatives (FN):**
+- The prediction does not mention the molecule's use in lymphoma, aids-related, brain neoplasm, central nervous system neoplasm, anaplastic astrocytoma, or glioblastoma multiforme. These are all missing from the prediction.
+
+**Counting TP, FP, FN:**
+- **TP**: 2 (use in Hodgkin's lymphoma, role as an antineoplastic agent)
+- **FP**: 1 (mechanistic detail not relevant to therapeutic use)
+- **FN**: 6 (missing uses in lymphoma, aids-related, brain neoplasm, central nervous system neoplasm, anaplastic astrocytoma, glioblastoma multiforme)
+
+**Conclusion:**
+'TP:2,FP:1,FN:6'",2,1,6,CNNCc1ccc(C(=O)NC(C)C)cc1.Cl
+"{'helminthiasis', 'infection', 'onchocerciasis', 'strongyloidiasis', 'filarial elephantiasis'}","The molecule is a milbemycin originally isolated from Streptomyces hygroscopicus with formula C33H48O7 that has insecticidal and anthelmintic proerties. It has a role as an insecticide, an anthelminthic drug and a nematicide.",1,4,1,"From the prediction, the functional claims about the molecule are:
+1. It has insecticidal properties.
+2. It has anthelmintic properties.
+3. It acts as an insecticide.
+4. It acts as an anthelmintic drug.
+5. It acts as a nematicide.
+
+The true attributes of the molecule are:
+- helminthiasis
+- infection
+- onchocerciasis
+- strongyloidiasis
+- filarial elephantiasis
+
+Analyzing the claims:
+- ""It has anthelmintic properties"" and ""It acts as an anthelmintic drug"" are true as they relate to the treatment of helminthiasis, onchocerciasis, strongyloidiasis, and filarial elephantiasis, which are diseases caused by helminths (worms).
+- ""It has insecticidal properties,"" ""It acts as an insecticide,"" and ""It acts as a nematicide"" are not supported by the true attributes, which do not mention any efficacy against insects or nematodes specifically, but rather against helminthic infections.
+
+True Positives (TP): Claims that are correctly predicted as true:
+- It has anthelmintic properties
+- It acts as an anthelmintic drug
+
+False Positives (FP): Claims that are incorrectly predicted as true:
+- It has insecticidal properties
+- It acts as an insecticide
+- It acts as a nematicide
+
+False Negatives (FN): True claims that are not predicted:
+- Treatment of infection (general, not specified as helminthic, but could be implied by anthelmintic properties)
+
+Thus, the counts are:
+TP: 2
+FP: 3
+FN: 1
+
+Final response:
+'TP:2,FP:3,FN:1'",2,3,1,CO/N=C1\C[C@]2(C[C@@H]3C[C@@H](C/C=C(\C)C[C@@H](C)/C=C/C=C4\CO[C@@H]5[C@H](O)C(C)=C[C@@H](C(=O)O3)[C@]45O)O2)O[C@H](/C(C)=C/C(C)C)[C@H]1C
+"{'constipation', 'constipation disorder'}","The molecule is a disaccharide derivative consisting of two 3-deoxy-alpha-D-manno-oct-2-ulopyranonosyl units joined via an alpha-(2->8)-linkage with an O-allyl group at the anomeric centre and with the carboxy group of the residue at the non-reducing end methyl-esterified. It is a disaccharide derivative, a glycoside, a methyl ester and a dicarboxylic acid monoester. It is a conjugate acid of an alpha-D-Man-(1->8)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-D-GlcNAc(PP-Dol)(2-).",0,0,1,"From the provided prediction, there are no explicit claims about the functional attributes or therapeutic uses of the molecule. The prediction focuses entirely on the structural description of the molecule, including its chemical composition and linkage details.
+
+The true attributes of the molecule provided are 'constipation' and 'constipation disorder', which are functional attributes related to its potential therapeutic use.
+
+Given this information:
+- True Positives (TP) are correctly predicted attributes that match the true attributes. Since the prediction does not mention any functional attributes, there are no TPs.
+- False Positives (FP) are attributes predicted that do not match the true attributes. Since the prediction does not claim any functional attributes, there are no FPs.
+- False Negatives (FN) are true attributes that were not predicted. Since the prediction does not mention 'constipation' or 'constipation disorder', both of these attributes are missed. Thus, there are 2 FNs.
+
+Therefore, the evaluation of the prediction in terms of TP, FP, and FN is:
+'TP:0,FP:0,FN:2'",0,0,2,OC[C@@H](O)[C@@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)[C@@H](O)CO
