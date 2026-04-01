@@ -1,13 +1,17 @@
 #!/usr/bin/env bash
 # Run the full GPT evaluation pipeline for all models × benchmarks.
 #
+# Input files must be in the format:
+# dataset must have cols: id, smiles, ground_truth
+# predictions must have cols: id, smiles, prediction
+#
 # Usage:
 #   ./run_eval.sh [--gpt-model MODEL]
 #
 # Output:
 #   results/gpt_eval/<model>_<benchmark>/   per-run chunk CSVs
 #   results/scores.txt                      final precision/recall/F1 table
-
+#
 # Before running, export your API credentials:
 #   export OPENAI_API_KEY="sk-..."
 
