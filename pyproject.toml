@@ -25,7 +25,6 @@ dependencies = [
     "torch>=2.6.0",
     "tqdm>=4.67.3",
     "transformers>=4.50.3,<5.0.0",
+    "wandb>=0.25.1",
 ]
 
-[tool.uv]
-python = "3.10"

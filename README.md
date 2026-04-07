@@ -7,6 +7,12 @@ This repository contains the following:
 
 ---
 
+## Hardware Requirements
+
+The modeling scripts (training, inference, explainability) require an NVIDIA CUDA-capable GPU. Dataset creation and benchmark evaluation scripts do not have any hardware requirements.
+
+---
+
 ## Installation
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it, then:
@@ -116,8 +122,14 @@ Both require columns: `id`, `smiles`, `ground_truth`.
 
 Predictions must be in format: `id`, `smiles`, `prediction`.
 
-**NOTE**: This benchmark eval requires an OPENAI_API_KEY and costs money to run. Running with gpt-5.4-mini costs ~$20 for three models on both benchmark datasets. We recommend looking into the current model offerings to decide which model to use and if you want to use a fine-tuned model or not. From our experiments, it seems that the results are fairly consistent across LLM judge models (confirmed for gpt-5.4-mini, which achieved 0.523 F1 compared to the 0.529 reported in the manuscript from using gpt-4-0613.
+**NOTE**: This benchmark eval requires an OPENAI_API_KEY and costs money to run. Running with gpt-5.4-mini costs ~$20 for three models on both benchmark datasets. We recommend looking into the current model offerings to decide which model to use and if you want to use a fine-tuned model or not. From our experiments, it seems that the results are fairly consistent across LLM judge models (confirmed for gpt-5.4-mini, which achieved 0.523 F1 compared to the 0.529 reported in the manuscript from using gpt-4-0613).
 
+
+## Acknowledgements
+
+The explainability module (`PubCheF-1/Transformer-Explainability/`) is adapted from [Transformer Interpretability Beyond Attention Visualization [CVPR 2021]](https://github.com/hila-chefer/Transformer-Explainability) by Hila Chefer et al. (MIT License).
+
+---
 
 ## Citation
 

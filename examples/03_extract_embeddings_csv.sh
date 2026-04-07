@@ -20,5 +20,5 @@ python inference.py \
     --smiles_column "smiles" \
     --extract_embeddings \
     --batch_size 100 \
-    --model_name "models/exalted-sweep-1" \
+    --model_name "exalted-sweep-1" \
     --mlb_dir "../data/final_datasets/preprocessed_propagated_1_hard"

@@ -6,6 +6,9 @@
 
 cd "$(dirname "$0")/../PubCheF-1"
 
+# Abort if no CUDA GPU is available — training on CPU is not practical
+python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
+
 echo "Starting local PubCheF-1 training run..."
 
 python train.py
