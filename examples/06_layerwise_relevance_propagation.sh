@@ -11,7 +11,7 @@
 # Must run from Transformer-Explainability/ so that BERT_explainability imports resolve
 cd "$(dirname "$0")/../PubCheF-1/Transformer-Explainability"
 
-python explainability_importance.py \
+python layerwise_relevance_propagation.py \
     --smiles "CN1CC(=O)OB(c2csc(C=O)c2)OC(=O)C1" \
     --name "62" \
     --label_to_explain "Beta-Lactamase Inhibitor" \
