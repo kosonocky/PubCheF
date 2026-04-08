@@ -6,6 +6,9 @@
 # Ensure we're running from the root of the project
 cd "$(dirname "$0")/../PubCheF-1"
 
+# Abort if no CUDA GPU is available
+python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
+
 echo "Running Inference on a single SMILES string..."
 
 python inference.py \

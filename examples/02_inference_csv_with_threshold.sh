@@ -8,6 +8,9 @@
 
 cd "$(dirname "$0")/../PubCheF-1"
 
+# Abort if no CUDA GPU is available
+python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
+
 # Create a small dummy CSV to test
 mkdir -p data
 echo "smiles,cid,notes" > data/sample_mols.csv
