@@ -189,6 +189,42 @@ def load_model(
     return model, device, d_model
 
 
+def load_checkpoint_weights(model, checkpoint_path, device):
+    """
+    Load a checkpoint robustly across DataParallel/non-DataParallel setups.
+
+    Raises if keys do not match after optional module-prefix normalization,
+    to avoid silently running with randomly initialized weights.
+    """
+    state_dict = torch.load(checkpoint_path, map_location=device, weights_only=False)
+
+    # Allow checkpoint wrappers like {"state_dict": ...}
+    if isinstance(state_dict, dict) and "state_dict" in state_dict and isinstance(state_dict["state_dict"], dict):
+        state_dict = state_dict["state_dict"]
+
+    if not isinstance(state_dict, dict):
+        raise RuntimeError(f"Unsupported checkpoint format in {checkpoint_path}")
+
+    model_is_dp = isinstance(model, nn.DataParallel)
+    has_module_prefix = any(k.startswith("module.") for k in state_dict.keys())
+
+    # Normalize key prefixes so checkpoint format matches model wrapping.
+    if model_is_dp and not has_module_prefix:
+        state_dict = {f"module.{k}": v for k, v in state_dict.items()}
+    elif not model_is_dp and has_module_prefix:
+        state_dict = {k[7:] if k.startswith("module.") else k: v for k, v in state_dict.items()}
+
+    try:
+        model.load_state_dict(state_dict, strict=True)
+    except RuntimeError as e:
+        raise RuntimeError(
+            f"Failed to load checkpoint weights from {checkpoint_path}. "
+            "Model architecture or checkpoint keys do not match."
+        ) from e
+
+    return model
+
+
 def create_dataloader(X, tokenizer, y=None, batch_size=32, seed=True, shuffle=True):
     """
     Create a DataLoader for the given data.
@@ -265,7 +301,6 @@ def get_probs_from_model(
                 print(f"INFO: Batch {count} of {len(dataloader)}, Time: {round(abs((t_old:=t_curr) - (t_curr:=time.time())), 3)} seconds")
             b_input_ids = batch[0].to(device)
             b_input_mask = batch[1].to(device)
-
             outputs = model(b_input_ids, b_input_mask)
             if extract_embeddings:
                 predictions = outputs["embedding"].cpu().numpy()

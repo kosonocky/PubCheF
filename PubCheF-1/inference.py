@@ -12,6 +12,7 @@ import torch
 from model_utils import (
     SMILESTokenizer,
     load_model,
+    load_checkpoint_weights,
     get_probs_from_model,
 )
 from utils import canon_smiles
@@ -104,7 +105,7 @@ def main(args):
         for run_name in run_names:
             # load best model
             model_path = model_name if model_name.name == run_name else Path(f"models/{run_name}")
-            model.load_state_dict(torch.load(model_path / "best_model.pt", map_location=device), strict=False)
+            load_checkpoint_weights(model, model_path / "best_model.pt", device)
             print(f"INFO: Getting probs from model {run_name}. Time: {round(abs((t_old:=t_curr) - (t_curr:=time.time())), 3)} seconds")
             predictions = get_probs_from_model(
                 model,
@@ -153,7 +154,10 @@ def main(args):
                 for j in range(len(high_prob_indices)):
                     filtered_probs = mean_probs[j][high_prob_indices[j]]
                     filtered_labels = mlb.classes_[high_prob_indices[j]]
-                    filtered_dict = {filtered_labels[k]: filtered_probs[k] for k in range(len(filtered_probs))}
+                    filtered_dict = {
+                        filtered_labels[k]: float(f"{float(filtered_probs[k]):.3g}")
+                        for k in range(len(filtered_probs))
+                    }
                     filtered_dict_list.append(filtered_dict)
                 df_batch["top_preds"] = filtered_dict_list
             else:

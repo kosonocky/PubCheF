@@ -90,6 +90,8 @@ All model code is in [PubCheF-1/](PubCheF-1/). The key scripts are:
 
 Trained model weights live in `PubCheF-1/models/`. The primary ensemble is `ensemble_single_canon_chiral_20epoch`.
 
+> **Note:** Model weights are stored via Git LFS. After cloning, run `git lfs pull` to download them before running inference or evaluation. If Git LFS is not installed, run `git lfs install` first.
+
 ---
 
 ## Examples

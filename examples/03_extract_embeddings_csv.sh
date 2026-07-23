@@ -18,6 +18,7 @@ echo "C1=CC=CC=C1,103,Benzene" >> data/sample_mols.csv
 
 echo "Extracting Embeddings from a CSV..."
 
+export CUDA_VISIBLE_DEVICES=0  # Use the first GPU
 python inference.py \
     --input_csv "data/sample_mols.csv" \
     --smiles_column "smiles" \

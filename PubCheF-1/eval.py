@@ -16,6 +16,7 @@ from joblib import Parallel, delayed
 from model_utils import (
     SMILESTokenizer,
     load_model,
+    load_checkpoint_weights,
     get_probs_from_model,
 )
 from utils import (
@@ -177,10 +178,7 @@ def main(args):
 
         probs = []
         for run_name in run_names:
-            model.load_state_dict(
-                torch.load(f"models/{run_name}/best_model.pt", map_location=device),
-                strict=False,
-            )
+            load_checkpoint_weights(model, f"models/{run_name}/best_model.pt", device)
             print(f"INFO: Getting probs for {run_name} ({split_name}). Time: {round(abs((t_old:=t_curr) - (t_curr:=time.time())), 3)} seconds")
             split_predictions, split_labels = get_probs_from_model(
                 model,

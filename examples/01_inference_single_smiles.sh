@@ -11,8 +11,9 @@ python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected
 
 echo "Running Inference on a single SMILES string..."
 
+export CUDA_VISIBLE_DEVICES=0  # Use the first GPU
 python inference.py \
-    --smiles "CCO" \
-    --compound_id "Ethanol" \
+    --smiles "Fc1ccc2c(c1)cc1ccc3cccc4ccc2c1c34" \
+    --compound_id "testmol4" \
     --model_name "ensemble_single_canon_chiral_20epoch" \
     --mlb_dir "../data/final_datasets/preprocessed_propagated_1_hard"
