@@ -1,5 +1,18 @@
 # PubCheF
+## Manuscript information
+Title: Learning from human and chemical languages to predict biological function
 
+Authors: Clayton W. Kosonocky†, Nikol Kadeřábková†, Kangsan Kim†, Ayesha J.S. Mahmood†, Alexander Dunmyre, Phillip Woolley, Kristi Xing, Daniel Winkler, Tomer Babu, Filip Kadeřábek, Jonathan L. Sessler, Eric V. Anslyn, Edward M. Marcotte*, Y. Jessie Zhang*, Andrew D. Ellington*, Despoina A.I. Mavridou*
+
+†These authors have contributed equally to this work
+
+*Correspondence: marcotte@utexas.edu; jzhang@cm.utexas.edu; ellingtonlab@gmail.com; despoina.mavridou@austin.utexas.edu
+
+[URL coming soon]
+
+---
+
+## Reposistory structure:
 This repository contains the following:
 - **The PubCheF dataset** — ~1.25M molecules (CID, SMILES, PMIDs, functional labels) derived from PubChem bioassay literature, with 5,215 functional labels. Also includes scripts to re-create this dataset.
 - **PubCheF-1 model** — a fine-tuned multi-label classifier trained to predict chemical function from structure. Includes scripts to train, inference, validate, and explain.
@@ -135,4 +148,14 @@ The explainability module (`PubCheF-1/Transformer-Explainability/`) is adapted f
 
 ## Citation
 
-Coming soon
+If you use PubCheF in your work, please cite:
+
+```
+@article{kosonocky2025pubchef,
+  title={Learning from human and chemical languages to predict biological function},
+  author={Kosonocky, Clayton W. and Kadeřábková, Nikol and Kim, Kangsan and Mahmood, Ayesha J.S. and Dunmyre, Alexander and Woolley, Phillip and Xing, Kristi and Winkler, Daniel and Babu, Tomer and Kadeřábek, Filip and Sessler, Jonathan L. and Anslyn, Eric V. and Marcotte, Edward M. and Zhang, Jessie and Ellington, Andrew D. and Mavridou, Despoina A.I.},
+  journal={bioRxiv},
+  year={2026},
+  url={TBD}
+}
+```
