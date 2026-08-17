@@ -141,7 +141,7 @@ Predictions must be in format: `id`, `smiles`, `prediction`.
 
 ## HuggingFace
 
-The following datasets can be found on HuggingFace, including the predictions over ZINC20 in-stock (~8GB compressed):
+The following datasets can be found on Hugging Face, including the predictions over ZINC20 in-stock (~8GB compressed):
 - [PubCheF Dataset, both pre-propagated and post-propagated](https://huggingface.co/datasets/kosonocky/PubCheF)
 - [OpenTargets and PubCheF Benchmarks](https://huggingface.co/datasets/kosonocky/PubCheF-Benchmark)
 - [PubCheF-1 ZINC20 in-stock predictions](https://huggingface.co/datasets/kosonocky/PubCheF-1-ZINC20-Predictions)
