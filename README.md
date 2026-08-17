@@ -139,6 +139,13 @@ Predictions must be in format: `id`, `smiles`, `prediction`.
 
 **NOTE**: This benchmark eval requires an OPENAI_API_KEY and costs money to run. Running with gpt-5.4-mini costs ~$20 for three models on both benchmark datasets. We recommend looking into the current model offerings to decide which model to use and if you want to use a fine-tuned model or not. From our experiments, it seems that the results are fairly consistent across LLM judge models (confirmed for gpt-5.4-mini, which achieved 0.523 F1 compared to the 0.529 reported in the manuscript from using gpt-4-0613).
 
+## HuggingFace
+
+The following datasets can be found on HuggingFace, including the predictions over ZINC20 in-stock (~8GB compressed):
+- [PubCheF Dataset, both pre-propagated and post-propagated](https://huggingface.co/datasets/kosonocky/PubCheF)
+- [OpenTargets and PubCheF Benchmarks](https://huggingface.co/datasets/kosonocky/PubCheF-Benchmark)
+- [PubCheF-1 ZINC20 in-stock predictions](https://huggingface.co/datasets/kosonocky/PubCheF-1-ZINC20-Predictions)
+
 
 ## Acknowledgements
 
