@@ -8,7 +8,7 @@ Authors: Clayton W. Kosonocky†, Nikol Kadeřábková†, Kangsan Kim†, Ayesh
 
 *Correspondence: marcotte@utexas.edu; jzhang@cm.utexas.edu; ellingtonlab@gmail.com; despoina.mavridou@austin.utexas.edu
 
-[URL coming soon]
+https://www.biorxiv.org/content/10.64898/2026.08.09.743788v1
 
 ---
 
