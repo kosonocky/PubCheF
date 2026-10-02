@@ -11,8 +11,8 @@
 # Must run from Transformer-Explainability/ so that BERT_explainability imports resolve
 cd "$(dirname "$0")/../PubCheF-1/Transformer-Explainability"
 
-# Abort if no CUDA GPU is available
-python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
+# Runs on CPU if no CUDA GPU is available
+python -c "import torch; torch.cuda.is_available() or print('WARNING: No CUDA GPU detected. Running on CPU.')"
 
 python layerwise_relevance_propagation.py \
     --smiles "CN1CC(=O)OB(c2csc(C=O)c2)OC(=O)C1" \

@@ -2,21 +2,16 @@
 
 # Example 2: Inference on a full CSV with p-value thresholding using PubCheF-1 ensemble model
 # This uses --p_threshold to save only significant predictions, lowering output size dramatically.
-# The predictions will be saved to inference_results/<model_type>/predictions/<csv_name>/
+# The predictions will be saved to PubCheF-1/inference_results/<model_name>/predictions/<csv_name>/
+# Each output row is the input row plus a `top_preds` column: a {label: probability} dict of labels above the threshold.
 
-# For this example, we assume you have a file `data/sample_mols.csv` containing a SMILES column.
+# Uses the bundled 3-molecule file PubCheF-1/data/sample_mols.csv (ethanol, acetic acid, benzene).
+# To run on your own molecules, point --input_csv at any CSV and set --smiles_column to its SMILES column.
 
 cd "$(dirname "$0")/../PubCheF-1"
 
-# Abort if no CUDA GPU is available
-python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
-
-# Create a small dummy CSV to test
-# mkdir -p data
-# echo "smiles,cid,notes" > data/sample_mols.csv
-# echo "CCO,101,Ethanol" >> data/sample_mols.csv
-# echo "CC(=O)O,102,Acetic Acid" >> data/sample_mols.csv
-# echo "C1=CC=CC=C1,103,Benzene" >> data/sample_mols.csv
+# Runs on CPU if no CUDA GPU is available
+python -c "import torch; torch.cuda.is_available() or print('WARNING: No CUDA GPU detected. Running on CPU.')"
 
 echo "Running Inference on a CSV predicting significant terms..."
 

@@ -71,7 +71,8 @@ class SMILESTokenizer:
     def __init__(self, vocab_path=None, download_vocab=False):
         if vocab_path is None:
             vocab_path = self._default_tokenizer_dir / "vocab.json"
-        if download_vocab:
+        # Only download if missing; re-saving on every run rewrites the tracked tokenizer files
+        if download_vocab and not Path(vocab_path).exists():
             tokenizer = AutoTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
             self._default_tokenizer_dir.mkdir(parents=True, exist_ok=True)
             tokenizer.save_pretrained(str(self._default_tokenizer_dir))

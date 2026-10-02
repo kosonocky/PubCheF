@@ -1,20 +1,15 @@
 #!/bin/bash
 
 # Example 3: Extract Embeddings on a full CSV
-# This will extract the raw ChemBERTa 768-D embeddings from the [CLS] token and bypass prediction layers.
-# The embeddings will be saved to inference_results/<model_type>/embeddings/<csv_name>/
+# This will extract the raw ChemBERTa 384-D embeddings from the [CLS] token and bypass prediction layers.
+# The embeddings will be saved to PubCheF-1/inference_results/<model_name>/embeddings/<csv_name>/
+# as a .pt dict with keys 'metadata' (input CSV rows) and 'embeddings' (tensor of shape [n_molecules, 384]).
+# Uses the bundled 3-molecule file PubCheF-1/data/sample_mols.csv.
 
 cd "$(dirname "$0")/../PubCheF-1"
 
-# Abort if no CUDA GPU is available
-python -c "import torch; assert torch.cuda.is_available(), 'No CUDA GPU detected. Aborting.'" || exit 1
-
-# Create a small dummy CSV to test
-mkdir -p data
-echo "smiles,cid,notes" > data/sample_mols.csv
-echo "CCO,101,Ethanol" >> data/sample_mols.csv
-echo "CC(=O)O,102,Acetic Acid" >> data/sample_mols.csv
-echo "C1=CC=CC=C1,103,Benzene" >> data/sample_mols.csv
+# Runs on CPU if no CUDA GPU is available
+python -c "import torch; torch.cuda.is_available() or print('WARNING: No CUDA GPU detected. Running on CPU.')"
 
 echo "Extracting Embeddings from a CSV..."
 

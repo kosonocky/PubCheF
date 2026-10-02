@@ -332,7 +332,7 @@ class Generator:
         one_hot[0, index] = 1
         one_hot_vector = one_hot
         one_hot = torch.from_numpy(one_hot).requires_grad_(True)
-        one_hot = torch.sum(one_hot.cuda() * output)
+        one_hot = torch.sum(one_hot.to(output.device) * output)
 
         self.model.zero_grad()
         one_hot.backward(retain_graph=True)
@@ -364,7 +364,7 @@ class Generator:
         one_hot[0, index] = 1
         one_hot_vector = one_hot
         one_hot = torch.from_numpy(one_hot).requires_grad_(True)
-        one_hot = torch.sum(one_hot.cuda() * output)
+        one_hot = torch.sum(one_hot.to(output.device) * output)
 
         self.model.zero_grad()
         one_hot.backward(retain_graph=True)
@@ -388,7 +388,7 @@ class Generator:
         one_hot[0, index] = 1
         one_hot_vector = one_hot
         one_hot = torch.from_numpy(one_hot).requires_grad_(True)
-        one_hot = torch.sum(one_hot.cuda() * output)
+        one_hot = torch.sum(one_hot.to(output.device) * output)
 
         self.model.zero_grad()
         one_hot.backward(retain_graph=True)
@@ -430,7 +430,7 @@ class Generator:
         one_hot[0, index] = 1
         one_hot_vector = one_hot
         one_hot = torch.from_numpy(one_hot).requires_grad_(True)
-        one_hot = torch.sum(one_hot.cuda() * output)
+        one_hot = torch.sum(one_hot.to(output.device) * output)
 
         self.model.zero_grad()
         one_hot.backward(retain_graph=True)
