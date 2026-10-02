@@ -22,9 +22,9 @@ echo "Running Inference on a CSV predicting significant terms..."
 
 export CUDA_VISIBLE_DEVICES=0  # Use the first GPU
 python inference.py \
-    --input_csv "data/20260427_nicholas_page2.csv" \
+    --input_csv "data/sample_mols.csv" \
     --smiles_column "smiles" \
-    --p_threshold 0.1 \
-    --batch_size 10000 \
+    --p_threshold 0.05 \
+    --batch_size 100 \
     --model_name "ensemble_single_canon_chiral_20epoch" \
     --mlb_dir "../data/final_datasets/preprocessed_propagated_1_hard"
